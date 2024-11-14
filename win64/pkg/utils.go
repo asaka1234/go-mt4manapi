@@ -3,7 +3,7 @@ package pkg
 import (
 	"errors"
 	"fmt"
-	"github.com/asaka1234/go-mtmanapi/win64/mtmanapi"
+	"git.alpexglobal.vip/cy/go-mtmanapi/win64/mtmanapi"
 	"github.com/shopspring/decimal"
 	"math"
 )

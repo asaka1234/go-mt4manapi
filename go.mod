@@ -1,5 +1,5 @@
-module github.com/asaka1234/go-mtmanapi
+module git.alpexglobal.vip/cy/go-mtmanapi
 
 go 1.22.2
 
-require github.com/shopspring/decimal v1.4.0 // indirect
+require github.com/shopspring/decimal v1.4.0
