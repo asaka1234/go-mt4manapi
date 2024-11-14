@@ -211,6 +211,8 @@ func GetAllGroupSpreadDiff(mode ManagerMode, manager mtmanapi.CManagerInterface)
 	var groups mtmanapi.ConGroup
 	if mode == ManagerDirect {
 		groups = manager.GroupsRequest(&totalNum)
+		//https://support.metaquotes.net/en/docs/mt4/api/manager_api/manager_api_config/manager_api_config_group/cmanagerinterface_groupsrequest
+		defer manager.MemFree(groups.Swigcptr())
 	} else if mode == ManagerPumping {
 		groups = manager.GroupsGet(&totalNum)
 	}
@@ -246,6 +248,8 @@ func GetAllGroups(mode ManagerMode, manager mtmanapi.CManagerInterface) map[stri
 	var groups mtmanapi.ConGroup
 	if mode == ManagerDirect {
 		groups = manager.GroupsRequest(&totalNum)
+		//https://support.metaquotes.net/en/docs/mt4/api/manager_api/manager_api_config/manager_api_config_group/cmanagerinterface_groupsrequest
+		defer manager.MemFree(groups.Swigcptr())
 	} else if mode == ManagerPumping {
 		groups = manager.GroupsGet(&totalNum)
 	}
@@ -262,6 +266,8 @@ func GetAllSymbols(mode ManagerMode, manager mtmanapi.CManagerInterface) map[str
 	var symbols mtmanapi.ConSymbol
 	if mode == ManagerDirect {
 		symbols = manager.CfgRequestSymbol(&totalNum)
+		//https://support.metaquotes.net/en/docs/mt4/api/manager_api/manager_api_config/manager_api_config_symbol/cmanagerinterface_cfgrequestsymbol
+		defer manager.MemFree(symbols.Swigcptr())
 	} else if mode == ManagerPumping {
 		symbols = manager.SymbolsGetAll(&totalNum)
 	}
