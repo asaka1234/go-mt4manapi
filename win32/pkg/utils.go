@@ -266,8 +266,6 @@ func GetAllSymbols(mode ManagerMode, manager mtmanapi.CManagerInterface) map[str
 	var symbols mtmanapi.ConSymbol
 	if mode == ManagerDirect {
 		symbols = manager.CfgRequestSymbol(&totalNum)
-		//https://support.metaquotes.net/en/docs/mt4/api/manager_api/manager_api_config/manager_api_config_symbol/cmanagerinterface_cfgrequestsymbol
-		defer manager.MemFree(symbols.Swigcptr())
 	} else if mode == ManagerPumping {
 		symbols = manager.SymbolsGetAll(&totalNum)
 	}
@@ -275,5 +273,8 @@ func GetAllSymbols(mode ManagerMode, manager mtmanapi.CManagerInterface) map[str
 		singleSymbol := mtmanapi.ConSymbolArray_getitem(symbols, int64(i))
 		result[singleSymbol.GetSymbol()] = singleSymbol
 	}
+	//https://support.metaquotes.net/en/docs/mt4/api/manager_api/manager_api_config/manager_api_config_symbol/cmanagerinterface_cfgrequestsymbol
+	manager.MemFree(symbols.Swigcptr())
+
 	return result
 }
