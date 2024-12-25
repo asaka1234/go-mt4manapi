@@ -1,6 +1,9 @@
 package pkg
 
-import "git.alpexglobal.vip/cy/go-mtmanapi/win32/mtmanapi"
+import (
+	"fmt"
+	"git.alpexglobal.vip/cy/go-mtmanapi/win32/mtmanapi"
+)
 
 type OpenDuration struct {
 	OpenHour    int16 //开始的小时(24小时制)
@@ -21,9 +24,12 @@ func GetSymbolSessions(singleSymbol mtmanapi.ConSymbol) SymbolSessionInfo {
 	tradeDuration := make([][]OpenDuration, 0) // 星期几->多个时间段
 
 	sessions := singleSymbol.GetSessions()
+	fmt.Printf("--1--->%s---->%+v\n", singleSymbol.GetSymbol(), sessions)
 	for i := 0; i < 7; i++ {
 		quoteDuration[i] = make([]OpenDuration, 0)
 		tradeDuration[i] = make([]OpenDuration, 0)
+
+		fmt.Printf("--2--->%s---->%+v\n", singleSymbol.GetSymbol(), sessions)
 
 		//0是周日, 1是周一......
 		session := mtmanapi.ConSessionsArray_getitem(sessions, int64(i))
