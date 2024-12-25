@@ -1,0 +1,87 @@
+package pkg
+
+import "git.alpexglobal.vip/cy/go-mtmanapi/win32/mtmanapi"
+
+type OpenDuration struct {
+	OpenHour    int16 //开始的小时(24小时制)
+	OpenMinute  int16 //开始的分钟
+	CloseHour   int16 //结束的小时(24小时制)
+	CloseMinute int16 //结束的分钟
+}
+
+type SymbolSessionInfo struct {
+	Quote [][]OpenDuration
+	Trade [][]OpenDuration
+}
+
+// 获取symbol的交易时间/报价时间
+// https://support.metaquotes.net/en/docs/mt4/api/reference_structures/structure_config/consessions
+func GetSymbolSessions(singleSymbol mtmanapi.ConSymbol) SymbolSessionInfo {
+	quoteDuration := make([][]OpenDuration, 0) // 星期几->多个时间段
+	tradeDuration := make([][]OpenDuration, 0) // 星期几->多个时间段
+
+	sessions := singleSymbol.GetSessions()
+	for i := 0; i < 7; i++ {
+		quoteDuration[i] = make([]OpenDuration, 0)
+		tradeDuration[i] = make([]OpenDuration, 0)
+
+		//0是周日, 1是周一......
+		session := mtmanapi.ConSessionsArray_getitem(sessions, int64(i))
+
+		quoteSessions := session.GetQuote()
+		tradeSessions := session.GetTrade()
+		for j := 0; j < 3; j++ {
+			//每天最多配置3段
+			quoteSession := mtmanapi.ConSessionArray_getitem(quoteSessions, int64(i))
+			//TODO  这里要看一下过滤不存在的.
+			quoteDuration[i] = append(quoteDuration[i], OpenDuration{
+				quoteSession.GetOpen_hour(),
+				quoteSession.GetOpen_min(),
+				quoteSession.GetClose_hour(),
+				quoteSession.GetClose_min(),
+			})
+
+			tradeSession := mtmanapi.ConSessionArray_getitem(tradeSessions, int64(i))
+			//TODO  这里要看一下过滤不存在的.
+			tradeDuration[i] = append(tradeDuration[i], OpenDuration{
+				tradeSession.GetOpen_hour(),
+				tradeSession.GetOpen_min(),
+				tradeSession.GetClose_hour(),
+				tradeSession.GetClose_min(),
+			})
+		}
+	}
+
+	return SymbolSessionInfo{
+		quoteDuration,
+		tradeDuration,
+	}
+}
+
+//--------------------------------------------------------
+
+type HolidayInfo struct {
+	Symbol string //symbol
+	Year   int    //年份
+	Month  int    //月
+	Day    int    //日
+
+	FromMinute int //开始的时间(0点0分到现在的minute数)
+	ToMinute   int //结束的时间(0点0分到现在的minute数)
+
+	Enable int //规则是否生效
+}
+
+// 获取symbol的节假日时间段安排
+// https://support.metaquotes.net/en/docs/mt4/api/manager_api/manager_api_config/manager_api_config_holiday/cmanagerinterface_cfgrequestholiday
+func GetConHolidays(singleHoliday mtmanapi.ConHoliday) HolidayInfo {
+	return HolidayInfo{
+		singleHoliday.GetSymbol(),
+		singleHoliday.GetYear(),
+		singleHoliday.GetMonth(),
+		singleHoliday.GetDay(),
+		singleHoliday.GetFrom(),
+		singleHoliday.GetTo(),
+		singleHoliday.GetEnable(),
+	}
+}
