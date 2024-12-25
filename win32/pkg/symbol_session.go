@@ -12,8 +12,9 @@ type OpenDuration struct {
 }
 
 type SymbolSessionInfo struct {
-	Quote [][]OpenDuration
-	Trade [][]OpenDuration
+	Symbol string
+	Quote  [][]OpenDuration
+	Trade  [][]OpenDuration
 }
 
 // 获取symbol的交易时间/报价时间
@@ -58,6 +59,7 @@ func GetSymbolSessions(singleSymbol mtmanapi.ConSymbol) SymbolSessionInfo {
 	}
 
 	return SymbolSessionInfo{
+		singleSymbol.GetSymbol(),
 		quoteDuration,
 		tradeDuration,
 	}
