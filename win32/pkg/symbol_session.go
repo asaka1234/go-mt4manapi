@@ -79,7 +79,7 @@ type HolidayInfo struct {
 
 // 获取symbol的节假日时间段安排
 // https://support.metaquotes.net/en/docs/mt4/api/manager_api/manager_api_config/manager_api_config_holiday/cmanagerinterface_cfgrequestholiday
-func GetConHolidays(singleHoliday mtmanapi.ConHoliday) HolidayInfo {
+func GetConHoliday(singleHoliday mtmanapi.ConHoliday) HolidayInfo {
 	return HolidayInfo{
 		singleHoliday.GetSymbol(),
 		singleHoliday.GetYear(),
@@ -89,4 +89,25 @@ func GetConHolidays(singleHoliday mtmanapi.ConHoliday) HolidayInfo {
 		singleHoliday.GetTo(),
 		singleHoliday.GetEnable(),
 	}
+}
+
+// 返回各个symbol的holiday列表(manager 必须是direct manager)
+func GetAllConHolidays(manager mtmanapi.CManagerInterface) map[string][]HolidayInfo {
+	//获取所有的Holiday
+	holidayMap := make(map[string][]HolidayInfo) //一个symbol可能有多个holiday
+	var hTotal int
+	hs := manager.CfgRequestHoliday(&hTotal) //获取holiday列表
+	for i := 0; i < hTotal; i++ {
+		singleHoliday := mtmanapi.ConHolidayArray_getitem(hs, int64(i))
+		symbol := singleHoliday.GetSymbol()
+		//初始化一下
+		if _, ok := holidayMap[symbol]; !ok {
+			holidayMap[symbol] = make([]HolidayInfo, 0)
+		}
+		holidayMap[symbol] = append(holidayMap[symbol], GetConHoliday(singleHoliday))
+	}
+	//https://support.metaquotes.net/en/docs/mt4/api/manager_api/manager_api_config/manager_api_config_holiday/cmanagerinterface_cfgrequestholiday
+	manager.MemFree(hs.Swigcptr())
+
+	return holidayMap
 }
