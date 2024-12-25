@@ -119,7 +119,7 @@ type SymbolBase struct {
 	XType    int //type索引
 	Digit    int //精度
 	Symbol   string
-	sessions SymbolSessionInfo //session配置(交易/报价时间段)
+	Sessions SymbolSessionInfo //session配置(交易/报价时间段)
 }
 
 func GetGroupSpreadDiff3(groupInfo mtmanapi.ConGroup, symbolInfo SymbolBase) (*GroupSpreadValue, error) {
