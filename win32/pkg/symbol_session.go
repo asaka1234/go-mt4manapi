@@ -67,7 +67,7 @@ func GetSymbolSessions(singleSymbol mtmanapi.ConSymbol) SymbolSessionInfo {
 
 type HolidayInfo struct {
 	Symbol string //symbol
-	Year   int    //年份
+	Year   int    //年份 (如果是每一年, 则该值为0)
 	Month  int    //月
 	Day    int    //日
 

@@ -120,6 +120,7 @@ type SymbolBase struct {
 	Digit    int //精度
 	Symbol   string
 	Sessions SymbolSessionInfo //session配置(交易/报价时间段)
+	Holidays []HolidayInfo     //节假日的列表
 }
 
 func GetGroupSpreadDiff3(groupInfo mtmanapi.ConGroup, symbolInfo SymbolBase) (*GroupSpreadValue, error) {
