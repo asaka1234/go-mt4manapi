@@ -1,7 +1,6 @@
 package pkg
 
 import (
-	"fmt"
 	"git.alpexglobal.vip/cy/go-mtmanapi/win32/mtmanapi"
 )
 
@@ -20,17 +19,11 @@ type SymbolSessionInfo struct {
 // 获取symbol的交易时间/报价时间
 // https://support.metaquotes.net/en/docs/mt4/api/reference_structures/structure_config/consessions
 func GetSymbolSessions(singleSymbol mtmanapi.ConSymbol) SymbolSessionInfo {
-	quoteDuration := make([][]OpenDuration, 0) // 星期几->多个时间段
-	tradeDuration := make([][]OpenDuration, 0) // 星期几->多个时间段
+	quoteDuration := make([][]OpenDuration, 7) // 星期几->多个时间段 (注意:0是周日),如果这一天没有则[]OpenDuration是空.
+	tradeDuration := make([][]OpenDuration, 7) // 星期几->多个时间段
 
 	sessions := singleSymbol.GetSessions()
-	fmt.Printf("--1--->%s---->%+v\n", singleSymbol.GetSymbol(), sessions)
 	for i := 0; i < 7; i++ {
-		quoteDuration[i] = make([]OpenDuration, 0)
-		tradeDuration[i] = make([]OpenDuration, 0)
-
-		fmt.Printf("--2--->%s---->%+v\n", singleSymbol.GetSymbol(), sessions)
-
 		//0是周日, 1是周一......
 		session := mtmanapi.ConSessionsArray_getitem(sessions, int64(i))
 
@@ -38,8 +31,11 @@ func GetSymbolSessions(singleSymbol mtmanapi.ConSymbol) SymbolSessionInfo {
 		tradeSessions := session.GetTrade()
 		for j := 0; j < 3; j++ {
 			//每天最多配置3段
-			quoteSession := mtmanapi.ConSessionArray_getitem(quoteSessions, int64(i))
-			//TODO  这里要看一下过滤不存在的.
+			quoteSession := mtmanapi.ConSessionArray_getitem(quoteSessions, int64(j))
+			if quoteSession.GetOpen_hour() == 0 && quoteSession.GetOpen_min() == 0 && quoteSession.GetClose_hour() == 0 && quoteSession.GetClose_min() == 0 {
+				//说明不存在
+				continue
+			}
 			quoteDuration[i] = append(quoteDuration[i], OpenDuration{
 				quoteSession.GetOpen_hour(),
 				quoteSession.GetOpen_min(),
@@ -47,8 +43,11 @@ func GetSymbolSessions(singleSymbol mtmanapi.ConSymbol) SymbolSessionInfo {
 				quoteSession.GetClose_min(),
 			})
 
-			tradeSession := mtmanapi.ConSessionArray_getitem(tradeSessions, int64(i))
-			//TODO  这里要看一下过滤不存在的.
+			tradeSession := mtmanapi.ConSessionArray_getitem(tradeSessions, int64(j))
+			if tradeSession.GetOpen_hour() == 0 && tradeSession.GetOpen_min() == 0 && tradeSession.GetClose_hour() == 0 && tradeSession.GetClose_min() == 0 {
+				//说明不存在
+				continue
+			}
 			tradeDuration[i] = append(tradeDuration[i], OpenDuration{
 				tradeSession.GetOpen_hour(),
 				tradeSession.GetOpen_min(),
