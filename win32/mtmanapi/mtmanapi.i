@@ -18,6 +18,7 @@
 %array_functions(ConSessions, ConSessionsArray);
 %array_functions(ConSession, ConSessionArray);
 %array_functions(RequestInfo, RequestInfoArray);
+%array_functions(ConHoliday, ConHolidayArray);
 
 
 %feature("director") PumpReceiver;
