@@ -116,11 +116,12 @@ func GetGroupSpreadDiff2(spreadDiff int, symbolInfo mtmanapi.SymbolInfo) (*Group
 }
 
 type SymbolBase struct {
-	XType    int //type索引
-	Digit    int //精度
-	Symbol   string
-	Sessions SymbolSessionInfo //session配置(交易/报价时间段)
-	Holidays []HolidayInfo     //节假日的列表
+	XType        int //type索引
+	Digit        int //精度
+	Symbol       string
+	Sessions     SymbolSessionInfo //session配置(交易/报价时间段)
+	Holidays     []HolidayInfo     //节假日的列表
+	FilterSpread int               //过滤点差(如果为0则不过滤)
 }
 
 func GetGroupSpreadDiff3(groupInfo mtmanapi.ConGroup, symbolInfo SymbolBase) (*GroupSpreadValue, error) {
