@@ -12,9 +12,10 @@ type OpenDuration struct {
 }
 
 type SymbolSessionInfo struct {
-	Symbol string
-	Quote  [][]OpenDuration
-	Trade  [][]OpenDuration
+	Symbol         string
+	Quote          [][]OpenDuration
+	Trade          [][]OpenDuration
+	WeekOpenMinute int16 //一周开盘的当天时间(距离当天0点的minute分钟数)
 }
 
 // 获取symbol的交易时间/报价时间
@@ -23,13 +24,15 @@ func GetSymbolSessions(singleSymbol mtmanapi.ConSymbol) SymbolSessionInfo {
 	quoteDuration := make([][]OpenDuration, 7) // 星期几->多个时间段 (注意:0是周日),如果这一天没有则[]OpenDuration是空.
 	tradeDuration := make([][]OpenDuration, 7) // 星期几->多个时间段
 
+	var weekOpenHour int16 = -1   //每周开盘时间(h)
+	var weekOpenMinute int16 = -1 //每周开盘时间(m)
+
 	sessions := singleSymbol.GetSessions()
 	for i := 0; i < 7; i++ {
 		//0是周日, 1是周一......
 		session := mtmanapi.ConSessionsArray_getitem(sessions, int64(i))
 
 		quoteSessions := session.GetQuote()
-		tradeSessions := session.GetTrade()
 		for j := 0; j < 3; j++ {
 			//每天最多配置3段
 			quoteSession := mtmanapi.ConSessionArray_getitem(quoteSessions, int64(j))
@@ -44,6 +47,15 @@ func GetSymbolSessions(singleSymbol mtmanapi.ConSymbol) SymbolSessionInfo {
 				quoteSession.GetClose_min(),
 			})
 
+			//取最开始的一段的开始时间
+			if weekOpenHour == -1 || weekOpenMinute == -1 {
+				weekOpenHour = quoteSession.GetOpen_hour()
+				weekOpenMinute = quoteSession.GetOpen_min()
+			}
+		}
+
+		tradeSessions := session.GetTrade()
+		for j := 0; j < 3; j++ {
 			tradeSession := mtmanapi.ConSessionArray_getitem(tradeSessions, int64(j))
 			if tradeSession.GetOpen_hour() == 0 && tradeSession.GetOpen_min() == 0 && tradeSession.GetClose_hour() == 0 && tradeSession.GetClose_min() == 0 {
 				//说明不存在
@@ -57,11 +69,13 @@ func GetSymbolSessions(singleSymbol mtmanapi.ConSymbol) SymbolSessionInfo {
 			})
 		}
 	}
+	weekOpenTime := weekOpenHour*60 + weekOpenMinute //是周开盘时间(影响四小时kline的累计)
 
 	return SymbolSessionInfo{
 		singleSymbol.GetSymbol(),
 		quoteDuration,
 		tradeDuration,
+		weekOpenTime,
 	}
 }
 
