@@ -123,6 +123,7 @@ type SymbolBase struct {
 	Holidays     []HolidayInfo     //节假日的列表
 	FilterSpread int               //过滤点差(如果为0则不过滤)
 	TradingMode  int               // TRADE_NO,TRADE_CLOSE,TRADE_FULL https://support.metaquotes.net/en/docs/mt4/api/reference_structures/structure_config/consymbol#trade_mode
+	LongOnly     int               // A nonzero value - only Buy positions are allowed, 0 - positions in both directions are allowed
 }
 
 func GetGroupSpreadDiff3(groupInfo mtmanapi.ConGroup, symbolInfo SymbolBase) (*GroupSpreadValue, error) {
