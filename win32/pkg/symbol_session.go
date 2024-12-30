@@ -16,7 +16,7 @@ type SymbolSessionInfo struct {
 	Quote          [][]OpenDuration
 	Trade          [][]OpenDuration
 	WeekOpenMinute int16 // 一周开盘的当天时间(距离当天0点的minute分钟数)
-	LongOnly       int   // A nonzero value - only Buy positions are allowed, 0 - positions in both directions are allowed.
+	TradingMode    int   // TRADE_NO,TRADE_CLOSE,TRADE_FULL https://support.metaquotes.net/en/docs/mt4/api/reference_structures/structure_config/consymbol#trade_mode
 }
 
 // 获取symbol的交易时间/报价时间
@@ -77,7 +77,7 @@ func GetSymbolSessions(singleSymbol mtmanapi.ConSymbol) SymbolSessionInfo {
 		quoteDuration,
 		tradeDuration,
 		weekOpenTime,
-		singleSymbol.GetLong_only(),
+		singleSymbol.GetTrade(),
 	}
 }
 
