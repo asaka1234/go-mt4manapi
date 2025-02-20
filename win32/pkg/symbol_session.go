@@ -121,6 +121,7 @@ func GetAllConHolidays(manager mtmanapi.CManagerInterface) map[string][]HolidayI
 			holidayMap[symbol] = make([]HolidayInfo, 0)
 		}
 		holidayMap[symbol] = append(holidayMap[symbol], GetConHoliday(singleHoliday))
+		mtmanapi.Delete_ConHolidayArray(singleHoliday)
 	}
 	//https://support.metaquotes.net/en/docs/mt4/api/manager_api/manager_api_config/manager_api_config_holiday/cmanagerinterface_cfgrequestholiday
 	manager.MemFree(hs.Swigcptr())
