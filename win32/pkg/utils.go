@@ -3,8 +3,8 @@ package pkg
 import (
 	"errors"
 	"fmt"
-	"git.alpexglobal.vip/cy/go-mtmanapi/win32/mtmanapi"
 	"github.com/shopspring/decimal"
+	"gitlab.logtec.dev/cy/go-mtmanapi/win32/mtmanapi"
 	"math"
 )
 

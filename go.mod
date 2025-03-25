@@ -1,4 +1,4 @@
-module git.alpexglobal.vip/cy/go-mtmanapi
+module gitlab.logtec.dev/cy/go-mtmanapi
 
 go 1.22.2
 

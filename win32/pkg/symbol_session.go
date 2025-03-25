@@ -1,7 +1,7 @@
 package pkg
 
 import (
-	"git.alpexglobal.vip/cy/go-mtmanapi/win32/mtmanapi"
+	"gitlab.logtec.dev/cy/go-mtmanapi/win32/mtmanapi"
 )
 
 type OpenDuration struct {
