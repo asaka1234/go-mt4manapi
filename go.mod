@@ -1,4 +1,4 @@
-module gitlab.logtec.dev/cy/go-mtmanapi
+module github.com/asaka1234/go-mt4manapi
 
 go 1.22.2
 
