@@ -24,4 +24,15 @@ class SwigDirector_PumpReceiver : public PumpReceiver
   Swig_memory *swig_mem;
 };
 
+class SwigDirector_DealReceiver : public DealReceiver
+{
+ public:
+  SwigDirector_DealReceiver(int swig_p);
+  virtual ~SwigDirector_DealReceiver();
+  virtual void OnDeal(int code);
+ private:
+  intgo go_val;
+  Swig_memory *swig_mem;
+};
+
 #endif
