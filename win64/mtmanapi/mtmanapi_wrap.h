@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-// source: mtmanapi.i
+// source: .\mtmanapi.i
 
 #ifndef SWIG_mtmanapi_WRAP_H_
 #define SWIG_mtmanapi_WRAP_H_
@@ -19,17 +19,6 @@ class SwigDirector_PumpReceiver : public PumpReceiver
   SwigDirector_PumpReceiver(int swig_p);
   virtual ~SwigDirector_PumpReceiver();
   virtual void OnPump(int code,int typ,void *data,void *param);
- private:
-  intgo go_val;
-  Swig_memory *swig_mem;
-};
-
-class SwigDirector_DealReceiver : public DealReceiver
-{
- public:
-  SwigDirector_DealReceiver(int swig_p);
-  virtual ~SwigDirector_DealReceiver();
-  virtual void OnDeal(int code);
  private:
   intgo go_val;
   Swig_memory *swig_mem;
