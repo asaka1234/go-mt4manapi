@@ -2374,10 +2374,10 @@ _gostring_ _wrap_ConCommon_path_log_get_mtmanapi_9afcd665ef64bb91(ConCommon *_sw
 
 void _wrap_ConCommon_overnight_last_day_set_mtmanapi_9afcd665ef64bb91(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->overnight_last_day = arg2;
   
@@ -2386,12 +2386,12 @@ void _wrap_ConCommon_overnight_last_day_set_mtmanapi_9afcd665ef64bb91(ConCommon 
 
 intgo _wrap_ConCommon_overnight_last_day_get_mtmanapi_9afcd665ef64bb91(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->overnight_last_day);
+  result = (__time32_t) ((arg1)->overnight_last_day);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -2399,10 +2399,10 @@ intgo _wrap_ConCommon_overnight_last_day_get_mtmanapi_9afcd665ef64bb91(ConCommon
 
 void _wrap_ConCommon_overnight_last_time_set_mtmanapi_9afcd665ef64bb91(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->overnight_last_time = arg2;
   
@@ -2411,12 +2411,12 @@ void _wrap_ConCommon_overnight_last_time_set_mtmanapi_9afcd665ef64bb91(ConCommon
 
 intgo _wrap_ConCommon_overnight_last_time_get_mtmanapi_9afcd665ef64bb91(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->overnight_last_time);
+  result = (__time32_t) ((arg1)->overnight_last_time);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -2424,10 +2424,10 @@ intgo _wrap_ConCommon_overnight_last_time_get_mtmanapi_9afcd665ef64bb91(ConCommo
 
 void _wrap_ConCommon_overnight_prev_time_set_mtmanapi_9afcd665ef64bb91(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->overnight_prev_time = arg2;
   
@@ -2436,12 +2436,12 @@ void _wrap_ConCommon_overnight_prev_time_set_mtmanapi_9afcd665ef64bb91(ConCommon
 
 intgo _wrap_ConCommon_overnight_prev_time_get_mtmanapi_9afcd665ef64bb91(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->overnight_prev_time);
+  result = (__time32_t) ((arg1)->overnight_prev_time);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -2449,10 +2449,10 @@ intgo _wrap_ConCommon_overnight_prev_time_get_mtmanapi_9afcd665ef64bb91(ConCommo
 
 void _wrap_ConCommon_overmonth_last_month_set_mtmanapi_9afcd665ef64bb91(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->overmonth_last_month = arg2;
   
@@ -2461,12 +2461,12 @@ void _wrap_ConCommon_overmonth_last_month_set_mtmanapi_9afcd665ef64bb91(ConCommo
 
 intgo _wrap_ConCommon_overmonth_last_month_get_mtmanapi_9afcd665ef64bb91(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->overmonth_last_month);
+  result = (__time32_t) ((arg1)->overmonth_last_month);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -2719,10 +2719,10 @@ intgo _wrap_ConCommon_statement_weekend_get_mtmanapi_9afcd665ef64bb91(ConCommon 
 
 void _wrap_ConCommon_last_activate_set_mtmanapi_9afcd665ef64bb91(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->last_activate = arg2;
   
@@ -2731,12 +2731,12 @@ void _wrap_ConCommon_last_activate_set_mtmanapi_9afcd665ef64bb91(ConCommon *_swi
 
 intgo _wrap_ConCommon_last_activate_get_mtmanapi_9afcd665ef64bb91(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->last_activate);
+  result = (__time32_t) ((arg1)->last_activate);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -2744,10 +2744,10 @@ intgo _wrap_ConCommon_last_activate_get_mtmanapi_9afcd665ef64bb91(ConCommon *_sw
 
 void _wrap_ConCommon_stop_last_set_mtmanapi_9afcd665ef64bb91(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->stop_last = arg2;
   
@@ -2756,12 +2756,12 @@ void _wrap_ConCommon_stop_last_set_mtmanapi_9afcd665ef64bb91(ConCommon *_swig_go
 
 intgo _wrap_ConCommon_stop_last_get_mtmanapi_9afcd665ef64bb91(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->stop_last);
+  result = (__time32_t) ((arg1)->stop_last);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -3779,10 +3779,10 @@ intgo _wrap_ConBackup_fullbackup_store_get_mtmanapi_9afcd665ef64bb91(ConBackup *
 
 void _wrap_ConBackup_fullbackup_lasttime_set_mtmanapi_9afcd665ef64bb91(ConBackup *_swig_go_0, intgo _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->fullbackup_lasttime = arg2;
   
@@ -3791,12 +3791,12 @@ void _wrap_ConBackup_fullbackup_lasttime_set_mtmanapi_9afcd665ef64bb91(ConBackup
 
 intgo _wrap_ConBackup_fullbackup_lasttime_get_mtmanapi_9afcd665ef64bb91(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->fullbackup_lasttime);
+  result = (__time32_t) ((arg1)->fullbackup_lasttime);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -3916,10 +3916,10 @@ intgo _wrap_ConBackup_archive_store_get_mtmanapi_9afcd665ef64bb91(ConBackup *_sw
 
 void _wrap_ConBackup_archive_lasttime_set_mtmanapi_9afcd665ef64bb91(ConBackup *_swig_go_0, intgo _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->archive_lasttime = arg2;
   
@@ -3928,12 +3928,12 @@ void _wrap_ConBackup_archive_lasttime_set_mtmanapi_9afcd665ef64bb91(ConBackup *_
 
 intgo _wrap_ConBackup_archive_lasttime_get_mtmanapi_9afcd665ef64bb91(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->archive_lasttime);
+  result = (__time32_t) ((arg1)->archive_lasttime);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -4040,10 +4040,10 @@ intgo _wrap_ConBackup_export_period_get_mtmanapi_9afcd665ef64bb91(ConBackup *_sw
 
 void _wrap_ConBackup_export_lasttime_set_mtmanapi_9afcd665ef64bb91(ConBackup *_swig_go_0, intgo _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->export_lasttime = arg2;
   
@@ -4052,12 +4052,12 @@ void _wrap_ConBackup_export_lasttime_set_mtmanapi_9afcd665ef64bb91(ConBackup *_s
 
 intgo _wrap_ConBackup_export_lasttime_get_mtmanapi_9afcd665ef64bb91(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->export_lasttime);
+  result = (__time32_t) ((arg1)->export_lasttime);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -4314,10 +4314,10 @@ intgo _wrap_ConBackup_watch_login_get_mtmanapi_9afcd665ef64bb91(ConBackup *_swig
 
 void _wrap_ConBackup_watch_timestamp_set_mtmanapi_9afcd665ef64bb91(ConBackup *_swig_go_0, intgo _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->watch_timestamp = arg2;
   
@@ -4326,12 +4326,12 @@ void _wrap_ConBackup_watch_timestamp_set_mtmanapi_9afcd665ef64bb91(ConBackup *_s
 
 intgo _wrap_ConBackup_watch_timestamp_get_mtmanapi_9afcd665ef64bb91(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->watch_timestamp);
+  result = (__time32_t) ((arg1)->watch_timestamp);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -10370,10 +10370,10 @@ intgo _wrap_ConSymbol_realtime_get_mtmanapi_9afcd665ef64bb91(ConSymbol *_swig_go
 
 void _wrap_ConSymbol_starting_set_mtmanapi_9afcd665ef64bb91(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ConSymbol **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->starting = arg2;
   
@@ -10382,12 +10382,12 @@ void _wrap_ConSymbol_starting_set_mtmanapi_9afcd665ef64bb91(ConSymbol *_swig_go_
 
 intgo _wrap_ConSymbol_starting_get_mtmanapi_9afcd665ef64bb91(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ConSymbol **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->starting);
+  result = (__time32_t) ((arg1)->starting);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -10395,10 +10395,10 @@ intgo _wrap_ConSymbol_starting_get_mtmanapi_9afcd665ef64bb91(ConSymbol *_swig_go
 
 void _wrap_ConSymbol_expiration_set_mtmanapi_9afcd665ef64bb91(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ConSymbol **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->expiration = arg2;
   
@@ -10407,12 +10407,12 @@ void _wrap_ConSymbol_expiration_set_mtmanapi_9afcd665ef64bb91(ConSymbol *_swig_g
 
 intgo _wrap_ConSymbol_expiration_get_mtmanapi_9afcd665ef64bb91(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ConSymbol **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->expiration);
+  result = (__time32_t) ((arg1)->expiration);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -11336,10 +11336,10 @@ intgo _wrap_ConSymbol_margin_hedged_strong_get_mtmanapi_9afcd665ef64bb91(ConSymb
 
 void _wrap_ConSymbol_value_date_set_mtmanapi_9afcd665ef64bb91(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ConSymbol **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->value_date = arg2;
   
@@ -11348,12 +11348,12 @@ void _wrap_ConSymbol_value_date_set_mtmanapi_9afcd665ef64bb91(ConSymbol *_swig_g
 
 intgo _wrap_ConSymbol_value_date_get_mtmanapi_9afcd665ef64bb91(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ConSymbol **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->value_date);
+  result = (__time32_t) ((arg1)->value_date);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -12030,10 +12030,10 @@ intgo _wrap_ConSync_mode_get_mtmanapi_9afcd665ef64bb91(ConSync *_swig_go_0) {
 
 void _wrap_ConSync_from_set_mtmanapi_9afcd665ef64bb91(ConSync *_swig_go_0, intgo _swig_go_1) {
   ConSync *arg1 = (ConSync *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ConSync **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->from = arg2;
   
@@ -12042,12 +12042,12 @@ void _wrap_ConSync_from_set_mtmanapi_9afcd665ef64bb91(ConSync *_swig_go_0, intgo
 
 intgo _wrap_ConSync_from_get_mtmanapi_9afcd665ef64bb91(ConSync *_swig_go_0) {
   ConSync *arg1 = (ConSync *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ConSync **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->from);
+  result = (__time32_t) ((arg1)->from);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -12055,10 +12055,10 @@ intgo _wrap_ConSync_from_get_mtmanapi_9afcd665ef64bb91(ConSync *_swig_go_0) {
 
 void _wrap_ConSync_to_set_mtmanapi_9afcd665ef64bb91(ConSync *_swig_go_0, intgo _swig_go_1) {
   ConSync *arg1 = (ConSync *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ConSync **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->to = arg2;
   
@@ -12067,12 +12067,12 @@ void _wrap_ConSync_to_set_mtmanapi_9afcd665ef64bb91(ConSync *_swig_go_0, intgo _
 
 intgo _wrap_ConSync_to_get_mtmanapi_9afcd665ef64bb91(ConSync *_swig_go_0) {
   ConSync *arg1 = (ConSync *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ConSync **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->to);
+  result = (__time32_t) ((arg1)->to);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -15051,10 +15051,10 @@ intgo _wrap_ChartInfo_period_get_mtmanapi_9afcd665ef64bb91(ChartInfo *_swig_go_0
 
 void _wrap_ChartInfo_start_set_mtmanapi_9afcd665ef64bb91(ChartInfo *_swig_go_0, intgo _swig_go_1) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ChartInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->start = arg2;
   
@@ -15063,12 +15063,12 @@ void _wrap_ChartInfo_start_set_mtmanapi_9afcd665ef64bb91(ChartInfo *_swig_go_0, 
 
 intgo _wrap_ChartInfo_start_get_mtmanapi_9afcd665ef64bb91(ChartInfo *_swig_go_0) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ChartInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->start);
+  result = (__time32_t) ((arg1)->start);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -15076,10 +15076,10 @@ intgo _wrap_ChartInfo_start_get_mtmanapi_9afcd665ef64bb91(ChartInfo *_swig_go_0)
 
 void _wrap_ChartInfo_end_set_mtmanapi_9afcd665ef64bb91(ChartInfo *_swig_go_0, intgo _swig_go_1) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ChartInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->end = arg2;
   
@@ -15088,12 +15088,12 @@ void _wrap_ChartInfo_end_set_mtmanapi_9afcd665ef64bb91(ChartInfo *_swig_go_0, in
 
 intgo _wrap_ChartInfo_end_get_mtmanapi_9afcd665ef64bb91(ChartInfo *_swig_go_0) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ChartInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->end);
+  result = (__time32_t) ((arg1)->end);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -15101,10 +15101,10 @@ intgo _wrap_ChartInfo_end_get_mtmanapi_9afcd665ef64bb91(ChartInfo *_swig_go_0) {
 
 void _wrap_ChartInfo_timesign_set_mtmanapi_9afcd665ef64bb91(ChartInfo *_swig_go_0, intgo _swig_go_1) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ChartInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->timesign = arg2;
   
@@ -15113,12 +15113,12 @@ void _wrap_ChartInfo_timesign_set_mtmanapi_9afcd665ef64bb91(ChartInfo *_swig_go_
 
 intgo _wrap_ChartInfo_timesign_get_mtmanapi_9afcd665ef64bb91(ChartInfo *_swig_go_0) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ChartInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->timesign);
+  result = (__time32_t) ((arg1)->timesign);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -15316,10 +15316,10 @@ intgo _wrap_CHART_RANGE_LAST_mtmanapi_9afcd665ef64bb91() {
 
 void _wrap_RateInfoOld_ctm_set_mtmanapi_9afcd665ef64bb91(RateInfoOld *_swig_go_0, intgo _swig_go_1) {
   RateInfoOld *arg1 = (RateInfoOld *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(RateInfoOld **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->ctm = arg2;
   
@@ -15328,12 +15328,12 @@ void _wrap_RateInfoOld_ctm_set_mtmanapi_9afcd665ef64bb91(RateInfoOld *_swig_go_0
 
 intgo _wrap_RateInfoOld_ctm_get_mtmanapi_9afcd665ef64bb91(RateInfoOld *_swig_go_0) {
   RateInfoOld *arg1 = (RateInfoOld *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(RateInfoOld **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->ctm);
+  result = (__time32_t) ((arg1)->ctm);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -15487,10 +15487,10 @@ void _wrap_delete_RateInfoOld_mtmanapi_9afcd665ef64bb91(RateInfoOld *_swig_go_0)
 
 void _wrap_RateInfo_ctm_set_mtmanapi_9afcd665ef64bb91(RateInfo *_swig_go_0, intgo _swig_go_1) {
   RateInfo *arg1 = (RateInfo *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(RateInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->ctm = arg2;
   
@@ -15499,12 +15499,12 @@ void _wrap_RateInfo_ctm_set_mtmanapi_9afcd665ef64bb91(RateInfo *_swig_go_0, intg
 
 intgo _wrap_RateInfo_ctm_get_mtmanapi_9afcd665ef64bb91(RateInfo *_swig_go_0) {
   RateInfo *arg1 = (RateInfo *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(RateInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->ctm);
+  result = (__time32_t) ((arg1)->ctm);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -15658,10 +15658,10 @@ void _wrap_delete_RateInfo_mtmanapi_9afcd665ef64bb91(RateInfo *_swig_go_0) {
 
 void _wrap_TickRecord_ctm_set_mtmanapi_9afcd665ef64bb91(TickRecord *_swig_go_0, intgo _swig_go_1) {
   TickRecord *arg1 = (TickRecord *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(TickRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->ctm = arg2;
   
@@ -15670,12 +15670,12 @@ void _wrap_TickRecord_ctm_set_mtmanapi_9afcd665ef64bb91(TickRecord *_swig_go_0, 
 
 intgo _wrap_TickRecord_ctm_get_mtmanapi_9afcd665ef64bb91(TickRecord *_swig_go_0) {
   TickRecord *arg1 = (TickRecord *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(TickRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->ctm);
+  result = (__time32_t) ((arg1)->ctm);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -15877,10 +15877,10 @@ _gostring_ _wrap_TickRequest_symbol_get_mtmanapi_9afcd665ef64bb91(TickRequest *_
 
 void _wrap_TickRequest_from_set_mtmanapi_9afcd665ef64bb91(TickRequest *_swig_go_0, intgo _swig_go_1) {
   TickRequest *arg1 = (TickRequest *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(TickRequest **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->from = arg2;
   
@@ -15889,12 +15889,12 @@ void _wrap_TickRequest_from_set_mtmanapi_9afcd665ef64bb91(TickRequest *_swig_go_
 
 intgo _wrap_TickRequest_from_get_mtmanapi_9afcd665ef64bb91(TickRequest *_swig_go_0) {
   TickRequest *arg1 = (TickRequest *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(TickRequest **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->from);
+  result = (__time32_t) ((arg1)->from);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -15902,10 +15902,10 @@ intgo _wrap_TickRequest_from_get_mtmanapi_9afcd665ef64bb91(TickRequest *_swig_go
 
 void _wrap_TickRequest_to_set_mtmanapi_9afcd665ef64bb91(TickRequest *_swig_go_0, intgo _swig_go_1) {
   TickRequest *arg1 = (TickRequest *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(TickRequest **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->to = arg2;
   
@@ -15914,12 +15914,12 @@ void _wrap_TickRequest_to_set_mtmanapi_9afcd665ef64bb91(TickRequest *_swig_go_0,
 
 intgo _wrap_TickRequest_to_get_mtmanapi_9afcd665ef64bb91(TickRequest *_swig_go_0) {
   TickRequest *arg1 = (TickRequest *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(TickRequest **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->to);
+  result = (__time32_t) ((arg1)->to);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -15973,10 +15973,10 @@ void _wrap_delete_TickRequest_mtmanapi_9afcd665ef64bb91(TickRequest *_swig_go_0)
 
 void _wrap_PerformanceInfo_ctm_set_mtmanapi_9afcd665ef64bb91(PerformanceInfo *_swig_go_0, intgo _swig_go_1) {
   PerformanceInfo *arg1 = (PerformanceInfo *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(PerformanceInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->ctm = arg2;
   
@@ -15985,12 +15985,12 @@ void _wrap_PerformanceInfo_ctm_set_mtmanapi_9afcd665ef64bb91(PerformanceInfo *_s
 
 intgo _wrap_PerformanceInfo_ctm_get_mtmanapi_9afcd665ef64bb91(PerformanceInfo *_swig_go_0) {
   PerformanceInfo *arg1 = (PerformanceInfo *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(PerformanceInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->ctm);
+  result = (__time32_t) ((arg1)->ctm);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -16206,10 +16206,10 @@ intgo _wrap_BackupInfo_size_get_mtmanapi_9afcd665ef64bb91(BackupInfo *_swig_go_0
 
 void _wrap_BackupInfo_time_set_mtmanapi_9afcd665ef64bb91(BackupInfo *_swig_go_0, intgo _swig_go_1) {
   BackupInfo *arg1 = (BackupInfo *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(BackupInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->time = arg2;
   
@@ -16218,12 +16218,12 @@ void _wrap_BackupInfo_time_set_mtmanapi_9afcd665ef64bb91(BackupInfo *_swig_go_0,
 
 intgo _wrap_BackupInfo_time_get_mtmanapi_9afcd665ef64bb91(BackupInfo *_swig_go_0) {
   BackupInfo *arg1 = (BackupInfo *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(BackupInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->time);
+  result = (__time32_t) ((arg1)->time);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -17134,10 +17134,10 @@ _gostring_ _wrap_UserRecord_status_get_mtmanapi_9afcd665ef64bb91(UserRecord *_sw
 
 void _wrap_UserRecord_regdate_set_mtmanapi_9afcd665ef64bb91(UserRecord *_swig_go_0, intgo _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(UserRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->regdate = arg2;
   
@@ -17146,12 +17146,12 @@ void _wrap_UserRecord_regdate_set_mtmanapi_9afcd665ef64bb91(UserRecord *_swig_go
 
 intgo _wrap_UserRecord_regdate_get_mtmanapi_9afcd665ef64bb91(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(UserRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->regdate);
+  result = (__time32_t) ((arg1)->regdate);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -17159,10 +17159,10 @@ intgo _wrap_UserRecord_regdate_get_mtmanapi_9afcd665ef64bb91(UserRecord *_swig_g
 
 void _wrap_UserRecord_lastdate_set_mtmanapi_9afcd665ef64bb91(UserRecord *_swig_go_0, intgo _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(UserRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->lastdate = arg2;
   
@@ -17171,12 +17171,12 @@ void _wrap_UserRecord_lastdate_set_mtmanapi_9afcd665ef64bb91(UserRecord *_swig_g
 
 intgo _wrap_UserRecord_lastdate_get_mtmanapi_9afcd665ef64bb91(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(UserRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->lastdate);
+  result = (__time32_t) ((arg1)->lastdate);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -17234,10 +17234,10 @@ intgo _wrap_UserRecord_agent_account_get_mtmanapi_9afcd665ef64bb91(UserRecord *_
 
 void _wrap_UserRecord_timestamp_set_mtmanapi_9afcd665ef64bb91(UserRecord *_swig_go_0, intgo _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(UserRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->timestamp = arg2;
   
@@ -17246,12 +17246,12 @@ void _wrap_UserRecord_timestamp_set_mtmanapi_9afcd665ef64bb91(UserRecord *_swig_
 
 intgo _wrap_UserRecord_timestamp_get_mtmanapi_9afcd665ef64bb91(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(UserRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->timestamp);
+  result = (__time32_t) ((arg1)->timestamp);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -18306,10 +18306,10 @@ intgo _wrap_TradeRecord_volume_get_mtmanapi_9afcd665ef64bb91(TradeRecord *_swig_
 
 void _wrap_TradeRecord_open_time_set_mtmanapi_9afcd665ef64bb91(TradeRecord *_swig_go_0, intgo _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->open_time = arg2;
   
@@ -18318,12 +18318,12 @@ void _wrap_TradeRecord_open_time_set_mtmanapi_9afcd665ef64bb91(TradeRecord *_swi
 
 intgo _wrap_TradeRecord_open_time_get_mtmanapi_9afcd665ef64bb91(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->open_time);
+  result = (__time32_t) ((arg1)->open_time);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -18431,10 +18431,10 @@ double _wrap_TradeRecord_tp_get_mtmanapi_9afcd665ef64bb91(TradeRecord *_swig_go_
 
 void _wrap_TradeRecord_close_time_set_mtmanapi_9afcd665ef64bb91(TradeRecord *_swig_go_0, intgo _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->close_time = arg2;
   
@@ -18443,12 +18443,12 @@ void _wrap_TradeRecord_close_time_set_mtmanapi_9afcd665ef64bb91(TradeRecord *_sw
 
 intgo _wrap_TradeRecord_close_time_get_mtmanapi_9afcd665ef64bb91(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->close_time);
+  result = (__time32_t) ((arg1)->close_time);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -18481,10 +18481,10 @@ intgo _wrap_TradeRecord_gw_volume_get_mtmanapi_9afcd665ef64bb91(TradeRecord *_sw
 
 void _wrap_TradeRecord_expiration_set_mtmanapi_9afcd665ef64bb91(TradeRecord *_swig_go_0, intgo _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->expiration = arg2;
   
@@ -18493,12 +18493,12 @@ void _wrap_TradeRecord_expiration_set_mtmanapi_9afcd665ef64bb91(TradeRecord *_sw
 
 intgo _wrap_TradeRecord_expiration_get_mtmanapi_9afcd665ef64bb91(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->expiration);
+  result = (__time32_t) ((arg1)->expiration);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -18934,10 +18934,10 @@ double _wrap_TradeRecord_margin_rate_get_mtmanapi_9afcd665ef64bb91(TradeRecord *
 
 void _wrap_TradeRecord_timestamp_set_mtmanapi_9afcd665ef64bb91(TradeRecord *_swig_go_0, intgo _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->timestamp = arg2;
   
@@ -18946,12 +18946,12 @@ void _wrap_TradeRecord_timestamp_set_mtmanapi_9afcd665ef64bb91(TradeRecord *_swi
 
 intgo _wrap_TradeRecord_timestamp_get_mtmanapi_9afcd665ef64bb91(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->timestamp);
+  result = (__time32_t) ((arg1)->timestamp);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -19813,10 +19813,10 @@ _gostring_ _wrap_TradeTransInfo_comment_get_mtmanapi_9afcd665ef64bb91(TradeTrans
 
 void _wrap_TradeTransInfo_expiration_set_mtmanapi_9afcd665ef64bb91(TradeTransInfo *_swig_go_0, intgo _swig_go_1) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(TradeTransInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->expiration = arg2;
   
@@ -19825,12 +19825,12 @@ void _wrap_TradeTransInfo_expiration_set_mtmanapi_9afcd665ef64bb91(TradeTransInf
 
 intgo _wrap_TradeTransInfo_expiration_get_mtmanapi_9afcd665ef64bb91(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(TradeTransInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->expiration);
+  result = (__time32_t) ((arg1)->expiration);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -21134,10 +21134,10 @@ intgo _wrap_DailyReport_login_get_mtmanapi_9afcd665ef64bb91(DailyReport *_swig_g
 
 void _wrap_DailyReport_ctm_set_mtmanapi_9afcd665ef64bb91(DailyReport *_swig_go_0, intgo _swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(DailyReport **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->ctm = arg2;
   
@@ -21146,12 +21146,12 @@ void _wrap_DailyReport_ctm_set_mtmanapi_9afcd665ef64bb91(DailyReport *_swig_go_0
 
 intgo _wrap_DailyReport_ctm_get_mtmanapi_9afcd665ef64bb91(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(DailyReport **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->ctm);
+  result = (__time32_t) ((arg1)->ctm);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -21570,10 +21570,10 @@ _gostring_ _wrap_ReportGroupRequest_name_get_mtmanapi_9afcd665ef64bb91(ReportGro
 
 void _wrap_ReportGroupRequest_from_set_mtmanapi_9afcd665ef64bb91(ReportGroupRequest *_swig_go_0, intgo _swig_go_1) {
   ReportGroupRequest *arg1 = (ReportGroupRequest *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ReportGroupRequest **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->from = arg2;
   
@@ -21582,12 +21582,12 @@ void _wrap_ReportGroupRequest_from_set_mtmanapi_9afcd665ef64bb91(ReportGroupRequ
 
 intgo _wrap_ReportGroupRequest_from_get_mtmanapi_9afcd665ef64bb91(ReportGroupRequest *_swig_go_0) {
   ReportGroupRequest *arg1 = (ReportGroupRequest *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ReportGroupRequest **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->from);
+  result = (__time32_t) ((arg1)->from);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -21595,10 +21595,10 @@ intgo _wrap_ReportGroupRequest_from_get_mtmanapi_9afcd665ef64bb91(ReportGroupReq
 
 void _wrap_ReportGroupRequest_to_set_mtmanapi_9afcd665ef64bb91(ReportGroupRequest *_swig_go_0, intgo _swig_go_1) {
   ReportGroupRequest *arg1 = (ReportGroupRequest *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(ReportGroupRequest **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->to = arg2;
   
@@ -21607,12 +21607,12 @@ void _wrap_ReportGroupRequest_to_set_mtmanapi_9afcd665ef64bb91(ReportGroupReques
 
 intgo _wrap_ReportGroupRequest_to_get_mtmanapi_9afcd665ef64bb91(ReportGroupRequest *_swig_go_0) {
   ReportGroupRequest *arg1 = (ReportGroupRequest *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(ReportGroupRequest **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->to);
+  result = (__time32_t) ((arg1)->to);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -21703,10 +21703,10 @@ _gostring_ _wrap_DailyGroupRequest_name_get_mtmanapi_9afcd665ef64bb91(DailyGroup
 
 void _wrap_DailyGroupRequest_from_set_mtmanapi_9afcd665ef64bb91(DailyGroupRequest *_swig_go_0, intgo _swig_go_1) {
   DailyGroupRequest *arg1 = (DailyGroupRequest *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(DailyGroupRequest **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->from = arg2;
   
@@ -21715,12 +21715,12 @@ void _wrap_DailyGroupRequest_from_set_mtmanapi_9afcd665ef64bb91(DailyGroupReques
 
 intgo _wrap_DailyGroupRequest_from_get_mtmanapi_9afcd665ef64bb91(DailyGroupRequest *_swig_go_0) {
   DailyGroupRequest *arg1 = (DailyGroupRequest *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(DailyGroupRequest **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->from);
+  result = (__time32_t) ((arg1)->from);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -21728,10 +21728,10 @@ intgo _wrap_DailyGroupRequest_from_get_mtmanapi_9afcd665ef64bb91(DailyGroupReque
 
 void _wrap_DailyGroupRequest_to_set_mtmanapi_9afcd665ef64bb91(DailyGroupRequest *_swig_go_0, intgo _swig_go_1) {
   DailyGroupRequest *arg1 = (DailyGroupRequest *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(DailyGroupRequest **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->to = arg2;
   
@@ -21740,12 +21740,12 @@ void _wrap_DailyGroupRequest_to_set_mtmanapi_9afcd665ef64bb91(DailyGroupRequest 
 
 intgo _wrap_DailyGroupRequest_to_get_mtmanapi_9afcd665ef64bb91(DailyGroupRequest *_swig_go_0) {
   DailyGroupRequest *arg1 = (DailyGroupRequest *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(DailyGroupRequest **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->to);
+  result = (__time32_t) ((arg1)->to);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -22086,10 +22086,10 @@ intgo _wrap_SymbolInfo_updateflag_get_mtmanapi_9afcd665ef64bb91(SymbolInfo *_swi
 
 void _wrap_SymbolInfo_lasttime_set_mtmanapi_9afcd665ef64bb91(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(SymbolInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->lasttime = arg2;
   
@@ -22098,12 +22098,12 @@ void _wrap_SymbolInfo_lasttime_set_mtmanapi_9afcd665ef64bb91(SymbolInfo *_swig_g
 
 intgo _wrap_SymbolInfo_lasttime_get_mtmanapi_9afcd665ef64bb91(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(SymbolInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->lasttime);
+  result = (__time32_t) ((arg1)->lasttime);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -23330,10 +23330,10 @@ _gostring_ _wrap_TickInfo_symbol_get_mtmanapi_9afcd665ef64bb91(TickInfo *_swig_g
 
 void _wrap_TickInfo_ctm_set_mtmanapi_9afcd665ef64bb91(TickInfo *_swig_go_0, intgo _swig_go_1) {
   TickInfo *arg1 = (TickInfo *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(TickInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->ctm = arg2;
   
@@ -23342,12 +23342,12 @@ void _wrap_TickInfo_ctm_set_mtmanapi_9afcd665ef64bb91(TickInfo *_swig_go_0, intg
 
 intgo _wrap_TickInfo_ctm_get_mtmanapi_9afcd665ef64bb91(TickInfo *_swig_go_0) {
   TickInfo *arg1 = (TickInfo *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(TickInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->ctm);
+  result = (__time32_t) ((arg1)->ctm);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -23426,10 +23426,10 @@ void _wrap_delete_TickInfo_mtmanapi_9afcd665ef64bb91(TickInfo *_swig_go_0) {
 
 void _wrap_MailBox_time_set_mtmanapi_9afcd665ef64bb91(MailBox *_swig_go_0, intgo _swig_go_1) {
   MailBox *arg1 = (MailBox *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(MailBox **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->time = arg2;
   
@@ -23438,12 +23438,12 @@ void _wrap_MailBox_time_set_mtmanapi_9afcd665ef64bb91(MailBox *_swig_go_0, intgo
 
 intgo _wrap_MailBox_time_get_mtmanapi_9afcd665ef64bb91(MailBox *_swig_go_0) {
   MailBox *arg1 = (MailBox *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(MailBox **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->time);
+  result = (__time32_t) ((arg1)->time);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -23786,10 +23786,10 @@ long long _wrap_NewsTopic_key_get_mtmanapi_9afcd665ef64bb91(NewsTopic *_swig_go_
 
 void _wrap_NewsTopic_time_set_mtmanapi_9afcd665ef64bb91(NewsTopic *_swig_go_0, intgo _swig_go_1) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   
   arg1 = *(NewsTopic **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   if (arg1) (arg1)->time = arg2;
   
@@ -23798,12 +23798,12 @@ void _wrap_NewsTopic_time_set_mtmanapi_9afcd665ef64bb91(NewsTopic *_swig_go_0, i
 
 intgo _wrap_NewsTopic_time_get_mtmanapi_9afcd665ef64bb91(NewsTopic *_swig_go_0) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(NewsTopic **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->time);
+  result = (__time32_t) ((arg1)->time);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -26235,14 +26235,14 @@ _gostring_ _wrap_CManagerInterface_SrvFeederLog_mtmanapi_9afcd665ef64bb91(CManag
 RateInfoOld *_wrap_CManagerInterface_ChartRequestObsolete_mtmanapi_9afcd665ef64bb91(CManagerInterface *_swig_go_0, ChartInfo *_swig_go_1, intgo *_swig_go_2, intgo *_swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ChartInfo *arg2 = (ChartInfo *) 0 ;
-  time_t *arg3 = (time_t *) 0 ;
+  __time32_t *arg3 = (__time32_t *) 0 ;
   int *arg4 = (int *) 0 ;
   RateInfoOld *result = 0 ;
   RateInfoOld *_swig_go_result;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
   arg2 = *(ChartInfo **)&_swig_go_1; 
-  arg3 = *(time_t **)&_swig_go_2; 
+  arg3 = *(__time32_t **)&_swig_go_2; 
   arg4 = *(int **)&_swig_go_3; 
   
   result = (RateInfoOld *)(arg1)->ChartRequestObsolete((ChartInfo const *)arg2,arg3,arg4);
@@ -26331,13 +26331,13 @@ intgo _wrap_CManagerInterface_ChartDeleteObsolete_mtmanapi_9afcd665ef64bb91(CMan
 
 PerformanceInfo *_wrap_CManagerInterface_PerformanceRequest_mtmanapi_9afcd665ef64bb91(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   int *arg3 = (int *) 0 ;
   PerformanceInfo *result = 0 ;
   PerformanceInfo *_swig_go_result;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   arg3 = *(int **)&_swig_go_2; 
   
   result = (PerformanceInfo *)(arg1)->PerformanceRequest(arg2,arg3);
@@ -26785,8 +26785,8 @@ intgo _wrap_CManagerInterface_NewsSend_mtmanapi_9afcd665ef64bb91(CManagerInterfa
 ServerLog *_wrap_CManagerInterface_JournalRequest_mtmanapi_9afcd665ef64bb91(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, _gostring_ _swig_go_4, intgo *_swig_go_5) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
-  time_t arg3 ;
-  time_t arg4 ;
+  __time32_t arg3 ;
+  __time32_t arg4 ;
   LPCSTR arg5 = (LPCSTR) 0 ;
   int *arg6 = (int *) 0 ;
   ServerLog *result = 0 ;
@@ -26794,8 +26794,8 @@ ServerLog *_wrap_CManagerInterface_JournalRequest_mtmanapi_9afcd665ef64bb91(CMan
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
-  arg3 = (time_t)_swig_go_2; 
-  arg4 = (time_t)_swig_go_3; 
+  arg3 = (__time32_t)_swig_go_2; 
+  arg4 = (__time32_t)_swig_go_3; 
   
   arg5 = (LPCSTR)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
@@ -27002,16 +27002,16 @@ TradeRecord *_wrap_CManagerInterface_TradeRecordsRequest_mtmanapi_9afcd665ef64bb
 TradeRecord *_wrap_CManagerInterface_TradesUserHistory_mtmanapi_9afcd665ef64bb91(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo *_swig_go_4) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
-  time_t arg3 ;
-  time_t arg4 ;
+  __time32_t arg3 ;
+  __time32_t arg4 ;
   int *arg5 = (int *) 0 ;
   TradeRecord *result = 0 ;
   TradeRecord *_swig_go_result;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
-  arg3 = (time_t)_swig_go_2; 
-  arg4 = (time_t)_swig_go_3; 
+  arg3 = (__time32_t)_swig_go_2; 
+  arg4 = (__time32_t)_swig_go_3; 
   arg5 = *(int **)&_swig_go_4; 
   
   result = (TradeRecord *)(arg1)->TradesUserHistory(arg2,arg3,arg4,arg5);
@@ -27696,12 +27696,12 @@ intgo _wrap_CManagerInterface_SymbolsGroupsGet_mtmanapi_9afcd665ef64bb91(CManage
 
 intgo _wrap_CManagerInterface_ServerTime_mtmanapi_9afcd665ef64bb91(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
-  time_t result;
+  __time32_t result;
   intgo _swig_go_result;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
   
-  result = (time_t)(arg1)->ServerTime();
+  result = (__time32_t)(arg1)->ServerTime();
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -27894,14 +27894,14 @@ intgo _wrap_CManagerInterface_HistoryCorrect_mtmanapi_9afcd665ef64bb91(CManagerI
 RateInfo *_wrap_CManagerInterface_ChartRequest_mtmanapi_9afcd665ef64bb91(CManagerInterface *_swig_go_0, ChartInfo *_swig_go_1, intgo *_swig_go_2, intgo *_swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ChartInfo *arg2 = (ChartInfo *) 0 ;
-  time_t *arg3 = (time_t *) 0 ;
+  __time32_t *arg3 = (__time32_t *) 0 ;
   int *arg4 = (int *) 0 ;
   RateInfo *result = 0 ;
   RateInfo *_swig_go_result;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
   arg2 = *(ChartInfo **)&_swig_go_1; 
-  arg3 = *(time_t **)&_swig_go_2; 
+  arg3 = *(__time32_t **)&_swig_go_2; 
   arg4 = *(int **)&_swig_go_3; 
   
   result = (RateInfo *)(arg1)->ChartRequest((ChartInfo const *)arg2,arg3,arg4);
@@ -28026,12 +28026,12 @@ intgo _wrap_CManagerInterface_PumpingSwitchEx_mtmanapi_9afcd665ef64bb91(CManager
 
 intgo _wrap_CManagerInterface_UsersSyncStart_mtmanapi_9afcd665ef64bb91(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   int result;
   intgo _swig_go_result;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   result = (int)(arg1)->UsersSyncStart(arg2);
   _swig_go_result = result; 
@@ -28071,12 +28071,12 @@ intgo *_wrap_CManagerInterface_UsersSnapshot_mtmanapi_9afcd665ef64bb91(CManagerI
 
 intgo _wrap_CManagerInterface_TradesSyncStart_mtmanapi_9afcd665ef64bb91(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   int result;
   intgo _swig_go_result;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   result = (int)(arg1)->TradesSyncStart(arg2);
   _swig_go_result = result; 
@@ -28116,12 +28116,12 @@ intgo *_wrap_CManagerInterface_TradesSnapshot_mtmanapi_9afcd665ef64bb91(CManager
 
 intgo _wrap_CManagerInterface_DailySyncStart_mtmanapi_9afcd665ef64bb91(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
-  time_t arg2 ;
+  __time32_t arg2 ;
   int result;
   intgo _swig_go_result;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  arg2 = (__time32_t)_swig_go_1; 
   
   result = (int)(arg1)->DailySyncStart(arg2);
   _swig_go_result = result; 

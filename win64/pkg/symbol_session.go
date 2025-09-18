@@ -1,7 +1,7 @@
 package pkg
 
 import (
-	"github.com/asaka1234/go-mt4manapi/win32/mtmanapi"
+	"github.com/asaka1234/go-mt4manapi/win64/mtmanapi"
 )
 
 type OpenDuration struct {
