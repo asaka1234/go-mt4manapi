@@ -13,9 +13,9 @@ extern
 #ifdef __cplusplus
   "C"
 #endif
-  void cgo_panic__mtmanapi_8609ee77fca78eb1(const char*);
+  void cgo_panic__mtmanapi_7bd57f7bcf037842(const char*);
 static void _swig_gopanic(const char *p) {
-  cgo_panic__mtmanapi_8609ee77fca78eb1(p);
+  cgo_panic__mtmanapi_7bd57f7bcf037842(p);
 }
 
 
@@ -532,6 +532,9 @@ static void ConSessionArray_setitem(ConSession *ary, size_t index, ConSession va
 
 #define LPCSTR char*
 
+typedef __time32_t time_t;
+typedef long  __time32_t;
+
 
 #include <string.h>
 
@@ -544,14 +547,14 @@ SwigDirector_PumpReceiver::SwigDirector_PumpReceiver(int swig_p)
       go_val(swig_p), swig_mem(0)
 { }
 
-extern "C" void Swiggo_DeleteDirector_PumpReceiver_mtmanapi_8609ee77fca78eb1(intgo);
+extern "C" void Swiggo_DeleteDirector_PumpReceiver_mtmanapi_7bd57f7bcf037842(intgo);
 SwigDirector_PumpReceiver::~SwigDirector_PumpReceiver()
 {
-  Swiggo_DeleteDirector_PumpReceiver_mtmanapi_8609ee77fca78eb1(go_val);
+  Swiggo_DeleteDirector_PumpReceiver_mtmanapi_7bd57f7bcf037842(go_val);
   delete swig_mem;
 }
 
-extern "C" void Swig_DirectorPumpReceiver_callback_OnPump_mtmanapi_8609ee77fca78eb1(int, intgo code, intgo typ, void *data, void *param);
+extern "C" void Swig_DirectorPumpReceiver_callback_OnPump_mtmanapi_7bd57f7bcf037842(int, intgo code, intgo typ, void *data, void *param);
 void SwigDirector_PumpReceiver::OnPump(int code,int typ,void *data,void *param) {
   intgo swig_code;
   intgo swig_typ;
@@ -562,14 +565,14 @@ void SwigDirector_PumpReceiver::OnPump(int code,int typ,void *data,void *param) 
   swig_typ = (int)typ; 
   *(void **)&swig_data = (void *)data; 
   *(void **)&swig_param = (void *)param; 
-  Swig_DirectorPumpReceiver_callback_OnPump_mtmanapi_8609ee77fca78eb1(go_val, swig_code, swig_typ, swig_data, swig_param);
+  Swig_DirectorPumpReceiver_callback_OnPump_mtmanapi_7bd57f7bcf037842(go_val, swig_code, swig_typ, swig_data, swig_param);
 }
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-void _wrap_Swig_free_mtmanapi_8609ee77fca78eb1(void *_swig_go_0) {
+void _wrap_Swig_free_mtmanapi_7bd57f7bcf037842(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -579,7 +582,7 @@ void _wrap_Swig_free_mtmanapi_8609ee77fca78eb1(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_mtmanapi_8609ee77fca78eb1(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_mtmanapi_7bd57f7bcf037842(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -592,7 +595,7 @@ void *_wrap_Swig_malloc_mtmanapi_8609ee77fca78eb1(intgo _swig_go_0) {
 }
 
 
-ConGroup *_wrap_new_ConGroupArray_mtmanapi_8609ee77fca78eb1(long long _swig_go_0) {
+ConGroup *_wrap_new_ConGroupArray_mtmanapi_7bd57f7bcf037842(long long _swig_go_0) {
   size_t arg1 ;
   ConGroup *result = 0 ;
   ConGroup *_swig_go_result;
@@ -605,7 +608,7 @@ ConGroup *_wrap_new_ConGroupArray_mtmanapi_8609ee77fca78eb1(long long _swig_go_0
 }
 
 
-void _wrap_delete_ConGroupArray_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+void _wrap_delete_ConGroupArray_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   
   arg1 = *(ConGroup **)&_swig_go_0; 
@@ -615,7 +618,7 @@ void _wrap_delete_ConGroupArray_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) 
 }
 
 
-ConGroup *_wrap_ConGroupArray_getitem_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, long long _swig_go_1) {
+ConGroup *_wrap_ConGroupArray_getitem_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, long long _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   size_t arg2 ;
   ConGroup result;
@@ -630,7 +633,7 @@ ConGroup *_wrap_ConGroupArray_getitem_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_
 }
 
 
-void _wrap_ConGroupArray_setitem_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, long long _swig_go_1, ConGroup *_swig_go_2) {
+void _wrap_ConGroupArray_setitem_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, long long _swig_go_1, ConGroup *_swig_go_2) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   size_t arg2 ;
   ConGroup arg3 ;
@@ -651,7 +654,7 @@ void _wrap_ConGroupArray_setitem_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0,
 }
 
 
-ConGroupSec *_wrap_new_ConGroupSecArray_mtmanapi_8609ee77fca78eb1(long long _swig_go_0) {
+ConGroupSec *_wrap_new_ConGroupSecArray_mtmanapi_7bd57f7bcf037842(long long _swig_go_0) {
   size_t arg1 ;
   ConGroupSec *result = 0 ;
   ConGroupSec *_swig_go_result;
@@ -664,7 +667,7 @@ ConGroupSec *_wrap_new_ConGroupSecArray_mtmanapi_8609ee77fca78eb1(long long _swi
 }
 
 
-void _wrap_delete_ConGroupSecArray_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+void _wrap_delete_ConGroupSecArray_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   
   arg1 = *(ConGroupSec **)&_swig_go_0; 
@@ -674,7 +677,7 @@ void _wrap_delete_ConGroupSecArray_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_
 }
 
 
-ConGroupSec *_wrap_ConGroupSecArray_getitem_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, long long _swig_go_1) {
+ConGroupSec *_wrap_ConGroupSecArray_getitem_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, long long _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   size_t arg2 ;
   ConGroupSec result;
@@ -689,7 +692,7 @@ ConGroupSec *_wrap_ConGroupSecArray_getitem_mtmanapi_8609ee77fca78eb1(ConGroupSe
 }
 
 
-void _wrap_ConGroupSecArray_setitem_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, long long _swig_go_1, ConGroupSec *_swig_go_2) {
+void _wrap_ConGroupSecArray_setitem_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, long long _swig_go_1, ConGroupSec *_swig_go_2) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   size_t arg2 ;
   ConGroupSec arg3 ;
@@ -710,7 +713,7 @@ void _wrap_ConGroupSecArray_setitem_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig
 }
 
 
-UserRecord *_wrap_new_UserRecordArray_mtmanapi_8609ee77fca78eb1(long long _swig_go_0) {
+UserRecord *_wrap_new_UserRecordArray_mtmanapi_7bd57f7bcf037842(long long _swig_go_0) {
   size_t arg1 ;
   UserRecord *result = 0 ;
   UserRecord *_swig_go_result;
@@ -723,7 +726,7 @@ UserRecord *_wrap_new_UserRecordArray_mtmanapi_8609ee77fca78eb1(long long _swig_
 }
 
 
-void _wrap_delete_UserRecordArray_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+void _wrap_delete_UserRecordArray_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   
   arg1 = *(UserRecord **)&_swig_go_0; 
@@ -733,7 +736,7 @@ void _wrap_delete_UserRecordArray_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go
 }
 
 
-UserRecord *_wrap_UserRecordArray_getitem_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, long long _swig_go_1) {
+UserRecord *_wrap_UserRecordArray_getitem_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, long long _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   size_t arg2 ;
   UserRecord result;
@@ -748,7 +751,7 @@ UserRecord *_wrap_UserRecordArray_getitem_mtmanapi_8609ee77fca78eb1(UserRecord *
 }
 
 
-void _wrap_UserRecordArray_setitem_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, long long _swig_go_1, UserRecord *_swig_go_2) {
+void _wrap_UserRecordArray_setitem_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, long long _swig_go_1, UserRecord *_swig_go_2) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   size_t arg2 ;
   UserRecord arg3 ;
@@ -769,7 +772,7 @@ void _wrap_UserRecordArray_setitem_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_g
 }
 
 
-TradeRecord *_wrap_new_TradeRecordArray_mtmanapi_8609ee77fca78eb1(long long _swig_go_0) {
+TradeRecord *_wrap_new_TradeRecordArray_mtmanapi_7bd57f7bcf037842(long long _swig_go_0) {
   size_t arg1 ;
   TradeRecord *result = 0 ;
   TradeRecord *_swig_go_result;
@@ -782,7 +785,7 @@ TradeRecord *_wrap_new_TradeRecordArray_mtmanapi_8609ee77fca78eb1(long long _swi
 }
 
 
-void _wrap_delete_TradeRecordArray_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+void _wrap_delete_TradeRecordArray_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
@@ -792,7 +795,7 @@ void _wrap_delete_TradeRecordArray_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_
 }
 
 
-TradeRecord *_wrap_TradeRecordArray_getitem_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, long long _swig_go_1) {
+TradeRecord *_wrap_TradeRecordArray_getitem_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, long long _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   size_t arg2 ;
   TradeRecord result;
@@ -807,7 +810,7 @@ TradeRecord *_wrap_TradeRecordArray_getitem_mtmanapi_8609ee77fca78eb1(TradeRecor
 }
 
 
-void _wrap_TradeRecordArray_setitem_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, long long _swig_go_1, TradeRecord *_swig_go_2) {
+void _wrap_TradeRecordArray_setitem_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, long long _swig_go_1, TradeRecord *_swig_go_2) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   size_t arg2 ;
   TradeRecord arg3 ;
@@ -828,7 +831,7 @@ void _wrap_TradeRecordArray_setitem_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig
 }
 
 
-ConSymbol *_wrap_new_ConSymbolArray_mtmanapi_8609ee77fca78eb1(long long _swig_go_0) {
+ConSymbol *_wrap_new_ConSymbolArray_mtmanapi_7bd57f7bcf037842(long long _swig_go_0) {
   size_t arg1 ;
   ConSymbol *result = 0 ;
   ConSymbol *_swig_go_result;
@@ -841,7 +844,7 @@ ConSymbol *_wrap_new_ConSymbolArray_mtmanapi_8609ee77fca78eb1(long long _swig_go
 }
 
 
-void _wrap_delete_ConSymbolArray_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+void _wrap_delete_ConSymbolArray_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   
   arg1 = *(ConSymbol **)&_swig_go_0; 
@@ -851,7 +854,7 @@ void _wrap_delete_ConSymbolArray_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0
 }
 
 
-ConSymbol *_wrap_ConSymbolArray_getitem_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, long long _swig_go_1) {
+ConSymbol *_wrap_ConSymbolArray_getitem_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, long long _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   size_t arg2 ;
   ConSymbol result;
@@ -866,7 +869,7 @@ ConSymbol *_wrap_ConSymbolArray_getitem_mtmanapi_8609ee77fca78eb1(ConSymbol *_sw
 }
 
 
-void _wrap_ConSymbolArray_setitem_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, long long _swig_go_1, ConSymbol *_swig_go_2) {
+void _wrap_ConSymbolArray_setitem_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, long long _swig_go_1, ConSymbol *_swig_go_2) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   size_t arg2 ;
   ConSymbol arg3 ;
@@ -887,7 +890,7 @@ void _wrap_ConSymbolArray_setitem_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_
 }
 
 
-SymbolInfo *_wrap_new_SymbolInfoArray_mtmanapi_8609ee77fca78eb1(long long _swig_go_0) {
+SymbolInfo *_wrap_new_SymbolInfoArray_mtmanapi_7bd57f7bcf037842(long long _swig_go_0) {
   size_t arg1 ;
   SymbolInfo *result = 0 ;
   SymbolInfo *_swig_go_result;
@@ -900,7 +903,7 @@ SymbolInfo *_wrap_new_SymbolInfoArray_mtmanapi_8609ee77fca78eb1(long long _swig_
 }
 
 
-void _wrap_delete_SymbolInfoArray_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+void _wrap_delete_SymbolInfoArray_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   
   arg1 = *(SymbolInfo **)&_swig_go_0; 
@@ -910,7 +913,7 @@ void _wrap_delete_SymbolInfoArray_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go
 }
 
 
-SymbolInfo *_wrap_SymbolInfoArray_getitem_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, long long _swig_go_1) {
+SymbolInfo *_wrap_SymbolInfoArray_getitem_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, long long _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   size_t arg2 ;
   SymbolInfo result;
@@ -925,7 +928,7 @@ SymbolInfo *_wrap_SymbolInfoArray_getitem_mtmanapi_8609ee77fca78eb1(SymbolInfo *
 }
 
 
-void _wrap_SymbolInfoArray_setitem_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, long long _swig_go_1, SymbolInfo *_swig_go_2) {
+void _wrap_SymbolInfoArray_setitem_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, long long _swig_go_1, SymbolInfo *_swig_go_2) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   size_t arg2 ;
   SymbolInfo arg3 ;
@@ -946,7 +949,7 @@ void _wrap_SymbolInfoArray_setitem_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_g
 }
 
 
-RateInfo *_wrap_new_RateInfoArray_mtmanapi_8609ee77fca78eb1(long long _swig_go_0) {
+RateInfo *_wrap_new_RateInfoArray_mtmanapi_7bd57f7bcf037842(long long _swig_go_0) {
   size_t arg1 ;
   RateInfo *result = 0 ;
   RateInfo *_swig_go_result;
@@ -959,7 +962,7 @@ RateInfo *_wrap_new_RateInfoArray_mtmanapi_8609ee77fca78eb1(long long _swig_go_0
 }
 
 
-void _wrap_delete_RateInfoArray_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0) {
+void _wrap_delete_RateInfoArray_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   
   arg1 = *(RateInfo **)&_swig_go_0; 
@@ -969,7 +972,7 @@ void _wrap_delete_RateInfoArray_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0) 
 }
 
 
-RateInfo *_wrap_RateInfoArray_getitem_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0, long long _swig_go_1) {
+RateInfo *_wrap_RateInfoArray_getitem_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0, long long _swig_go_1) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   size_t arg2 ;
   RateInfo result;
@@ -984,7 +987,7 @@ RateInfo *_wrap_RateInfoArray_getitem_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_
 }
 
 
-void _wrap_RateInfoArray_setitem_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0, long long _swig_go_1, RateInfo *_swig_go_2) {
+void _wrap_RateInfoArray_setitem_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0, long long _swig_go_1, RateInfo *_swig_go_2) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   size_t arg2 ;
   RateInfo arg3 ;
@@ -1005,7 +1008,7 @@ void _wrap_RateInfoArray_setitem_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0,
 }
 
 
-TickInfo *_wrap_new_TickInfoArray_mtmanapi_8609ee77fca78eb1(long long _swig_go_0) {
+TickInfo *_wrap_new_TickInfoArray_mtmanapi_7bd57f7bcf037842(long long _swig_go_0) {
   size_t arg1 ;
   TickInfo *result = 0 ;
   TickInfo *_swig_go_result;
@@ -1018,7 +1021,7 @@ TickInfo *_wrap_new_TickInfoArray_mtmanapi_8609ee77fca78eb1(long long _swig_go_0
 }
 
 
-void _wrap_delete_TickInfoArray_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0) {
+void _wrap_delete_TickInfoArray_mtmanapi_7bd57f7bcf037842(TickInfo *_swig_go_0) {
   TickInfo *arg1 = (TickInfo *) 0 ;
   
   arg1 = *(TickInfo **)&_swig_go_0; 
@@ -1028,7 +1031,7 @@ void _wrap_delete_TickInfoArray_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0) 
 }
 
 
-TickInfo *_wrap_TickInfoArray_getitem_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0, long long _swig_go_1) {
+TickInfo *_wrap_TickInfoArray_getitem_mtmanapi_7bd57f7bcf037842(TickInfo *_swig_go_0, long long _swig_go_1) {
   TickInfo *arg1 = (TickInfo *) 0 ;
   size_t arg2 ;
   TickInfo result;
@@ -1043,7 +1046,7 @@ TickInfo *_wrap_TickInfoArray_getitem_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_
 }
 
 
-void _wrap_TickInfoArray_setitem_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0, long long _swig_go_1, TickInfo *_swig_go_2) {
+void _wrap_TickInfoArray_setitem_mtmanapi_7bd57f7bcf037842(TickInfo *_swig_go_0, long long _swig_go_1, TickInfo *_swig_go_2) {
   TickInfo *arg1 = (TickInfo *) 0 ;
   size_t arg2 ;
   TickInfo arg3 ;
@@ -1064,7 +1067,7 @@ void _wrap_TickInfoArray_setitem_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0,
 }
 
 
-ConSessions *_wrap_new_ConSessionsArray_mtmanapi_8609ee77fca78eb1(long long _swig_go_0) {
+ConSessions *_wrap_new_ConSessionsArray_mtmanapi_7bd57f7bcf037842(long long _swig_go_0) {
   size_t arg1 ;
   ConSessions *result = 0 ;
   ConSessions *_swig_go_result;
@@ -1077,7 +1080,7 @@ ConSessions *_wrap_new_ConSessionsArray_mtmanapi_8609ee77fca78eb1(long long _swi
 }
 
 
-void _wrap_delete_ConSessionsArray_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go_0) {
+void _wrap_delete_ConSessionsArray_mtmanapi_7bd57f7bcf037842(ConSessions *_swig_go_0) {
   ConSessions *arg1 = (ConSessions *) 0 ;
   
   arg1 = *(ConSessions **)&_swig_go_0; 
@@ -1087,7 +1090,7 @@ void _wrap_delete_ConSessionsArray_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_
 }
 
 
-ConSessions *_wrap_ConSessionsArray_getitem_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go_0, long long _swig_go_1) {
+ConSessions *_wrap_ConSessionsArray_getitem_mtmanapi_7bd57f7bcf037842(ConSessions *_swig_go_0, long long _swig_go_1) {
   ConSessions *arg1 = (ConSessions *) 0 ;
   size_t arg2 ;
   ConSessions result;
@@ -1102,7 +1105,7 @@ ConSessions *_wrap_ConSessionsArray_getitem_mtmanapi_8609ee77fca78eb1(ConSession
 }
 
 
-void _wrap_ConSessionsArray_setitem_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go_0, long long _swig_go_1, ConSessions *_swig_go_2) {
+void _wrap_ConSessionsArray_setitem_mtmanapi_7bd57f7bcf037842(ConSessions *_swig_go_0, long long _swig_go_1, ConSessions *_swig_go_2) {
   ConSessions *arg1 = (ConSessions *) 0 ;
   size_t arg2 ;
   ConSessions arg3 ;
@@ -1123,7 +1126,7 @@ void _wrap_ConSessionsArray_setitem_mtmanapi_8609ee77fca78eb1(ConSessions *_swig
 }
 
 
-ConSession *_wrap_new_ConSessionArray_mtmanapi_8609ee77fca78eb1(long long _swig_go_0) {
+ConSession *_wrap_new_ConSessionArray_mtmanapi_7bd57f7bcf037842(long long _swig_go_0) {
   size_t arg1 ;
   ConSession *result = 0 ;
   ConSession *_swig_go_result;
@@ -1136,7 +1139,7 @@ ConSession *_wrap_new_ConSessionArray_mtmanapi_8609ee77fca78eb1(long long _swig_
 }
 
 
-void _wrap_delete_ConSessionArray_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0) {
+void _wrap_delete_ConSessionArray_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0) {
   ConSession *arg1 = (ConSession *) 0 ;
   
   arg1 = *(ConSession **)&_swig_go_0; 
@@ -1146,7 +1149,7 @@ void _wrap_delete_ConSessionArray_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go
 }
 
 
-ConSession *_wrap_ConSessionArray_getitem_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0, long long _swig_go_1) {
+ConSession *_wrap_ConSessionArray_getitem_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0, long long _swig_go_1) {
   ConSession *arg1 = (ConSession *) 0 ;
   size_t arg2 ;
   ConSession result;
@@ -1161,7 +1164,7 @@ ConSession *_wrap_ConSessionArray_getitem_mtmanapi_8609ee77fca78eb1(ConSession *
 }
 
 
-void _wrap_ConSessionArray_setitem_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0, long long _swig_go_1, ConSession *_swig_go_2) {
+void _wrap_ConSessionArray_setitem_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0, long long _swig_go_1, ConSession *_swig_go_2) {
   ConSession *arg1 = (ConSession *) 0 ;
   size_t arg2 ;
   ConSession arg3 ;
@@ -1182,7 +1185,7 @@ void _wrap_ConSessionArray_setitem_mtmanapi_8609ee77fca78eb1(ConSession *_swig_g
 }
 
 
-intgo _wrap_CONFIG_ALL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_ALL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1194,7 +1197,7 @@ intgo _wrap_CONFIG_ALL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_COMMON_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_COMMON_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1206,7 +1209,7 @@ intgo _wrap_CONFIG_COMMON_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_ACCESS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_ACCESS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1218,7 +1221,7 @@ intgo _wrap_CONFIG_ACCESS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_SERVERS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_SERVERS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1230,7 +1233,7 @@ intgo _wrap_CONFIG_SERVERS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_TIME_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_TIME_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1242,7 +1245,7 @@ intgo _wrap_CONFIG_TIME_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_HOLIDAYS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_HOLIDAYS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1254,7 +1257,7 @@ intgo _wrap_CONFIG_HOLIDAYS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_SYMBOLS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_SYMBOLS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1266,7 +1269,7 @@ intgo _wrap_CONFIG_SYMBOLS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_SYMB_GROUPS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_SYMB_GROUPS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1278,7 +1281,7 @@ intgo _wrap_CONFIG_SYMB_GROUPS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_GROUPS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_GROUPS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1290,7 +1293,7 @@ intgo _wrap_CONFIG_GROUPS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_MANAGERS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_MANAGERS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1302,7 +1305,7 @@ intgo _wrap_CONFIG_MANAGERS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_DATAFEEDS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_DATAFEEDS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1314,7 +1317,7 @@ intgo _wrap_CONFIG_DATAFEEDS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_BACKUP_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_BACKUP_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1326,7 +1329,7 @@ intgo _wrap_CONFIG_BACKUP_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_LIVEUPDATE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_LIVEUPDATE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1338,7 +1341,7 @@ intgo _wrap_CONFIG_LIVEUPDATE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_SYNC_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_SYNC_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1350,7 +1353,7 @@ intgo _wrap_CONFIG_SYNC_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_PLUGINS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_PLUGINS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1362,7 +1365,7 @@ intgo _wrap_CONFIG_PLUGINS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_GATEWAY_ACCOUNTS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_GATEWAY_ACCOUNTS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1374,7 +1377,7 @@ intgo _wrap_CONFIG_GATEWAY_ACCOUNTS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_GATEWAY_MARKUPS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_GATEWAY_MARKUPS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1386,7 +1389,7 @@ intgo _wrap_CONFIG_GATEWAY_MARKUPS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_GATEWAY_RULES_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_GATEWAY_RULES_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1398,7 +1401,7 @@ intgo _wrap_CONFIG_GATEWAY_RULES_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIG_END_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIG_END_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -1410,7 +1413,7 @@ intgo _wrap_CONFIG_END_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_ConCommon_owner_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConCommon_owner_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -1434,7 +1437,7 @@ void _wrap_ConCommon_owner_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, 
 }
 
 
-_gostring_ _wrap_ConCommon_owner_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+_gostring_ _wrap_ConCommon_owner_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1447,7 +1450,7 @@ _gostring_ _wrap_ConCommon_owner_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_
 }
 
 
-void _wrap_ConCommon_name_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConCommon_name_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -1471,7 +1474,7 @@ void _wrap_ConCommon_name_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, _
 }
 
 
-_gostring_ _wrap_ConCommon_name_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+_gostring_ _wrap_ConCommon_name_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1484,7 +1487,7 @@ _gostring_ _wrap_ConCommon_name_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_g
 }
 
 
-void _wrap_ConCommon_address_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConCommon_address_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, long long _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   ULONG arg2 ;
   
@@ -1496,7 +1499,7 @@ void _wrap_ConCommon_address_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0
 }
 
 
-long long _wrap_ConCommon_address_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+long long _wrap_ConCommon_address_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   ULONG result;
   long long _swig_go_result;
@@ -1509,7 +1512,7 @@ long long _wrap_ConCommon_address_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig
 }
 
 
-void _wrap_ConCommon_port_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_port_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -1521,7 +1524,7 @@ void _wrap_ConCommon_port_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, i
 }
 
 
-intgo _wrap_ConCommon_port_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_port_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1534,7 +1537,7 @@ intgo _wrap_ConCommon_port_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) 
 }
 
 
-void _wrap_ConCommon_timeout_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConCommon_timeout_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, long long _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   DWORD arg2 ;
   
@@ -1546,7 +1549,7 @@ void _wrap_ConCommon_timeout_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0
 }
 
 
-long long _wrap_ConCommon_timeout_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+long long _wrap_ConCommon_timeout_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   DWORD result;
   long long _swig_go_result;
@@ -1559,7 +1562,7 @@ long long _wrap_ConCommon_timeout_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig
 }
 
 
-void _wrap_ConCommon_typeofdemo_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_typeofdemo_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -1571,7 +1574,7 @@ void _wrap_ConCommon_typeofdemo_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_g
 }
 
 
-intgo _wrap_ConCommon_typeofdemo_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_typeofdemo_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1584,7 +1587,7 @@ intgo _wrap_ConCommon_typeofdemo_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_
 }
 
 
-void _wrap_ConCommon_timeofdemo_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_timeofdemo_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -1596,7 +1599,7 @@ void _wrap_ConCommon_timeofdemo_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_g
 }
 
 
-intgo _wrap_ConCommon_timeofdemo_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_timeofdemo_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1609,7 +1612,7 @@ intgo _wrap_ConCommon_timeofdemo_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_
 }
 
 
-void _wrap_ConCommon_daylightcorrection_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_daylightcorrection_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -1621,7 +1624,7 @@ void _wrap_ConCommon_daylightcorrection_set_mtmanapi_8609ee77fca78eb1(ConCommon 
 }
 
 
-intgo _wrap_ConCommon_daylightcorrection_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_daylightcorrection_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1634,7 +1637,7 @@ intgo _wrap_ConCommon_daylightcorrection_get_mtmanapi_8609ee77fca78eb1(ConCommon
 }
 
 
-void _wrap_ConCommon_internal_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConCommon_internal_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -1658,7 +1661,7 @@ void _wrap_ConCommon_internal_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_
 }
 
 
-_gostring_ _wrap_ConCommon_internal_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+_gostring_ _wrap_ConCommon_internal_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1671,7 +1674,7 @@ _gostring_ _wrap_ConCommon_internal_get_mtmanapi_8609ee77fca78eb1(ConCommon *_sw
 }
 
 
-void _wrap_ConCommon_timezone_real_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_timezone_real_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -1683,7 +1686,7 @@ void _wrap_ConCommon_timezone_real_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swi
 }
 
 
-intgo _wrap_ConCommon_timezone_real_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_timezone_real_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1696,7 +1699,7 @@ intgo _wrap_ConCommon_timezone_real_get_mtmanapi_8609ee77fca78eb1(ConCommon *_sw
 }
 
 
-void _wrap_ConCommon_timezone_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_timezone_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -1708,7 +1711,7 @@ void _wrap_ConCommon_timezone_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_
 }
 
 
-intgo _wrap_ConCommon_timezone_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_timezone_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1721,7 +1724,7 @@ intgo _wrap_ConCommon_timezone_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go
 }
 
 
-void _wrap_ConCommon_timesync_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConCommon_timesync_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -1745,7 +1748,7 @@ void _wrap_ConCommon_timesync_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_
 }
 
 
-_gostring_ _wrap_ConCommon_timesync_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+_gostring_ _wrap_ConCommon_timesync_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1758,7 +1761,7 @@ _gostring_ _wrap_ConCommon_timesync_get_mtmanapi_8609ee77fca78eb1(ConCommon *_sw
 }
 
 
-void _wrap_ConCommon_minclient_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_minclient_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -1770,7 +1773,7 @@ void _wrap_ConCommon_minclient_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go
 }
 
 
-intgo _wrap_ConCommon_minclient_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_minclient_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1783,7 +1786,7 @@ intgo _wrap_ConCommon_minclient_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_g
 }
 
 
-void _wrap_ConCommon_minapi_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_minapi_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -1795,7 +1798,7 @@ void _wrap_ConCommon_minapi_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0,
 }
 
 
-intgo _wrap_ConCommon_minapi_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_minapi_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1808,7 +1811,7 @@ intgo _wrap_ConCommon_minapi_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0
 }
 
 
-void _wrap_ConCommon_feeder_timeout_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConCommon_feeder_timeout_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, long long _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   DWORD arg2 ;
   
@@ -1820,7 +1823,7 @@ void _wrap_ConCommon_feeder_timeout_set_mtmanapi_8609ee77fca78eb1(ConCommon *_sw
 }
 
 
-long long _wrap_ConCommon_feeder_timeout_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+long long _wrap_ConCommon_feeder_timeout_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   DWORD result;
   long long _swig_go_result;
@@ -1833,7 +1836,7 @@ long long _wrap_ConCommon_feeder_timeout_get_mtmanapi_8609ee77fca78eb1(ConCommon
 }
 
 
-void _wrap_ConCommon_keepemails_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_keepemails_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -1845,7 +1848,7 @@ void _wrap_ConCommon_keepemails_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_g
 }
 
 
-intgo _wrap_ConCommon_keepemails_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_keepemails_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1858,7 +1861,7 @@ intgo _wrap_ConCommon_keepemails_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_
 }
 
 
-void _wrap_ConCommon_endhour_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_endhour_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -1870,7 +1873,7 @@ void _wrap_ConCommon_endhour_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0
 }
 
 
-intgo _wrap_ConCommon_endhour_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_endhour_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1883,7 +1886,7 @@ intgo _wrap_ConCommon_endhour_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_
 }
 
 
-void _wrap_ConCommon_endminute_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_endminute_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -1895,7 +1898,7 @@ void _wrap_ConCommon_endminute_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go
 }
 
 
-intgo _wrap_ConCommon_endminute_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_endminute_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1908,7 +1911,7 @@ intgo _wrap_ConCommon_endminute_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_g
 }
 
 
-void _wrap_ConCommon_optimization_time_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_optimization_time_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -1920,7 +1923,7 @@ void _wrap_ConCommon_optimization_time_set_mtmanapi_8609ee77fca78eb1(ConCommon *
 }
 
 
-intgo _wrap_ConCommon_optimization_time_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_optimization_time_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1933,7 +1936,7 @@ intgo _wrap_ConCommon_optimization_time_get_mtmanapi_8609ee77fca78eb1(ConCommon 
 }
 
 
-void _wrap_ConCommon_optimization_lasttime_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_optimization_lasttime_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -1945,7 +1948,7 @@ void _wrap_ConCommon_optimization_lasttime_set_mtmanapi_8609ee77fca78eb1(ConComm
 }
 
 
-intgo _wrap_ConCommon_optimization_lasttime_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_optimization_lasttime_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1958,7 +1961,7 @@ intgo _wrap_ConCommon_optimization_lasttime_get_mtmanapi_8609ee77fca78eb1(ConCom
 }
 
 
-void _wrap_ConCommon_optimization_counter_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_optimization_counter_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -1970,7 +1973,7 @@ void _wrap_ConCommon_optimization_counter_set_mtmanapi_8609ee77fca78eb1(ConCommo
 }
 
 
-intgo _wrap_ConCommon_optimization_counter_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_optimization_counter_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1983,7 +1986,7 @@ intgo _wrap_ConCommon_optimization_counter_get_mtmanapi_8609ee77fca78eb1(ConComm
 }
 
 
-void _wrap_ConCommon_optimization_unused_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConCommon_optimization_unused_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo *_swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -1999,7 +2002,7 @@ void _wrap_ConCommon_optimization_unused_set_mtmanapi_8609ee77fca78eb1(ConCommon
 }
 
 
-intgo *_wrap_ConCommon_optimization_unused_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo *_wrap_ConCommon_optimization_unused_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -2012,7 +2015,7 @@ intgo *_wrap_ConCommon_optimization_unused_get_mtmanapi_8609ee77fca78eb1(ConComm
 }
 
 
-void _wrap_ConCommon_antiflood_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_antiflood_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -2024,7 +2027,7 @@ void _wrap_ConCommon_antiflood_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go
 }
 
 
-intgo _wrap_ConCommon_antiflood_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_antiflood_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2037,7 +2040,7 @@ intgo _wrap_ConCommon_antiflood_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_g
 }
 
 
-void _wrap_ConCommon_floodcontrol_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_floodcontrol_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -2049,7 +2052,7 @@ void _wrap_ConCommon_floodcontrol_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig
 }
 
 
-intgo _wrap_ConCommon_floodcontrol_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_floodcontrol_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2062,7 +2065,7 @@ intgo _wrap_ConCommon_floodcontrol_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swi
 }
 
 
-void _wrap_ConCommon_liveupdate_mode_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_liveupdate_mode_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -2074,7 +2077,7 @@ void _wrap_ConCommon_liveupdate_mode_set_mtmanapi_8609ee77fca78eb1(ConCommon *_s
 }
 
 
-intgo _wrap_ConCommon_liveupdate_mode_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_liveupdate_mode_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2087,7 +2090,7 @@ intgo _wrap_ConCommon_liveupdate_mode_get_mtmanapi_8609ee77fca78eb1(ConCommon *_
 }
 
 
-void _wrap_ConCommon_lastorder_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_lastorder_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -2099,7 +2102,7 @@ void _wrap_ConCommon_lastorder_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go
 }
 
 
-intgo _wrap_ConCommon_lastorder_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_lastorder_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2112,7 +2115,7 @@ intgo _wrap_ConCommon_lastorder_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_g
 }
 
 
-void _wrap_ConCommon_lastlogin_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_lastlogin_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -2124,7 +2127,7 @@ void _wrap_ConCommon_lastlogin_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go
 }
 
 
-intgo _wrap_ConCommon_lastlogin_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_lastlogin_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2137,7 +2140,7 @@ intgo _wrap_ConCommon_lastlogin_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_g
 }
 
 
-void _wrap_ConCommon_lostlogin_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_lostlogin_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -2149,7 +2152,7 @@ void _wrap_ConCommon_lostlogin_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go
 }
 
 
-intgo _wrap_ConCommon_lostlogin_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_lostlogin_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2162,7 +2165,7 @@ intgo _wrap_ConCommon_lostlogin_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_g
 }
 
 
-void _wrap_ConCommon_rollovers_mode_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_rollovers_mode_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -2174,7 +2177,7 @@ void _wrap_ConCommon_rollovers_mode_set_mtmanapi_8609ee77fca78eb1(ConCommon *_sw
 }
 
 
-intgo _wrap_ConCommon_rollovers_mode_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_rollovers_mode_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2187,7 +2190,7 @@ intgo _wrap_ConCommon_rollovers_mode_get_mtmanapi_8609ee77fca78eb1(ConCommon *_s
 }
 
 
-void _wrap_ConCommon_path_database_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConCommon_path_database_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -2211,7 +2214,7 @@ void _wrap_ConCommon_path_database_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swi
 }
 
 
-_gostring_ _wrap_ConCommon_path_database_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+_gostring_ _wrap_ConCommon_path_database_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2224,7 +2227,7 @@ _gostring_ _wrap_ConCommon_path_database_get_mtmanapi_8609ee77fca78eb1(ConCommon
 }
 
 
-void _wrap_ConCommon_path_history_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConCommon_path_history_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -2248,7 +2251,7 @@ void _wrap_ConCommon_path_history_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig
 }
 
 
-_gostring_ _wrap_ConCommon_path_history_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+_gostring_ _wrap_ConCommon_path_history_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2261,7 +2264,7 @@ _gostring_ _wrap_ConCommon_path_history_get_mtmanapi_8609ee77fca78eb1(ConCommon 
 }
 
 
-void _wrap_ConCommon_path_log_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConCommon_path_log_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -2285,7 +2288,7 @@ void _wrap_ConCommon_path_log_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_
 }
 
 
-_gostring_ _wrap_ConCommon_path_log_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+_gostring_ _wrap_ConCommon_path_log_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2298,107 +2301,135 @@ _gostring_ _wrap_ConCommon_path_log_get_mtmanapi_8609ee77fca78eb1(ConCommon *_sw
 }
 
 
-void _wrap_ConCommon_overnight_last_day_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConCommon_overnight_last_day_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, time_t *_swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->overnight_last_day = arg2;
   
 }
 
 
-long long _wrap_ConCommon_overnight_last_day_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+time_t *_wrap_ConCommon_overnight_last_day_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->overnight_last_day);
-  _swig_go_result = result; 
+  result =  ((arg1)->overnight_last_day);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ConCommon_overnight_last_time_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConCommon_overnight_last_time_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, time_t *_swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->overnight_last_time = arg2;
   
 }
 
 
-long long _wrap_ConCommon_overnight_last_time_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+time_t *_wrap_ConCommon_overnight_last_time_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->overnight_last_time);
-  _swig_go_result = result; 
+  result =  ((arg1)->overnight_last_time);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ConCommon_overnight_prev_time_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConCommon_overnight_prev_time_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, time_t *_swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->overnight_prev_time = arg2;
   
 }
 
 
-long long _wrap_ConCommon_overnight_prev_time_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+time_t *_wrap_ConCommon_overnight_prev_time_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->overnight_prev_time);
-  _swig_go_result = result; 
+  result =  ((arg1)->overnight_prev_time);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ConCommon_overmonth_last_month_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConCommon_overmonth_last_month_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, time_t *_swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->overmonth_last_month = arg2;
   
 }
 
 
-long long _wrap_ConCommon_overmonth_last_month_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+time_t *_wrap_ConCommon_overmonth_last_month_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->overmonth_last_month);
-  _swig_go_result = result; 
+  result =  ((arg1)->overmonth_last_month);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ConCommon_adapters_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConCommon_adapters_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -2422,7 +2453,7 @@ void _wrap_ConCommon_adapters_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_
 }
 
 
-_gostring_ _wrap_ConCommon_adapters_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+_gostring_ _wrap_ConCommon_adapters_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2435,7 +2466,7 @@ _gostring_ _wrap_ConCommon_adapters_get_mtmanapi_8609ee77fca78eb1(ConCommon *_sw
 }
 
 
-void _wrap_ConCommon_bind_adresses_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, long long *_swig_go_1) {
+void _wrap_ConCommon_bind_adresses_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, long long *_swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   ULONG *arg2 = (ULONG *) (ULONG *)0 ;
   
@@ -2451,7 +2482,7 @@ void _wrap_ConCommon_bind_adresses_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swi
 }
 
 
-long long *_wrap_ConCommon_bind_adresses_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+long long *_wrap_ConCommon_bind_adresses_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   ULONG *result = 0 ;
   long long *_swig_go_result;
@@ -2464,7 +2495,7 @@ long long *_wrap_ConCommon_bind_adresses_get_mtmanapi_8609ee77fca78eb1(ConCommon
 }
 
 
-void _wrap_ConCommon_server_version_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, short _swig_go_1) {
+void _wrap_ConCommon_server_version_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, short _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   short arg2 ;
   
@@ -2476,7 +2507,7 @@ void _wrap_ConCommon_server_version_set_mtmanapi_8609ee77fca78eb1(ConCommon *_sw
 }
 
 
-short _wrap_ConCommon_server_version_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+short _wrap_ConCommon_server_version_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   short result;
   short _swig_go_result;
@@ -2489,7 +2520,7 @@ short _wrap_ConCommon_server_version_get_mtmanapi_8609ee77fca78eb1(ConCommon *_s
 }
 
 
-void _wrap_ConCommon_server_build_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, short _swig_go_1) {
+void _wrap_ConCommon_server_build_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, short _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   short arg2 ;
   
@@ -2501,7 +2532,7 @@ void _wrap_ConCommon_server_build_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig
 }
 
 
-short _wrap_ConCommon_server_build_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+short _wrap_ConCommon_server_build_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   short result;
   short _swig_go_result;
@@ -2514,7 +2545,7 @@ short _wrap_ConCommon_server_build_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swi
 }
 
 
-void _wrap_ConCommon_web_adresses_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, long long *_swig_go_1) {
+void _wrap_ConCommon_web_adresses_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, long long *_swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   ULONG *arg2 = (ULONG *) (ULONG *)0 ;
   
@@ -2530,7 +2561,7 @@ void _wrap_ConCommon_web_adresses_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig
 }
 
 
-long long *_wrap_ConCommon_web_adresses_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+long long *_wrap_ConCommon_web_adresses_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   ULONG *result = 0 ;
   long long *_swig_go_result;
@@ -2543,7 +2574,7 @@ long long *_wrap_ConCommon_web_adresses_get_mtmanapi_8609ee77fca78eb1(ConCommon 
 }
 
 
-void _wrap_ConCommon_statement_mode_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_statement_mode_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -2555,7 +2586,7 @@ void _wrap_ConCommon_statement_mode_set_mtmanapi_8609ee77fca78eb1(ConCommon *_sw
 }
 
 
-intgo _wrap_ConCommon_statement_mode_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_statement_mode_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2568,7 +2599,7 @@ intgo _wrap_ConCommon_statement_mode_get_mtmanapi_8609ee77fca78eb1(ConCommon *_s
 }
 
 
-void _wrap_ConCommon_monthly_state_mode_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_monthly_state_mode_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -2580,7 +2611,7 @@ void _wrap_ConCommon_monthly_state_mode_set_mtmanapi_8609ee77fca78eb1(ConCommon 
 }
 
 
-intgo _wrap_ConCommon_monthly_state_mode_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_monthly_state_mode_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2593,7 +2624,7 @@ intgo _wrap_ConCommon_monthly_state_mode_get_mtmanapi_8609ee77fca78eb1(ConCommon
 }
 
 
-void _wrap_ConCommon_keepticks_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_keepticks_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -2605,7 +2636,7 @@ void _wrap_ConCommon_keepticks_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go
 }
 
 
-intgo _wrap_ConCommon_keepticks_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_keepticks_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2618,7 +2649,7 @@ intgo _wrap_ConCommon_keepticks_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_g
 }
 
 
-void _wrap_ConCommon_statement_weekend_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_statement_weekend_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -2630,7 +2661,7 @@ void _wrap_ConCommon_statement_weekend_set_mtmanapi_8609ee77fca78eb1(ConCommon *
 }
 
 
-intgo _wrap_ConCommon_statement_weekend_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_statement_weekend_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2643,57 +2674,71 @@ intgo _wrap_ConCommon_statement_weekend_get_mtmanapi_8609ee77fca78eb1(ConCommon 
 }
 
 
-void _wrap_ConCommon_last_activate_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConCommon_last_activate_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, time_t *_swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->last_activate = arg2;
   
 }
 
 
-long long _wrap_ConCommon_last_activate_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+time_t *_wrap_ConCommon_last_activate_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->last_activate);
-  _swig_go_result = result; 
+  result =  ((arg1)->last_activate);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ConCommon_stop_last_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConCommon_stop_last_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, time_t *_swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->stop_last = arg2;
   
 }
 
 
-long long _wrap_ConCommon_stop_last_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+time_t *_wrap_ConCommon_stop_last_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->stop_last);
-  _swig_go_result = result; 
+  result =  ((arg1)->stop_last);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ConCommon_stop_delay_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_stop_delay_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -2705,7 +2750,7 @@ void _wrap_ConCommon_stop_delay_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_g
 }
 
 
-intgo _wrap_ConCommon_stop_delay_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_stop_delay_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2718,7 +2763,7 @@ intgo _wrap_ConCommon_stop_delay_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_
 }
 
 
-void _wrap_ConCommon_stop_reason_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConCommon_stop_reason_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int arg2 ;
   
@@ -2730,7 +2775,7 @@ void _wrap_ConCommon_stop_reason_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_
 }
 
 
-intgo _wrap_ConCommon_stop_reason_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo _wrap_ConCommon_stop_reason_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2743,7 +2788,7 @@ intgo _wrap_ConCommon_stop_reason_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig
 }
 
 
-void _wrap_ConCommon_account_url_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConCommon_account_url_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, _gostring_ _swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -2767,7 +2812,7 @@ void _wrap_ConCommon_account_url_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_
 }
 
 
-_gostring_ _wrap_ConCommon_account_url_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+_gostring_ _wrap_ConCommon_account_url_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2780,7 +2825,7 @@ _gostring_ _wrap_ConCommon_account_url_get_mtmanapi_8609ee77fca78eb1(ConCommon *
 }
 
 
-void _wrap_ConCommon_reserved_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConCommon_reserved_set_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0, intgo *_swig_go_1) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -2796,7 +2841,7 @@ void _wrap_ConCommon_reserved_set_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_
 }
 
 
-intgo *_wrap_ConCommon_reserved_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+intgo *_wrap_ConCommon_reserved_get_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -2809,7 +2854,7 @@ intgo *_wrap_ConCommon_reserved_get_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_g
 }
 
 
-ConCommon *_wrap_new_ConCommon_mtmanapi_8609ee77fca78eb1() {
+ConCommon *_wrap_new_ConCommon_mtmanapi_7bd57f7bcf037842() {
   ConCommon *result = 0 ;
   ConCommon *_swig_go_result;
   
@@ -2820,7 +2865,7 @@ ConCommon *_wrap_new_ConCommon_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConCommon_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
+void _wrap_delete_ConCommon_mtmanapi_7bd57f7bcf037842(ConCommon *_swig_go_0) {
   ConCommon *arg1 = (ConCommon *) 0 ;
   
   arg1 = *(ConCommon **)&_swig_go_0; 
@@ -2830,7 +2875,7 @@ void _wrap_delete_ConCommon_mtmanapi_8609ee77fca78eb1(ConCommon *_swig_go_0) {
 }
 
 
-intgo _wrap_DEMO_DISABLED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_DEMO_DISABLED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -2842,7 +2887,7 @@ intgo _wrap_DEMO_DISABLED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_DEMO_PROLONG_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_DEMO_PROLONG_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -2854,7 +2899,7 @@ intgo _wrap_DEMO_PROLONG_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_DEMO_FIXED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_DEMO_FIXED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -2866,7 +2911,7 @@ intgo _wrap_DEMO_FIXED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ROLLOVER_NORMAL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ROLLOVER_NORMAL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -2878,7 +2923,7 @@ intgo _wrap_ROLLOVER_NORMAL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ROLLOVER_REOPEN_BY_CLOSE_PRICE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ROLLOVER_REOPEN_BY_CLOSE_PRICE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -2890,7 +2935,7 @@ intgo _wrap_ROLLOVER_REOPEN_BY_CLOSE_PRICE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ROLLOVER_REOPEN_BY_BID_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ROLLOVER_REOPEN_BY_BID_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -2902,7 +2947,7 @@ intgo _wrap_ROLLOVER_REOPEN_BY_BID_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LIVE_UPDATE_NO_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LIVE_UPDATE_NO_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -2914,7 +2959,7 @@ intgo _wrap_LIVE_UPDATE_NO_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LIVE_UPDATE_RELEASE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LIVE_UPDATE_RELEASE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -2926,7 +2971,7 @@ intgo _wrap_LIVE_UPDATE_RELEASE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LIVE_UPDATE_NO_SERVER_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LIVE_UPDATE_NO_SERVER_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -2938,7 +2983,7 @@ intgo _wrap_LIVE_UPDATE_NO_SERVER_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LIVE_UPDATE_BETA_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LIVE_UPDATE_BETA_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -2950,7 +2995,7 @@ intgo _wrap_LIVE_UPDATE_BETA_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_STATEMENT_END_DAY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_STATEMENT_END_DAY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -2962,7 +3007,7 @@ intgo _wrap_STATEMENT_END_DAY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_STATEMENT_START_DAY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_STATEMENT_START_DAY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -2974,7 +3019,7 @@ intgo _wrap_STATEMENT_START_DAY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MONTHLY_STATEMENT_END_MONTH_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MONTHLY_STATEMENT_END_MONTH_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -2986,7 +3031,7 @@ intgo _wrap_MONTHLY_STATEMENT_END_MONTH_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MONTHLY_STATEMENT_START_MONTH_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MONTHLY_STATEMENT_START_MONTH_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -2998,7 +3043,7 @@ intgo _wrap_MONTHLY_STATEMENT_START_MONTH_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_STOP_REASON_NONE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_STOP_REASON_NONE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -3010,7 +3055,7 @@ intgo _wrap_STOP_REASON_NONE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_STOP_REASON_RESTART_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_STOP_REASON_RESTART_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -3022,7 +3067,7 @@ intgo _wrap_STOP_REASON_RESTART_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_STOP_REASON_SHUTDOWN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_STOP_REASON_SHUTDOWN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -3034,7 +3079,7 @@ intgo _wrap_STOP_REASON_SHUTDOWN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_STOP_REASON_LIVEUPDATE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_STOP_REASON_LIVEUPDATE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -3046,7 +3091,7 @@ intgo _wrap_STOP_REASON_LIVEUPDATE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_ConAccess_action_set_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConAccess_action_set_mtmanapi_7bd57f7bcf037842(ConAccess *_swig_go_0, intgo _swig_go_1) {
   ConAccess *arg1 = (ConAccess *) 0 ;
   int arg2 ;
   
@@ -3058,7 +3103,7 @@ void _wrap_ConAccess_action_set_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0,
 }
 
 
-intgo _wrap_ConAccess_action_get_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0) {
+intgo _wrap_ConAccess_action_get_mtmanapi_7bd57f7bcf037842(ConAccess *_swig_go_0) {
   ConAccess *arg1 = (ConAccess *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3071,7 +3116,7 @@ intgo _wrap_ConAccess_action_get_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0
 }
 
 
-void _wrap_ConAccess_from_set_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConAccess_from_set_mtmanapi_7bd57f7bcf037842(ConAccess *_swig_go_0, long long _swig_go_1) {
   ConAccess *arg1 = (ConAccess *) 0 ;
   unsigned long arg2 ;
   
@@ -3083,7 +3128,7 @@ void _wrap_ConAccess_from_set_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0, l
 }
 
 
-long long _wrap_ConAccess_from_get_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0) {
+long long _wrap_ConAccess_from_get_mtmanapi_7bd57f7bcf037842(ConAccess *_swig_go_0) {
   ConAccess *arg1 = (ConAccess *) 0 ;
   unsigned long result;
   long long _swig_go_result;
@@ -3096,7 +3141,7 @@ long long _wrap_ConAccess_from_get_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go
 }
 
 
-void _wrap_ConAccess_to_set_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConAccess_to_set_mtmanapi_7bd57f7bcf037842(ConAccess *_swig_go_0, long long _swig_go_1) {
   ConAccess *arg1 = (ConAccess *) 0 ;
   unsigned long arg2 ;
   
@@ -3108,7 +3153,7 @@ void _wrap_ConAccess_to_set_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0, lon
 }
 
 
-long long _wrap_ConAccess_to_get_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0) {
+long long _wrap_ConAccess_to_get_mtmanapi_7bd57f7bcf037842(ConAccess *_swig_go_0) {
   ConAccess *arg1 = (ConAccess *) 0 ;
   unsigned long result;
   long long _swig_go_result;
@@ -3121,7 +3166,7 @@ long long _wrap_ConAccess_to_get_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0
 }
 
 
-void _wrap_ConAccess_comment_set_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConAccess_comment_set_mtmanapi_7bd57f7bcf037842(ConAccess *_swig_go_0, _gostring_ _swig_go_1) {
   ConAccess *arg1 = (ConAccess *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -3145,7 +3190,7 @@ void _wrap_ConAccess_comment_set_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0
 }
 
 
-_gostring_ _wrap_ConAccess_comment_get_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0) {
+_gostring_ _wrap_ConAccess_comment_get_mtmanapi_7bd57f7bcf037842(ConAccess *_swig_go_0) {
   ConAccess *arg1 = (ConAccess *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -3158,7 +3203,7 @@ _gostring_ _wrap_ConAccess_comment_get_mtmanapi_8609ee77fca78eb1(ConAccess *_swi
 }
 
 
-void _wrap_ConAccess_reserved_set_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConAccess_reserved_set_mtmanapi_7bd57f7bcf037842(ConAccess *_swig_go_0, intgo *_swig_go_1) {
   ConAccess *arg1 = (ConAccess *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -3174,7 +3219,7 @@ void _wrap_ConAccess_reserved_set_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_
 }
 
 
-intgo *_wrap_ConAccess_reserved_get_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0) {
+intgo *_wrap_ConAccess_reserved_get_mtmanapi_7bd57f7bcf037842(ConAccess *_swig_go_0) {
   ConAccess *arg1 = (ConAccess *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -3187,7 +3232,7 @@ intgo *_wrap_ConAccess_reserved_get_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_g
 }
 
 
-ConAccess *_wrap_new_ConAccess_mtmanapi_8609ee77fca78eb1() {
+ConAccess *_wrap_new_ConAccess_mtmanapi_7bd57f7bcf037842() {
   ConAccess *result = 0 ;
   ConAccess *_swig_go_result;
   
@@ -3198,7 +3243,7 @@ ConAccess *_wrap_new_ConAccess_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConAccess_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0) {
+void _wrap_delete_ConAccess_mtmanapi_7bd57f7bcf037842(ConAccess *_swig_go_0) {
   ConAccess *arg1 = (ConAccess *) 0 ;
   
   arg1 = *(ConAccess **)&_swig_go_0; 
@@ -3208,7 +3253,7 @@ void _wrap_delete_ConAccess_mtmanapi_8609ee77fca78eb1(ConAccess *_swig_go_0) {
 }
 
 
-intgo _wrap_FW_BLOCK_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_FW_BLOCK_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -3220,7 +3265,7 @@ intgo _wrap_FW_BLOCK_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_FW_PERMIT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_FW_PERMIT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -3232,7 +3277,7 @@ intgo _wrap_FW_PERMIT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_ConDataServer_server_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConDataServer_server_set_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0, _gostring_ _swig_go_1) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -3256,7 +3301,7 @@ void _wrap_ConDataServer_server_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_sw
 }
 
 
-_gostring_ _wrap_ConDataServer_server_get_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0) {
+_gostring_ _wrap_ConDataServer_server_get_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -3269,7 +3314,7 @@ _gostring_ _wrap_ConDataServer_server_get_mtmanapi_8609ee77fca78eb1(ConDataServe
 }
 
 
-void _wrap_ConDataServer_ip_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConDataServer_ip_set_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0, long long _swig_go_1) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   ULONG arg2 ;
   
@@ -3281,7 +3326,7 @@ void _wrap_ConDataServer_ip_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_g
 }
 
 
-long long _wrap_ConDataServer_ip_get_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0) {
+long long _wrap_ConDataServer_ip_get_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   ULONG result;
   long long _swig_go_result;
@@ -3294,7 +3339,7 @@ long long _wrap_ConDataServer_ip_get_mtmanapi_8609ee77fca78eb1(ConDataServer *_s
 }
 
 
-void _wrap_ConDataServer_description_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConDataServer_description_set_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0, _gostring_ _swig_go_1) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -3318,7 +3363,7 @@ void _wrap_ConDataServer_description_set_mtmanapi_8609ee77fca78eb1(ConDataServer
 }
 
 
-_gostring_ _wrap_ConDataServer_description_get_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0) {
+_gostring_ _wrap_ConDataServer_description_get_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -3331,7 +3376,7 @@ _gostring_ _wrap_ConDataServer_description_get_mtmanapi_8609ee77fca78eb1(ConData
 }
 
 
-void _wrap_ConDataServer_isproxy_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConDataServer_isproxy_set_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0, intgo _swig_go_1) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   int arg2 ;
   
@@ -3343,7 +3388,7 @@ void _wrap_ConDataServer_isproxy_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_s
 }
 
 
-intgo _wrap_ConDataServer_isproxy_get_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0) {
+intgo _wrap_ConDataServer_isproxy_get_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3356,7 +3401,7 @@ intgo _wrap_ConDataServer_isproxy_get_mtmanapi_8609ee77fca78eb1(ConDataServer *_
 }
 
 
-void _wrap_ConDataServer_priority_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConDataServer_priority_set_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0, intgo _swig_go_1) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   int arg2 ;
   
@@ -3368,7 +3413,7 @@ void _wrap_ConDataServer_priority_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_
 }
 
 
-intgo _wrap_ConDataServer_priority_get_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0) {
+intgo _wrap_ConDataServer_priority_get_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3381,7 +3426,7 @@ intgo _wrap_ConDataServer_priority_get_mtmanapi_8609ee77fca78eb1(ConDataServer *
 }
 
 
-void _wrap_ConDataServer_loading_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConDataServer_loading_set_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0, intgo _swig_go_1) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   UINT arg2 ;
   
@@ -3393,7 +3438,7 @@ void _wrap_ConDataServer_loading_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_s
 }
 
 
-intgo _wrap_ConDataServer_loading_get_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0) {
+intgo _wrap_ConDataServer_loading_get_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -3406,7 +3451,7 @@ intgo _wrap_ConDataServer_loading_get_mtmanapi_8609ee77fca78eb1(ConDataServer *_
 }
 
 
-void _wrap_ConDataServer_ip_internal_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConDataServer_ip_internal_set_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0, long long _swig_go_1) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   ULONG arg2 ;
   
@@ -3418,7 +3463,7 @@ void _wrap_ConDataServer_ip_internal_set_mtmanapi_8609ee77fca78eb1(ConDataServer
 }
 
 
-long long _wrap_ConDataServer_ip_internal_get_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0) {
+long long _wrap_ConDataServer_ip_internal_get_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   ULONG result;
   long long _swig_go_result;
@@ -3431,7 +3476,7 @@ long long _wrap_ConDataServer_ip_internal_get_mtmanapi_8609ee77fca78eb1(ConDataS
 }
 
 
-void _wrap_ConDataServer_reserved_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConDataServer_reserved_set_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0, intgo *_swig_go_1) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -3447,7 +3492,7 @@ void _wrap_ConDataServer_reserved_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_
 }
 
 
-intgo *_wrap_ConDataServer_reserved_get_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0) {
+intgo *_wrap_ConDataServer_reserved_get_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -3460,7 +3505,7 @@ intgo *_wrap_ConDataServer_reserved_get_mtmanapi_8609ee77fca78eb1(ConDataServer 
 }
 
 
-void _wrap_ConDataServer_next_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0, ConDataServer *_swig_go_1) {
+void _wrap_ConDataServer_next_set_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0, ConDataServer *_swig_go_1) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   ConDataServer *arg2 = (ConDataServer *) 0 ;
   
@@ -3472,7 +3517,7 @@ void _wrap_ConDataServer_next_set_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig
 }
 
 
-ConDataServer *_wrap_ConDataServer_next_get_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0) {
+ConDataServer *_wrap_ConDataServer_next_get_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   ConDataServer *result = 0 ;
   ConDataServer *_swig_go_result;
@@ -3485,7 +3530,7 @@ ConDataServer *_wrap_ConDataServer_next_get_mtmanapi_8609ee77fca78eb1(ConDataSer
 }
 
 
-ConDataServer *_wrap_new_ConDataServer_mtmanapi_8609ee77fca78eb1() {
+ConDataServer *_wrap_new_ConDataServer_mtmanapi_7bd57f7bcf037842() {
   ConDataServer *result = 0 ;
   ConDataServer *_swig_go_result;
   
@@ -3496,7 +3541,7 @@ ConDataServer *_wrap_new_ConDataServer_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConDataServer_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_go_0) {
+void _wrap_delete_ConDataServer_mtmanapi_7bd57f7bcf037842(ConDataServer *_swig_go_0) {
   ConDataServer *arg1 = (ConDataServer *) 0 ;
   
   arg1 = *(ConDataServer **)&_swig_go_0; 
@@ -3506,7 +3551,7 @@ void _wrap_delete_ConDataServer_mtmanapi_8609ee77fca78eb1(ConDataServer *_swig_g
 }
 
 
-void _wrap_ConTime_days_set_mtmanapi_8609ee77fca78eb1(ConTime *_swig_go_0, intgo **_swig_go_1) {
+void _wrap_ConTime_days_set_mtmanapi_7bd57f7bcf037842(ConTime *_swig_go_0, intgo **_swig_go_1) {
   ConTime *arg1 = (ConTime *) 0 ;
   int (*arg2)[24] = (int (*)[24]) (int (*)[24])0 ;
   
@@ -3528,7 +3573,7 @@ void _wrap_ConTime_days_set_mtmanapi_8609ee77fca78eb1(ConTime *_swig_go_0, intgo
 }
 
 
-intgo **_wrap_ConTime_days_get_mtmanapi_8609ee77fca78eb1(ConTime *_swig_go_0) {
+intgo **_wrap_ConTime_days_get_mtmanapi_7bd57f7bcf037842(ConTime *_swig_go_0) {
   ConTime *arg1 = (ConTime *) 0 ;
   int (*result)[24] = 0 ;
   intgo **_swig_go_result;
@@ -3541,7 +3586,7 @@ intgo **_wrap_ConTime_days_get_mtmanapi_8609ee77fca78eb1(ConTime *_swig_go_0) {
 }
 
 
-void _wrap_ConTime_dayscontrol_set_mtmanapi_8609ee77fca78eb1(ConTime *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConTime_dayscontrol_set_mtmanapi_7bd57f7bcf037842(ConTime *_swig_go_0, intgo _swig_go_1) {
   ConTime *arg1 = (ConTime *) 0 ;
   int arg2 ;
   
@@ -3553,7 +3598,7 @@ void _wrap_ConTime_dayscontrol_set_mtmanapi_8609ee77fca78eb1(ConTime *_swig_go_0
 }
 
 
-intgo _wrap_ConTime_dayscontrol_get_mtmanapi_8609ee77fca78eb1(ConTime *_swig_go_0) {
+intgo _wrap_ConTime_dayscontrol_get_mtmanapi_7bd57f7bcf037842(ConTime *_swig_go_0) {
   ConTime *arg1 = (ConTime *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3566,7 +3611,7 @@ intgo _wrap_ConTime_dayscontrol_get_mtmanapi_8609ee77fca78eb1(ConTime *_swig_go_
 }
 
 
-void _wrap_ConTime_reserved_set_mtmanapi_8609ee77fca78eb1(ConTime *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConTime_reserved_set_mtmanapi_7bd57f7bcf037842(ConTime *_swig_go_0, intgo *_swig_go_1) {
   ConTime *arg1 = (ConTime *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -3582,7 +3627,7 @@ void _wrap_ConTime_reserved_set_mtmanapi_8609ee77fca78eb1(ConTime *_swig_go_0, i
 }
 
 
-intgo *_wrap_ConTime_reserved_get_mtmanapi_8609ee77fca78eb1(ConTime *_swig_go_0) {
+intgo *_wrap_ConTime_reserved_get_mtmanapi_7bd57f7bcf037842(ConTime *_swig_go_0) {
   ConTime *arg1 = (ConTime *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -3595,7 +3640,7 @@ intgo *_wrap_ConTime_reserved_get_mtmanapi_8609ee77fca78eb1(ConTime *_swig_go_0)
 }
 
 
-ConTime *_wrap_new_ConTime_mtmanapi_8609ee77fca78eb1() {
+ConTime *_wrap_new_ConTime_mtmanapi_7bd57f7bcf037842() {
   ConTime *result = 0 ;
   ConTime *_swig_go_result;
   
@@ -3606,7 +3651,7 @@ ConTime *_wrap_new_ConTime_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConTime_mtmanapi_8609ee77fca78eb1(ConTime *_swig_go_0) {
+void _wrap_delete_ConTime_mtmanapi_7bd57f7bcf037842(ConTime *_swig_go_0) {
   ConTime *arg1 = (ConTime *) 0 ;
   
   arg1 = *(ConTime **)&_swig_go_0; 
@@ -3616,7 +3661,7 @@ void _wrap_delete_ConTime_mtmanapi_8609ee77fca78eb1(ConTime *_swig_go_0) {
 }
 
 
-void _wrap_ConBackup_fullbackup_path_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConBackup_fullbackup_path_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, _gostring_ _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -3640,7 +3685,7 @@ void _wrap_ConBackup_fullbackup_path_set_mtmanapi_8609ee77fca78eb1(ConBackup *_s
 }
 
 
-_gostring_ _wrap_ConBackup_fullbackup_path_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+_gostring_ _wrap_ConBackup_fullbackup_path_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -3653,7 +3698,7 @@ _gostring_ _wrap_ConBackup_fullbackup_path_get_mtmanapi_8609ee77fca78eb1(ConBack
 }
 
 
-void _wrap_ConBackup_fullbackup_period_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConBackup_fullbackup_period_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, intgo _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int arg2 ;
   
@@ -3665,7 +3710,7 @@ void _wrap_ConBackup_fullbackup_period_set_mtmanapi_8609ee77fca78eb1(ConBackup *
 }
 
 
-intgo _wrap_ConBackup_fullbackup_period_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+intgo _wrap_ConBackup_fullbackup_period_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3678,7 +3723,7 @@ intgo _wrap_ConBackup_fullbackup_period_get_mtmanapi_8609ee77fca78eb1(ConBackup 
 }
 
 
-void _wrap_ConBackup_fullbackup_store_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConBackup_fullbackup_store_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, intgo _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int arg2 ;
   
@@ -3690,7 +3735,7 @@ void _wrap_ConBackup_fullbackup_store_set_mtmanapi_8609ee77fca78eb1(ConBackup *_
 }
 
 
-intgo _wrap_ConBackup_fullbackup_store_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+intgo _wrap_ConBackup_fullbackup_store_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3703,32 +3748,39 @@ intgo _wrap_ConBackup_fullbackup_store_get_mtmanapi_8609ee77fca78eb1(ConBackup *
 }
 
 
-void _wrap_ConBackup_fullbackup_lasttime_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConBackup_fullbackup_lasttime_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, time_t *_swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->fullbackup_lasttime = arg2;
   
 }
 
 
-long long _wrap_ConBackup_fullbackup_lasttime_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+time_t *_wrap_ConBackup_fullbackup_lasttime_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->fullbackup_lasttime);
-  _swig_go_result = result; 
+  result =  ((arg1)->fullbackup_lasttime);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ConBackup_fullbackup_shift_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, short _swig_go_1) {
+void _wrap_ConBackup_fullbackup_shift_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, short _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   short arg2 ;
   
@@ -3740,7 +3792,7 @@ void _wrap_ConBackup_fullbackup_shift_set_mtmanapi_8609ee77fca78eb1(ConBackup *_
 }
 
 
-short _wrap_ConBackup_fullbackup_shift_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+short _wrap_ConBackup_fullbackup_shift_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   short result;
   short _swig_go_result;
@@ -3753,7 +3805,7 @@ short _wrap_ConBackup_fullbackup_shift_get_mtmanapi_8609ee77fca78eb1(ConBackup *
 }
 
 
-void _wrap_ConBackup_external_path_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConBackup_external_path_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, _gostring_ _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -3777,7 +3829,7 @@ void _wrap_ConBackup_external_path_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swi
 }
 
 
-_gostring_ _wrap_ConBackup_external_path_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+_gostring_ _wrap_ConBackup_external_path_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -3790,7 +3842,7 @@ _gostring_ _wrap_ConBackup_external_path_get_mtmanapi_8609ee77fca78eb1(ConBackup
 }
 
 
-void _wrap_ConBackup_archive_period_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConBackup_archive_period_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, intgo _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int arg2 ;
   
@@ -3802,7 +3854,7 @@ void _wrap_ConBackup_archive_period_set_mtmanapi_8609ee77fca78eb1(ConBackup *_sw
 }
 
 
-intgo _wrap_ConBackup_archive_period_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+intgo _wrap_ConBackup_archive_period_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3815,7 +3867,7 @@ intgo _wrap_ConBackup_archive_period_get_mtmanapi_8609ee77fca78eb1(ConBackup *_s
 }
 
 
-void _wrap_ConBackup_archive_store_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConBackup_archive_store_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, intgo _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int arg2 ;
   
@@ -3827,7 +3879,7 @@ void _wrap_ConBackup_archive_store_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swi
 }
 
 
-intgo _wrap_ConBackup_archive_store_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+intgo _wrap_ConBackup_archive_store_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3840,32 +3892,39 @@ intgo _wrap_ConBackup_archive_store_get_mtmanapi_8609ee77fca78eb1(ConBackup *_sw
 }
 
 
-void _wrap_ConBackup_archive_lasttime_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConBackup_archive_lasttime_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, time_t *_swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->archive_lasttime = arg2;
   
 }
 
 
-long long _wrap_ConBackup_archive_lasttime_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+time_t *_wrap_ConBackup_archive_lasttime_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->archive_lasttime);
-  _swig_go_result = result; 
+  result =  ((arg1)->archive_lasttime);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ConBackup_export_securities_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConBackup_export_securities_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, _gostring_ _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -3889,7 +3948,7 @@ void _wrap_ConBackup_export_securities_set_mtmanapi_8609ee77fca78eb1(ConBackup *
 }
 
 
-_gostring_ _wrap_ConBackup_export_securities_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+_gostring_ _wrap_ConBackup_export_securities_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -3902,7 +3961,7 @@ _gostring_ _wrap_ConBackup_export_securities_get_mtmanapi_8609ee77fca78eb1(ConBa
 }
 
 
-void _wrap_ConBackup_export_path_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConBackup_export_path_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, _gostring_ _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -3926,7 +3985,7 @@ void _wrap_ConBackup_export_path_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_
 }
 
 
-_gostring_ _wrap_ConBackup_export_path_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+_gostring_ _wrap_ConBackup_export_path_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -3939,7 +3998,7 @@ _gostring_ _wrap_ConBackup_export_path_get_mtmanapi_8609ee77fca78eb1(ConBackup *
 }
 
 
-void _wrap_ConBackup_export_period_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConBackup_export_period_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, intgo _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int arg2 ;
   
@@ -3951,7 +4010,7 @@ void _wrap_ConBackup_export_period_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swi
 }
 
 
-intgo _wrap_ConBackup_export_period_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+intgo _wrap_ConBackup_export_period_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3964,32 +4023,39 @@ intgo _wrap_ConBackup_export_period_get_mtmanapi_8609ee77fca78eb1(ConBackup *_sw
 }
 
 
-void _wrap_ConBackup_export_lasttime_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConBackup_export_lasttime_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, time_t *_swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->export_lasttime = arg2;
   
 }
 
 
-long long _wrap_ConBackup_export_lasttime_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+time_t *_wrap_ConBackup_export_lasttime_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->export_lasttime);
-  _swig_go_result = result; 
+  result =  ((arg1)->export_lasttime);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ConBackup_watch_role_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConBackup_watch_role_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, intgo _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int arg2 ;
   
@@ -4001,7 +4067,7 @@ void _wrap_ConBackup_watch_role_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_g
 }
 
 
-intgo _wrap_ConBackup_watch_role_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+intgo _wrap_ConBackup_watch_role_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -4014,7 +4080,7 @@ intgo _wrap_ConBackup_watch_role_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_
 }
 
 
-void _wrap_ConBackup_watch_password_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConBackup_watch_password_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, _gostring_ _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -4038,7 +4104,7 @@ void _wrap_ConBackup_watch_password_set_mtmanapi_8609ee77fca78eb1(ConBackup *_sw
 }
 
 
-_gostring_ _wrap_ConBackup_watch_password_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+_gostring_ _wrap_ConBackup_watch_password_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -4051,7 +4117,7 @@ _gostring_ _wrap_ConBackup_watch_password_get_mtmanapi_8609ee77fca78eb1(ConBacku
 }
 
 
-void _wrap_ConBackup_watch_opposite_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConBackup_watch_opposite_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, _gostring_ _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -4075,7 +4141,7 @@ void _wrap_ConBackup_watch_opposite_set_mtmanapi_8609ee77fca78eb1(ConBackup *_sw
 }
 
 
-_gostring_ _wrap_ConBackup_watch_opposite_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+_gostring_ _wrap_ConBackup_watch_opposite_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -4088,7 +4154,7 @@ _gostring_ _wrap_ConBackup_watch_opposite_get_mtmanapi_8609ee77fca78eb1(ConBacku
 }
 
 
-void _wrap_ConBackup_watch_ip_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConBackup_watch_ip_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, intgo _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int arg2 ;
   
@@ -4100,7 +4166,7 @@ void _wrap_ConBackup_watch_ip_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_
 }
 
 
-intgo _wrap_ConBackup_watch_ip_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+intgo _wrap_ConBackup_watch_ip_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -4113,7 +4179,7 @@ intgo _wrap_ConBackup_watch_ip_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go
 }
 
 
-void _wrap_ConBackup_archive_shift_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, char _swig_go_1) {
+void _wrap_ConBackup_archive_shift_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, char _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char arg2 ;
   
@@ -4125,7 +4191,7 @@ void _wrap_ConBackup_archive_shift_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swi
 }
 
 
-char _wrap_ConBackup_archive_shift_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+char _wrap_ConBackup_archive_shift_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char result;
   char _swig_go_result;
@@ -4138,7 +4204,7 @@ char _wrap_ConBackup_archive_shift_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swi
 }
 
 
-void _wrap_ConBackup_watch_state_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, char _swig_go_1) {
+void _wrap_ConBackup_watch_state_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, char _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char arg2 ;
   
@@ -4150,7 +4216,7 @@ void _wrap_ConBackup_watch_state_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_
 }
 
 
-char _wrap_ConBackup_watch_state_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+char _wrap_ConBackup_watch_state_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char result;
   char _swig_go_result;
@@ -4163,7 +4229,7 @@ char _wrap_ConBackup_watch_state_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_
 }
 
 
-void _wrap_ConBackup_watch_failover_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, char _swig_go_1) {
+void _wrap_ConBackup_watch_failover_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, char _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char arg2 ;
   
@@ -4175,7 +4241,7 @@ void _wrap_ConBackup_watch_failover_set_mtmanapi_8609ee77fca78eb1(ConBackup *_sw
 }
 
 
-char _wrap_ConBackup_watch_failover_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+char _wrap_ConBackup_watch_failover_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   char result;
   char _swig_go_result;
@@ -4188,7 +4254,7 @@ char _wrap_ConBackup_watch_failover_get_mtmanapi_8609ee77fca78eb1(ConBackup *_sw
 }
 
 
-void _wrap_ConBackup_watch_timeout_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, char _swig_go_1) {
+void _wrap_ConBackup_watch_timeout_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, char _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   unsigned char arg2 ;
   
@@ -4200,7 +4266,7 @@ void _wrap_ConBackup_watch_timeout_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swi
 }
 
 
-char _wrap_ConBackup_watch_timeout_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+char _wrap_ConBackup_watch_timeout_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   unsigned char result;
   char _swig_go_result;
@@ -4213,7 +4279,7 @@ char _wrap_ConBackup_watch_timeout_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swi
 }
 
 
-void _wrap_ConBackup_watch_login_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConBackup_watch_login_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, intgo _swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int arg2 ;
   
@@ -4225,7 +4291,7 @@ void _wrap_ConBackup_watch_login_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_
 }
 
 
-intgo _wrap_ConBackup_watch_login_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+intgo _wrap_ConBackup_watch_login_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -4238,32 +4304,39 @@ intgo _wrap_ConBackup_watch_login_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig
 }
 
 
-void _wrap_ConBackup_watch_timestamp_set_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConBackup_watch_timestamp_set_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0, time_t *_swig_go_1) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->watch_timestamp = arg2;
   
 }
 
 
-long long _wrap_ConBackup_watch_timestamp_get_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+time_t *_wrap_ConBackup_watch_timestamp_get_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->watch_timestamp);
-  _swig_go_result = result; 
+  result =  ((arg1)->watch_timestamp);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-ConBackup *_wrap_new_ConBackup_mtmanapi_8609ee77fca78eb1() {
+ConBackup *_wrap_new_ConBackup_mtmanapi_7bd57f7bcf037842() {
   ConBackup *result = 0 ;
   ConBackup *_swig_go_result;
   
@@ -4274,7 +4347,7 @@ ConBackup *_wrap_new_ConBackup_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConBackup_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
+void _wrap_delete_ConBackup_mtmanapi_7bd57f7bcf037842(ConBackup *_swig_go_0) {
   ConBackup *arg1 = (ConBackup *) 0 ;
   
   arg1 = *(ConBackup **)&_swig_go_0; 
@@ -4284,7 +4357,7 @@ void _wrap_delete_ConBackup_mtmanapi_8609ee77fca78eb1(ConBackup *_swig_go_0) {
 }
 
 
-intgo _wrap_WATCH_STAND_ALONE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_WATCH_STAND_ALONE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4296,7 +4369,7 @@ intgo _wrap_WATCH_STAND_ALONE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_WATCH_MASTER_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_WATCH_MASTER_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4308,7 +4381,7 @@ intgo _wrap_WATCH_MASTER_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_WATCH_SLAVE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_WATCH_SLAVE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4320,7 +4393,7 @@ intgo _wrap_WATCH_SLAVE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_BACKUP_1HOUR_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_BACKUP_1HOUR_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4332,7 +4405,7 @@ intgo _wrap_BACKUP_1HOUR_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_BACKUP_4HOURS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_BACKUP_4HOURS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4344,7 +4417,7 @@ intgo _wrap_BACKUP_4HOURS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_BACKUP_1DAY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_BACKUP_1DAY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4356,7 +4429,7 @@ intgo _wrap_BACKUP_1DAY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_BU_STORE_1MONTH_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_BU_STORE_1MONTH_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4368,7 +4441,7 @@ intgo _wrap_BU_STORE_1MONTH_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_BU_STORE_3MONTHS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_BU_STORE_3MONTHS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4380,7 +4453,7 @@ intgo _wrap_BU_STORE_3MONTHS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_BU_STORE_6MONTHS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_BU_STORE_6MONTHS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4392,7 +4465,7 @@ intgo _wrap_BU_STORE_6MONTHS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_BU_STORE_1YEAR_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_BU_STORE_1YEAR_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4404,7 +4477,7 @@ intgo _wrap_BU_STORE_1YEAR_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ARC_BACKUP_DISABLED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ARC_BACKUP_DISABLED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4416,7 +4489,7 @@ intgo _wrap_ARC_BACKUP_DISABLED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ARC_BACKUP_5MIN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ARC_BACKUP_5MIN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4428,7 +4501,7 @@ intgo _wrap_ARC_BACKUP_5MIN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ARC_BACKUP_15MIN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ARC_BACKUP_15MIN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4440,7 +4513,7 @@ intgo _wrap_ARC_BACKUP_15MIN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ARC_BACKUP_30MIN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ARC_BACKUP_30MIN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4452,7 +4525,7 @@ intgo _wrap_ARC_BACKUP_30MIN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ARC_BACKUP_1HOUR_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ARC_BACKUP_1HOUR_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4464,7 +4537,7 @@ intgo _wrap_ARC_BACKUP_1HOUR_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ARC_STORE_1DAY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ARC_STORE_1DAY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4476,7 +4549,7 @@ intgo _wrap_ARC_STORE_1DAY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ARC_STORE_3DAYS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ARC_STORE_3DAYS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4488,7 +4561,7 @@ intgo _wrap_ARC_STORE_3DAYS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ARC_STORE_1WEEK_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ARC_STORE_1WEEK_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4500,7 +4573,7 @@ intgo _wrap_ARC_STORE_1WEEK_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ARC_STORE_2WEEKS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ARC_STORE_2WEEKS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4512,7 +4585,7 @@ intgo _wrap_ARC_STORE_2WEEKS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ARC_STORE_1MONTH_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ARC_STORE_1MONTH_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4524,7 +4597,7 @@ intgo _wrap_ARC_STORE_1MONTH_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ARC_STORE_3MONTH_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ARC_STORE_3MONTH_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4536,7 +4609,7 @@ intgo _wrap_ARC_STORE_3MONTH_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ARC_STORE_6MONTH_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ARC_STORE_6MONTH_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4548,7 +4621,7 @@ intgo _wrap_ARC_STORE_6MONTH_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_EXPORT_1MIN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_EXPORT_1MIN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4560,7 +4633,7 @@ intgo _wrap_EXPORT_1MIN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_EXPORT_5MIN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_EXPORT_5MIN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4572,7 +4645,7 @@ intgo _wrap_EXPORT_5MIN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_EXPORT_15MIN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_EXPORT_15MIN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4584,7 +4657,7 @@ intgo _wrap_EXPORT_15MIN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_EXPORT_30MIN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_EXPORT_30MIN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4596,7 +4669,7 @@ intgo _wrap_EXPORT_30MIN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_EXPORT_1HOUR_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_EXPORT_1HOUR_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4608,7 +4681,7 @@ intgo _wrap_EXPORT_1HOUR_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_WS_DISCONNECTED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_WS_DISCONNECTED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4620,7 +4693,7 @@ intgo _wrap_WS_DISCONNECTED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_WS_SYNCHRONIZING_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_WS_SYNCHRONIZING_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4632,7 +4705,7 @@ intgo _wrap_WS_SYNCHRONIZING_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_WS_SYNCHRONIZED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_WS_SYNCHRONIZED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4644,7 +4717,7 @@ intgo _wrap_WS_SYNCHRONIZED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_FAILOVER_OFF_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_FAILOVER_OFF_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4656,7 +4729,7 @@ intgo _wrap_FAILOVER_OFF_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_FAILOVER_MOST_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_FAILOVER_MOST_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4668,7 +4741,7 @@ intgo _wrap_FAILOVER_MOST_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_FAILOVER_FULL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_FAILOVER_FULL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -4680,7 +4753,7 @@ intgo _wrap_FAILOVER_FULL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_ConFeeder_name_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConFeeder_name_set_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0, _gostring_ _swig_go_1) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -4704,7 +4777,7 @@ void _wrap_ConFeeder_name_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, _
 }
 
 
-_gostring_ _wrap_ConFeeder_name_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
+_gostring_ _wrap_ConFeeder_name_get_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -4717,7 +4790,7 @@ _gostring_ _wrap_ConFeeder_name_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_g
 }
 
 
-void _wrap_ConFeeder_file_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConFeeder_file_set_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0, _gostring_ _swig_go_1) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -4741,7 +4814,7 @@ void _wrap_ConFeeder_file_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, _
 }
 
 
-_gostring_ _wrap_ConFeeder_file_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
+_gostring_ _wrap_ConFeeder_file_get_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -4754,7 +4827,7 @@ _gostring_ _wrap_ConFeeder_file_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_g
 }
 
 
-void _wrap_ConFeeder_server_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConFeeder_server_set_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0, _gostring_ _swig_go_1) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -4778,7 +4851,7 @@ void _wrap_ConFeeder_server_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0,
 }
 
 
-_gostring_ _wrap_ConFeeder_server_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
+_gostring_ _wrap_ConFeeder_server_get_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -4791,7 +4864,7 @@ _gostring_ _wrap_ConFeeder_server_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig
 }
 
 
-void _wrap_ConFeeder_login_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConFeeder_login_set_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0, _gostring_ _swig_go_1) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -4815,7 +4888,7 @@ void _wrap_ConFeeder_login_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, 
 }
 
 
-_gostring_ _wrap_ConFeeder_login_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
+_gostring_ _wrap_ConFeeder_login_get_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -4828,7 +4901,7 @@ _gostring_ _wrap_ConFeeder_login_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_
 }
 
 
-void _wrap_ConFeeder_pass_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConFeeder_pass_set_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0, _gostring_ _swig_go_1) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -4852,7 +4925,7 @@ void _wrap_ConFeeder_pass_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, _
 }
 
 
-_gostring_ _wrap_ConFeeder_pass_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
+_gostring_ _wrap_ConFeeder_pass_get_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -4865,7 +4938,7 @@ _gostring_ _wrap_ConFeeder_pass_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_g
 }
 
 
-void _wrap_ConFeeder_keywords_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConFeeder_keywords_set_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0, _gostring_ _swig_go_1) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -4889,7 +4962,7 @@ void _wrap_ConFeeder_keywords_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_
 }
 
 
-_gostring_ _wrap_ConFeeder_keywords_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
+_gostring_ _wrap_ConFeeder_keywords_get_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -4902,7 +4975,7 @@ _gostring_ _wrap_ConFeeder_keywords_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_sw
 }
 
 
-void _wrap_ConFeeder_enable_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConFeeder_enable_set_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0, intgo _swig_go_1) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int arg2 ;
   
@@ -4914,7 +4987,7 @@ void _wrap_ConFeeder_enable_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0,
 }
 
 
-intgo _wrap_ConFeeder_enable_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
+intgo _wrap_ConFeeder_enable_get_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -4927,7 +5000,7 @@ intgo _wrap_ConFeeder_enable_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0
 }
 
 
-void _wrap_ConFeeder_mode_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConFeeder_mode_set_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0, intgo _swig_go_1) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int arg2 ;
   
@@ -4939,7 +5012,7 @@ void _wrap_ConFeeder_mode_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, i
 }
 
 
-intgo _wrap_ConFeeder_mode_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
+intgo _wrap_ConFeeder_mode_get_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -4952,7 +5025,7 @@ intgo _wrap_ConFeeder_mode_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) 
 }
 
 
-void _wrap_ConFeeder_timeout_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConFeeder_timeout_set_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0, intgo _swig_go_1) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int arg2 ;
   
@@ -4964,7 +5037,7 @@ void _wrap_ConFeeder_timeout_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0
 }
 
 
-intgo _wrap_ConFeeder_timeout_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
+intgo _wrap_ConFeeder_timeout_get_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -4977,7 +5050,7 @@ intgo _wrap_ConFeeder_timeout_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_
 }
 
 
-void _wrap_ConFeeder_timeout_reconnect_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConFeeder_timeout_reconnect_set_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0, intgo _swig_go_1) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int arg2 ;
   
@@ -4989,7 +5062,7 @@ void _wrap_ConFeeder_timeout_reconnect_set_mtmanapi_8609ee77fca78eb1(ConFeeder *
 }
 
 
-intgo _wrap_ConFeeder_timeout_reconnect_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
+intgo _wrap_ConFeeder_timeout_reconnect_get_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5002,7 +5075,7 @@ intgo _wrap_ConFeeder_timeout_reconnect_get_mtmanapi_8609ee77fca78eb1(ConFeeder 
 }
 
 
-void _wrap_ConFeeder_timeout_sleep_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConFeeder_timeout_sleep_set_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0, intgo _swig_go_1) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int arg2 ;
   
@@ -5014,7 +5087,7 @@ void _wrap_ConFeeder_timeout_sleep_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swi
 }
 
 
-intgo _wrap_ConFeeder_timeout_sleep_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
+intgo _wrap_ConFeeder_timeout_sleep_get_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5027,7 +5100,7 @@ intgo _wrap_ConFeeder_timeout_sleep_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_sw
 }
 
 
-void _wrap_ConFeeder_attemps_sleep_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConFeeder_attemps_sleep_set_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0, intgo _swig_go_1) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int arg2 ;
   
@@ -5039,7 +5112,7 @@ void _wrap_ConFeeder_attemps_sleep_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swi
 }
 
 
-intgo _wrap_ConFeeder_attemps_sleep_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
+intgo _wrap_ConFeeder_attemps_sleep_get_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5052,7 +5125,7 @@ intgo _wrap_ConFeeder_attemps_sleep_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_sw
 }
 
 
-void _wrap_ConFeeder_news_langid_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConFeeder_news_langid_set_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0, intgo _swig_go_1) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int arg2 ;
   
@@ -5064,7 +5137,7 @@ void _wrap_ConFeeder_news_langid_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_
 }
 
 
-intgo _wrap_ConFeeder_news_langid_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
+intgo _wrap_ConFeeder_news_langid_get_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5077,7 +5150,7 @@ intgo _wrap_ConFeeder_news_langid_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig
 }
 
 
-void _wrap_ConFeeder_unused_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConFeeder_unused_set_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0, intgo *_swig_go_1) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -5093,7 +5166,7 @@ void _wrap_ConFeeder_unused_set_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0,
 }
 
 
-intgo *_wrap_ConFeeder_unused_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
+intgo *_wrap_ConFeeder_unused_get_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -5106,7 +5179,7 @@ intgo *_wrap_ConFeeder_unused_get_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_
 }
 
 
-ConFeeder *_wrap_new_ConFeeder_mtmanapi_8609ee77fca78eb1() {
+ConFeeder *_wrap_new_ConFeeder_mtmanapi_7bd57f7bcf037842() {
   ConFeeder *result = 0 ;
   ConFeeder *_swig_go_result;
   
@@ -5117,7 +5190,7 @@ ConFeeder *_wrap_new_ConFeeder_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConFeeder_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
+void _wrap_delete_ConFeeder_mtmanapi_7bd57f7bcf037842(ConFeeder *_swig_go_0) {
   ConFeeder *arg1 = (ConFeeder *) 0 ;
   
   arg1 = *(ConFeeder **)&_swig_go_0; 
@@ -5127,7 +5200,7 @@ void _wrap_delete_ConFeeder_mtmanapi_8609ee77fca78eb1(ConFeeder *_swig_go_0) {
 }
 
 
-intgo _wrap_FEED_QUOTES_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_FEED_QUOTES_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -5139,7 +5212,7 @@ intgo _wrap_FEED_QUOTES_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_FEED_NEWS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_FEED_NEWS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -5151,7 +5224,7 @@ intgo _wrap_FEED_NEWS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_FEED_QUOTESNEWS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_FEED_QUOTESNEWS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -5163,7 +5236,7 @@ intgo _wrap_FEED_QUOTESNEWS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MAX_SEC_GROUPS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MAX_SEC_GROUPS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -5174,7 +5247,7 @@ intgo _wrap_MAX_SEC_GROUPS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MAX_SEC_GROPS_MARGIN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MAX_SEC_GROPS_MARGIN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -5185,7 +5258,7 @@ intgo _wrap_MAX_SEC_GROPS_MARGIN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_ConGroupSec_show_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_show_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5197,7 +5270,7 @@ void _wrap_ConGroupSec_show_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_
 }
 
 
-intgo _wrap_ConGroupSec_show_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_show_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5210,7 +5283,7 @@ intgo _wrap_ConGroupSec_show_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go
 }
 
 
-void _wrap_ConGroupSec_trade_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_trade_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5222,7 +5295,7 @@ void _wrap_ConGroupSec_trade_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go
 }
 
 
-intgo _wrap_ConGroupSec_trade_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_trade_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5235,7 +5308,7 @@ intgo _wrap_ConGroupSec_trade_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_g
 }
 
 
-void _wrap_ConGroupSec_execution_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_execution_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5247,7 +5320,7 @@ void _wrap_ConGroupSec_execution_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swi
 }
 
 
-intgo _wrap_ConGroupSec_execution_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_execution_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5260,7 +5333,7 @@ intgo _wrap_ConGroupSec_execution_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_sw
 }
 
 
-void _wrap_ConGroupSec_comm_base_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, double _swig_go_1) {
+void _wrap_ConGroupSec_comm_base_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, double _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   double arg2 ;
   
@@ -5272,7 +5345,7 @@ void _wrap_ConGroupSec_comm_base_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swi
 }
 
 
-double _wrap_ConGroupSec_comm_base_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+double _wrap_ConGroupSec_comm_base_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   double result;
   double _swig_go_result;
@@ -5285,7 +5358,7 @@ double _wrap_ConGroupSec_comm_base_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_s
 }
 
 
-void _wrap_ConGroupSec_comm_type_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_comm_type_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5297,7 +5370,7 @@ void _wrap_ConGroupSec_comm_type_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swi
 }
 
 
-intgo _wrap_ConGroupSec_comm_type_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_comm_type_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5310,7 +5383,7 @@ intgo _wrap_ConGroupSec_comm_type_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_sw
 }
 
 
-void _wrap_ConGroupSec_comm_lots_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_comm_lots_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5322,7 +5395,7 @@ void _wrap_ConGroupSec_comm_lots_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swi
 }
 
 
-intgo _wrap_ConGroupSec_comm_lots_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_comm_lots_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5335,7 +5408,7 @@ intgo _wrap_ConGroupSec_comm_lots_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_sw
 }
 
 
-void _wrap_ConGroupSec_comm_agent_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, double _swig_go_1) {
+void _wrap_ConGroupSec_comm_agent_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, double _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   double arg2 ;
   
@@ -5347,7 +5420,7 @@ void _wrap_ConGroupSec_comm_agent_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_sw
 }
 
 
-double _wrap_ConGroupSec_comm_agent_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+double _wrap_ConGroupSec_comm_agent_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   double result;
   double _swig_go_result;
@@ -5360,7 +5433,7 @@ double _wrap_ConGroupSec_comm_agent_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_
 }
 
 
-void _wrap_ConGroupSec_comm_agent_type_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_comm_agent_type_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5372,7 +5445,7 @@ void _wrap_ConGroupSec_comm_agent_type_set_mtmanapi_8609ee77fca78eb1(ConGroupSec
 }
 
 
-intgo _wrap_ConGroupSec_comm_agent_type_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_comm_agent_type_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5385,7 +5458,7 @@ intgo _wrap_ConGroupSec_comm_agent_type_get_mtmanapi_8609ee77fca78eb1(ConGroupSe
 }
 
 
-void _wrap_ConGroupSec_spread_diff_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_spread_diff_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5397,7 +5470,7 @@ void _wrap_ConGroupSec_spread_diff_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_s
 }
 
 
-intgo _wrap_ConGroupSec_spread_diff_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_spread_diff_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5410,7 +5483,7 @@ intgo _wrap_ConGroupSec_spread_diff_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_
 }
 
 
-void _wrap_ConGroupSec_lot_min_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_lot_min_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5422,7 +5495,7 @@ void _wrap_ConGroupSec_lot_min_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_
 }
 
 
-intgo _wrap_ConGroupSec_lot_min_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_lot_min_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5435,7 +5508,7 @@ intgo _wrap_ConGroupSec_lot_min_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig
 }
 
 
-void _wrap_ConGroupSec_lot_max_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_lot_max_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5447,7 +5520,7 @@ void _wrap_ConGroupSec_lot_max_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_
 }
 
 
-intgo _wrap_ConGroupSec_lot_max_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_lot_max_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5460,7 +5533,7 @@ intgo _wrap_ConGroupSec_lot_max_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig
 }
 
 
-void _wrap_ConGroupSec_lot_step_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_lot_step_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5472,7 +5545,7 @@ void _wrap_ConGroupSec_lot_step_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig
 }
 
 
-intgo _wrap_ConGroupSec_lot_step_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_lot_step_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5485,7 +5558,7 @@ intgo _wrap_ConGroupSec_lot_step_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swi
 }
 
 
-void _wrap_ConGroupSec_ie_deviation_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_ie_deviation_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5497,7 +5570,7 @@ void _wrap_ConGroupSec_ie_deviation_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_
 }
 
 
-intgo _wrap_ConGroupSec_ie_deviation_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_ie_deviation_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5510,7 +5583,7 @@ intgo _wrap_ConGroupSec_ie_deviation_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *
 }
 
 
-void _wrap_ConGroupSec_confirmation_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_confirmation_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5522,7 +5595,7 @@ void _wrap_ConGroupSec_confirmation_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_
 }
 
 
-intgo _wrap_ConGroupSec_confirmation_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_confirmation_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5535,7 +5608,7 @@ intgo _wrap_ConGroupSec_confirmation_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *
 }
 
 
-void _wrap_ConGroupSec_trade_rights_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_trade_rights_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5547,7 +5620,7 @@ void _wrap_ConGroupSec_trade_rights_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_
 }
 
 
-intgo _wrap_ConGroupSec_trade_rights_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_trade_rights_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5560,7 +5633,7 @@ intgo _wrap_ConGroupSec_trade_rights_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *
 }
 
 
-void _wrap_ConGroupSec_ie_quick_mode_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_ie_quick_mode_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5572,7 +5645,7 @@ void _wrap_ConGroupSec_ie_quick_mode_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *
 }
 
 
-intgo _wrap_ConGroupSec_ie_quick_mode_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_ie_quick_mode_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5585,7 +5658,7 @@ intgo _wrap_ConGroupSec_ie_quick_mode_get_mtmanapi_8609ee77fca78eb1(ConGroupSec 
 }
 
 
-void _wrap_ConGroupSec_autocloseout_mode_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_autocloseout_mode_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5597,7 +5670,7 @@ void _wrap_ConGroupSec_autocloseout_mode_set_mtmanapi_8609ee77fca78eb1(ConGroupS
 }
 
 
-intgo _wrap_ConGroupSec_autocloseout_mode_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_autocloseout_mode_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5610,7 +5683,7 @@ intgo _wrap_ConGroupSec_autocloseout_mode_get_mtmanapi_8609ee77fca78eb1(ConGroup
 }
 
 
-void _wrap_ConGroupSec_comm_tax_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, double _swig_go_1) {
+void _wrap_ConGroupSec_comm_tax_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, double _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   double arg2 ;
   
@@ -5622,7 +5695,7 @@ void _wrap_ConGroupSec_comm_tax_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig
 }
 
 
-double _wrap_ConGroupSec_comm_tax_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+double _wrap_ConGroupSec_comm_tax_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   double result;
   double _swig_go_result;
@@ -5635,7 +5708,7 @@ double _wrap_ConGroupSec_comm_tax_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_sw
 }
 
 
-void _wrap_ConGroupSec_comm_agent_lots_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_comm_agent_lots_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5647,7 +5720,7 @@ void _wrap_ConGroupSec_comm_agent_lots_set_mtmanapi_8609ee77fca78eb1(ConGroupSec
 }
 
 
-intgo _wrap_ConGroupSec_comm_agent_lots_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_comm_agent_lots_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5660,7 +5733,7 @@ intgo _wrap_ConGroupSec_comm_agent_lots_get_mtmanapi_8609ee77fca78eb1(ConGroupSe
 }
 
 
-void _wrap_ConGroupSec_freemargin_mode_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroupSec_freemargin_mode_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo _swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int arg2 ;
   
@@ -5672,7 +5745,7 @@ void _wrap_ConGroupSec_freemargin_mode_set_mtmanapi_8609ee77fca78eb1(ConGroupSec
 }
 
 
-intgo _wrap_ConGroupSec_freemargin_mode_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo _wrap_ConGroupSec_freemargin_mode_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -5685,7 +5758,7 @@ intgo _wrap_ConGroupSec_freemargin_mode_get_mtmanapi_8609ee77fca78eb1(ConGroupSe
 }
 
 
-void _wrap_ConGroupSec_reserved_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConGroupSec_reserved_set_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0, intgo *_swig_go_1) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -5701,7 +5774,7 @@ void _wrap_ConGroupSec_reserved_set_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig
 }
 
 
-intgo *_wrap_ConGroupSec_reserved_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+intgo *_wrap_ConGroupSec_reserved_get_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -5714,7 +5787,7 @@ intgo *_wrap_ConGroupSec_reserved_get_mtmanapi_8609ee77fca78eb1(ConGroupSec *_sw
 }
 
 
-ConGroupSec *_wrap_new_ConGroupSec_mtmanapi_8609ee77fca78eb1() {
+ConGroupSec *_wrap_new_ConGroupSec_mtmanapi_7bd57f7bcf037842() {
   ConGroupSec *result = 0 ;
   ConGroupSec *_swig_go_result;
   
@@ -5725,7 +5798,7 @@ ConGroupSec *_wrap_new_ConGroupSec_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConGroupSec_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0) {
+void _wrap_delete_ConGroupSec_mtmanapi_7bd57f7bcf037842(ConGroupSec *_swig_go_0) {
   ConGroupSec *arg1 = (ConGroupSec *) 0 ;
   
   arg1 = *(ConGroupSec **)&_swig_go_0; 
@@ -5735,7 +5808,7 @@ void _wrap_delete_ConGroupSec_mtmanapi_8609ee77fca78eb1(ConGroupSec *_swig_go_0)
 }
 
 
-void _wrap_ConGroupMargin_symbol_set_mtmanapi_8609ee77fca78eb1(ConGroupMargin *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGroupMargin_symbol_set_mtmanapi_7bd57f7bcf037842(ConGroupMargin *_swig_go_0, _gostring_ _swig_go_1) {
   ConGroupMargin *arg1 = (ConGroupMargin *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -5759,7 +5832,7 @@ void _wrap_ConGroupMargin_symbol_set_mtmanapi_8609ee77fca78eb1(ConGroupMargin *_
 }
 
 
-_gostring_ _wrap_ConGroupMargin_symbol_get_mtmanapi_8609ee77fca78eb1(ConGroupMargin *_swig_go_0) {
+_gostring_ _wrap_ConGroupMargin_symbol_get_mtmanapi_7bd57f7bcf037842(ConGroupMargin *_swig_go_0) {
   ConGroupMargin *arg1 = (ConGroupMargin *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -5772,7 +5845,7 @@ _gostring_ _wrap_ConGroupMargin_symbol_get_mtmanapi_8609ee77fca78eb1(ConGroupMar
 }
 
 
-void _wrap_ConGroupMargin_swap_long_set_mtmanapi_8609ee77fca78eb1(ConGroupMargin *_swig_go_0, double _swig_go_1) {
+void _wrap_ConGroupMargin_swap_long_set_mtmanapi_7bd57f7bcf037842(ConGroupMargin *_swig_go_0, double _swig_go_1) {
   ConGroupMargin *arg1 = (ConGroupMargin *) 0 ;
   double arg2 ;
   
@@ -5784,7 +5857,7 @@ void _wrap_ConGroupMargin_swap_long_set_mtmanapi_8609ee77fca78eb1(ConGroupMargin
 }
 
 
-double _wrap_ConGroupMargin_swap_long_get_mtmanapi_8609ee77fca78eb1(ConGroupMargin *_swig_go_0) {
+double _wrap_ConGroupMargin_swap_long_get_mtmanapi_7bd57f7bcf037842(ConGroupMargin *_swig_go_0) {
   ConGroupMargin *arg1 = (ConGroupMargin *) 0 ;
   double result;
   double _swig_go_result;
@@ -5797,7 +5870,7 @@ double _wrap_ConGroupMargin_swap_long_get_mtmanapi_8609ee77fca78eb1(ConGroupMarg
 }
 
 
-void _wrap_ConGroupMargin_swap_short_set_mtmanapi_8609ee77fca78eb1(ConGroupMargin *_swig_go_0, double _swig_go_1) {
+void _wrap_ConGroupMargin_swap_short_set_mtmanapi_7bd57f7bcf037842(ConGroupMargin *_swig_go_0, double _swig_go_1) {
   ConGroupMargin *arg1 = (ConGroupMargin *) 0 ;
   double arg2 ;
   
@@ -5809,7 +5882,7 @@ void _wrap_ConGroupMargin_swap_short_set_mtmanapi_8609ee77fca78eb1(ConGroupMargi
 }
 
 
-double _wrap_ConGroupMargin_swap_short_get_mtmanapi_8609ee77fca78eb1(ConGroupMargin *_swig_go_0) {
+double _wrap_ConGroupMargin_swap_short_get_mtmanapi_7bd57f7bcf037842(ConGroupMargin *_swig_go_0) {
   ConGroupMargin *arg1 = (ConGroupMargin *) 0 ;
   double result;
   double _swig_go_result;
@@ -5822,7 +5895,7 @@ double _wrap_ConGroupMargin_swap_short_get_mtmanapi_8609ee77fca78eb1(ConGroupMar
 }
 
 
-void _wrap_ConGroupMargin_margin_divider_set_mtmanapi_8609ee77fca78eb1(ConGroupMargin *_swig_go_0, double _swig_go_1) {
+void _wrap_ConGroupMargin_margin_divider_set_mtmanapi_7bd57f7bcf037842(ConGroupMargin *_swig_go_0, double _swig_go_1) {
   ConGroupMargin *arg1 = (ConGroupMargin *) 0 ;
   double arg2 ;
   
@@ -5834,7 +5907,7 @@ void _wrap_ConGroupMargin_margin_divider_set_mtmanapi_8609ee77fca78eb1(ConGroupM
 }
 
 
-double _wrap_ConGroupMargin_margin_divider_get_mtmanapi_8609ee77fca78eb1(ConGroupMargin *_swig_go_0) {
+double _wrap_ConGroupMargin_margin_divider_get_mtmanapi_7bd57f7bcf037842(ConGroupMargin *_swig_go_0) {
   ConGroupMargin *arg1 = (ConGroupMargin *) 0 ;
   double result;
   double _swig_go_result;
@@ -5847,7 +5920,7 @@ double _wrap_ConGroupMargin_margin_divider_get_mtmanapi_8609ee77fca78eb1(ConGrou
 }
 
 
-void _wrap_ConGroupMargin_reserved_set_mtmanapi_8609ee77fca78eb1(ConGroupMargin *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConGroupMargin_reserved_set_mtmanapi_7bd57f7bcf037842(ConGroupMargin *_swig_go_0, intgo *_swig_go_1) {
   ConGroupMargin *arg1 = (ConGroupMargin *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -5863,7 +5936,7 @@ void _wrap_ConGroupMargin_reserved_set_mtmanapi_8609ee77fca78eb1(ConGroupMargin 
 }
 
 
-intgo *_wrap_ConGroupMargin_reserved_get_mtmanapi_8609ee77fca78eb1(ConGroupMargin *_swig_go_0) {
+intgo *_wrap_ConGroupMargin_reserved_get_mtmanapi_7bd57f7bcf037842(ConGroupMargin *_swig_go_0) {
   ConGroupMargin *arg1 = (ConGroupMargin *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -5876,7 +5949,7 @@ intgo *_wrap_ConGroupMargin_reserved_get_mtmanapi_8609ee77fca78eb1(ConGroupMargi
 }
 
 
-ConGroupMargin *_wrap_new_ConGroupMargin_mtmanapi_8609ee77fca78eb1() {
+ConGroupMargin *_wrap_new_ConGroupMargin_mtmanapi_7bd57f7bcf037842() {
   ConGroupMargin *result = 0 ;
   ConGroupMargin *_swig_go_result;
   
@@ -5887,7 +5960,7 @@ ConGroupMargin *_wrap_new_ConGroupMargin_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConGroupMargin_mtmanapi_8609ee77fca78eb1(ConGroupMargin *_swig_go_0) {
+void _wrap_delete_ConGroupMargin_mtmanapi_7bd57f7bcf037842(ConGroupMargin *_swig_go_0) {
   ConGroupMargin *arg1 = (ConGroupMargin *) 0 ;
   
   arg1 = *(ConGroupMargin **)&_swig_go_0; 
@@ -5897,7 +5970,7 @@ void _wrap_delete_ConGroupMargin_mtmanapi_8609ee77fca78eb1(ConGroupMargin *_swig
 }
 
 
-intgo _wrap_EXECUTION_MANUAL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_EXECUTION_MANUAL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -5909,7 +5982,7 @@ intgo _wrap_EXECUTION_MANUAL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_EXECUTION_AUTO_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_EXECUTION_AUTO_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -5921,7 +5994,7 @@ intgo _wrap_EXECUTION_AUTO_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_EXECUTION_ACTIVITY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_EXECUTION_ACTIVITY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -5933,7 +6006,7 @@ intgo _wrap_EXECUTION_ACTIVITY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_COMM_TYPE_MONEY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_COMM_TYPE_MONEY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -5945,7 +6018,7 @@ intgo _wrap_COMM_TYPE_MONEY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_COMM_TYPE_PIPS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_COMM_TYPE_PIPS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -5957,7 +6030,7 @@ intgo _wrap_COMM_TYPE_PIPS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_COMM_TYPE_PERCENT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_COMM_TYPE_PERCENT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -5969,7 +6042,7 @@ intgo _wrap_COMM_TYPE_PERCENT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_COMMISSION_PER_LOT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_COMMISSION_PER_LOT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -5981,7 +6054,7 @@ intgo _wrap_COMMISSION_PER_LOT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_COMMISSION_PER_DEAL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_COMMISSION_PER_DEAL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -5993,7 +6066,7 @@ intgo _wrap_COMMISSION_PER_DEAL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TRADE_DENY_NONE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TRADE_DENY_NONE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -6005,7 +6078,7 @@ intgo _wrap_TRADE_DENY_NONE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TRADE_DENY_CLOSEBY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TRADE_DENY_CLOSEBY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -6017,7 +6090,7 @@ intgo _wrap_TRADE_DENY_CLOSEBY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TRADE_DENY_MUCLOSEBY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TRADE_DENY_MUCLOSEBY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -6029,7 +6102,7 @@ intgo _wrap_TRADE_DENY_MUCLOSEBY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CLOSE_OUT_NONE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CLOSE_OUT_NONE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -6041,7 +6114,7 @@ intgo _wrap_CLOSE_OUT_NONE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CLOSE_OUT_HIHI_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CLOSE_OUT_HIHI_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -6053,7 +6126,7 @@ intgo _wrap_CLOSE_OUT_HIHI_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CLOSE_OUT_LOLO_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CLOSE_OUT_LOLO_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -6065,7 +6138,7 @@ intgo _wrap_CLOSE_OUT_LOLO_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CLOSE_OUT_HILO_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CLOSE_OUT_HILO_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -6077,7 +6150,7 @@ intgo _wrap_CLOSE_OUT_HILO_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CLOSE_OUT_LOHI_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CLOSE_OUT_LOHI_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -6089,7 +6162,7 @@ intgo _wrap_CLOSE_OUT_LOHI_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CLOSE_OUT_FIFO_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CLOSE_OUT_FIFO_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -6101,7 +6174,7 @@ intgo _wrap_CLOSE_OUT_FIFO_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CLOSE_OUT_LIFO_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CLOSE_OUT_LIFO_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -6113,7 +6186,7 @@ intgo _wrap_CLOSE_OUT_LIFO_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CLOSE_OUT_INTRDAY_FIFO_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CLOSE_OUT_INTRDAY_FIFO_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -6125,7 +6198,7 @@ intgo _wrap_CLOSE_OUT_INTRDAY_FIFO_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_ConGroup_group_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGroup_group_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -6149,7 +6222,7 @@ void _wrap_ConGroup_group_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, _g
 }
 
 
-_gostring_ _wrap_ConGroup_group_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+_gostring_ _wrap_ConGroup_group_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -6162,7 +6235,7 @@ _gostring_ _wrap_ConGroup_group_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go
 }
 
 
-void _wrap_ConGroup_enable_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_enable_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -6174,7 +6247,7 @@ void _wrap_ConGroup_enable_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, i
 }
 
 
-intgo _wrap_ConGroup_enable_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_enable_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -6187,7 +6260,7 @@ intgo _wrap_ConGroup_enable_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) 
 }
 
 
-void _wrap_ConGroup_timeout_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_timeout_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -6199,7 +6272,7 @@ void _wrap_ConGroup_timeout_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, 
 }
 
 
-intgo _wrap_ConGroup_timeout_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_timeout_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -6212,7 +6285,7 @@ intgo _wrap_ConGroup_timeout_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0)
 }
 
 
-void _wrap_ConGroup_otp_mode_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_otp_mode_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -6224,7 +6297,7 @@ void _wrap_ConGroup_otp_mode_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0,
 }
 
 
-intgo _wrap_ConGroup_otp_mode_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_otp_mode_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -6237,7 +6310,7 @@ intgo _wrap_ConGroup_otp_mode_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0
 }
 
 
-void _wrap_ConGroup_company_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGroup_company_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -6261,7 +6334,7 @@ void _wrap_ConGroup_company_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, 
 }
 
 
-_gostring_ _wrap_ConGroup_company_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+_gostring_ _wrap_ConGroup_company_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -6274,7 +6347,7 @@ _gostring_ _wrap_ConGroup_company_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_
 }
 
 
-void _wrap_ConGroup_signature_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGroup_signature_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -6298,7 +6371,7 @@ void _wrap_ConGroup_signature_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0
 }
 
 
-_gostring_ _wrap_ConGroup_signature_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+_gostring_ _wrap_ConGroup_signature_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -6311,7 +6384,7 @@ _gostring_ _wrap_ConGroup_signature_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swi
 }
 
 
-void _wrap_ConGroup_support_page_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGroup_support_page_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -6335,7 +6408,7 @@ void _wrap_ConGroup_support_page_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_g
 }
 
 
-_gostring_ _wrap_ConGroup_support_page_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+_gostring_ _wrap_ConGroup_support_page_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -6348,7 +6421,7 @@ _gostring_ _wrap_ConGroup_support_page_get_mtmanapi_8609ee77fca78eb1(ConGroup *_
 }
 
 
-void _wrap_ConGroup_smtp_server_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGroup_smtp_server_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -6372,7 +6445,7 @@ void _wrap_ConGroup_smtp_server_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go
 }
 
 
-_gostring_ _wrap_ConGroup_smtp_server_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+_gostring_ _wrap_ConGroup_smtp_server_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -6385,7 +6458,7 @@ _gostring_ _wrap_ConGroup_smtp_server_get_mtmanapi_8609ee77fca78eb1(ConGroup *_s
 }
 
 
-void _wrap_ConGroup_smtp_login_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGroup_smtp_login_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -6409,7 +6482,7 @@ void _wrap_ConGroup_smtp_login_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_
 }
 
 
-_gostring_ _wrap_ConGroup_smtp_login_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+_gostring_ _wrap_ConGroup_smtp_login_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -6422,7 +6495,7 @@ _gostring_ _wrap_ConGroup_smtp_login_get_mtmanapi_8609ee77fca78eb1(ConGroup *_sw
 }
 
 
-void _wrap_ConGroup_smtp_password_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGroup_smtp_password_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -6446,7 +6519,7 @@ void _wrap_ConGroup_smtp_password_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_
 }
 
 
-_gostring_ _wrap_ConGroup_smtp_password_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+_gostring_ _wrap_ConGroup_smtp_password_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -6459,7 +6532,7 @@ _gostring_ _wrap_ConGroup_smtp_password_get_mtmanapi_8609ee77fca78eb1(ConGroup *
 }
 
 
-void _wrap_ConGroup_support_email_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGroup_support_email_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -6483,7 +6556,7 @@ void _wrap_ConGroup_support_email_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_
 }
 
 
-_gostring_ _wrap_ConGroup_support_email_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+_gostring_ _wrap_ConGroup_support_email_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -6496,7 +6569,7 @@ _gostring_ _wrap_ConGroup_support_email_get_mtmanapi_8609ee77fca78eb1(ConGroup *
 }
 
 
-void _wrap_ConGroup_templates_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGroup_templates_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -6520,7 +6593,7 @@ void _wrap_ConGroup_templates_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0
 }
 
 
-_gostring_ _wrap_ConGroup_templates_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+_gostring_ _wrap_ConGroup_templates_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -6533,7 +6606,7 @@ _gostring_ _wrap_ConGroup_templates_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swi
 }
 
 
-void _wrap_ConGroup_copies_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_copies_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -6545,7 +6618,7 @@ void _wrap_ConGroup_copies_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, i
 }
 
 
-intgo _wrap_ConGroup_copies_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_copies_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -6558,7 +6631,7 @@ intgo _wrap_ConGroup_copies_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) 
 }
 
 
-void _wrap_ConGroup_reports_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_reports_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -6570,7 +6643,7 @@ void _wrap_ConGroup_reports_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, 
 }
 
 
-intgo _wrap_ConGroup_reports_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_reports_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -6583,7 +6656,7 @@ intgo _wrap_ConGroup_reports_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0)
 }
 
 
-void _wrap_ConGroup_default_leverage_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_default_leverage_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -6595,7 +6668,7 @@ void _wrap_ConGroup_default_leverage_set_mtmanapi_8609ee77fca78eb1(ConGroup *_sw
 }
 
 
-intgo _wrap_ConGroup_default_leverage_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_default_leverage_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -6608,7 +6681,7 @@ intgo _wrap_ConGroup_default_leverage_get_mtmanapi_8609ee77fca78eb1(ConGroup *_s
 }
 
 
-void _wrap_ConGroup_default_deposit_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, double _swig_go_1) {
+void _wrap_ConGroup_default_deposit_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, double _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   double arg2 ;
   
@@ -6620,7 +6693,7 @@ void _wrap_ConGroup_default_deposit_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swi
 }
 
 
-double _wrap_ConGroup_default_deposit_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+double _wrap_ConGroup_default_deposit_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   double result;
   double _swig_go_result;
@@ -6633,7 +6706,7 @@ double _wrap_ConGroup_default_deposit_get_mtmanapi_8609ee77fca78eb1(ConGroup *_s
 }
 
 
-void _wrap_ConGroup_maxsecurities_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_maxsecurities_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -6645,7 +6718,7 @@ void _wrap_ConGroup_maxsecurities_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_
 }
 
 
-intgo _wrap_ConGroup_maxsecurities_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_maxsecurities_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -6658,7 +6731,7 @@ intgo _wrap_ConGroup_maxsecurities_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig
 }
 
 
-void _wrap_ConGroup_secgroups_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, ConGroupSec (*_swig_go_1)[(32)]) {
+void _wrap_ConGroup_secgroups_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, ConGroupSec (*_swig_go_1)[(32)]) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   ConGroupSec *arg2 = (ConGroupSec *) (ConGroupSec *)0 ;
   
@@ -6674,7 +6747,7 @@ void _wrap_ConGroup_secgroups_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0
 }
 
 
-ConGroupSec (*_wrap_ConGroup_secgroups_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0))[(32)] {
+ConGroupSec (*_wrap_ConGroup_secgroups_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0))[(32)] {
   ConGroup *arg1 = (ConGroup *) 0 ;
   ConGroupSec *result = 0 ;
   ConGroupSec (*_swig_go_result)[(32)];
@@ -6687,7 +6760,7 @@ ConGroupSec (*_wrap_ConGroup_secgroups_get_mtmanapi_8609ee77fca78eb1(ConGroup *_
 }
 
 
-void _wrap_ConGroup_secmargins_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, ConGroupMargin (*_swig_go_1)[(128)]) {
+void _wrap_ConGroup_secmargins_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, ConGroupMargin (*_swig_go_1)[(128)]) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   ConGroupMargin *arg2 = (ConGroupMargin *) (ConGroupMargin *)0 ;
   
@@ -6703,7 +6776,7 @@ void _wrap_ConGroup_secmargins_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_
 }
 
 
-ConGroupMargin (*_wrap_ConGroup_secmargins_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0))[(128)] {
+ConGroupMargin (*_wrap_ConGroup_secmargins_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0))[(128)] {
   ConGroup *arg1 = (ConGroup *) 0 ;
   ConGroupMargin *result = 0 ;
   ConGroupMargin (*_swig_go_result)[(128)];
@@ -6716,7 +6789,7 @@ ConGroupMargin (*_wrap_ConGroup_secmargins_get_mtmanapi_8609ee77fca78eb1(ConGrou
 }
 
 
-void _wrap_ConGroup_secmargins_total_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_secmargins_total_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -6728,7 +6801,7 @@ void _wrap_ConGroup_secmargins_total_set_mtmanapi_8609ee77fca78eb1(ConGroup *_sw
 }
 
 
-intgo _wrap_ConGroup_secmargins_total_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_secmargins_total_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -6741,7 +6814,7 @@ intgo _wrap_ConGroup_secmargins_total_get_mtmanapi_8609ee77fca78eb1(ConGroup *_s
 }
 
 
-void _wrap_ConGroup_currency_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGroup_currency_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -6765,7 +6838,7 @@ void _wrap_ConGroup_currency_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0,
 }
 
 
-_gostring_ _wrap_ConGroup_currency_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+_gostring_ _wrap_ConGroup_currency_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -6778,7 +6851,7 @@ _gostring_ _wrap_ConGroup_currency_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig
 }
 
 
-void _wrap_ConGroup_credit_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, double _swig_go_1) {
+void _wrap_ConGroup_credit_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, double _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   double arg2 ;
   
@@ -6790,7 +6863,7 @@ void _wrap_ConGroup_credit_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, d
 }
 
 
-double _wrap_ConGroup_credit_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+double _wrap_ConGroup_credit_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   double result;
   double _swig_go_result;
@@ -6803,7 +6876,7 @@ double _wrap_ConGroup_credit_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0)
 }
 
 
-void _wrap_ConGroup_margin_call_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_margin_call_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -6815,7 +6888,7 @@ void _wrap_ConGroup_margin_call_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go
 }
 
 
-intgo _wrap_ConGroup_margin_call_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_margin_call_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -6828,7 +6901,7 @@ intgo _wrap_ConGroup_margin_call_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_g
 }
 
 
-void _wrap_ConGroup_margin_mode_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_margin_mode_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -6840,7 +6913,7 @@ void _wrap_ConGroup_margin_mode_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go
 }
 
 
-intgo _wrap_ConGroup_margin_mode_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_margin_mode_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -6853,7 +6926,7 @@ intgo _wrap_ConGroup_margin_mode_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_g
 }
 
 
-void _wrap_ConGroup_margin_stopout_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_margin_stopout_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -6865,7 +6938,7 @@ void _wrap_ConGroup_margin_stopout_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig
 }
 
 
-intgo _wrap_ConGroup_margin_stopout_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_margin_stopout_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -6878,7 +6951,7 @@ intgo _wrap_ConGroup_margin_stopout_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swi
 }
 
 
-void _wrap_ConGroup_interestrate_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, double _swig_go_1) {
+void _wrap_ConGroup_interestrate_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, double _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   double arg2 ;
   
@@ -6890,7 +6963,7 @@ void _wrap_ConGroup_interestrate_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_g
 }
 
 
-double _wrap_ConGroup_interestrate_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+double _wrap_ConGroup_interestrate_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   double result;
   double _swig_go_result;
@@ -6903,7 +6976,7 @@ double _wrap_ConGroup_interestrate_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig
 }
 
 
-void _wrap_ConGroup_use_swap_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_use_swap_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -6915,7 +6988,7 @@ void _wrap_ConGroup_use_swap_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0,
 }
 
 
-intgo _wrap_ConGroup_use_swap_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_use_swap_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -6928,7 +7001,7 @@ intgo _wrap_ConGroup_use_swap_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0
 }
 
 
-void _wrap_ConGroup_news_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_news_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -6940,7 +7013,7 @@ void _wrap_ConGroup_news_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, int
 }
 
 
-intgo _wrap_ConGroup_news_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_news_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -6953,7 +7026,7 @@ intgo _wrap_ConGroup_news_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
 }
 
 
-void _wrap_ConGroup_rights_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_rights_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -6965,7 +7038,7 @@ void _wrap_ConGroup_rights_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, i
 }
 
 
-intgo _wrap_ConGroup_rights_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_rights_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -6978,7 +7051,7 @@ intgo _wrap_ConGroup_rights_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) 
 }
 
 
-void _wrap_ConGroup_check_ie_prices_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_check_ie_prices_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -6990,7 +7063,7 @@ void _wrap_ConGroup_check_ie_prices_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swi
 }
 
 
-intgo _wrap_ConGroup_check_ie_prices_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_check_ie_prices_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7003,7 +7076,7 @@ intgo _wrap_ConGroup_check_ie_prices_get_mtmanapi_8609ee77fca78eb1(ConGroup *_sw
 }
 
 
-void _wrap_ConGroup_maxpositions_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_maxpositions_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -7015,7 +7088,7 @@ void _wrap_ConGroup_maxpositions_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_g
 }
 
 
-intgo _wrap_ConGroup_maxpositions_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_maxpositions_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7028,7 +7101,7 @@ intgo _wrap_ConGroup_maxpositions_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_
 }
 
 
-void _wrap_ConGroup_close_reopen_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_close_reopen_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -7040,7 +7113,7 @@ void _wrap_ConGroup_close_reopen_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_g
 }
 
 
-intgo _wrap_ConGroup_close_reopen_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_close_reopen_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7053,7 +7126,7 @@ intgo _wrap_ConGroup_close_reopen_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_
 }
 
 
-void _wrap_ConGroup_hedge_prohibited_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_hedge_prohibited_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -7065,7 +7138,7 @@ void _wrap_ConGroup_hedge_prohibited_set_mtmanapi_8609ee77fca78eb1(ConGroup *_sw
 }
 
 
-intgo _wrap_ConGroup_hedge_prohibited_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_hedge_prohibited_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7078,7 +7151,7 @@ intgo _wrap_ConGroup_hedge_prohibited_get_mtmanapi_8609ee77fca78eb1(ConGroup *_s
 }
 
 
-void _wrap_ConGroup_close_fifo_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_close_fifo_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -7090,7 +7163,7 @@ void _wrap_ConGroup_close_fifo_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_
 }
 
 
-intgo _wrap_ConGroup_close_fifo_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_close_fifo_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7103,7 +7176,7 @@ intgo _wrap_ConGroup_close_fifo_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go
 }
 
 
-void _wrap_ConGroup_hedge_largeleg_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_hedge_largeleg_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -7115,7 +7188,7 @@ void _wrap_ConGroup_hedge_largeleg_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig
 }
 
 
-intgo _wrap_ConGroup_hedge_largeleg_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_hedge_largeleg_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7128,7 +7201,7 @@ intgo _wrap_ConGroup_hedge_largeleg_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swi
 }
 
 
-void _wrap_ConGroup_unused_rights_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConGroup_unused_rights_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo *_swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -7144,7 +7217,7 @@ void _wrap_ConGroup_unused_rights_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_
 }
 
 
-intgo *_wrap_ConGroup_unused_rights_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo *_wrap_ConGroup_unused_rights_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -7157,7 +7230,7 @@ intgo *_wrap_ConGroup_unused_rights_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swi
 }
 
 
-void _wrap_ConGroup_securities_hash_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGroup_securities_hash_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, _gostring_ _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -7181,7 +7254,7 @@ void _wrap_ConGroup_securities_hash_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swi
 }
 
 
-_gostring_ _wrap_ConGroup_securities_hash_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+_gostring_ _wrap_ConGroup_securities_hash_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -7194,7 +7267,7 @@ _gostring_ _wrap_ConGroup_securities_hash_get_mtmanapi_8609ee77fca78eb1(ConGroup
 }
 
 
-void _wrap_ConGroup_margin_type_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_margin_type_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -7206,7 +7279,7 @@ void _wrap_ConGroup_margin_type_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go
 }
 
 
-intgo _wrap_ConGroup_margin_type_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_margin_type_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7219,7 +7292,7 @@ intgo _wrap_ConGroup_margin_type_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_g
 }
 
 
-void _wrap_ConGroup_archive_period_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_archive_period_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -7231,7 +7304,7 @@ void _wrap_ConGroup_archive_period_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig
 }
 
 
-intgo _wrap_ConGroup_archive_period_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_archive_period_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7244,7 +7317,7 @@ intgo _wrap_ConGroup_archive_period_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swi
 }
 
 
-void _wrap_ConGroup_archive_max_balance_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_archive_max_balance_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -7256,7 +7329,7 @@ void _wrap_ConGroup_archive_max_balance_set_mtmanapi_8609ee77fca78eb1(ConGroup *
 }
 
 
-intgo _wrap_ConGroup_archive_max_balance_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_archive_max_balance_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7269,7 +7342,7 @@ intgo _wrap_ConGroup_archive_max_balance_get_mtmanapi_8609ee77fca78eb1(ConGroup 
 }
 
 
-void _wrap_ConGroup_stopout_skip_hedged_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_stopout_skip_hedged_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -7281,7 +7354,7 @@ void _wrap_ConGroup_stopout_skip_hedged_set_mtmanapi_8609ee77fca78eb1(ConGroup *
 }
 
 
-intgo _wrap_ConGroup_stopout_skip_hedged_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_stopout_skip_hedged_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7294,7 +7367,7 @@ intgo _wrap_ConGroup_stopout_skip_hedged_get_mtmanapi_8609ee77fca78eb1(ConGroup 
 }
 
 
-void _wrap_ConGroup_archive_pending_period_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_archive_pending_period_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int arg2 ;
   
@@ -7306,7 +7379,7 @@ void _wrap_ConGroup_archive_pending_period_set_mtmanapi_8609ee77fca78eb1(ConGrou
 }
 
 
-intgo _wrap_ConGroup_archive_pending_period_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_archive_pending_period_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7319,7 +7392,7 @@ intgo _wrap_ConGroup_archive_pending_period_get_mtmanapi_8609ee77fca78eb1(ConGro
 }
 
 
-void _wrap_ConGroup_news_languages_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConGroup_news_languages_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo *_swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   UINT *arg2 = (UINT *) (UINT *)0 ;
   
@@ -7335,7 +7408,7 @@ void _wrap_ConGroup_news_languages_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig
 }
 
 
-intgo *_wrap_ConGroup_news_languages_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo *_wrap_ConGroup_news_languages_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   UINT *result = 0 ;
   intgo *_swig_go_result;
@@ -7348,7 +7421,7 @@ intgo *_wrap_ConGroup_news_languages_get_mtmanapi_8609ee77fca78eb1(ConGroup *_sw
 }
 
 
-void _wrap_ConGroup_news_languages_total_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGroup_news_languages_total_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo _swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   UINT arg2 ;
   
@@ -7360,7 +7433,7 @@ void _wrap_ConGroup_news_languages_total_set_mtmanapi_8609ee77fca78eb1(ConGroup 
 }
 
 
-intgo _wrap_ConGroup_news_languages_total_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo _wrap_ConGroup_news_languages_total_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -7373,7 +7446,7 @@ intgo _wrap_ConGroup_news_languages_total_get_mtmanapi_8609ee77fca78eb1(ConGroup
 }
 
 
-void _wrap_ConGroup_reserved_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConGroup_reserved_set_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0, intgo *_swig_go_1) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -7389,7 +7462,7 @@ void _wrap_ConGroup_reserved_set_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0,
 }
 
 
-intgo *_wrap_ConGroup_reserved_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+intgo *_wrap_ConGroup_reserved_get_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -7402,7 +7475,7 @@ intgo *_wrap_ConGroup_reserved_get_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_
 }
 
 
-ConGroup *_wrap_new_ConGroup_mtmanapi_8609ee77fca78eb1() {
+ConGroup *_wrap_new_ConGroup_mtmanapi_7bd57f7bcf037842() {
   ConGroup *result = 0 ;
   ConGroup *_swig_go_result;
   
@@ -7413,7 +7486,7 @@ ConGroup *_wrap_new_ConGroup_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConGroup_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
+void _wrap_delete_ConGroup_mtmanapi_7bd57f7bcf037842(ConGroup *_swig_go_0) {
   ConGroup *arg1 = (ConGroup *) 0 ;
   
   arg1 = *(ConGroup **)&_swig_go_0; 
@@ -7423,7 +7496,7 @@ void _wrap_delete_ConGroup_mtmanapi_8609ee77fca78eb1(ConGroup *_swig_go_0) {
 }
 
 
-intgo _wrap_MARGIN_MODE_DONT_USE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MARGIN_MODE_DONT_USE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7435,7 +7508,7 @@ intgo _wrap_MARGIN_MODE_DONT_USE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MARGIN_MODE_USE_ALL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MARGIN_MODE_USE_ALL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7447,7 +7520,7 @@ intgo _wrap_MARGIN_MODE_USE_ALL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MARGIN_MODE_USE_PROFIT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MARGIN_MODE_USE_PROFIT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7459,7 +7532,7 @@ intgo _wrap_MARGIN_MODE_USE_PROFIT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MARGIN_MODE_USE_LOSS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MARGIN_MODE_USE_LOSS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7471,7 +7544,7 @@ intgo _wrap_MARGIN_MODE_USE_LOSS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MARGIN_TYPE_PERCENT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MARGIN_TYPE_PERCENT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7483,7 +7556,7 @@ intgo _wrap_MARGIN_TYPE_PERCENT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MARGIN_TYPE_CURRENCY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MARGIN_TYPE_CURRENCY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7495,7 +7568,7 @@ intgo _wrap_MARGIN_TYPE_CURRENCY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_NEWS_NO_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_NEWS_NO_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7507,7 +7580,7 @@ intgo _wrap_NEWS_NO_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_NEWS_TOPICS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_NEWS_TOPICS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7519,7 +7592,7 @@ intgo _wrap_NEWS_TOPICS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_NEWS_FULL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_NEWS_FULL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7531,7 +7604,7 @@ intgo _wrap_NEWS_FULL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ALLOW_FLAG_EMAIL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ALLOW_FLAG_EMAIL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7543,7 +7616,7 @@ intgo _wrap_ALLOW_FLAG_EMAIL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ALLOW_FLAG_TRAILING_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ALLOW_FLAG_TRAILING_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7555,7 +7628,7 @@ intgo _wrap_ALLOW_FLAG_TRAILING_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ALLOW_FLAG_ADVISOR_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ALLOW_FLAG_ADVISOR_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7567,7 +7640,7 @@ intgo _wrap_ALLOW_FLAG_ADVISOR_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ALLOW_FLAG_EXPIRATION_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ALLOW_FLAG_EXPIRATION_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7579,7 +7652,7 @@ intgo _wrap_ALLOW_FLAG_EXPIRATION_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ALLOW_FLAG_SIGNALS_ALL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ALLOW_FLAG_SIGNALS_ALL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7591,7 +7664,7 @@ intgo _wrap_ALLOW_FLAG_SIGNALS_ALL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ALLOW_FLAG_SIGNALS_OWN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ALLOW_FLAG_SIGNALS_OWN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7603,7 +7676,7 @@ intgo _wrap_ALLOW_FLAG_SIGNALS_OWN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ALLOW_FLAG_RISK_WARNING_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ALLOW_FLAG_RISK_WARNING_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7615,7 +7688,7 @@ intgo _wrap_ALLOW_FLAG_RISK_WARNING_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ALLOW_FLAG_FORCED_OTP_USAGE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ALLOW_FLAG_FORCED_OTP_USAGE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7627,7 +7700,7 @@ intgo _wrap_ALLOW_FLAG_FORCED_OTP_USAGE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_OTP_MODE_DISABLED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_OTP_MODE_DISABLED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7639,7 +7712,7 @@ intgo _wrap_OTP_MODE_DISABLED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_OTP_MODE_TOTP_SHA256_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_OTP_MODE_TOTP_SHA256_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7651,7 +7724,7 @@ intgo _wrap_OTP_MODE_TOTP_SHA256_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_ConHoliday_year_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConHoliday_year_set_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0, intgo _swig_go_1) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   int arg2 ;
   
@@ -7663,7 +7736,7 @@ void _wrap_ConHoliday_year_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0,
 }
 
 
-intgo _wrap_ConHoliday_year_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0) {
+intgo _wrap_ConHoliday_year_get_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7676,7 +7749,7 @@ intgo _wrap_ConHoliday_year_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0
 }
 
 
-void _wrap_ConHoliday_month_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConHoliday_month_set_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0, intgo _swig_go_1) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   int arg2 ;
   
@@ -7688,7 +7761,7 @@ void _wrap_ConHoliday_month_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0
 }
 
 
-intgo _wrap_ConHoliday_month_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0) {
+intgo _wrap_ConHoliday_month_get_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7701,7 +7774,7 @@ intgo _wrap_ConHoliday_month_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_
 }
 
 
-void _wrap_ConHoliday_day_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConHoliday_day_set_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0, intgo _swig_go_1) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   int arg2 ;
   
@@ -7713,7 +7786,7 @@ void _wrap_ConHoliday_day_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0, 
 }
 
 
-intgo _wrap_ConHoliday_day_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0) {
+intgo _wrap_ConHoliday_day_get_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7726,7 +7799,7 @@ intgo _wrap_ConHoliday_day_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0)
 }
 
 
-void _wrap_ConHoliday_from_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConHoliday_from_set_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0, intgo _swig_go_1) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   int arg2 ;
   
@@ -7738,7 +7811,7 @@ void _wrap_ConHoliday_from_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0,
 }
 
 
-intgo _wrap_ConHoliday_from_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0) {
+intgo _wrap_ConHoliday_from_get_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7751,7 +7824,7 @@ intgo _wrap_ConHoliday_from_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0
 }
 
 
-void _wrap_ConHoliday_to_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConHoliday_to_set_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0, intgo _swig_go_1) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   int arg2 ;
   
@@ -7763,7 +7836,7 @@ void _wrap_ConHoliday_to_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0, i
 }
 
 
-intgo _wrap_ConHoliday_to_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0) {
+intgo _wrap_ConHoliday_to_get_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7776,7 +7849,7 @@ intgo _wrap_ConHoliday_to_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0) 
 }
 
 
-void _wrap_ConHoliday_symbol_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConHoliday_symbol_set_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0, _gostring_ _swig_go_1) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -7800,7 +7873,7 @@ void _wrap_ConHoliday_symbol_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_
 }
 
 
-_gostring_ _wrap_ConHoliday_symbol_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0) {
+_gostring_ _wrap_ConHoliday_symbol_get_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -7813,7 +7886,7 @@ _gostring_ _wrap_ConHoliday_symbol_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_sw
 }
 
 
-void _wrap_ConHoliday_description_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConHoliday_description_set_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0, _gostring_ _swig_go_1) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -7837,7 +7910,7 @@ void _wrap_ConHoliday_description_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swi
 }
 
 
-_gostring_ _wrap_ConHoliday_description_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0) {
+_gostring_ _wrap_ConHoliday_description_get_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -7850,7 +7923,7 @@ _gostring_ _wrap_ConHoliday_description_get_mtmanapi_8609ee77fca78eb1(ConHoliday
 }
 
 
-void _wrap_ConHoliday_enable_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConHoliday_enable_set_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0, intgo _swig_go_1) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   int arg2 ;
   
@@ -7862,7 +7935,7 @@ void _wrap_ConHoliday_enable_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_
 }
 
 
-intgo _wrap_ConHoliday_enable_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0) {
+intgo _wrap_ConHoliday_enable_get_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7875,7 +7948,7 @@ intgo _wrap_ConHoliday_enable_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go
 }
 
 
-void _wrap_ConHoliday_reserved_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConHoliday_reserved_set_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0, intgo *_swig_go_1) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -7891,7 +7964,7 @@ void _wrap_ConHoliday_reserved_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_g
 }
 
 
-intgo *_wrap_ConHoliday_reserved_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0) {
+intgo *_wrap_ConHoliday_reserved_get_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -7904,7 +7977,7 @@ intgo *_wrap_ConHoliday_reserved_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig
 }
 
 
-void _wrap_ConHoliday_next_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0, ConHoliday *_swig_go_1) {
+void _wrap_ConHoliday_next_set_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0, ConHoliday *_swig_go_1) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   ConHoliday *arg2 = (ConHoliday *) 0 ;
   
@@ -7916,7 +7989,7 @@ void _wrap_ConHoliday_next_set_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0,
 }
 
 
-ConHoliday *_wrap_ConHoliday_next_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0) {
+ConHoliday *_wrap_ConHoliday_next_get_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   ConHoliday *result = 0 ;
   ConHoliday *_swig_go_result;
@@ -7929,7 +8002,7 @@ ConHoliday *_wrap_ConHoliday_next_get_mtmanapi_8609ee77fca78eb1(ConHoliday *_swi
 }
 
 
-ConHoliday *_wrap_new_ConHoliday_mtmanapi_8609ee77fca78eb1() {
+ConHoliday *_wrap_new_ConHoliday_mtmanapi_7bd57f7bcf037842() {
   ConHoliday *result = 0 ;
   ConHoliday *_swig_go_result;
   
@@ -7940,7 +8013,7 @@ ConHoliday *_wrap_new_ConHoliday_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConHoliday_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0) {
+void _wrap_delete_ConHoliday_mtmanapi_7bd57f7bcf037842(ConHoliday *_swig_go_0) {
   ConHoliday *arg1 = (ConHoliday *) 0 ;
   
   arg1 = *(ConHoliday **)&_swig_go_0; 
@@ -7950,7 +8023,7 @@ void _wrap_delete_ConHoliday_mtmanapi_8609ee77fca78eb1(ConHoliday *_swig_go_0) {
 }
 
 
-intgo _wrap_LIVE_FILES_MAX_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LIVE_FILES_MAX_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -7961,7 +8034,7 @@ intgo _wrap_LIVE_FILES_MAX_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_LiveInfoFile_file_set_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_LiveInfoFile_file_set_mtmanapi_7bd57f7bcf037842(LiveInfoFile *_swig_go_0, _gostring_ _swig_go_1) {
   LiveInfoFile *arg1 = (LiveInfoFile *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -7985,7 +8058,7 @@ void _wrap_LiveInfoFile_file_set_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_swig_g
 }
 
 
-_gostring_ _wrap_LiveInfoFile_file_get_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_swig_go_0) {
+_gostring_ _wrap_LiveInfoFile_file_get_mtmanapi_7bd57f7bcf037842(LiveInfoFile *_swig_go_0) {
   LiveInfoFile *arg1 = (LiveInfoFile *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -7998,7 +8071,7 @@ _gostring_ _wrap_LiveInfoFile_file_get_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_
 }
 
 
-void _wrap_LiveInfoFile_size_set_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_swig_go_0, intgo _swig_go_1) {
+void _wrap_LiveInfoFile_size_set_mtmanapi_7bd57f7bcf037842(LiveInfoFile *_swig_go_0, intgo _swig_go_1) {
   LiveInfoFile *arg1 = (LiveInfoFile *) 0 ;
   int arg2 ;
   
@@ -8010,7 +8083,7 @@ void _wrap_LiveInfoFile_size_set_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_swig_g
 }
 
 
-intgo _wrap_LiveInfoFile_size_get_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_swig_go_0) {
+intgo _wrap_LiveInfoFile_size_get_mtmanapi_7bd57f7bcf037842(LiveInfoFile *_swig_go_0) {
   LiveInfoFile *arg1 = (LiveInfoFile *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8023,7 +8096,7 @@ intgo _wrap_LiveInfoFile_size_get_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_swig_
 }
 
 
-void _wrap_LiveInfoFile_hash_set_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_LiveInfoFile_hash_set_mtmanapi_7bd57f7bcf037842(LiveInfoFile *_swig_go_0, _gostring_ _swig_go_1) {
   LiveInfoFile *arg1 = (LiveInfoFile *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -8047,7 +8120,7 @@ void _wrap_LiveInfoFile_hash_set_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_swig_g
 }
 
 
-_gostring_ _wrap_LiveInfoFile_hash_get_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_swig_go_0) {
+_gostring_ _wrap_LiveInfoFile_hash_get_mtmanapi_7bd57f7bcf037842(LiveInfoFile *_swig_go_0) {
   LiveInfoFile *arg1 = (LiveInfoFile *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -8060,7 +8133,7 @@ _gostring_ _wrap_LiveInfoFile_hash_get_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_
 }
 
 
-void _wrap_LiveInfoFile_reserved_set_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_LiveInfoFile_reserved_set_mtmanapi_7bd57f7bcf037842(LiveInfoFile *_swig_go_0, intgo *_swig_go_1) {
   LiveInfoFile *arg1 = (LiveInfoFile *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -8076,7 +8149,7 @@ void _wrap_LiveInfoFile_reserved_set_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_sw
 }
 
 
-intgo *_wrap_LiveInfoFile_reserved_get_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_swig_go_0) {
+intgo *_wrap_LiveInfoFile_reserved_get_mtmanapi_7bd57f7bcf037842(LiveInfoFile *_swig_go_0) {
   LiveInfoFile *arg1 = (LiveInfoFile *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -8089,7 +8162,7 @@ intgo *_wrap_LiveInfoFile_reserved_get_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_
 }
 
 
-LiveInfoFile *_wrap_new_LiveInfoFile_mtmanapi_8609ee77fca78eb1() {
+LiveInfoFile *_wrap_new_LiveInfoFile_mtmanapi_7bd57f7bcf037842() {
   LiveInfoFile *result = 0 ;
   LiveInfoFile *_swig_go_result;
   
@@ -8100,7 +8173,7 @@ LiveInfoFile *_wrap_new_LiveInfoFile_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_LiveInfoFile_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_swig_go_0) {
+void _wrap_delete_LiveInfoFile_mtmanapi_7bd57f7bcf037842(LiveInfoFile *_swig_go_0) {
   LiveInfoFile *arg1 = (LiveInfoFile *) 0 ;
   
   arg1 = *(LiveInfoFile **)&_swig_go_0; 
@@ -8110,7 +8183,7 @@ void _wrap_delete_LiveInfoFile_mtmanapi_8609ee77fca78eb1(LiveInfoFile *_swig_go_
 }
 
 
-void _wrap_ConLiveUpdate_company_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConLiveUpdate_company_set_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0, _gostring_ _swig_go_1) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -8134,7 +8207,7 @@ void _wrap_ConLiveUpdate_company_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_s
 }
 
 
-_gostring_ _wrap_ConLiveUpdate_company_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0) {
+_gostring_ _wrap_ConLiveUpdate_company_get_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -8147,7 +8220,7 @@ _gostring_ _wrap_ConLiveUpdate_company_get_mtmanapi_8609ee77fca78eb1(ConLiveUpda
 }
 
 
-void _wrap_ConLiveUpdate_path_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConLiveUpdate_path_set_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0, _gostring_ _swig_go_1) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -8171,7 +8244,7 @@ void _wrap_ConLiveUpdate_path_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig
 }
 
 
-_gostring_ _wrap_ConLiveUpdate_path_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0) {
+_gostring_ _wrap_ConLiveUpdate_path_get_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -8184,7 +8257,7 @@ _gostring_ _wrap_ConLiveUpdate_path_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate 
 }
 
 
-void _wrap_ConLiveUpdate_version_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConLiveUpdate_version_set_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0, intgo _swig_go_1) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int arg2 ;
   
@@ -8196,7 +8269,7 @@ void _wrap_ConLiveUpdate_version_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_s
 }
 
 
-intgo _wrap_ConLiveUpdate_version_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0) {
+intgo _wrap_ConLiveUpdate_version_get_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8209,7 +8282,7 @@ intgo _wrap_ConLiveUpdate_version_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_
 }
 
 
-void _wrap_ConLiveUpdate_build_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConLiveUpdate_build_set_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0, intgo _swig_go_1) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int arg2 ;
   
@@ -8221,7 +8294,7 @@ void _wrap_ConLiveUpdate_build_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swi
 }
 
 
-intgo _wrap_ConLiveUpdate_build_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0) {
+intgo _wrap_ConLiveUpdate_build_get_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8234,7 +8307,7 @@ intgo _wrap_ConLiveUpdate_build_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_sw
 }
 
 
-void _wrap_ConLiveUpdate_maxconnect_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConLiveUpdate_maxconnect_set_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0, intgo _swig_go_1) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int arg2 ;
   
@@ -8246,7 +8319,7 @@ void _wrap_ConLiveUpdate_maxconnect_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate 
 }
 
 
-intgo _wrap_ConLiveUpdate_maxconnect_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0) {
+intgo _wrap_ConLiveUpdate_maxconnect_get_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8259,7 +8332,7 @@ intgo _wrap_ConLiveUpdate_maxconnect_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate
 }
 
 
-void _wrap_ConLiveUpdate_connections_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConLiveUpdate_connections_set_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0, intgo _swig_go_1) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int arg2 ;
   
@@ -8271,7 +8344,7 @@ void _wrap_ConLiveUpdate_connections_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate
 }
 
 
-intgo _wrap_ConLiveUpdate_connections_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0) {
+intgo _wrap_ConLiveUpdate_connections_get_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8284,7 +8357,7 @@ intgo _wrap_ConLiveUpdate_connections_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdat
 }
 
 
-void _wrap_ConLiveUpdate_Xtype_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConLiveUpdate_Xtype_set_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0, intgo _swig_go_1) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int arg2 ;
   
@@ -8296,7 +8369,7 @@ void _wrap_ConLiveUpdate_Xtype_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swi
 }
 
 
-intgo _wrap_ConLiveUpdate_Xtype_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0) {
+intgo _wrap_ConLiveUpdate_Xtype_get_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8309,7 +8382,7 @@ intgo _wrap_ConLiveUpdate_Xtype_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_sw
 }
 
 
-void _wrap_ConLiveUpdate_enable_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConLiveUpdate_enable_set_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0, intgo _swig_go_1) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int arg2 ;
   
@@ -8321,7 +8394,7 @@ void _wrap_ConLiveUpdate_enable_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_sw
 }
 
 
-intgo _wrap_ConLiveUpdate_enable_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0) {
+intgo _wrap_ConLiveUpdate_enable_get_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8334,7 +8407,7 @@ intgo _wrap_ConLiveUpdate_enable_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_s
 }
 
 
-void _wrap_ConLiveUpdate_totalfiles_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConLiveUpdate_totalfiles_set_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0, intgo _swig_go_1) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int arg2 ;
   
@@ -8346,7 +8419,7 @@ void _wrap_ConLiveUpdate_totalfiles_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate 
 }
 
 
-intgo _wrap_ConLiveUpdate_totalfiles_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0) {
+intgo _wrap_ConLiveUpdate_totalfiles_get_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8359,7 +8432,7 @@ intgo _wrap_ConLiveUpdate_totalfiles_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate
 }
 
 
-void _wrap_ConLiveUpdate_files_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0, LiveInfoFile (*_swig_go_1)[(128)]) {
+void _wrap_ConLiveUpdate_files_set_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0, LiveInfoFile (*_swig_go_1)[(128)]) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   LiveInfoFile *arg2 = (LiveInfoFile *) (LiveInfoFile *)0 ;
   
@@ -8375,7 +8448,7 @@ void _wrap_ConLiveUpdate_files_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swi
 }
 
 
-LiveInfoFile (*_wrap_ConLiveUpdate_files_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0))[(128)] {
+LiveInfoFile (*_wrap_ConLiveUpdate_files_get_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0))[(128)] {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   LiveInfoFile *result = 0 ;
   LiveInfoFile (*_swig_go_result)[(128)];
@@ -8388,7 +8461,7 @@ LiveInfoFile (*_wrap_ConLiveUpdate_files_get_mtmanapi_8609ee77fca78eb1(ConLiveUp
 }
 
 
-void _wrap_ConLiveUpdate_reserved_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConLiveUpdate_reserved_set_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0, intgo *_swig_go_1) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -8404,7 +8477,7 @@ void _wrap_ConLiveUpdate_reserved_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_
 }
 
 
-intgo *_wrap_ConLiveUpdate_reserved_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0) {
+intgo *_wrap_ConLiveUpdate_reserved_get_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -8417,7 +8490,7 @@ intgo *_wrap_ConLiveUpdate_reserved_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate 
 }
 
 
-void _wrap_ConLiveUpdate_next_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0, ConLiveUpdate *_swig_go_1) {
+void _wrap_ConLiveUpdate_next_set_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0, ConLiveUpdate *_swig_go_1) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   ConLiveUpdate *arg2 = (ConLiveUpdate *) 0 ;
   
@@ -8429,7 +8502,7 @@ void _wrap_ConLiveUpdate_next_set_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig
 }
 
 
-ConLiveUpdate *_wrap_ConLiveUpdate_next_get_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0) {
+ConLiveUpdate *_wrap_ConLiveUpdate_next_get_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   ConLiveUpdate *result = 0 ;
   ConLiveUpdate *_swig_go_result;
@@ -8442,7 +8515,7 @@ ConLiveUpdate *_wrap_ConLiveUpdate_next_get_mtmanapi_8609ee77fca78eb1(ConLiveUpd
 }
 
 
-ConLiveUpdate *_wrap_new_ConLiveUpdate_mtmanapi_8609ee77fca78eb1() {
+ConLiveUpdate *_wrap_new_ConLiveUpdate_mtmanapi_7bd57f7bcf037842() {
   ConLiveUpdate *result = 0 ;
   ConLiveUpdate *_swig_go_result;
   
@@ -8453,7 +8526,7 @@ ConLiveUpdate *_wrap_new_ConLiveUpdate_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConLiveUpdate_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_go_0) {
+void _wrap_delete_ConLiveUpdate_mtmanapi_7bd57f7bcf037842(ConLiveUpdate *_swig_go_0) {
   ConLiveUpdate *arg1 = (ConLiveUpdate *) 0 ;
   
   arg1 = *(ConLiveUpdate **)&_swig_go_0; 
@@ -8463,7 +8536,7 @@ void _wrap_delete_ConLiveUpdate_mtmanapi_8609ee77fca78eb1(ConLiveUpdate *_swig_g
 }
 
 
-intgo _wrap_LIVE_UPDATE_CLIENT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LIVE_UPDATE_CLIENT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -8475,7 +8548,7 @@ intgo _wrap_LIVE_UPDATE_CLIENT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LIVE_UPDATE_MANAGER_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LIVE_UPDATE_MANAGER_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -8487,7 +8560,7 @@ intgo _wrap_LIVE_UPDATE_MANAGER_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LIVE_UPDATE_ADMIN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LIVE_UPDATE_ADMIN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -8499,7 +8572,7 @@ intgo _wrap_LIVE_UPDATE_ADMIN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LIVE_UPDATE_DATACENTER_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LIVE_UPDATE_DATACENTER_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -8511,7 +8584,7 @@ intgo _wrap_LIVE_UPDATE_DATACENTER_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LIVE_UPDATE_CLIENT_PPC2002_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LIVE_UPDATE_CLIENT_PPC2002_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -8523,7 +8596,7 @@ intgo _wrap_LIVE_UPDATE_CLIENT_PPC2002_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LIVE_UPDATE_CLIENT_PPC2003_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LIVE_UPDATE_CLIENT_PPC2003_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -8535,7 +8608,7 @@ intgo _wrap_LIVE_UPDATE_CLIENT_PPC2003_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LIVE_UPDATE_MULTI_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LIVE_UPDATE_MULTI_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -8547,7 +8620,7 @@ intgo _wrap_LIVE_UPDATE_MULTI_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LIVE_UPDATE_WD_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LIVE_UPDATE_WD_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -8559,7 +8632,7 @@ intgo _wrap_LIVE_UPDATE_WD_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LIVE_UPDATE_CLIENT_PHONE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LIVE_UPDATE_CLIENT_PHONE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -8571,7 +8644,7 @@ intgo _wrap_LIVE_UPDATE_CLIENT_PHONE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LIVE_UPDATE_LAST_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LIVE_UPDATE_LAST_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -8583,7 +8656,7 @@ intgo _wrap_LIVE_UPDATE_LAST_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_ConManagerSec_internal_set_mtmanapi_8609ee77fca78eb1(ConManagerSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManagerSec_internal_set_mtmanapi_7bd57f7bcf037842(ConManagerSec *_swig_go_0, intgo _swig_go_1) {
   ConManagerSec *arg1 = (ConManagerSec *) 0 ;
   int arg2 ;
   
@@ -8595,7 +8668,7 @@ void _wrap_ConManagerSec_internal_set_mtmanapi_8609ee77fca78eb1(ConManagerSec *_
 }
 
 
-intgo _wrap_ConManagerSec_internal_get_mtmanapi_8609ee77fca78eb1(ConManagerSec *_swig_go_0) {
+intgo _wrap_ConManagerSec_internal_get_mtmanapi_7bd57f7bcf037842(ConManagerSec *_swig_go_0) {
   ConManagerSec *arg1 = (ConManagerSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8608,7 +8681,7 @@ intgo _wrap_ConManagerSec_internal_get_mtmanapi_8609ee77fca78eb1(ConManagerSec *
 }
 
 
-void _wrap_ConManagerSec_enable_set_mtmanapi_8609ee77fca78eb1(ConManagerSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManagerSec_enable_set_mtmanapi_7bd57f7bcf037842(ConManagerSec *_swig_go_0, intgo _swig_go_1) {
   ConManagerSec *arg1 = (ConManagerSec *) 0 ;
   int arg2 ;
   
@@ -8620,7 +8693,7 @@ void _wrap_ConManagerSec_enable_set_mtmanapi_8609ee77fca78eb1(ConManagerSec *_sw
 }
 
 
-intgo _wrap_ConManagerSec_enable_get_mtmanapi_8609ee77fca78eb1(ConManagerSec *_swig_go_0) {
+intgo _wrap_ConManagerSec_enable_get_mtmanapi_7bd57f7bcf037842(ConManagerSec *_swig_go_0) {
   ConManagerSec *arg1 = (ConManagerSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8633,7 +8706,7 @@ intgo _wrap_ConManagerSec_enable_get_mtmanapi_8609ee77fca78eb1(ConManagerSec *_s
 }
 
 
-void _wrap_ConManagerSec_minimum_lots_set_mtmanapi_8609ee77fca78eb1(ConManagerSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManagerSec_minimum_lots_set_mtmanapi_7bd57f7bcf037842(ConManagerSec *_swig_go_0, intgo _swig_go_1) {
   ConManagerSec *arg1 = (ConManagerSec *) 0 ;
   int arg2 ;
   
@@ -8645,7 +8718,7 @@ void _wrap_ConManagerSec_minimum_lots_set_mtmanapi_8609ee77fca78eb1(ConManagerSe
 }
 
 
-intgo _wrap_ConManagerSec_minimum_lots_get_mtmanapi_8609ee77fca78eb1(ConManagerSec *_swig_go_0) {
+intgo _wrap_ConManagerSec_minimum_lots_get_mtmanapi_7bd57f7bcf037842(ConManagerSec *_swig_go_0) {
   ConManagerSec *arg1 = (ConManagerSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8658,7 +8731,7 @@ intgo _wrap_ConManagerSec_minimum_lots_get_mtmanapi_8609ee77fca78eb1(ConManagerS
 }
 
 
-void _wrap_ConManagerSec_maximum_lots_set_mtmanapi_8609ee77fca78eb1(ConManagerSec *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManagerSec_maximum_lots_set_mtmanapi_7bd57f7bcf037842(ConManagerSec *_swig_go_0, intgo _swig_go_1) {
   ConManagerSec *arg1 = (ConManagerSec *) 0 ;
   int arg2 ;
   
@@ -8670,7 +8743,7 @@ void _wrap_ConManagerSec_maximum_lots_set_mtmanapi_8609ee77fca78eb1(ConManagerSe
 }
 
 
-intgo _wrap_ConManagerSec_maximum_lots_get_mtmanapi_8609ee77fca78eb1(ConManagerSec *_swig_go_0) {
+intgo _wrap_ConManagerSec_maximum_lots_get_mtmanapi_7bd57f7bcf037842(ConManagerSec *_swig_go_0) {
   ConManagerSec *arg1 = (ConManagerSec *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8683,7 +8756,7 @@ intgo _wrap_ConManagerSec_maximum_lots_get_mtmanapi_8609ee77fca78eb1(ConManagerS
 }
 
 
-void _wrap_ConManagerSec_unused_set_mtmanapi_8609ee77fca78eb1(ConManagerSec *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConManagerSec_unused_set_mtmanapi_7bd57f7bcf037842(ConManagerSec *_swig_go_0, intgo *_swig_go_1) {
   ConManagerSec *arg1 = (ConManagerSec *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -8699,7 +8772,7 @@ void _wrap_ConManagerSec_unused_set_mtmanapi_8609ee77fca78eb1(ConManagerSec *_sw
 }
 
 
-intgo *_wrap_ConManagerSec_unused_get_mtmanapi_8609ee77fca78eb1(ConManagerSec *_swig_go_0) {
+intgo *_wrap_ConManagerSec_unused_get_mtmanapi_7bd57f7bcf037842(ConManagerSec *_swig_go_0) {
   ConManagerSec *arg1 = (ConManagerSec *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -8712,7 +8785,7 @@ intgo *_wrap_ConManagerSec_unused_get_mtmanapi_8609ee77fca78eb1(ConManagerSec *_
 }
 
 
-ConManagerSec *_wrap_new_ConManagerSec_mtmanapi_8609ee77fca78eb1() {
+ConManagerSec *_wrap_new_ConManagerSec_mtmanapi_7bd57f7bcf037842() {
   ConManagerSec *result = 0 ;
   ConManagerSec *_swig_go_result;
   
@@ -8723,7 +8796,7 @@ ConManagerSec *_wrap_new_ConManagerSec_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConManagerSec_mtmanapi_8609ee77fca78eb1(ConManagerSec *_swig_go_0) {
+void _wrap_delete_ConManagerSec_mtmanapi_7bd57f7bcf037842(ConManagerSec *_swig_go_0) {
   ConManagerSec *arg1 = (ConManagerSec *) 0 ;
   
   arg1 = *(ConManagerSec **)&_swig_go_0; 
@@ -8733,7 +8806,7 @@ void _wrap_delete_ConManagerSec_mtmanapi_8609ee77fca78eb1(ConManagerSec *_swig_g
 }
 
 
-void _wrap_ConManager_login_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_login_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -8745,7 +8818,7 @@ void _wrap_ConManager_login_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0
 }
 
 
-intgo _wrap_ConManager_login_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_login_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8758,7 +8831,7 @@ intgo _wrap_ConManager_login_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_
 }
 
 
-void _wrap_ConManager_manager_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_manager_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -8770,7 +8843,7 @@ void _wrap_ConManager_manager_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go
 }
 
 
-intgo _wrap_ConManager_manager_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_manager_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8783,7 +8856,7 @@ intgo _wrap_ConManager_manager_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_g
 }
 
 
-void _wrap_ConManager_money_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_money_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -8795,7 +8868,7 @@ void _wrap_ConManager_money_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0
 }
 
 
-intgo _wrap_ConManager_money_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_money_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8808,7 +8881,7 @@ intgo _wrap_ConManager_money_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_
 }
 
 
-void _wrap_ConManager_online_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_online_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -8820,7 +8893,7 @@ void _wrap_ConManager_online_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_
 }
 
 
-intgo _wrap_ConManager_online_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_online_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8833,7 +8906,7 @@ intgo _wrap_ConManager_online_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go
 }
 
 
-void _wrap_ConManager_riskman_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_riskman_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -8845,7 +8918,7 @@ void _wrap_ConManager_riskman_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go
 }
 
 
-intgo _wrap_ConManager_riskman_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_riskman_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8858,7 +8931,7 @@ intgo _wrap_ConManager_riskman_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_g
 }
 
 
-void _wrap_ConManager_broker_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_broker_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -8870,7 +8943,7 @@ void _wrap_ConManager_broker_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_
 }
 
 
-intgo _wrap_ConManager_broker_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_broker_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8883,7 +8956,7 @@ intgo _wrap_ConManager_broker_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go
 }
 
 
-void _wrap_ConManager_admin_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_admin_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -8895,7 +8968,7 @@ void _wrap_ConManager_admin_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0
 }
 
 
-intgo _wrap_ConManager_admin_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_admin_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8908,7 +8981,7 @@ intgo _wrap_ConManager_admin_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_
 }
 
 
-void _wrap_ConManager_logs_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_logs_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -8920,7 +8993,7 @@ void _wrap_ConManager_logs_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0,
 }
 
 
-intgo _wrap_ConManager_logs_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_logs_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8933,7 +9006,7 @@ intgo _wrap_ConManager_logs_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0
 }
 
 
-void _wrap_ConManager_reports_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_reports_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -8945,7 +9018,7 @@ void _wrap_ConManager_reports_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go
 }
 
 
-intgo _wrap_ConManager_reports_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_reports_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8958,7 +9031,7 @@ intgo _wrap_ConManager_reports_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_g
 }
 
 
-void _wrap_ConManager_trades_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_trades_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -8970,7 +9043,7 @@ void _wrap_ConManager_trades_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_
 }
 
 
-intgo _wrap_ConManager_trades_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_trades_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8983,7 +9056,7 @@ intgo _wrap_ConManager_trades_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go
 }
 
 
-void _wrap_ConManager_market_watch_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_market_watch_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -8995,7 +9068,7 @@ void _wrap_ConManager_market_watch_set_mtmanapi_8609ee77fca78eb1(ConManager *_sw
 }
 
 
-intgo _wrap_ConManager_market_watch_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_market_watch_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9008,7 +9081,7 @@ intgo _wrap_ConManager_market_watch_get_mtmanapi_8609ee77fca78eb1(ConManager *_s
 }
 
 
-void _wrap_ConManager_email_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_email_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -9020,7 +9093,7 @@ void _wrap_ConManager_email_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0
 }
 
 
-intgo _wrap_ConManager_email_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_email_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9033,7 +9106,7 @@ intgo _wrap_ConManager_email_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_
 }
 
 
-void _wrap_ConManager_user_details_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_user_details_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -9045,7 +9118,7 @@ void _wrap_ConManager_user_details_set_mtmanapi_8609ee77fca78eb1(ConManager *_sw
 }
 
 
-intgo _wrap_ConManager_user_details_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_user_details_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9058,7 +9131,7 @@ intgo _wrap_ConManager_user_details_get_mtmanapi_8609ee77fca78eb1(ConManager *_s
 }
 
 
-void _wrap_ConManager_see_trades_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_see_trades_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -9070,7 +9143,7 @@ void _wrap_ConManager_see_trades_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig
 }
 
 
-intgo _wrap_ConManager_see_trades_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_see_trades_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9083,7 +9156,7 @@ intgo _wrap_ConManager_see_trades_get_mtmanapi_8609ee77fca78eb1(ConManager *_swi
 }
 
 
-void _wrap_ConManager_news_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_news_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -9095,7 +9168,7 @@ void _wrap_ConManager_news_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0,
 }
 
 
-intgo _wrap_ConManager_news_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_news_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9108,7 +9181,7 @@ intgo _wrap_ConManager_news_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0
 }
 
 
-void _wrap_ConManager_plugins_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_plugins_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -9120,7 +9193,7 @@ void _wrap_ConManager_plugins_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go
 }
 
 
-intgo _wrap_ConManager_plugins_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_plugins_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9133,7 +9206,7 @@ intgo _wrap_ConManager_plugins_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_g
 }
 
 
-void _wrap_ConManager_server_reports_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_server_reports_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -9145,7 +9218,7 @@ void _wrap_ConManager_server_reports_set_mtmanapi_8609ee77fca78eb1(ConManager *_
 }
 
 
-intgo _wrap_ConManager_server_reports_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_server_reports_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9158,7 +9231,7 @@ intgo _wrap_ConManager_server_reports_get_mtmanapi_8609ee77fca78eb1(ConManager *
 }
 
 
-void _wrap_ConManager_techsupport_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_techsupport_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -9170,7 +9243,7 @@ void _wrap_ConManager_techsupport_set_mtmanapi_8609ee77fca78eb1(ConManager *_swi
 }
 
 
-intgo _wrap_ConManager_techsupport_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_techsupport_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9183,7 +9256,7 @@ intgo _wrap_ConManager_techsupport_get_mtmanapi_8609ee77fca78eb1(ConManager *_sw
 }
 
 
-void _wrap_ConManager_market_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_market_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -9195,7 +9268,7 @@ void _wrap_ConManager_market_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_
 }
 
 
-intgo _wrap_ConManager_market_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_market_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9208,7 +9281,7 @@ intgo _wrap_ConManager_market_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go
 }
 
 
-void _wrap_ConManager_notifications_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_notifications_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -9220,7 +9293,7 @@ void _wrap_ConManager_notifications_set_mtmanapi_8609ee77fca78eb1(ConManager *_s
 }
 
 
-intgo _wrap_ConManager_notifications_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_notifications_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9233,7 +9306,7 @@ intgo _wrap_ConManager_notifications_get_mtmanapi_8609ee77fca78eb1(ConManager *_
 }
 
 
-void _wrap_ConManager_unused_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConManager_unused_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo *_swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -9249,7 +9322,7 @@ void _wrap_ConManager_unused_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_
 }
 
 
-intgo *_wrap_ConManager_unused_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo *_wrap_ConManager_unused_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -9262,7 +9335,7 @@ intgo *_wrap_ConManager_unused_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_g
 }
 
 
-void _wrap_ConManager_ipfilter_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_ipfilter_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -9274,7 +9347,7 @@ void _wrap_ConManager_ipfilter_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_g
 }
 
 
-intgo _wrap_ConManager_ipfilter_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_ipfilter_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9287,7 +9360,7 @@ intgo _wrap_ConManager_ipfilter_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_
 }
 
 
-void _wrap_ConManager_ip_from_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConManager_ip_from_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, long long _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   unsigned long arg2 ;
   
@@ -9299,7 +9372,7 @@ void _wrap_ConManager_ip_from_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go
 }
 
 
-long long _wrap_ConManager_ip_from_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+long long _wrap_ConManager_ip_from_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   unsigned long result;
   long long _swig_go_result;
@@ -9312,7 +9385,7 @@ long long _wrap_ConManager_ip_from_get_mtmanapi_8609ee77fca78eb1(ConManager *_sw
 }
 
 
-void _wrap_ConManager_ip_to_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConManager_ip_to_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, long long _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   unsigned long arg2 ;
   
@@ -9324,7 +9397,7 @@ void _wrap_ConManager_ip_to_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0
 }
 
 
-long long _wrap_ConManager_ip_to_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+long long _wrap_ConManager_ip_to_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   unsigned long result;
   long long _swig_go_result;
@@ -9337,7 +9410,7 @@ long long _wrap_ConManager_ip_to_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig
 }
 
 
-void _wrap_ConManager_mailbox_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConManager_mailbox_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, _gostring_ _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -9361,7 +9434,7 @@ void _wrap_ConManager_mailbox_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go
 }
 
 
-_gostring_ _wrap_ConManager_mailbox_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+_gostring_ _wrap_ConManager_mailbox_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -9374,7 +9447,7 @@ _gostring_ _wrap_ConManager_mailbox_get_mtmanapi_8609ee77fca78eb1(ConManager *_s
 }
 
 
-void _wrap_ConManager_groups_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConManager_groups_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, _gostring_ _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -9398,7 +9471,7 @@ void _wrap_ConManager_groups_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_
 }
 
 
-_gostring_ _wrap_ConManager_groups_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+_gostring_ _wrap_ConManager_groups_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -9411,7 +9484,7 @@ _gostring_ _wrap_ConManager_groups_get_mtmanapi_8609ee77fca78eb1(ConManager *_sw
 }
 
 
-void _wrap_ConManager_secgroups_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, ConManagerSec (*_swig_go_1)[(32)]) {
+void _wrap_ConManager_secgroups_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, ConManagerSec (*_swig_go_1)[(32)]) {
   ConManager *arg1 = (ConManager *) 0 ;
   ConManagerSec *arg2 = (ConManagerSec *) (ConManagerSec *)0 ;
   
@@ -9427,7 +9500,7 @@ void _wrap_ConManager_secgroups_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_
 }
 
 
-ConManagerSec (*_wrap_ConManager_secgroups_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0))[(32)] {
+ConManagerSec (*_wrap_ConManager_secgroups_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0))[(32)] {
   ConManager *arg1 = (ConManager *) 0 ;
   ConManagerSec *result = 0 ;
   ConManagerSec (*_swig_go_result)[(32)];
@@ -9440,7 +9513,7 @@ ConManagerSec (*_wrap_ConManager_secgroups_get_mtmanapi_8609ee77fca78eb1(ConMana
 }
 
 
-void _wrap_ConManager_exp_time_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConManager_exp_time_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, long long _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   DWORD arg2 ;
   
@@ -9452,7 +9525,7 @@ void _wrap_ConManager_exp_time_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_g
 }
 
 
-long long _wrap_ConManager_exp_time_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+long long _wrap_ConManager_exp_time_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   DWORD result;
   long long _swig_go_result;
@@ -9465,7 +9538,7 @@ long long _wrap_ConManager_exp_time_get_mtmanapi_8609ee77fca78eb1(ConManager *_s
 }
 
 
-void _wrap_ConManager_name_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConManager_name_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, _gostring_ _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -9489,7 +9562,7 @@ void _wrap_ConManager_name_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0,
 }
 
 
-_gostring_ _wrap_ConManager_name_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+_gostring_ _wrap_ConManager_name_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -9502,7 +9575,7 @@ _gostring_ _wrap_ConManager_name_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig
 }
 
 
-void _wrap_ConManager_info_depth_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConManager_info_depth_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo _swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int arg2 ;
   
@@ -9514,7 +9587,7 @@ void _wrap_ConManager_info_depth_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig
 }
 
 
-intgo _wrap_ConManager_info_depth_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo _wrap_ConManager_info_depth_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9527,7 +9600,7 @@ intgo _wrap_ConManager_info_depth_get_mtmanapi_8609ee77fca78eb1(ConManager *_swi
 }
 
 
-void _wrap_ConManager_reserved_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConManager_reserved_set_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0, intgo *_swig_go_1) {
   ConManager *arg1 = (ConManager *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -9543,7 +9616,7 @@ void _wrap_ConManager_reserved_set_mtmanapi_8609ee77fca78eb1(ConManager *_swig_g
 }
 
 
-intgo *_wrap_ConManager_reserved_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+intgo *_wrap_ConManager_reserved_get_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -9556,7 +9629,7 @@ intgo *_wrap_ConManager_reserved_get_mtmanapi_8609ee77fca78eb1(ConManager *_swig
 }
 
 
-ConManager *_wrap_new_ConManager_mtmanapi_8609ee77fca78eb1() {
+ConManager *_wrap_new_ConManager_mtmanapi_7bd57f7bcf037842() {
   ConManager *result = 0 ;
   ConManager *_swig_go_result;
   
@@ -9567,7 +9640,7 @@ ConManager *_wrap_new_ConManager_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConManager_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
+void _wrap_delete_ConManager_mtmanapi_7bd57f7bcf037842(ConManager *_swig_go_0) {
   ConManager *arg1 = (ConManager *) 0 ;
   
   arg1 = *(ConManager **)&_swig_go_0; 
@@ -9577,7 +9650,7 @@ void _wrap_delete_ConManager_mtmanapi_8609ee77fca78eb1(ConManager *_swig_go_0) {
 }
 
 
-void _wrap_ConSession_open_hour_set_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0, short _swig_go_1) {
+void _wrap_ConSession_open_hour_set_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0, short _swig_go_1) {
   ConSession *arg1 = (ConSession *) 0 ;
   short arg2 ;
   
@@ -9589,7 +9662,7 @@ void _wrap_ConSession_open_hour_set_mtmanapi_8609ee77fca78eb1(ConSession *_swig_
 }
 
 
-short _wrap_ConSession_open_hour_get_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0) {
+short _wrap_ConSession_open_hour_get_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0) {
   ConSession *arg1 = (ConSession *) 0 ;
   short result;
   short _swig_go_result;
@@ -9602,7 +9675,7 @@ short _wrap_ConSession_open_hour_get_mtmanapi_8609ee77fca78eb1(ConSession *_swig
 }
 
 
-void _wrap_ConSession_open_min_set_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0, short _swig_go_1) {
+void _wrap_ConSession_open_min_set_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0, short _swig_go_1) {
   ConSession *arg1 = (ConSession *) 0 ;
   short arg2 ;
   
@@ -9614,7 +9687,7 @@ void _wrap_ConSession_open_min_set_mtmanapi_8609ee77fca78eb1(ConSession *_swig_g
 }
 
 
-short _wrap_ConSession_open_min_get_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0) {
+short _wrap_ConSession_open_min_get_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0) {
   ConSession *arg1 = (ConSession *) 0 ;
   short result;
   short _swig_go_result;
@@ -9627,7 +9700,7 @@ short _wrap_ConSession_open_min_get_mtmanapi_8609ee77fca78eb1(ConSession *_swig_
 }
 
 
-void _wrap_ConSession_close_hour_set_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0, short _swig_go_1) {
+void _wrap_ConSession_close_hour_set_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0, short _swig_go_1) {
   ConSession *arg1 = (ConSession *) 0 ;
   short arg2 ;
   
@@ -9639,7 +9712,7 @@ void _wrap_ConSession_close_hour_set_mtmanapi_8609ee77fca78eb1(ConSession *_swig
 }
 
 
-short _wrap_ConSession_close_hour_get_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0) {
+short _wrap_ConSession_close_hour_get_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0) {
   ConSession *arg1 = (ConSession *) 0 ;
   short result;
   short _swig_go_result;
@@ -9652,7 +9725,7 @@ short _wrap_ConSession_close_hour_get_mtmanapi_8609ee77fca78eb1(ConSession *_swi
 }
 
 
-void _wrap_ConSession_close_min_set_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0, short _swig_go_1) {
+void _wrap_ConSession_close_min_set_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0, short _swig_go_1) {
   ConSession *arg1 = (ConSession *) 0 ;
   short arg2 ;
   
@@ -9664,7 +9737,7 @@ void _wrap_ConSession_close_min_set_mtmanapi_8609ee77fca78eb1(ConSession *_swig_
 }
 
 
-short _wrap_ConSession_close_min_get_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0) {
+short _wrap_ConSession_close_min_get_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0) {
   ConSession *arg1 = (ConSession *) 0 ;
   short result;
   short _swig_go_result;
@@ -9677,7 +9750,7 @@ short _wrap_ConSession_close_min_get_mtmanapi_8609ee77fca78eb1(ConSession *_swig
 }
 
 
-void _wrap_ConSession_open_set_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSession_open_set_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0, intgo _swig_go_1) {
   ConSession *arg1 = (ConSession *) 0 ;
   int arg2 ;
   
@@ -9689,7 +9762,7 @@ void _wrap_ConSession_open_set_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0,
 }
 
 
-intgo _wrap_ConSession_open_get_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0) {
+intgo _wrap_ConSession_open_get_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0) {
   ConSession *arg1 = (ConSession *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9702,7 +9775,7 @@ intgo _wrap_ConSession_open_get_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0
 }
 
 
-void _wrap_ConSession_close_set_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSession_close_set_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0, intgo _swig_go_1) {
   ConSession *arg1 = (ConSession *) 0 ;
   int arg2 ;
   
@@ -9714,7 +9787,7 @@ void _wrap_ConSession_close_set_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0
 }
 
 
-intgo _wrap_ConSession_close_get_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0) {
+intgo _wrap_ConSession_close_get_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0) {
   ConSession *arg1 = (ConSession *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9727,7 +9800,7 @@ intgo _wrap_ConSession_close_get_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_
 }
 
 
-void _wrap_ConSession_align_set_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0, short *_swig_go_1) {
+void _wrap_ConSession_align_set_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0, short *_swig_go_1) {
   ConSession *arg1 = (ConSession *) 0 ;
   short *arg2 = (short *) (short *)0 ;
   
@@ -9743,7 +9816,7 @@ void _wrap_ConSession_align_set_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0
 }
 
 
-short *_wrap_ConSession_align_get_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0) {
+short *_wrap_ConSession_align_get_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0) {
   ConSession *arg1 = (ConSession *) 0 ;
   short *result = 0 ;
   short *_swig_go_result;
@@ -9756,7 +9829,7 @@ short *_wrap_ConSession_align_get_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go
 }
 
 
-ConSession *_wrap_new_ConSession_mtmanapi_8609ee77fca78eb1() {
+ConSession *_wrap_new_ConSession_mtmanapi_7bd57f7bcf037842() {
   ConSession *result = 0 ;
   ConSession *_swig_go_result;
   
@@ -9767,7 +9840,7 @@ ConSession *_wrap_new_ConSession_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConSession_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0) {
+void _wrap_delete_ConSession_mtmanapi_7bd57f7bcf037842(ConSession *_swig_go_0) {
   ConSession *arg1 = (ConSession *) 0 ;
   
   arg1 = *(ConSession **)&_swig_go_0; 
@@ -9777,7 +9850,7 @@ void _wrap_delete_ConSession_mtmanapi_8609ee77fca78eb1(ConSession *_swig_go_0) {
 }
 
 
-void _wrap_ConSessions_quote_set_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go_0, ConSession (*_swig_go_1)[3]) {
+void _wrap_ConSessions_quote_set_mtmanapi_7bd57f7bcf037842(ConSessions *_swig_go_0, ConSession (*_swig_go_1)[3]) {
   ConSessions *arg1 = (ConSessions *) 0 ;
   ConSession *arg2 = (ConSession *) (ConSession *)0 ;
   
@@ -9793,7 +9866,7 @@ void _wrap_ConSessions_quote_set_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go
 }
 
 
-ConSession (*_wrap_ConSessions_quote_get_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go_0))[3] {
+ConSession (*_wrap_ConSessions_quote_get_mtmanapi_7bd57f7bcf037842(ConSessions *_swig_go_0))[3] {
   ConSessions *arg1 = (ConSessions *) 0 ;
   ConSession *result = 0 ;
   ConSession (*_swig_go_result)[3];
@@ -9806,7 +9879,7 @@ ConSession (*_wrap_ConSessions_quote_get_mtmanapi_8609ee77fca78eb1(ConSessions *
 }
 
 
-void _wrap_ConSessions_trade_set_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go_0, ConSession (*_swig_go_1)[3]) {
+void _wrap_ConSessions_trade_set_mtmanapi_7bd57f7bcf037842(ConSessions *_swig_go_0, ConSession (*_swig_go_1)[3]) {
   ConSessions *arg1 = (ConSessions *) 0 ;
   ConSession *arg2 = (ConSession *) (ConSession *)0 ;
   
@@ -9822,7 +9895,7 @@ void _wrap_ConSessions_trade_set_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go
 }
 
 
-ConSession (*_wrap_ConSessions_trade_get_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go_0))[3] {
+ConSession (*_wrap_ConSessions_trade_get_mtmanapi_7bd57f7bcf037842(ConSessions *_swig_go_0))[3] {
   ConSessions *arg1 = (ConSessions *) 0 ;
   ConSession *result = 0 ;
   ConSession (*_swig_go_result)[3];
@@ -9835,7 +9908,7 @@ ConSession (*_wrap_ConSessions_trade_get_mtmanapi_8609ee77fca78eb1(ConSessions *
 }
 
 
-void _wrap_ConSessions_quote_overnight_set_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSessions_quote_overnight_set_mtmanapi_7bd57f7bcf037842(ConSessions *_swig_go_0, intgo _swig_go_1) {
   ConSessions *arg1 = (ConSessions *) 0 ;
   int arg2 ;
   
@@ -9847,7 +9920,7 @@ void _wrap_ConSessions_quote_overnight_set_mtmanapi_8609ee77fca78eb1(ConSessions
 }
 
 
-intgo _wrap_ConSessions_quote_overnight_get_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go_0) {
+intgo _wrap_ConSessions_quote_overnight_get_mtmanapi_7bd57f7bcf037842(ConSessions *_swig_go_0) {
   ConSessions *arg1 = (ConSessions *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9860,7 +9933,7 @@ intgo _wrap_ConSessions_quote_overnight_get_mtmanapi_8609ee77fca78eb1(ConSession
 }
 
 
-void _wrap_ConSessions_trade_overnight_set_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSessions_trade_overnight_set_mtmanapi_7bd57f7bcf037842(ConSessions *_swig_go_0, intgo _swig_go_1) {
   ConSessions *arg1 = (ConSessions *) 0 ;
   int arg2 ;
   
@@ -9872,7 +9945,7 @@ void _wrap_ConSessions_trade_overnight_set_mtmanapi_8609ee77fca78eb1(ConSessions
 }
 
 
-intgo _wrap_ConSessions_trade_overnight_get_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go_0) {
+intgo _wrap_ConSessions_trade_overnight_get_mtmanapi_7bd57f7bcf037842(ConSessions *_swig_go_0) {
   ConSessions *arg1 = (ConSessions *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9885,7 +9958,7 @@ intgo _wrap_ConSessions_trade_overnight_get_mtmanapi_8609ee77fca78eb1(ConSession
 }
 
 
-void _wrap_ConSessions_reserved_set_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConSessions_reserved_set_mtmanapi_7bd57f7bcf037842(ConSessions *_swig_go_0, intgo *_swig_go_1) {
   ConSessions *arg1 = (ConSessions *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -9901,7 +9974,7 @@ void _wrap_ConSessions_reserved_set_mtmanapi_8609ee77fca78eb1(ConSessions *_swig
 }
 
 
-intgo *_wrap_ConSessions_reserved_get_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go_0) {
+intgo *_wrap_ConSessions_reserved_get_mtmanapi_7bd57f7bcf037842(ConSessions *_swig_go_0) {
   ConSessions *arg1 = (ConSessions *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -9914,7 +9987,7 @@ intgo *_wrap_ConSessions_reserved_get_mtmanapi_8609ee77fca78eb1(ConSessions *_sw
 }
 
 
-ConSessions *_wrap_new_ConSessions_mtmanapi_8609ee77fca78eb1() {
+ConSessions *_wrap_new_ConSessions_mtmanapi_7bd57f7bcf037842() {
   ConSessions *result = 0 ;
   ConSessions *_swig_go_result;
   
@@ -9925,7 +9998,7 @@ ConSessions *_wrap_new_ConSessions_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConSessions_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go_0) {
+void _wrap_delete_ConSessions_mtmanapi_7bd57f7bcf037842(ConSessions *_swig_go_0) {
   ConSessions *arg1 = (ConSessions *) 0 ;
   
   arg1 = *(ConSessions **)&_swig_go_0; 
@@ -9935,7 +10008,7 @@ void _wrap_delete_ConSessions_mtmanapi_8609ee77fca78eb1(ConSessions *_swig_go_0)
 }
 
 
-void _wrap_ConSymbol_symbol_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConSymbol_symbol_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, _gostring_ _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -9959,7 +10032,7 @@ void _wrap_ConSymbol_symbol_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0,
 }
 
 
-_gostring_ _wrap_ConSymbol_symbol_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+_gostring_ _wrap_ConSymbol_symbol_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -9972,7 +10045,7 @@ _gostring_ _wrap_ConSymbol_symbol_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig
 }
 
 
-void _wrap_ConSymbol_description_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConSymbol_description_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, _gostring_ _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -9996,7 +10069,7 @@ void _wrap_ConSymbol_description_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_
 }
 
 
-_gostring_ _wrap_ConSymbol_description_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+_gostring_ _wrap_ConSymbol_description_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -10009,7 +10082,7 @@ _gostring_ _wrap_ConSymbol_description_get_mtmanapi_8609ee77fca78eb1(ConSymbol *
 }
 
 
-void _wrap_ConSymbol_source_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConSymbol_source_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, _gostring_ _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -10033,7 +10106,7 @@ void _wrap_ConSymbol_source_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0,
 }
 
 
-_gostring_ _wrap_ConSymbol_source_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+_gostring_ _wrap_ConSymbol_source_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -10046,7 +10119,7 @@ _gostring_ _wrap_ConSymbol_source_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig
 }
 
 
-void _wrap_ConSymbol_currency_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConSymbol_currency_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, _gostring_ _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -10070,7 +10143,7 @@ void _wrap_ConSymbol_currency_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_
 }
 
 
-_gostring_ _wrap_ConSymbol_currency_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+_gostring_ _wrap_ConSymbol_currency_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -10083,7 +10156,7 @@ _gostring_ _wrap_ConSymbol_currency_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_sw
 }
 
 
-void _wrap_ConSymbol_Xtype_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_Xtype_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10095,7 +10168,7 @@ void _wrap_ConSymbol_Xtype_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, 
 }
 
 
-intgo _wrap_ConSymbol_Xtype_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_Xtype_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10108,7 +10181,7 @@ intgo _wrap_ConSymbol_Xtype_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0)
 }
 
 
-void _wrap_ConSymbol_digits_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_digits_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10120,7 +10193,7 @@ void _wrap_ConSymbol_digits_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0,
 }
 
 
-intgo _wrap_ConSymbol_digits_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_digits_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10133,7 +10206,7 @@ intgo _wrap_ConSymbol_digits_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0
 }
 
 
-void _wrap_ConSymbol_trade_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_trade_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10145,7 +10218,7 @@ void _wrap_ConSymbol_trade_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, 
 }
 
 
-intgo _wrap_ConSymbol_trade_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_trade_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10158,7 +10231,7 @@ intgo _wrap_ConSymbol_trade_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0)
 }
 
 
-void _wrap_ConSymbol_background_color_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, COLORREF *_swig_go_1) {
+void _wrap_ConSymbol_background_color_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, COLORREF *_swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   COLORREF arg2 ;
   COLORREF *argp2 ;
@@ -10177,7 +10250,7 @@ void _wrap_ConSymbol_background_color_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_
 }
 
 
-COLORREF *_wrap_ConSymbol_background_color_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+COLORREF *_wrap_ConSymbol_background_color_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   COLORREF result;
   COLORREF *_swig_go_result;
@@ -10190,7 +10263,7 @@ COLORREF *_wrap_ConSymbol_background_color_get_mtmanapi_8609ee77fca78eb1(ConSymb
 }
 
 
-void _wrap_ConSymbol_count_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_count_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10202,7 +10275,7 @@ void _wrap_ConSymbol_count_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, 
 }
 
 
-intgo _wrap_ConSymbol_count_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_count_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10215,7 +10288,7 @@ intgo _wrap_ConSymbol_count_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0)
 }
 
 
-void _wrap_ConSymbol_count_original_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_count_original_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10227,7 +10300,7 @@ void _wrap_ConSymbol_count_original_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_sw
 }
 
 
-intgo _wrap_ConSymbol_count_original_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_count_original_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10240,7 +10313,7 @@ intgo _wrap_ConSymbol_count_original_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_s
 }
 
 
-void _wrap_ConSymbol_external_unused_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConSymbol_external_unused_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo *_swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -10256,7 +10329,7 @@ void _wrap_ConSymbol_external_unused_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_s
 }
 
 
-intgo *_wrap_ConSymbol_external_unused_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo *_wrap_ConSymbol_external_unused_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -10269,7 +10342,7 @@ intgo *_wrap_ConSymbol_external_unused_get_mtmanapi_8609ee77fca78eb1(ConSymbol *
 }
 
 
-void _wrap_ConSymbol_realtime_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_realtime_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10281,7 +10354,7 @@ void _wrap_ConSymbol_realtime_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_
 }
 
 
-intgo _wrap_ConSymbol_realtime_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_realtime_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10294,57 +10367,71 @@ intgo _wrap_ConSymbol_realtime_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go
 }
 
 
-void _wrap_ConSymbol_starting_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConSymbol_starting_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, time_t *_swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ConSymbol **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->starting = arg2;
   
 }
 
 
-long long _wrap_ConSymbol_starting_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+time_t *_wrap_ConSymbol_starting_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ConSymbol **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->starting);
-  _swig_go_result = result; 
+  result =  ((arg1)->starting);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ConSymbol_expiration_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConSymbol_expiration_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, time_t *_swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ConSymbol **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->expiration = arg2;
   
 }
 
 
-long long _wrap_ConSymbol_expiration_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+time_t *_wrap_ConSymbol_expiration_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ConSymbol **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->expiration);
-  _swig_go_result = result; 
+  result =  ((arg1)->expiration);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ConSymbol_sessions_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, ConSessions (*_swig_go_1)[7]) {
+void _wrap_ConSymbol_sessions_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, ConSessions (*_swig_go_1)[7]) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   ConSessions *arg2 = (ConSessions *) (ConSessions *)0 ;
   
@@ -10360,7 +10447,7 @@ void _wrap_ConSymbol_sessions_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_
 }
 
 
-ConSessions (*_wrap_ConSymbol_sessions_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0))[7] {
+ConSessions (*_wrap_ConSymbol_sessions_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0))[7] {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   ConSessions *result = 0 ;
   ConSessions (*_swig_go_result)[7];
@@ -10373,7 +10460,7 @@ ConSessions (*_wrap_ConSymbol_sessions_get_mtmanapi_8609ee77fca78eb1(ConSymbol *
 }
 
 
-void _wrap_ConSymbol_profit_mode_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_profit_mode_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10385,7 +10472,7 @@ void _wrap_ConSymbol_profit_mode_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_
 }
 
 
-intgo _wrap_ConSymbol_profit_mode_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_profit_mode_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10398,7 +10485,7 @@ intgo _wrap_ConSymbol_profit_mode_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig
 }
 
 
-void _wrap_ConSymbol_profit_reserved_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_profit_reserved_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10410,7 +10497,7 @@ void _wrap_ConSymbol_profit_reserved_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_s
 }
 
 
-intgo _wrap_ConSymbol_profit_reserved_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_profit_reserved_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10423,7 +10510,7 @@ intgo _wrap_ConSymbol_profit_reserved_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_
 }
 
 
-void _wrap_ConSymbol_filter_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_filter_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10435,7 +10522,7 @@ void _wrap_ConSymbol_filter_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0,
 }
 
 
-intgo _wrap_ConSymbol_filter_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_filter_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10448,7 +10535,7 @@ intgo _wrap_ConSymbol_filter_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0
 }
 
 
-void _wrap_ConSymbol_filter_counter_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_filter_counter_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10460,7 +10547,7 @@ void _wrap_ConSymbol_filter_counter_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_sw
 }
 
 
-intgo _wrap_ConSymbol_filter_counter_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_filter_counter_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10473,7 +10560,7 @@ intgo _wrap_ConSymbol_filter_counter_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_s
 }
 
 
-void _wrap_ConSymbol_filter_limit_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, double _swig_go_1) {
+void _wrap_ConSymbol_filter_limit_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, double _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double arg2 ;
   
@@ -10485,7 +10572,7 @@ void _wrap_ConSymbol_filter_limit_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig
 }
 
 
-double _wrap_ConSymbol_filter_limit_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+double _wrap_ConSymbol_filter_limit_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double result;
   double _swig_go_result;
@@ -10498,7 +10585,7 @@ double _wrap_ConSymbol_filter_limit_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_sw
 }
 
 
-void _wrap_ConSymbol_filter_smoothing_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_filter_smoothing_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10510,7 +10597,7 @@ void _wrap_ConSymbol_filter_smoothing_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_
 }
 
 
-intgo _wrap_ConSymbol_filter_smoothing_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_filter_smoothing_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10523,7 +10610,7 @@ intgo _wrap_ConSymbol_filter_smoothing_get_mtmanapi_8609ee77fca78eb1(ConSymbol *
 }
 
 
-void _wrap_ConSymbol_filter_reserved_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, float _swig_go_1) {
+void _wrap_ConSymbol_filter_reserved_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, float _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   float arg2 ;
   
@@ -10535,7 +10622,7 @@ void _wrap_ConSymbol_filter_reserved_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_s
 }
 
 
-float _wrap_ConSymbol_filter_reserved_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+float _wrap_ConSymbol_filter_reserved_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   float result;
   float _swig_go_result;
@@ -10548,7 +10635,7 @@ float _wrap_ConSymbol_filter_reserved_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_
 }
 
 
-void _wrap_ConSymbol_logging_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_logging_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10560,7 +10647,7 @@ void _wrap_ConSymbol_logging_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0
 }
 
 
-intgo _wrap_ConSymbol_logging_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_logging_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10573,7 +10660,7 @@ intgo _wrap_ConSymbol_logging_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_
 }
 
 
-void _wrap_ConSymbol_spread_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_spread_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10585,7 +10672,7 @@ void _wrap_ConSymbol_spread_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0,
 }
 
 
-intgo _wrap_ConSymbol_spread_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_spread_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10598,7 +10685,7 @@ intgo _wrap_ConSymbol_spread_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0
 }
 
 
-void _wrap_ConSymbol_spread_balance_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_spread_balance_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10610,7 +10697,7 @@ void _wrap_ConSymbol_spread_balance_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_sw
 }
 
 
-intgo _wrap_ConSymbol_spread_balance_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_spread_balance_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10623,7 +10710,7 @@ intgo _wrap_ConSymbol_spread_balance_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_s
 }
 
 
-void _wrap_ConSymbol_exemode_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_exemode_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10635,7 +10722,7 @@ void _wrap_ConSymbol_exemode_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0
 }
 
 
-intgo _wrap_ConSymbol_exemode_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_exemode_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10648,7 +10735,7 @@ intgo _wrap_ConSymbol_exemode_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_
 }
 
 
-void _wrap_ConSymbol_swap_enable_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_swap_enable_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10660,7 +10747,7 @@ void _wrap_ConSymbol_swap_enable_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_
 }
 
 
-intgo _wrap_ConSymbol_swap_enable_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_swap_enable_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10673,7 +10760,7 @@ intgo _wrap_ConSymbol_swap_enable_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig
 }
 
 
-void _wrap_ConSymbol_swap_type_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_swap_type_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10685,7 +10772,7 @@ void _wrap_ConSymbol_swap_type_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go
 }
 
 
-intgo _wrap_ConSymbol_swap_type_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_swap_type_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10698,7 +10785,7 @@ intgo _wrap_ConSymbol_swap_type_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_g
 }
 
 
-void _wrap_ConSymbol_swap_long_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, double _swig_go_1) {
+void _wrap_ConSymbol_swap_long_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, double _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double arg2 ;
   
@@ -10710,7 +10797,7 @@ void _wrap_ConSymbol_swap_long_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go
 }
 
 
-double _wrap_ConSymbol_swap_long_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+double _wrap_ConSymbol_swap_long_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double result;
   double _swig_go_result;
@@ -10723,7 +10810,7 @@ double _wrap_ConSymbol_swap_long_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_
 }
 
 
-void _wrap_ConSymbol_swap_short_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, double _swig_go_1) {
+void _wrap_ConSymbol_swap_short_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, double _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double arg2 ;
   
@@ -10735,7 +10822,7 @@ void _wrap_ConSymbol_swap_short_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_g
 }
 
 
-double _wrap_ConSymbol_swap_short_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+double _wrap_ConSymbol_swap_short_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double result;
   double _swig_go_result;
@@ -10748,7 +10835,7 @@ double _wrap_ConSymbol_swap_short_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig
 }
 
 
-void _wrap_ConSymbol_swap_rollover3days_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_swap_rollover3days_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10760,7 +10847,7 @@ void _wrap_ConSymbol_swap_rollover3days_set_mtmanapi_8609ee77fca78eb1(ConSymbol 
 }
 
 
-intgo _wrap_ConSymbol_swap_rollover3days_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_swap_rollover3days_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10773,7 +10860,7 @@ intgo _wrap_ConSymbol_swap_rollover3days_get_mtmanapi_8609ee77fca78eb1(ConSymbol
 }
 
 
-void _wrap_ConSymbol_contract_size_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, double _swig_go_1) {
+void _wrap_ConSymbol_contract_size_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, double _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double arg2 ;
   
@@ -10785,7 +10872,7 @@ void _wrap_ConSymbol_contract_size_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swi
 }
 
 
-double _wrap_ConSymbol_contract_size_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+double _wrap_ConSymbol_contract_size_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double result;
   double _swig_go_result;
@@ -10798,7 +10885,7 @@ double _wrap_ConSymbol_contract_size_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_s
 }
 
 
-void _wrap_ConSymbol_tick_value_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, double _swig_go_1) {
+void _wrap_ConSymbol_tick_value_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, double _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double arg2 ;
   
@@ -10810,7 +10897,7 @@ void _wrap_ConSymbol_tick_value_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_g
 }
 
 
-double _wrap_ConSymbol_tick_value_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+double _wrap_ConSymbol_tick_value_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double result;
   double _swig_go_result;
@@ -10823,7 +10910,7 @@ double _wrap_ConSymbol_tick_value_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig
 }
 
 
-void _wrap_ConSymbol_tick_size_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, double _swig_go_1) {
+void _wrap_ConSymbol_tick_size_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, double _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double arg2 ;
   
@@ -10835,7 +10922,7 @@ void _wrap_ConSymbol_tick_size_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go
 }
 
 
-double _wrap_ConSymbol_tick_size_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+double _wrap_ConSymbol_tick_size_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double result;
   double _swig_go_result;
@@ -10848,7 +10935,7 @@ double _wrap_ConSymbol_tick_size_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_
 }
 
 
-void _wrap_ConSymbol_stops_level_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_stops_level_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10860,7 +10947,7 @@ void _wrap_ConSymbol_stops_level_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_
 }
 
 
-intgo _wrap_ConSymbol_stops_level_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_stops_level_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10873,7 +10960,7 @@ intgo _wrap_ConSymbol_stops_level_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig
 }
 
 
-void _wrap_ConSymbol_gtc_pendings_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_gtc_pendings_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10885,7 +10972,7 @@ void _wrap_ConSymbol_gtc_pendings_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig
 }
 
 
-intgo _wrap_ConSymbol_gtc_pendings_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_gtc_pendings_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10898,7 +10985,7 @@ intgo _wrap_ConSymbol_gtc_pendings_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swi
 }
 
 
-void _wrap_ConSymbol_margin_mode_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_margin_mode_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -10910,7 +10997,7 @@ void _wrap_ConSymbol_margin_mode_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_
 }
 
 
-intgo _wrap_ConSymbol_margin_mode_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_margin_mode_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -10923,7 +11010,7 @@ intgo _wrap_ConSymbol_margin_mode_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig
 }
 
 
-void _wrap_ConSymbol_margin_initial_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, double _swig_go_1) {
+void _wrap_ConSymbol_margin_initial_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, double _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double arg2 ;
   
@@ -10935,7 +11022,7 @@ void _wrap_ConSymbol_margin_initial_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_sw
 }
 
 
-double _wrap_ConSymbol_margin_initial_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+double _wrap_ConSymbol_margin_initial_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double result;
   double _swig_go_result;
@@ -10948,7 +11035,7 @@ double _wrap_ConSymbol_margin_initial_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_
 }
 
 
-void _wrap_ConSymbol_margin_maintenance_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, double _swig_go_1) {
+void _wrap_ConSymbol_margin_maintenance_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, double _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double arg2 ;
   
@@ -10960,7 +11047,7 @@ void _wrap_ConSymbol_margin_maintenance_set_mtmanapi_8609ee77fca78eb1(ConSymbol 
 }
 
 
-double _wrap_ConSymbol_margin_maintenance_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+double _wrap_ConSymbol_margin_maintenance_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double result;
   double _swig_go_result;
@@ -10973,7 +11060,7 @@ double _wrap_ConSymbol_margin_maintenance_get_mtmanapi_8609ee77fca78eb1(ConSymbo
 }
 
 
-void _wrap_ConSymbol_margin_hedged_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, double _swig_go_1) {
+void _wrap_ConSymbol_margin_hedged_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, double _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double arg2 ;
   
@@ -10985,7 +11072,7 @@ void _wrap_ConSymbol_margin_hedged_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swi
 }
 
 
-double _wrap_ConSymbol_margin_hedged_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+double _wrap_ConSymbol_margin_hedged_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double result;
   double _swig_go_result;
@@ -10998,7 +11085,7 @@ double _wrap_ConSymbol_margin_hedged_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_s
 }
 
 
-void _wrap_ConSymbol_margin_divider_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, double _swig_go_1) {
+void _wrap_ConSymbol_margin_divider_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, double _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double arg2 ;
   
@@ -11010,7 +11097,7 @@ void _wrap_ConSymbol_margin_divider_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_sw
 }
 
 
-double _wrap_ConSymbol_margin_divider_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+double _wrap_ConSymbol_margin_divider_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double result;
   double _swig_go_result;
@@ -11023,7 +11110,7 @@ double _wrap_ConSymbol_margin_divider_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_
 }
 
 
-void _wrap_ConSymbol_point_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, double _swig_go_1) {
+void _wrap_ConSymbol_point_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, double _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double arg2 ;
   
@@ -11035,7 +11122,7 @@ void _wrap_ConSymbol_point_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, 
 }
 
 
-double _wrap_ConSymbol_point_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+double _wrap_ConSymbol_point_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double result;
   double _swig_go_result;
@@ -11048,7 +11135,7 @@ double _wrap_ConSymbol_point_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0
 }
 
 
-void _wrap_ConSymbol_multiply_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, double _swig_go_1) {
+void _wrap_ConSymbol_multiply_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, double _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double arg2 ;
   
@@ -11060,7 +11147,7 @@ void _wrap_ConSymbol_multiply_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_
 }
 
 
-double _wrap_ConSymbol_multiply_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+double _wrap_ConSymbol_multiply_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double result;
   double _swig_go_result;
@@ -11073,7 +11160,7 @@ double _wrap_ConSymbol_multiply_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_g
 }
 
 
-void _wrap_ConSymbol_bid_tickvalue_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, double _swig_go_1) {
+void _wrap_ConSymbol_bid_tickvalue_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, double _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double arg2 ;
   
@@ -11085,7 +11172,7 @@ void _wrap_ConSymbol_bid_tickvalue_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swi
 }
 
 
-double _wrap_ConSymbol_bid_tickvalue_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+double _wrap_ConSymbol_bid_tickvalue_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double result;
   double _swig_go_result;
@@ -11098,7 +11185,7 @@ double _wrap_ConSymbol_bid_tickvalue_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_s
 }
 
 
-void _wrap_ConSymbol_ask_tickvalue_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, double _swig_go_1) {
+void _wrap_ConSymbol_ask_tickvalue_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, double _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double arg2 ;
   
@@ -11110,7 +11197,7 @@ void _wrap_ConSymbol_ask_tickvalue_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swi
 }
 
 
-double _wrap_ConSymbol_ask_tickvalue_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+double _wrap_ConSymbol_ask_tickvalue_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   double result;
   double _swig_go_result;
@@ -11123,7 +11210,7 @@ double _wrap_ConSymbol_ask_tickvalue_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_s
 }
 
 
-void _wrap_ConSymbol_long_only_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_long_only_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -11135,7 +11222,7 @@ void _wrap_ConSymbol_long_only_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go
 }
 
 
-intgo _wrap_ConSymbol_long_only_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_long_only_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -11148,7 +11235,7 @@ intgo _wrap_ConSymbol_long_only_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_g
 }
 
 
-void _wrap_ConSymbol_instant_max_volume_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_instant_max_volume_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -11160,7 +11247,7 @@ void _wrap_ConSymbol_instant_max_volume_set_mtmanapi_8609ee77fca78eb1(ConSymbol 
 }
 
 
-intgo _wrap_ConSymbol_instant_max_volume_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_instant_max_volume_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -11173,7 +11260,7 @@ intgo _wrap_ConSymbol_instant_max_volume_get_mtmanapi_8609ee77fca78eb1(ConSymbol
 }
 
 
-void _wrap_ConSymbol_margin_currency_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConSymbol_margin_currency_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, _gostring_ _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -11197,7 +11284,7 @@ void _wrap_ConSymbol_margin_currency_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_s
 }
 
 
-_gostring_ _wrap_ConSymbol_margin_currency_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+_gostring_ _wrap_ConSymbol_margin_currency_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -11210,7 +11297,7 @@ _gostring_ _wrap_ConSymbol_margin_currency_get_mtmanapi_8609ee77fca78eb1(ConSymb
 }
 
 
-void _wrap_ConSymbol_freeze_level_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_freeze_level_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -11222,7 +11309,7 @@ void _wrap_ConSymbol_freeze_level_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig
 }
 
 
-intgo _wrap_ConSymbol_freeze_level_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_freeze_level_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -11235,7 +11322,7 @@ intgo _wrap_ConSymbol_freeze_level_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swi
 }
 
 
-void _wrap_ConSymbol_margin_hedged_strong_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_margin_hedged_strong_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -11247,7 +11334,7 @@ void _wrap_ConSymbol_margin_hedged_strong_set_mtmanapi_8609ee77fca78eb1(ConSymbo
 }
 
 
-intgo _wrap_ConSymbol_margin_hedged_strong_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_margin_hedged_strong_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -11260,32 +11347,39 @@ intgo _wrap_ConSymbol_margin_hedged_strong_get_mtmanapi_8609ee77fca78eb1(ConSymb
 }
 
 
-void _wrap_ConSymbol_value_date_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConSymbol_value_date_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, time_t *_swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ConSymbol **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->value_date = arg2;
   
 }
 
 
-long long _wrap_ConSymbol_value_date_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+time_t *_wrap_ConSymbol_value_date_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ConSymbol **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->value_date);
-  _swig_go_result = result; 
+  result =  ((arg1)->value_date);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ConSymbol_quotes_delay_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_quotes_delay_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -11297,7 +11391,7 @@ void _wrap_ConSymbol_quotes_delay_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig
 }
 
 
-intgo _wrap_ConSymbol_quotes_delay_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_quotes_delay_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -11310,7 +11404,7 @@ intgo _wrap_ConSymbol_quotes_delay_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swi
 }
 
 
-void _wrap_ConSymbol_swap_openprice_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_swap_openprice_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -11322,7 +11416,7 @@ void _wrap_ConSymbol_swap_openprice_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_sw
 }
 
 
-intgo _wrap_ConSymbol_swap_openprice_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_swap_openprice_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -11335,7 +11429,7 @@ intgo _wrap_ConSymbol_swap_openprice_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_s
 }
 
 
-void _wrap_ConSymbol_swap_variation_margin_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSymbol_swap_variation_margin_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo _swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int arg2 ;
   
@@ -11347,7 +11441,7 @@ void _wrap_ConSymbol_swap_variation_margin_set_mtmanapi_8609ee77fca78eb1(ConSymb
 }
 
 
-intgo _wrap_ConSymbol_swap_variation_margin_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo _wrap_ConSymbol_swap_variation_margin_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -11360,7 +11454,7 @@ intgo _wrap_ConSymbol_swap_variation_margin_get_mtmanapi_8609ee77fca78eb1(ConSym
 }
 
 
-void _wrap_ConSymbol_unused_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConSymbol_unused_set_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0, intgo *_swig_go_1) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -11376,7 +11470,7 @@ void _wrap_ConSymbol_unused_set_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0,
 }
 
 
-intgo *_wrap_ConSymbol_unused_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+intgo *_wrap_ConSymbol_unused_get_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -11389,7 +11483,7 @@ intgo *_wrap_ConSymbol_unused_get_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_
 }
 
 
-ConSymbol *_wrap_new_ConSymbol_mtmanapi_8609ee77fca78eb1() {
+ConSymbol *_wrap_new_ConSymbol_mtmanapi_7bd57f7bcf037842() {
   ConSymbol *result = 0 ;
   ConSymbol *_swig_go_result;
   
@@ -11400,7 +11494,7 @@ ConSymbol *_wrap_new_ConSymbol_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConSymbol_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
+void _wrap_delete_ConSymbol_mtmanapi_7bd57f7bcf037842(ConSymbol *_swig_go_0) {
   ConSymbol *arg1 = (ConSymbol *) 0 ;
   
   arg1 = *(ConSymbol **)&_swig_go_0; 
@@ -11410,7 +11504,7 @@ void _wrap_delete_ConSymbol_mtmanapi_8609ee77fca78eb1(ConSymbol *_swig_go_0) {
 }
 
 
-intgo _wrap_EXE_REQUEST_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_EXE_REQUEST_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11422,7 +11516,7 @@ intgo _wrap_EXE_REQUEST_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_EXE_INSTANT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_EXE_INSTANT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11434,7 +11528,7 @@ intgo _wrap_EXE_INSTANT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_EXE_MARKET_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_EXE_MARKET_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11446,7 +11540,7 @@ intgo _wrap_EXE_MARKET_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TRADE_NO_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TRADE_NO_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11458,7 +11552,7 @@ intgo _wrap_TRADE_NO_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TRADE_CLOSE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TRADE_CLOSE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11470,7 +11564,7 @@ intgo _wrap_TRADE_CLOSE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TRADE_FULL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TRADE_FULL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11482,7 +11576,7 @@ intgo _wrap_TRADE_FULL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_SWAP_BY_POINTS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_SWAP_BY_POINTS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11494,7 +11588,7 @@ intgo _wrap_SWAP_BY_POINTS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_SWAP_BY_DOLLARS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_SWAP_BY_DOLLARS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11506,7 +11600,7 @@ intgo _wrap_SWAP_BY_DOLLARS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_SWAP_BY_INTEREST_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_SWAP_BY_INTEREST_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11518,7 +11612,7 @@ intgo _wrap_SWAP_BY_INTEREST_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_SWAP_BY_MARGIN_CURRENCY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_SWAP_BY_MARGIN_CURRENCY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11530,7 +11624,7 @@ intgo _wrap_SWAP_BY_MARGIN_CURRENCY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PROFIT_CALC_FOREX_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PROFIT_CALC_FOREX_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11542,7 +11636,7 @@ intgo _wrap_PROFIT_CALC_FOREX_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PROFIT_CALC_CFD_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PROFIT_CALC_CFD_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11554,7 +11648,7 @@ intgo _wrap_PROFIT_CALC_CFD_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PROFIT_CALC_FUTURES_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PROFIT_CALC_FUTURES_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11566,7 +11660,7 @@ intgo _wrap_PROFIT_CALC_FUTURES_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MARGIN_CALC_FOREX_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MARGIN_CALC_FOREX_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11578,7 +11672,7 @@ intgo _wrap_MARGIN_CALC_FOREX_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MARGIN_CALC_CFD_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MARGIN_CALC_CFD_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11590,7 +11684,7 @@ intgo _wrap_MARGIN_CALC_CFD_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MARGIN_CALC_FUTURES_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MARGIN_CALC_FUTURES_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11602,7 +11696,7 @@ intgo _wrap_MARGIN_CALC_FUTURES_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MARGIN_CALC_CFDINDEX_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MARGIN_CALC_CFDINDEX_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11614,7 +11708,7 @@ intgo _wrap_MARGIN_CALC_CFDINDEX_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MARGIN_CALC_CFDLEVERAGE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MARGIN_CALC_CFDLEVERAGE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11626,7 +11720,7 @@ intgo _wrap_MARGIN_CALC_CFDLEVERAGE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ORDERS_DAILY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ORDERS_DAILY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11638,7 +11732,7 @@ intgo _wrap_ORDERS_DAILY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ORDERS_GTC_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ORDERS_GTC_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11650,7 +11744,7 @@ intgo _wrap_ORDERS_GTC_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ORDERS_DAILY_NO_STOPS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ORDERS_DAILY_NO_STOPS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11662,7 +11756,7 @@ intgo _wrap_ORDERS_DAILY_NO_STOPS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MAX_SEC_GROUP_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MAX_SEC_GROUP_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -11673,7 +11767,7 @@ intgo _wrap_MAX_SEC_GROUP_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_ConSymbolGroup_name_set_mtmanapi_8609ee77fca78eb1(ConSymbolGroup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConSymbolGroup_name_set_mtmanapi_7bd57f7bcf037842(ConSymbolGroup *_swig_go_0, _gostring_ _swig_go_1) {
   ConSymbolGroup *arg1 = (ConSymbolGroup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -11697,7 +11791,7 @@ void _wrap_ConSymbolGroup_name_set_mtmanapi_8609ee77fca78eb1(ConSymbolGroup *_sw
 }
 
 
-_gostring_ _wrap_ConSymbolGroup_name_get_mtmanapi_8609ee77fca78eb1(ConSymbolGroup *_swig_go_0) {
+_gostring_ _wrap_ConSymbolGroup_name_get_mtmanapi_7bd57f7bcf037842(ConSymbolGroup *_swig_go_0) {
   ConSymbolGroup *arg1 = (ConSymbolGroup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -11710,7 +11804,7 @@ _gostring_ _wrap_ConSymbolGroup_name_get_mtmanapi_8609ee77fca78eb1(ConSymbolGrou
 }
 
 
-void _wrap_ConSymbolGroup_description_set_mtmanapi_8609ee77fca78eb1(ConSymbolGroup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConSymbolGroup_description_set_mtmanapi_7bd57f7bcf037842(ConSymbolGroup *_swig_go_0, _gostring_ _swig_go_1) {
   ConSymbolGroup *arg1 = (ConSymbolGroup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -11734,7 +11828,7 @@ void _wrap_ConSymbolGroup_description_set_mtmanapi_8609ee77fca78eb1(ConSymbolGro
 }
 
 
-_gostring_ _wrap_ConSymbolGroup_description_get_mtmanapi_8609ee77fca78eb1(ConSymbolGroup *_swig_go_0) {
+_gostring_ _wrap_ConSymbolGroup_description_get_mtmanapi_7bd57f7bcf037842(ConSymbolGroup *_swig_go_0) {
   ConSymbolGroup *arg1 = (ConSymbolGroup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -11747,7 +11841,7 @@ _gostring_ _wrap_ConSymbolGroup_description_get_mtmanapi_8609ee77fca78eb1(ConSym
 }
 
 
-ConSymbolGroup *_wrap_new_ConSymbolGroup_mtmanapi_8609ee77fca78eb1() {
+ConSymbolGroup *_wrap_new_ConSymbolGroup_mtmanapi_7bd57f7bcf037842() {
   ConSymbolGroup *result = 0 ;
   ConSymbolGroup *_swig_go_result;
   
@@ -11758,7 +11852,7 @@ ConSymbolGroup *_wrap_new_ConSymbolGroup_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConSymbolGroup_mtmanapi_8609ee77fca78eb1(ConSymbolGroup *_swig_go_0) {
+void _wrap_delete_ConSymbolGroup_mtmanapi_7bd57f7bcf037842(ConSymbolGroup *_swig_go_0) {
   ConSymbolGroup *arg1 = (ConSymbolGroup *) 0 ;
   
   arg1 = *(ConSymbolGroup **)&_swig_go_0; 
@@ -11768,7 +11862,7 @@ void _wrap_delete_ConSymbolGroup_mtmanapi_8609ee77fca78eb1(ConSymbolGroup *_swig
 }
 
 
-void _wrap_ConSync_server_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConSync_server_set_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0, _gostring_ _swig_go_1) {
   ConSync *arg1 = (ConSync *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -11792,7 +11886,7 @@ void _wrap_ConSync_server_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, _go
 }
 
 
-_gostring_ _wrap_ConSync_server_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
+_gostring_ _wrap_ConSync_server_get_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0) {
   ConSync *arg1 = (ConSync *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -11805,7 +11899,7 @@ _gostring_ _wrap_ConSync_server_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_
 }
 
 
-void _wrap_ConSync_unusedport_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSync_unusedport_set_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0, intgo _swig_go_1) {
   ConSync *arg1 = (ConSync *) 0 ;
   int arg2 ;
   
@@ -11817,7 +11911,7 @@ void _wrap_ConSync_unusedport_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0,
 }
 
 
-intgo _wrap_ConSync_unusedport_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
+intgo _wrap_ConSync_unusedport_get_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0) {
   ConSync *arg1 = (ConSync *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -11830,7 +11924,7 @@ intgo _wrap_ConSync_unusedport_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0
 }
 
 
-void _wrap_ConSync_login_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConSync_login_set_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0, _gostring_ _swig_go_1) {
   ConSync *arg1 = (ConSync *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -11854,7 +11948,7 @@ void _wrap_ConSync_login_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, _gos
 }
 
 
-_gostring_ _wrap_ConSync_login_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
+_gostring_ _wrap_ConSync_login_get_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0) {
   ConSync *arg1 = (ConSync *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -11867,7 +11961,7 @@ _gostring_ _wrap_ConSync_login_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0
 }
 
 
-void _wrap_ConSync_password_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConSync_password_set_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0, _gostring_ _swig_go_1) {
   ConSync *arg1 = (ConSync *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -11891,7 +11985,7 @@ void _wrap_ConSync_password_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, _
 }
 
 
-_gostring_ _wrap_ConSync_password_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
+_gostring_ _wrap_ConSync_password_get_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0) {
   ConSync *arg1 = (ConSync *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -11904,7 +11998,7 @@ _gostring_ _wrap_ConSync_password_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_g
 }
 
 
-void _wrap_ConSync_enable_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSync_enable_set_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0, intgo _swig_go_1) {
   ConSync *arg1 = (ConSync *) 0 ;
   int arg2 ;
   
@@ -11916,7 +12010,7 @@ void _wrap_ConSync_enable_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, int
 }
 
 
-intgo _wrap_ConSync_enable_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
+intgo _wrap_ConSync_enable_get_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0) {
   ConSync *arg1 = (ConSync *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -11929,7 +12023,7 @@ intgo _wrap_ConSync_enable_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
 }
 
 
-void _wrap_ConSync_mode_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSync_mode_set_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0, intgo _swig_go_1) {
   ConSync *arg1 = (ConSync *) 0 ;
   int arg2 ;
   
@@ -11941,7 +12035,7 @@ void _wrap_ConSync_mode_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, intgo
 }
 
 
-intgo _wrap_ConSync_mode_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
+intgo _wrap_ConSync_mode_get_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0) {
   ConSync *arg1 = (ConSync *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -11954,57 +12048,71 @@ intgo _wrap_ConSync_mode_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
 }
 
 
-void _wrap_ConSync_from_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConSync_from_set_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0, time_t *_swig_go_1) {
   ConSync *arg1 = (ConSync *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ConSync **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->from = arg2;
   
 }
 
 
-long long _wrap_ConSync_from_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
+time_t *_wrap_ConSync_from_get_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0) {
   ConSync *arg1 = (ConSync *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ConSync **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->from);
-  _swig_go_result = result; 
+  result =  ((arg1)->from);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ConSync_to_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, long long _swig_go_1) {
+void _wrap_ConSync_to_set_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0, time_t *_swig_go_1) {
   ConSync *arg1 = (ConSync *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ConSync **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->to = arg2;
   
 }
 
 
-long long _wrap_ConSync_to_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
+time_t *_wrap_ConSync_to_get_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0) {
   ConSync *arg1 = (ConSync *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ConSync **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->to);
-  _swig_go_result = result; 
+  result =  ((arg1)->to);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ConSync_securities_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConSync_securities_set_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0, _gostring_ _swig_go_1) {
   ConSync *arg1 = (ConSync *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -12028,7 +12136,7 @@ void _wrap_ConSync_securities_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0,
 }
 
 
-_gostring_ _wrap_ConSync_securities_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
+_gostring_ _wrap_ConSync_securities_get_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0) {
   ConSync *arg1 = (ConSync *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -12041,7 +12149,7 @@ _gostring_ _wrap_ConSync_securities_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig
 }
 
 
-void _wrap_ConSync_timecorrection_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConSync_timecorrection_set_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0, intgo _swig_go_1) {
   ConSync *arg1 = (ConSync *) 0 ;
   int arg2 ;
   
@@ -12053,7 +12161,7 @@ void _wrap_ConSync_timecorrection_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_g
 }
 
 
-intgo _wrap_ConSync_timecorrection_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
+intgo _wrap_ConSync_timecorrection_get_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0) {
   ConSync *arg1 = (ConSync *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12066,7 +12174,7 @@ intgo _wrap_ConSync_timecorrection_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_
 }
 
 
-void _wrap_ConSync_reserved_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConSync_reserved_set_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0, intgo *_swig_go_1) {
   ConSync *arg1 = (ConSync *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -12082,7 +12190,7 @@ void _wrap_ConSync_reserved_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, i
 }
 
 
-intgo *_wrap_ConSync_reserved_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
+intgo *_wrap_ConSync_reserved_get_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0) {
   ConSync *arg1 = (ConSync *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -12095,7 +12203,7 @@ intgo *_wrap_ConSync_reserved_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0)
 }
 
 
-void _wrap_ConSync_next_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, ConSync *_swig_go_1) {
+void _wrap_ConSync_next_set_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0, ConSync *_swig_go_1) {
   ConSync *arg1 = (ConSync *) 0 ;
   ConSync *arg2 = (ConSync *) 0 ;
   
@@ -12107,7 +12215,7 @@ void _wrap_ConSync_next_set_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0, ConSy
 }
 
 
-ConSync *_wrap_ConSync_next_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
+ConSync *_wrap_ConSync_next_get_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0) {
   ConSync *arg1 = (ConSync *) 0 ;
   ConSync *result = 0 ;
   ConSync *_swig_go_result;
@@ -12120,7 +12228,7 @@ ConSync *_wrap_ConSync_next_get_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
 }
 
 
-ConSync *_wrap_new_ConSync_mtmanapi_8609ee77fca78eb1() {
+ConSync *_wrap_new_ConSync_mtmanapi_7bd57f7bcf037842() {
   ConSync *result = 0 ;
   ConSync *_swig_go_result;
   
@@ -12131,7 +12239,7 @@ ConSync *_wrap_new_ConSync_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConSync_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
+void _wrap_delete_ConSync_mtmanapi_7bd57f7bcf037842(ConSync *_swig_go_0) {
   ConSync *arg1 = (ConSync *) 0 ;
   
   arg1 = *(ConSync **)&_swig_go_0; 
@@ -12141,7 +12249,7 @@ void _wrap_delete_ConSync_mtmanapi_8609ee77fca78eb1(ConSync *_swig_go_0) {
 }
 
 
-intgo _wrap_HB_ADD_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_HB_ADD_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -12153,7 +12261,7 @@ intgo _wrap_HB_ADD_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_HB_UPDATE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_HB_UPDATE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -12165,7 +12273,7 @@ intgo _wrap_HB_UPDATE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_HB_INSERT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_HB_INSERT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -12177,7 +12285,7 @@ intgo _wrap_HB_INSERT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_HB_DELETE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_HB_DELETE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -12189,7 +12297,7 @@ intgo _wrap_HB_DELETE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_HB_LAST_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_HB_LAST_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -12201,7 +12309,7 @@ intgo _wrap_HB_LAST_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_PluginInfo_name_set_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_PluginInfo_name_set_mtmanapi_7bd57f7bcf037842(PluginInfo *_swig_go_0, _gostring_ _swig_go_1) {
   PluginInfo *arg1 = (PluginInfo *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -12225,7 +12333,7 @@ void _wrap_PluginInfo_name_set_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig_go_0,
 }
 
 
-_gostring_ _wrap_PluginInfo_name_get_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig_go_0) {
+_gostring_ _wrap_PluginInfo_name_get_mtmanapi_7bd57f7bcf037842(PluginInfo *_swig_go_0) {
   PluginInfo *arg1 = (PluginInfo *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -12238,7 +12346,7 @@ _gostring_ _wrap_PluginInfo_name_get_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig
 }
 
 
-void _wrap_PluginInfo_version_set_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_PluginInfo_version_set_mtmanapi_7bd57f7bcf037842(PluginInfo *_swig_go_0, intgo _swig_go_1) {
   PluginInfo *arg1 = (PluginInfo *) 0 ;
   unsigned int arg2 ;
   
@@ -12250,7 +12358,7 @@ void _wrap_PluginInfo_version_set_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig_go
 }
 
 
-intgo _wrap_PluginInfo_version_get_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig_go_0) {
+intgo _wrap_PluginInfo_version_get_mtmanapi_7bd57f7bcf037842(PluginInfo *_swig_go_0) {
   PluginInfo *arg1 = (PluginInfo *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -12263,7 +12371,7 @@ intgo _wrap_PluginInfo_version_get_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig_g
 }
 
 
-void _wrap_PluginInfo_copyright_set_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_PluginInfo_copyright_set_mtmanapi_7bd57f7bcf037842(PluginInfo *_swig_go_0, _gostring_ _swig_go_1) {
   PluginInfo *arg1 = (PluginInfo *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -12287,7 +12395,7 @@ void _wrap_PluginInfo_copyright_set_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig_
 }
 
 
-_gostring_ _wrap_PluginInfo_copyright_get_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig_go_0) {
+_gostring_ _wrap_PluginInfo_copyright_get_mtmanapi_7bd57f7bcf037842(PluginInfo *_swig_go_0) {
   PluginInfo *arg1 = (PluginInfo *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -12300,7 +12408,7 @@ _gostring_ _wrap_PluginInfo_copyright_get_mtmanapi_8609ee77fca78eb1(PluginInfo *
 }
 
 
-void _wrap_PluginInfo_reserved_set_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_PluginInfo_reserved_set_mtmanapi_7bd57f7bcf037842(PluginInfo *_swig_go_0, intgo *_swig_go_1) {
   PluginInfo *arg1 = (PluginInfo *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -12316,7 +12424,7 @@ void _wrap_PluginInfo_reserved_set_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig_g
 }
 
 
-intgo *_wrap_PluginInfo_reserved_get_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig_go_0) {
+intgo *_wrap_PluginInfo_reserved_get_mtmanapi_7bd57f7bcf037842(PluginInfo *_swig_go_0) {
   PluginInfo *arg1 = (PluginInfo *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -12329,7 +12437,7 @@ intgo *_wrap_PluginInfo_reserved_get_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig
 }
 
 
-PluginInfo *_wrap_new_PluginInfo_mtmanapi_8609ee77fca78eb1() {
+PluginInfo *_wrap_new_PluginInfo_mtmanapi_7bd57f7bcf037842() {
   PluginInfo *result = 0 ;
   PluginInfo *_swig_go_result;
   
@@ -12340,7 +12448,7 @@ PluginInfo *_wrap_new_PluginInfo_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_PluginInfo_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig_go_0) {
+void _wrap_delete_PluginInfo_mtmanapi_7bd57f7bcf037842(PluginInfo *_swig_go_0) {
   PluginInfo *arg1 = (PluginInfo *) 0 ;
   
   arg1 = *(PluginInfo **)&_swig_go_0; 
@@ -12350,7 +12458,7 @@ void _wrap_delete_PluginInfo_mtmanapi_8609ee77fca78eb1(PluginInfo *_swig_go_0) {
 }
 
 
-void _wrap_PluginCfg_name_set_mtmanapi_8609ee77fca78eb1(PluginCfg *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_PluginCfg_name_set_mtmanapi_7bd57f7bcf037842(PluginCfg *_swig_go_0, _gostring_ _swig_go_1) {
   PluginCfg *arg1 = (PluginCfg *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -12374,7 +12482,7 @@ void _wrap_PluginCfg_name_set_mtmanapi_8609ee77fca78eb1(PluginCfg *_swig_go_0, _
 }
 
 
-_gostring_ _wrap_PluginCfg_name_get_mtmanapi_8609ee77fca78eb1(PluginCfg *_swig_go_0) {
+_gostring_ _wrap_PluginCfg_name_get_mtmanapi_7bd57f7bcf037842(PluginCfg *_swig_go_0) {
   PluginCfg *arg1 = (PluginCfg *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -12387,7 +12495,7 @@ _gostring_ _wrap_PluginCfg_name_get_mtmanapi_8609ee77fca78eb1(PluginCfg *_swig_g
 }
 
 
-void _wrap_PluginCfg_value_set_mtmanapi_8609ee77fca78eb1(PluginCfg *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_PluginCfg_value_set_mtmanapi_7bd57f7bcf037842(PluginCfg *_swig_go_0, _gostring_ _swig_go_1) {
   PluginCfg *arg1 = (PluginCfg *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -12411,7 +12519,7 @@ void _wrap_PluginCfg_value_set_mtmanapi_8609ee77fca78eb1(PluginCfg *_swig_go_0, 
 }
 
 
-_gostring_ _wrap_PluginCfg_value_get_mtmanapi_8609ee77fca78eb1(PluginCfg *_swig_go_0) {
+_gostring_ _wrap_PluginCfg_value_get_mtmanapi_7bd57f7bcf037842(PluginCfg *_swig_go_0) {
   PluginCfg *arg1 = (PluginCfg *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -12424,7 +12532,7 @@ _gostring_ _wrap_PluginCfg_value_get_mtmanapi_8609ee77fca78eb1(PluginCfg *_swig_
 }
 
 
-void _wrap_PluginCfg_reserved_set_mtmanapi_8609ee77fca78eb1(PluginCfg *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_PluginCfg_reserved_set_mtmanapi_7bd57f7bcf037842(PluginCfg *_swig_go_0, intgo *_swig_go_1) {
   PluginCfg *arg1 = (PluginCfg *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -12440,7 +12548,7 @@ void _wrap_PluginCfg_reserved_set_mtmanapi_8609ee77fca78eb1(PluginCfg *_swig_go_
 }
 
 
-intgo *_wrap_PluginCfg_reserved_get_mtmanapi_8609ee77fca78eb1(PluginCfg *_swig_go_0) {
+intgo *_wrap_PluginCfg_reserved_get_mtmanapi_7bd57f7bcf037842(PluginCfg *_swig_go_0) {
   PluginCfg *arg1 = (PluginCfg *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -12453,7 +12561,7 @@ intgo *_wrap_PluginCfg_reserved_get_mtmanapi_8609ee77fca78eb1(PluginCfg *_swig_g
 }
 
 
-PluginCfg *_wrap_new_PluginCfg_mtmanapi_8609ee77fca78eb1() {
+PluginCfg *_wrap_new_PluginCfg_mtmanapi_7bd57f7bcf037842() {
   PluginCfg *result = 0 ;
   PluginCfg *_swig_go_result;
   
@@ -12464,7 +12572,7 @@ PluginCfg *_wrap_new_PluginCfg_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_PluginCfg_mtmanapi_8609ee77fca78eb1(PluginCfg *_swig_go_0) {
+void _wrap_delete_PluginCfg_mtmanapi_7bd57f7bcf037842(PluginCfg *_swig_go_0) {
   PluginCfg *arg1 = (PluginCfg *) 0 ;
   
   arg1 = *(PluginCfg **)&_swig_go_0; 
@@ -12474,7 +12582,7 @@ void _wrap_delete_PluginCfg_mtmanapi_8609ee77fca78eb1(PluginCfg *_swig_go_0) {
 }
 
 
-void _wrap_ConPlugin_file_set_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConPlugin_file_set_mtmanapi_7bd57f7bcf037842(ConPlugin *_swig_go_0, _gostring_ _swig_go_1) {
   ConPlugin *arg1 = (ConPlugin *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -12498,7 +12606,7 @@ void _wrap_ConPlugin_file_set_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0, _
 }
 
 
-_gostring_ _wrap_ConPlugin_file_get_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0) {
+_gostring_ _wrap_ConPlugin_file_get_mtmanapi_7bd57f7bcf037842(ConPlugin *_swig_go_0) {
   ConPlugin *arg1 = (ConPlugin *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -12511,7 +12619,7 @@ _gostring_ _wrap_ConPlugin_file_get_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_g
 }
 
 
-void _wrap_ConPlugin_info_set_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0, PluginInfo *_swig_go_1) {
+void _wrap_ConPlugin_info_set_mtmanapi_7bd57f7bcf037842(ConPlugin *_swig_go_0, PluginInfo *_swig_go_1) {
   ConPlugin *arg1 = (ConPlugin *) 0 ;
   PluginInfo *arg2 = (PluginInfo *) 0 ;
   
@@ -12523,7 +12631,7 @@ void _wrap_ConPlugin_info_set_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0, P
 }
 
 
-PluginInfo *_wrap_ConPlugin_info_get_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0) {
+PluginInfo *_wrap_ConPlugin_info_get_mtmanapi_7bd57f7bcf037842(ConPlugin *_swig_go_0) {
   ConPlugin *arg1 = (ConPlugin *) 0 ;
   PluginInfo *result = 0 ;
   PluginInfo *_swig_go_result;
@@ -12536,7 +12644,7 @@ PluginInfo *_wrap_ConPlugin_info_get_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_
 }
 
 
-void _wrap_ConPlugin_enabled_set_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConPlugin_enabled_set_mtmanapi_7bd57f7bcf037842(ConPlugin *_swig_go_0, intgo _swig_go_1) {
   ConPlugin *arg1 = (ConPlugin *) 0 ;
   int arg2 ;
   
@@ -12548,7 +12656,7 @@ void _wrap_ConPlugin_enabled_set_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0
 }
 
 
-intgo _wrap_ConPlugin_enabled_get_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0) {
+intgo _wrap_ConPlugin_enabled_get_mtmanapi_7bd57f7bcf037842(ConPlugin *_swig_go_0) {
   ConPlugin *arg1 = (ConPlugin *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12561,7 +12669,7 @@ intgo _wrap_ConPlugin_enabled_get_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_
 }
 
 
-void _wrap_ConPlugin_configurable_set_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConPlugin_configurable_set_mtmanapi_7bd57f7bcf037842(ConPlugin *_swig_go_0, intgo _swig_go_1) {
   ConPlugin *arg1 = (ConPlugin *) 0 ;
   int arg2 ;
   
@@ -12573,7 +12681,7 @@ void _wrap_ConPlugin_configurable_set_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig
 }
 
 
-intgo _wrap_ConPlugin_configurable_get_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0) {
+intgo _wrap_ConPlugin_configurable_get_mtmanapi_7bd57f7bcf037842(ConPlugin *_swig_go_0) {
   ConPlugin *arg1 = (ConPlugin *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12586,7 +12694,7 @@ intgo _wrap_ConPlugin_configurable_get_mtmanapi_8609ee77fca78eb1(ConPlugin *_swi
 }
 
 
-void _wrap_ConPlugin_manager_access_set_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConPlugin_manager_access_set_mtmanapi_7bd57f7bcf037842(ConPlugin *_swig_go_0, intgo _swig_go_1) {
   ConPlugin *arg1 = (ConPlugin *) 0 ;
   int arg2 ;
   
@@ -12598,7 +12706,7 @@ void _wrap_ConPlugin_manager_access_set_mtmanapi_8609ee77fca78eb1(ConPlugin *_sw
 }
 
 
-intgo _wrap_ConPlugin_manager_access_get_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0) {
+intgo _wrap_ConPlugin_manager_access_get_mtmanapi_7bd57f7bcf037842(ConPlugin *_swig_go_0) {
   ConPlugin *arg1 = (ConPlugin *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12611,7 +12719,7 @@ intgo _wrap_ConPlugin_manager_access_get_mtmanapi_8609ee77fca78eb1(ConPlugin *_s
 }
 
 
-void _wrap_ConPlugin_reserved_set_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConPlugin_reserved_set_mtmanapi_7bd57f7bcf037842(ConPlugin *_swig_go_0, intgo *_swig_go_1) {
   ConPlugin *arg1 = (ConPlugin *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -12627,7 +12735,7 @@ void _wrap_ConPlugin_reserved_set_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_
 }
 
 
-intgo *_wrap_ConPlugin_reserved_get_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0) {
+intgo *_wrap_ConPlugin_reserved_get_mtmanapi_7bd57f7bcf037842(ConPlugin *_swig_go_0) {
   ConPlugin *arg1 = (ConPlugin *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -12640,7 +12748,7 @@ intgo *_wrap_ConPlugin_reserved_get_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_g
 }
 
 
-ConPlugin *_wrap_new_ConPlugin_mtmanapi_8609ee77fca78eb1() {
+ConPlugin *_wrap_new_ConPlugin_mtmanapi_7bd57f7bcf037842() {
   ConPlugin *result = 0 ;
   ConPlugin *_swig_go_result;
   
@@ -12651,7 +12759,7 @@ ConPlugin *_wrap_new_ConPlugin_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConPlugin_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0) {
+void _wrap_delete_ConPlugin_mtmanapi_7bd57f7bcf037842(ConPlugin *_swig_go_0) {
   ConPlugin *arg1 = (ConPlugin *) 0 ;
   
   arg1 = *(ConPlugin **)&_swig_go_0; 
@@ -12661,7 +12769,7 @@ void _wrap_delete_ConPlugin_mtmanapi_8609ee77fca78eb1(ConPlugin *_swig_go_0) {
 }
 
 
-void _wrap_ConPluginParam_plugin_set_mtmanapi_8609ee77fca78eb1(ConPluginParam *_swig_go_0, ConPlugin *_swig_go_1) {
+void _wrap_ConPluginParam_plugin_set_mtmanapi_7bd57f7bcf037842(ConPluginParam *_swig_go_0, ConPlugin *_swig_go_1) {
   ConPluginParam *arg1 = (ConPluginParam *) 0 ;
   ConPlugin *arg2 = (ConPlugin *) 0 ;
   
@@ -12673,7 +12781,7 @@ void _wrap_ConPluginParam_plugin_set_mtmanapi_8609ee77fca78eb1(ConPluginParam *_
 }
 
 
-ConPlugin *_wrap_ConPluginParam_plugin_get_mtmanapi_8609ee77fca78eb1(ConPluginParam *_swig_go_0) {
+ConPlugin *_wrap_ConPluginParam_plugin_get_mtmanapi_7bd57f7bcf037842(ConPluginParam *_swig_go_0) {
   ConPluginParam *arg1 = (ConPluginParam *) 0 ;
   ConPlugin *result = 0 ;
   ConPlugin *_swig_go_result;
@@ -12686,7 +12794,7 @@ ConPlugin *_wrap_ConPluginParam_plugin_get_mtmanapi_8609ee77fca78eb1(ConPluginPa
 }
 
 
-void _wrap_ConPluginParam_params_set_mtmanapi_8609ee77fca78eb1(ConPluginParam *_swig_go_0, PluginCfg *_swig_go_1) {
+void _wrap_ConPluginParam_params_set_mtmanapi_7bd57f7bcf037842(ConPluginParam *_swig_go_0, PluginCfg *_swig_go_1) {
   ConPluginParam *arg1 = (ConPluginParam *) 0 ;
   PluginCfg *arg2 = (PluginCfg *) 0 ;
   
@@ -12698,7 +12806,7 @@ void _wrap_ConPluginParam_params_set_mtmanapi_8609ee77fca78eb1(ConPluginParam *_
 }
 
 
-PluginCfg *_wrap_ConPluginParam_params_get_mtmanapi_8609ee77fca78eb1(ConPluginParam *_swig_go_0) {
+PluginCfg *_wrap_ConPluginParam_params_get_mtmanapi_7bd57f7bcf037842(ConPluginParam *_swig_go_0) {
   ConPluginParam *arg1 = (ConPluginParam *) 0 ;
   PluginCfg *result = 0 ;
   PluginCfg *_swig_go_result;
@@ -12711,7 +12819,7 @@ PluginCfg *_wrap_ConPluginParam_params_get_mtmanapi_8609ee77fca78eb1(ConPluginPa
 }
 
 
-void _wrap_ConPluginParam_total_set_mtmanapi_8609ee77fca78eb1(ConPluginParam *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConPluginParam_total_set_mtmanapi_7bd57f7bcf037842(ConPluginParam *_swig_go_0, intgo _swig_go_1) {
   ConPluginParam *arg1 = (ConPluginParam *) 0 ;
   int arg2 ;
   
@@ -12723,7 +12831,7 @@ void _wrap_ConPluginParam_total_set_mtmanapi_8609ee77fca78eb1(ConPluginParam *_s
 }
 
 
-intgo _wrap_ConPluginParam_total_get_mtmanapi_8609ee77fca78eb1(ConPluginParam *_swig_go_0) {
+intgo _wrap_ConPluginParam_total_get_mtmanapi_7bd57f7bcf037842(ConPluginParam *_swig_go_0) {
   ConPluginParam *arg1 = (ConPluginParam *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12736,7 +12844,7 @@ intgo _wrap_ConPluginParam_total_get_mtmanapi_8609ee77fca78eb1(ConPluginParam *_
 }
 
 
-ConPluginParam *_wrap_new_ConPluginParam_mtmanapi_8609ee77fca78eb1() {
+ConPluginParam *_wrap_new_ConPluginParam_mtmanapi_7bd57f7bcf037842() {
   ConPluginParam *result = 0 ;
   ConPluginParam *_swig_go_result;
   
@@ -12747,7 +12855,7 @@ ConPluginParam *_wrap_new_ConPluginParam_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConPluginParam_mtmanapi_8609ee77fca78eb1(ConPluginParam *_swig_go_0) {
+void _wrap_delete_ConPluginParam_mtmanapi_7bd57f7bcf037842(ConPluginParam *_swig_go_0) {
   ConPluginParam *arg1 = (ConPluginParam *) 0 ;
   
   arg1 = *(ConPluginParam **)&_swig_go_0; 
@@ -12757,7 +12865,7 @@ void _wrap_delete_ConPluginParam_mtmanapi_8609ee77fca78eb1(ConPluginParam *_swig
 }
 
 
-void _wrap_ConGatewayAccount_enable_set_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayAccount_enable_set_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0, intgo _swig_go_1) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   int arg2 ;
   
@@ -12769,7 +12877,7 @@ void _wrap_ConGatewayAccount_enable_set_mtmanapi_8609ee77fca78eb1(ConGatewayAcco
 }
 
 
-intgo _wrap_ConGatewayAccount_enable_get_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0) {
+intgo _wrap_ConGatewayAccount_enable_get_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12782,7 +12890,7 @@ intgo _wrap_ConGatewayAccount_enable_get_mtmanapi_8609ee77fca78eb1(ConGatewayAcc
 }
 
 
-void _wrap_ConGatewayAccount_name_set_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGatewayAccount_name_set_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0, _gostring_ _swig_go_1) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -12806,7 +12914,7 @@ void _wrap_ConGatewayAccount_name_set_mtmanapi_8609ee77fca78eb1(ConGatewayAccoun
 }
 
 
-_gostring_ _wrap_ConGatewayAccount_name_get_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0) {
+_gostring_ _wrap_ConGatewayAccount_name_get_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -12819,7 +12927,7 @@ _gostring_ _wrap_ConGatewayAccount_name_get_mtmanapi_8609ee77fca78eb1(ConGateway
 }
 
 
-void _wrap_ConGatewayAccount_id_set_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayAccount_id_set_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0, intgo _swig_go_1) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   int arg2 ;
   
@@ -12831,7 +12939,7 @@ void _wrap_ConGatewayAccount_id_set_mtmanapi_8609ee77fca78eb1(ConGatewayAccount 
 }
 
 
-intgo _wrap_ConGatewayAccount_id_get_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0) {
+intgo _wrap_ConGatewayAccount_id_get_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12844,7 +12952,7 @@ intgo _wrap_ConGatewayAccount_id_get_mtmanapi_8609ee77fca78eb1(ConGatewayAccount
 }
 
 
-void _wrap_ConGatewayAccount_Xtype_set_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayAccount_Xtype_set_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0, intgo _swig_go_1) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   int arg2 ;
   
@@ -12856,7 +12964,7 @@ void _wrap_ConGatewayAccount_Xtype_set_mtmanapi_8609ee77fca78eb1(ConGatewayAccou
 }
 
 
-intgo _wrap_ConGatewayAccount_Xtype_get_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0) {
+intgo _wrap_ConGatewayAccount_Xtype_get_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12869,7 +12977,7 @@ intgo _wrap_ConGatewayAccount_Xtype_get_mtmanapi_8609ee77fca78eb1(ConGatewayAcco
 }
 
 
-void _wrap_ConGatewayAccount_login_set_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayAccount_login_set_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0, intgo _swig_go_1) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   int arg2 ;
   
@@ -12881,7 +12989,7 @@ void _wrap_ConGatewayAccount_login_set_mtmanapi_8609ee77fca78eb1(ConGatewayAccou
 }
 
 
-intgo _wrap_ConGatewayAccount_login_get_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0) {
+intgo _wrap_ConGatewayAccount_login_get_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12894,7 +13002,7 @@ intgo _wrap_ConGatewayAccount_login_get_mtmanapi_8609ee77fca78eb1(ConGatewayAcco
 }
 
 
-void _wrap_ConGatewayAccount_address_set_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGatewayAccount_address_set_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0, _gostring_ _swig_go_1) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -12918,7 +13026,7 @@ void _wrap_ConGatewayAccount_address_set_mtmanapi_8609ee77fca78eb1(ConGatewayAcc
 }
 
 
-_gostring_ _wrap_ConGatewayAccount_address_get_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0) {
+_gostring_ _wrap_ConGatewayAccount_address_get_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -12931,7 +13039,7 @@ _gostring_ _wrap_ConGatewayAccount_address_get_mtmanapi_8609ee77fca78eb1(ConGate
 }
 
 
-void _wrap_ConGatewayAccount_password_set_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGatewayAccount_password_set_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0, _gostring_ _swig_go_1) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -12955,7 +13063,7 @@ void _wrap_ConGatewayAccount_password_set_mtmanapi_8609ee77fca78eb1(ConGatewayAc
 }
 
 
-_gostring_ _wrap_ConGatewayAccount_password_get_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0) {
+_gostring_ _wrap_ConGatewayAccount_password_get_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -12968,7 +13076,7 @@ _gostring_ _wrap_ConGatewayAccount_password_get_mtmanapi_8609ee77fca78eb1(ConGat
 }
 
 
-void _wrap_ConGatewayAccount_notify_logins_set_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConGatewayAccount_notify_logins_set_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0, intgo *_swig_go_1) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -12984,7 +13092,7 @@ void _wrap_ConGatewayAccount_notify_logins_set_mtmanapi_8609ee77fca78eb1(ConGate
 }
 
 
-intgo *_wrap_ConGatewayAccount_notify_logins_get_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0) {
+intgo *_wrap_ConGatewayAccount_notify_logins_get_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -12997,7 +13105,7 @@ intgo *_wrap_ConGatewayAccount_notify_logins_get_mtmanapi_8609ee77fca78eb1(ConGa
 }
 
 
-void _wrap_ConGatewayAccount_flags_set_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayAccount_flags_set_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0, intgo _swig_go_1) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   int arg2 ;
   
@@ -13009,7 +13117,7 @@ void _wrap_ConGatewayAccount_flags_set_mtmanapi_8609ee77fca78eb1(ConGatewayAccou
 }
 
 
-intgo _wrap_ConGatewayAccount_flags_get_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0) {
+intgo _wrap_ConGatewayAccount_flags_get_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13022,7 +13130,7 @@ intgo _wrap_ConGatewayAccount_flags_get_mtmanapi_8609ee77fca78eb1(ConGatewayAcco
 }
 
 
-void _wrap_ConGatewayAccount_reserved_set_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConGatewayAccount_reserved_set_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0, intgo *_swig_go_1) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -13038,7 +13146,7 @@ void _wrap_ConGatewayAccount_reserved_set_mtmanapi_8609ee77fca78eb1(ConGatewayAc
 }
 
 
-intgo *_wrap_ConGatewayAccount_reserved_get_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0) {
+intgo *_wrap_ConGatewayAccount_reserved_get_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -13051,7 +13159,7 @@ intgo *_wrap_ConGatewayAccount_reserved_get_mtmanapi_8609ee77fca78eb1(ConGateway
 }
 
 
-ConGatewayAccount *_wrap_new_ConGatewayAccount_mtmanapi_8609ee77fca78eb1() {
+ConGatewayAccount *_wrap_new_ConGatewayAccount_mtmanapi_7bd57f7bcf037842() {
   ConGatewayAccount *result = 0 ;
   ConGatewayAccount *_swig_go_result;
   
@@ -13062,7 +13170,7 @@ ConGatewayAccount *_wrap_new_ConGatewayAccount_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConGatewayAccount_mtmanapi_8609ee77fca78eb1(ConGatewayAccount *_swig_go_0) {
+void _wrap_delete_ConGatewayAccount_mtmanapi_7bd57f7bcf037842(ConGatewayAccount *_swig_go_0) {
   ConGatewayAccount *arg1 = (ConGatewayAccount *) 0 ;
   
   arg1 = *(ConGatewayAccount **)&_swig_go_0; 
@@ -13072,7 +13180,7 @@ void _wrap_delete_ConGatewayAccount_mtmanapi_8609ee77fca78eb1(ConGatewayAccount 
 }
 
 
-intgo _wrap_GATEWAY_FLAG_NONE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_GATEWAY_FLAG_NONE_mtmanapi_7bd57f7bcf037842() {
   EnGatewayAccountFlags result;
   intgo _swig_go_result;
   
@@ -13084,7 +13192,7 @@ intgo _wrap_GATEWAY_FLAG_NONE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_GATEWAY_FLAG_QUOTES_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_GATEWAY_FLAG_QUOTES_mtmanapi_7bd57f7bcf037842() {
   EnGatewayAccountFlags result;
   intgo _swig_go_result;
   
@@ -13096,7 +13204,7 @@ intgo _wrap_GATEWAY_FLAG_QUOTES_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_ConGatewayMarkup_enable_set_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayMarkup_enable_set_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0, intgo _swig_go_1) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   int arg2 ;
   
@@ -13108,7 +13216,7 @@ void _wrap_ConGatewayMarkup_enable_set_mtmanapi_8609ee77fca78eb1(ConGatewayMarku
 }
 
 
-intgo _wrap_ConGatewayMarkup_enable_get_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0) {
+intgo _wrap_ConGatewayMarkup_enable_get_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13121,7 +13229,7 @@ intgo _wrap_ConGatewayMarkup_enable_get_mtmanapi_8609ee77fca78eb1(ConGatewayMark
 }
 
 
-void _wrap_ConGatewayMarkup_source_set_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGatewayMarkup_source_set_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0, _gostring_ _swig_go_1) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -13145,7 +13253,7 @@ void _wrap_ConGatewayMarkup_source_set_mtmanapi_8609ee77fca78eb1(ConGatewayMarku
 }
 
 
-_gostring_ _wrap_ConGatewayMarkup_source_get_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0) {
+_gostring_ _wrap_ConGatewayMarkup_source_get_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -13158,7 +13266,7 @@ _gostring_ _wrap_ConGatewayMarkup_source_get_mtmanapi_8609ee77fca78eb1(ConGatewa
 }
 
 
-void _wrap_ConGatewayMarkup_symbol_set_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGatewayMarkup_symbol_set_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0, _gostring_ _swig_go_1) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -13182,7 +13290,7 @@ void _wrap_ConGatewayMarkup_symbol_set_mtmanapi_8609ee77fca78eb1(ConGatewayMarku
 }
 
 
-_gostring_ _wrap_ConGatewayMarkup_symbol_get_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0) {
+_gostring_ _wrap_ConGatewayMarkup_symbol_get_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -13195,7 +13303,7 @@ _gostring_ _wrap_ConGatewayMarkup_symbol_get_mtmanapi_8609ee77fca78eb1(ConGatewa
 }
 
 
-void _wrap_ConGatewayMarkup_account_name_set_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGatewayMarkup_account_name_set_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0, _gostring_ _swig_go_1) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -13219,7 +13327,7 @@ void _wrap_ConGatewayMarkup_account_name_set_mtmanapi_8609ee77fca78eb1(ConGatewa
 }
 
 
-_gostring_ _wrap_ConGatewayMarkup_account_name_get_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0) {
+_gostring_ _wrap_ConGatewayMarkup_account_name_get_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -13232,7 +13340,7 @@ _gostring_ _wrap_ConGatewayMarkup_account_name_get_mtmanapi_8609ee77fca78eb1(Con
 }
 
 
-void _wrap_ConGatewayMarkup_account_id_set_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayMarkup_account_id_set_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0, intgo _swig_go_1) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   int arg2 ;
   
@@ -13244,7 +13352,7 @@ void _wrap_ConGatewayMarkup_account_id_set_mtmanapi_8609ee77fca78eb1(ConGatewayM
 }
 
 
-intgo _wrap_ConGatewayMarkup_account_id_get_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0) {
+intgo _wrap_ConGatewayMarkup_account_id_get_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13257,7 +13365,7 @@ intgo _wrap_ConGatewayMarkup_account_id_get_mtmanapi_8609ee77fca78eb1(ConGateway
 }
 
 
-void _wrap_ConGatewayMarkup_bid_markup_set_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayMarkup_bid_markup_set_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0, intgo _swig_go_1) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   int arg2 ;
   
@@ -13269,7 +13377,7 @@ void _wrap_ConGatewayMarkup_bid_markup_set_mtmanapi_8609ee77fca78eb1(ConGatewayM
 }
 
 
-intgo _wrap_ConGatewayMarkup_bid_markup_get_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0) {
+intgo _wrap_ConGatewayMarkup_bid_markup_get_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13282,7 +13390,7 @@ intgo _wrap_ConGatewayMarkup_bid_markup_get_mtmanapi_8609ee77fca78eb1(ConGateway
 }
 
 
-void _wrap_ConGatewayMarkup_ask_markup_set_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayMarkup_ask_markup_set_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0, intgo _swig_go_1) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   int arg2 ;
   
@@ -13294,7 +13402,7 @@ void _wrap_ConGatewayMarkup_ask_markup_set_mtmanapi_8609ee77fca78eb1(ConGatewayM
 }
 
 
-intgo _wrap_ConGatewayMarkup_ask_markup_get_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0) {
+intgo _wrap_ConGatewayMarkup_ask_markup_get_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13307,7 +13415,7 @@ intgo _wrap_ConGatewayMarkup_ask_markup_get_mtmanapi_8609ee77fca78eb1(ConGateway
 }
 
 
-void _wrap_ConGatewayMarkup_reserved_set_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConGatewayMarkup_reserved_set_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0, intgo *_swig_go_1) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -13323,7 +13431,7 @@ void _wrap_ConGatewayMarkup_reserved_set_mtmanapi_8609ee77fca78eb1(ConGatewayMar
 }
 
 
-intgo *_wrap_ConGatewayMarkup_reserved_get_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0) {
+intgo *_wrap_ConGatewayMarkup_reserved_get_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -13336,7 +13444,7 @@ intgo *_wrap_ConGatewayMarkup_reserved_get_mtmanapi_8609ee77fca78eb1(ConGatewayM
 }
 
 
-ConGatewayMarkup *_wrap_new_ConGatewayMarkup_mtmanapi_8609ee77fca78eb1() {
+ConGatewayMarkup *_wrap_new_ConGatewayMarkup_mtmanapi_7bd57f7bcf037842() {
   ConGatewayMarkup *result = 0 ;
   ConGatewayMarkup *_swig_go_result;
   
@@ -13347,7 +13455,7 @@ ConGatewayMarkup *_wrap_new_ConGatewayMarkup_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConGatewayMarkup_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_swig_go_0) {
+void _wrap_delete_ConGatewayMarkup_mtmanapi_7bd57f7bcf037842(ConGatewayMarkup *_swig_go_0) {
   ConGatewayMarkup *arg1 = (ConGatewayMarkup *) 0 ;
   
   arg1 = *(ConGatewayMarkup **)&_swig_go_0; 
@@ -13357,7 +13465,7 @@ void _wrap_delete_ConGatewayMarkup_mtmanapi_8609ee77fca78eb1(ConGatewayMarkup *_
 }
 
 
-void _wrap_ConGatewayRule_enable_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayRule_enable_set_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int arg2 ;
   
@@ -13369,7 +13477,7 @@ void _wrap_ConGatewayRule_enable_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_
 }
 
 
-intgo _wrap_ConGatewayRule_enable_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+intgo _wrap_ConGatewayRule_enable_get_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13382,7 +13490,7 @@ intgo _wrap_ConGatewayRule_enable_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *
 }
 
 
-void _wrap_ConGatewayRule_name_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGatewayRule_name_set_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0, _gostring_ _swig_go_1) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -13406,7 +13514,7 @@ void _wrap_ConGatewayRule_name_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_sw
 }
 
 
-_gostring_ _wrap_ConGatewayRule_name_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+_gostring_ _wrap_ConGatewayRule_name_get_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -13419,7 +13527,7 @@ _gostring_ _wrap_ConGatewayRule_name_get_mtmanapi_8609ee77fca78eb1(ConGatewayRul
 }
 
 
-void _wrap_ConGatewayRule_request_symbol_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGatewayRule_request_symbol_set_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0, _gostring_ _swig_go_1) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -13443,7 +13551,7 @@ void _wrap_ConGatewayRule_request_symbol_set_mtmanapi_8609ee77fca78eb1(ConGatewa
 }
 
 
-_gostring_ _wrap_ConGatewayRule_request_symbol_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+_gostring_ _wrap_ConGatewayRule_request_symbol_get_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -13456,7 +13564,7 @@ _gostring_ _wrap_ConGatewayRule_request_symbol_get_mtmanapi_8609ee77fca78eb1(Con
 }
 
 
-void _wrap_ConGatewayRule_request_group_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGatewayRule_request_group_set_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0, _gostring_ _swig_go_1) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -13480,7 +13588,7 @@ void _wrap_ConGatewayRule_request_group_set_mtmanapi_8609ee77fca78eb1(ConGateway
 }
 
 
-_gostring_ _wrap_ConGatewayRule_request_group_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+_gostring_ _wrap_ConGatewayRule_request_group_get_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -13493,7 +13601,7 @@ _gostring_ _wrap_ConGatewayRule_request_group_get_mtmanapi_8609ee77fca78eb1(ConG
 }
 
 
-void _wrap_ConGatewayRule_request_reserved_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConGatewayRule_request_reserved_set_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0, intgo *_swig_go_1) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -13509,7 +13617,7 @@ void _wrap_ConGatewayRule_request_reserved_set_mtmanapi_8609ee77fca78eb1(ConGate
 }
 
 
-intgo *_wrap_ConGatewayRule_request_reserved_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+intgo *_wrap_ConGatewayRule_request_reserved_get_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -13522,7 +13630,7 @@ intgo *_wrap_ConGatewayRule_request_reserved_get_mtmanapi_8609ee77fca78eb1(ConGa
 }
 
 
-void _wrap_ConGatewayRule_exe_account_name_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ConGatewayRule_exe_account_name_set_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0, _gostring_ _swig_go_1) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -13546,7 +13654,7 @@ void _wrap_ConGatewayRule_exe_account_name_set_mtmanapi_8609ee77fca78eb1(ConGate
 }
 
 
-_gostring_ _wrap_ConGatewayRule_exe_account_name_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+_gostring_ _wrap_ConGatewayRule_exe_account_name_get_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -13559,7 +13667,7 @@ _gostring_ _wrap_ConGatewayRule_exe_account_name_get_mtmanapi_8609ee77fca78eb1(C
 }
 
 
-void _wrap_ConGatewayRule_exe_account_id_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayRule_exe_account_id_set_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int arg2 ;
   
@@ -13571,7 +13679,7 @@ void _wrap_ConGatewayRule_exe_account_id_set_mtmanapi_8609ee77fca78eb1(ConGatewa
 }
 
 
-intgo _wrap_ConGatewayRule_exe_account_id_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+intgo _wrap_ConGatewayRule_exe_account_id_get_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13584,7 +13692,7 @@ intgo _wrap_ConGatewayRule_exe_account_id_get_mtmanapi_8609ee77fca78eb1(ConGatew
 }
 
 
-void _wrap_ConGatewayRule_exe_max_deviation_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayRule_exe_max_deviation_set_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int arg2 ;
   
@@ -13596,7 +13704,7 @@ void _wrap_ConGatewayRule_exe_max_deviation_set_mtmanapi_8609ee77fca78eb1(ConGat
 }
 
 
-intgo _wrap_ConGatewayRule_exe_max_deviation_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+intgo _wrap_ConGatewayRule_exe_max_deviation_get_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13609,7 +13717,7 @@ intgo _wrap_ConGatewayRule_exe_max_deviation_get_mtmanapi_8609ee77fca78eb1(ConGa
 }
 
 
-void _wrap_ConGatewayRule_exe_max_profit_slippage_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayRule_exe_max_profit_slippage_set_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int arg2 ;
   
@@ -13621,7 +13729,7 @@ void _wrap_ConGatewayRule_exe_max_profit_slippage_set_mtmanapi_8609ee77fca78eb1(
 }
 
 
-intgo _wrap_ConGatewayRule_exe_max_profit_slippage_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+intgo _wrap_ConGatewayRule_exe_max_profit_slippage_get_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13634,7 +13742,7 @@ intgo _wrap_ConGatewayRule_exe_max_profit_slippage_get_mtmanapi_8609ee77fca78eb1
 }
 
 
-void _wrap_ConGatewayRule_exe_max_profit_slippage_lots_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayRule_exe_max_profit_slippage_lots_set_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int arg2 ;
   
@@ -13646,7 +13754,7 @@ void _wrap_ConGatewayRule_exe_max_profit_slippage_lots_set_mtmanapi_8609ee77fca7
 }
 
 
-intgo _wrap_ConGatewayRule_exe_max_profit_slippage_lots_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+intgo _wrap_ConGatewayRule_exe_max_profit_slippage_lots_get_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13659,7 +13767,7 @@ intgo _wrap_ConGatewayRule_exe_max_profit_slippage_lots_get_mtmanapi_8609ee77fca
 }
 
 
-void _wrap_ConGatewayRule_exe_max_losing_slippage_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayRule_exe_max_losing_slippage_set_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int arg2 ;
   
@@ -13671,7 +13779,7 @@ void _wrap_ConGatewayRule_exe_max_losing_slippage_set_mtmanapi_8609ee77fca78eb1(
 }
 
 
-intgo _wrap_ConGatewayRule_exe_max_losing_slippage_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+intgo _wrap_ConGatewayRule_exe_max_losing_slippage_get_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13684,7 +13792,7 @@ intgo _wrap_ConGatewayRule_exe_max_losing_slippage_get_mtmanapi_8609ee77fca78eb1
 }
 
 
-void _wrap_ConGatewayRule_exe_max_losing_slippage_lots_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayRule_exe_max_losing_slippage_lots_set_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int arg2 ;
   
@@ -13696,7 +13804,7 @@ void _wrap_ConGatewayRule_exe_max_losing_slippage_lots_set_mtmanapi_8609ee77fca7
 }
 
 
-intgo _wrap_ConGatewayRule_exe_max_losing_slippage_lots_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+intgo _wrap_ConGatewayRule_exe_max_losing_slippage_lots_get_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13709,7 +13817,7 @@ intgo _wrap_ConGatewayRule_exe_max_losing_slippage_lots_get_mtmanapi_8609ee77fca
 }
 
 
-void _wrap_ConGatewayRule_exe_account_pos_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayRule_exe_account_pos_set_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int arg2 ;
   
@@ -13721,7 +13829,7 @@ void _wrap_ConGatewayRule_exe_account_pos_set_mtmanapi_8609ee77fca78eb1(ConGatew
 }
 
 
-intgo _wrap_ConGatewayRule_exe_account_pos_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+intgo _wrap_ConGatewayRule_exe_account_pos_get_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13734,7 +13842,7 @@ intgo _wrap_ConGatewayRule_exe_account_pos_get_mtmanapi_8609ee77fca78eb1(ConGate
 }
 
 
-void _wrap_ConGatewayRule_exe_volume_percent_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ConGatewayRule_exe_volume_percent_set_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0, intgo _swig_go_1) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int arg2 ;
   
@@ -13746,7 +13854,7 @@ void _wrap_ConGatewayRule_exe_volume_percent_set_mtmanapi_8609ee77fca78eb1(ConGa
 }
 
 
-intgo _wrap_ConGatewayRule_exe_volume_percent_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+intgo _wrap_ConGatewayRule_exe_volume_percent_get_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13759,7 +13867,7 @@ intgo _wrap_ConGatewayRule_exe_volume_percent_get_mtmanapi_8609ee77fca78eb1(ConG
 }
 
 
-void _wrap_ConGatewayRule_exe_reserved_set_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_ConGatewayRule_exe_reserved_set_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0, intgo *_swig_go_1) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -13775,7 +13883,7 @@ void _wrap_ConGatewayRule_exe_reserved_set_mtmanapi_8609ee77fca78eb1(ConGatewayR
 }
 
 
-intgo *_wrap_ConGatewayRule_exe_reserved_get_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+intgo *_wrap_ConGatewayRule_exe_reserved_get_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -13788,7 +13896,7 @@ intgo *_wrap_ConGatewayRule_exe_reserved_get_mtmanapi_8609ee77fca78eb1(ConGatewa
 }
 
 
-ConGatewayRule *_wrap_new_ConGatewayRule_mtmanapi_8609ee77fca78eb1() {
+ConGatewayRule *_wrap_new_ConGatewayRule_mtmanapi_7bd57f7bcf037842() {
   ConGatewayRule *result = 0 ;
   ConGatewayRule *_swig_go_result;
   
@@ -13799,7 +13907,7 @@ ConGatewayRule *_wrap_new_ConGatewayRule_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ConGatewayRule_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig_go_0) {
+void _wrap_delete_ConGatewayRule_mtmanapi_7bd57f7bcf037842(ConGatewayRule *_swig_go_0) {
   ConGatewayRule *arg1 = (ConGatewayRule *) 0 ;
   
   arg1 = *(ConGatewayRule **)&_swig_go_0; 
@@ -13809,7 +13917,7 @@ void _wrap_delete_ConGatewayRule_mtmanapi_8609ee77fca78eb1(ConGatewayRule *_swig
 }
 
 
-intgo _wrap_RET_OK_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_OK_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -13821,7 +13929,7 @@ intgo _wrap_RET_OK_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_OK_NONE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_OK_NONE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -13833,7 +13941,7 @@ intgo _wrap_RET_OK_NONE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_ERROR_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_ERROR_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -13845,7 +13953,7 @@ intgo _wrap_RET_ERROR_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_INVALID_DATA_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_INVALID_DATA_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -13857,7 +13965,7 @@ intgo _wrap_RET_INVALID_DATA_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TECH_PROBLEM_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TECH_PROBLEM_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -13869,7 +13977,7 @@ intgo _wrap_RET_TECH_PROBLEM_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_OLD_VERSION_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_OLD_VERSION_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -13881,7 +13989,7 @@ intgo _wrap_RET_OLD_VERSION_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_NO_CONNECT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_NO_CONNECT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -13893,7 +14001,7 @@ intgo _wrap_RET_NO_CONNECT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_NOT_ENOUGH_RIGHTS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_NOT_ENOUGH_RIGHTS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -13905,7 +14013,7 @@ intgo _wrap_RET_NOT_ENOUGH_RIGHTS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TOO_FREQUENT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TOO_FREQUENT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -13917,7 +14025,7 @@ intgo _wrap_RET_TOO_FREQUENT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_MALFUNCTION_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_MALFUNCTION_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -13929,7 +14037,7 @@ intgo _wrap_RET_MALFUNCTION_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_GENERATE_KEY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_GENERATE_KEY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -13941,7 +14049,7 @@ intgo _wrap_RET_GENERATE_KEY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_SECURITY_SESSION_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_SECURITY_SESSION_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -13953,7 +14061,7 @@ intgo _wrap_RET_SECURITY_SESSION_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_ACCOUNT_DISABLED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_ACCOUNT_DISABLED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -13965,7 +14073,7 @@ intgo _wrap_RET_ACCOUNT_DISABLED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_BAD_ACCOUNT_INFO_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_BAD_ACCOUNT_INFO_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -13977,7 +14085,7 @@ intgo _wrap_RET_BAD_ACCOUNT_INFO_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_PUBLIC_KEY_MISSING_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_PUBLIC_KEY_MISSING_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -13989,7 +14097,7 @@ intgo _wrap_RET_PUBLIC_KEY_MISSING_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_TIMEOUT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_TIMEOUT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14001,7 +14109,7 @@ intgo _wrap_RET_TRADE_TIMEOUT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_BAD_PRICES_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_BAD_PRICES_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14013,7 +14121,7 @@ intgo _wrap_RET_TRADE_BAD_PRICES_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_BAD_STOPS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_BAD_STOPS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14025,7 +14133,7 @@ intgo _wrap_RET_TRADE_BAD_STOPS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_BAD_VOLUME_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_BAD_VOLUME_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14037,7 +14145,7 @@ intgo _wrap_RET_TRADE_BAD_VOLUME_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_MARKET_CLOSED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_MARKET_CLOSED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14049,7 +14157,7 @@ intgo _wrap_RET_TRADE_MARKET_CLOSED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_DISABLE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_DISABLE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14061,7 +14169,7 @@ intgo _wrap_RET_TRADE_DISABLE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_NO_MONEY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_NO_MONEY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14073,7 +14181,7 @@ intgo _wrap_RET_TRADE_NO_MONEY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_PRICE_CHANGED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_PRICE_CHANGED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14085,7 +14193,7 @@ intgo _wrap_RET_TRADE_PRICE_CHANGED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_OFFQUOTES_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_OFFQUOTES_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14097,7 +14205,7 @@ intgo _wrap_RET_TRADE_OFFQUOTES_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_BROKER_BUSY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_BROKER_BUSY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14109,7 +14217,7 @@ intgo _wrap_RET_TRADE_BROKER_BUSY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_REQUOTE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_REQUOTE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14121,7 +14229,7 @@ intgo _wrap_RET_TRADE_REQUOTE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_ORDER_LOCKED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_ORDER_LOCKED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14133,7 +14241,7 @@ intgo _wrap_RET_TRADE_ORDER_LOCKED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_LONG_ONLY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_LONG_ONLY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14145,7 +14253,7 @@ intgo _wrap_RET_TRADE_LONG_ONLY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_TOO_MANY_REQ_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_TOO_MANY_REQ_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14157,7 +14265,7 @@ intgo _wrap_RET_TRADE_TOO_MANY_REQ_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_ACCEPTED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_ACCEPTED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14169,7 +14277,7 @@ intgo _wrap_RET_TRADE_ACCEPTED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_PROCESS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_PROCESS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14181,7 +14289,7 @@ intgo _wrap_RET_TRADE_PROCESS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_USER_CANCEL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_USER_CANCEL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14193,7 +14301,7 @@ intgo _wrap_RET_TRADE_USER_CANCEL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_MODIFY_DENIED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_MODIFY_DENIED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14205,7 +14313,7 @@ intgo _wrap_RET_TRADE_MODIFY_DENIED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_CONTEXT_BUSY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_CONTEXT_BUSY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14217,7 +14325,7 @@ intgo _wrap_RET_TRADE_CONTEXT_BUSY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_EXPIRATION_DENIED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_EXPIRATION_DENIED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14229,7 +14337,7 @@ intgo _wrap_RET_TRADE_EXPIRATION_DENIED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_TOO_MANY_ORDERS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_TOO_MANY_ORDERS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14241,7 +14349,7 @@ intgo _wrap_RET_TRADE_TOO_MANY_ORDERS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_HEDGE_PROHIBITED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_HEDGE_PROHIBITED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14253,7 +14361,7 @@ intgo _wrap_RET_TRADE_HEDGE_PROHIBITED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_RET_TRADE_PROHIBITED_BY_FIFO_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_RET_TRADE_PROHIBITED_BY_FIFO_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14265,7 +14373,7 @@ intgo _wrap_RET_TRADE_PROHIBITED_BY_FIFO_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CLIENT_FLAGS_HIDETICKS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CLIENT_FLAGS_HIDETICKS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14277,7 +14385,7 @@ intgo _wrap_CLIENT_FLAGS_HIDETICKS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CLIENT_FLAGS_HIDENEWS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CLIENT_FLAGS_HIDENEWS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14289,7 +14397,7 @@ intgo _wrap_CLIENT_FLAGS_HIDENEWS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CLIENT_FLAGS_HIDEMAIL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CLIENT_FLAGS_HIDEMAIL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14301,7 +14409,7 @@ intgo _wrap_CLIENT_FLAGS_HIDEMAIL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CLIENT_FLAGS_SENDFULLNEWS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CLIENT_FLAGS_SENDFULLNEWS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14313,7 +14421,7 @@ intgo _wrap_CLIENT_FLAGS_SENDFULLNEWS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CLIENT_FLAGS_RESERVED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CLIENT_FLAGS_RESERVED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14325,7 +14433,7 @@ intgo _wrap_CLIENT_FLAGS_RESERVED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CLIENT_FLAGS_HIDEONLINE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CLIENT_FLAGS_HIDEONLINE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14337,7 +14445,7 @@ intgo _wrap_CLIENT_FLAGS_HIDEONLINE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CLIENT_FLAGS_HIDEUSERS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CLIENT_FLAGS_HIDEUSERS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -14349,7 +14457,7 @@ intgo _wrap_CLIENT_FLAGS_HIDEUSERS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_FeedDescription_version_set_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0, intgo _swig_go_1) {
+void _wrap_FeedDescription_version_set_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0, intgo _swig_go_1) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   int arg2 ;
   
@@ -14361,7 +14469,7 @@ void _wrap_FeedDescription_version_set_mtmanapi_8609ee77fca78eb1(FeedDescription
 }
 
 
-intgo _wrap_FeedDescription_version_get_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0) {
+intgo _wrap_FeedDescription_version_get_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -14374,7 +14482,7 @@ intgo _wrap_FeedDescription_version_get_mtmanapi_8609ee77fca78eb1(FeedDescriptio
 }
 
 
-void _wrap_FeedDescription_name_set_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_FeedDescription_name_set_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -14398,7 +14506,7 @@ void _wrap_FeedDescription_name_set_mtmanapi_8609ee77fca78eb1(FeedDescription *_
 }
 
 
-_gostring_ _wrap_FeedDescription_name_get_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0) {
+_gostring_ _wrap_FeedDescription_name_get_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -14411,7 +14519,7 @@ _gostring_ _wrap_FeedDescription_name_get_mtmanapi_8609ee77fca78eb1(FeedDescript
 }
 
 
-void _wrap_FeedDescription_copyright_set_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_FeedDescription_copyright_set_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -14435,7 +14543,7 @@ void _wrap_FeedDescription_copyright_set_mtmanapi_8609ee77fca78eb1(FeedDescripti
 }
 
 
-_gostring_ _wrap_FeedDescription_copyright_get_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0) {
+_gostring_ _wrap_FeedDescription_copyright_get_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -14448,7 +14556,7 @@ _gostring_ _wrap_FeedDescription_copyright_get_mtmanapi_8609ee77fca78eb1(FeedDes
 }
 
 
-void _wrap_FeedDescription_web_set_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_FeedDescription_web_set_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -14472,7 +14580,7 @@ void _wrap_FeedDescription_web_set_mtmanapi_8609ee77fca78eb1(FeedDescription *_s
 }
 
 
-_gostring_ _wrap_FeedDescription_web_get_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0) {
+_gostring_ _wrap_FeedDescription_web_get_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -14485,7 +14593,7 @@ _gostring_ _wrap_FeedDescription_web_get_mtmanapi_8609ee77fca78eb1(FeedDescripti
 }
 
 
-void _wrap_FeedDescription_email_set_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_FeedDescription_email_set_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -14509,7 +14617,7 @@ void _wrap_FeedDescription_email_set_mtmanapi_8609ee77fca78eb1(FeedDescription *
 }
 
 
-_gostring_ _wrap_FeedDescription_email_get_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0) {
+_gostring_ _wrap_FeedDescription_email_get_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -14522,7 +14630,7 @@ _gostring_ _wrap_FeedDescription_email_get_mtmanapi_8609ee77fca78eb1(FeedDescrip
 }
 
 
-void _wrap_FeedDescription_server_set_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_FeedDescription_server_set_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -14546,7 +14654,7 @@ void _wrap_FeedDescription_server_set_mtmanapi_8609ee77fca78eb1(FeedDescription 
 }
 
 
-_gostring_ _wrap_FeedDescription_server_get_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0) {
+_gostring_ _wrap_FeedDescription_server_get_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -14559,7 +14667,7 @@ _gostring_ _wrap_FeedDescription_server_get_mtmanapi_8609ee77fca78eb1(FeedDescri
 }
 
 
-void _wrap_FeedDescription_username_set_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_FeedDescription_username_set_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -14583,7 +14691,7 @@ void _wrap_FeedDescription_username_set_mtmanapi_8609ee77fca78eb1(FeedDescriptio
 }
 
 
-_gostring_ _wrap_FeedDescription_username_get_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0) {
+_gostring_ _wrap_FeedDescription_username_get_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -14596,7 +14704,7 @@ _gostring_ _wrap_FeedDescription_username_get_mtmanapi_8609ee77fca78eb1(FeedDesc
 }
 
 
-void _wrap_FeedDescription_userpass_set_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_FeedDescription_userpass_set_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -14620,7 +14728,7 @@ void _wrap_FeedDescription_userpass_set_mtmanapi_8609ee77fca78eb1(FeedDescriptio
 }
 
 
-_gostring_ _wrap_FeedDescription_userpass_get_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0) {
+_gostring_ _wrap_FeedDescription_userpass_get_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -14633,7 +14741,7 @@ _gostring_ _wrap_FeedDescription_userpass_get_mtmanapi_8609ee77fca78eb1(FeedDesc
 }
 
 
-void _wrap_FeedDescription_modes_set_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0, intgo _swig_go_1) {
+void _wrap_FeedDescription_modes_set_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0, intgo _swig_go_1) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   int arg2 ;
   
@@ -14645,7 +14753,7 @@ void _wrap_FeedDescription_modes_set_mtmanapi_8609ee77fca78eb1(FeedDescription *
 }
 
 
-intgo _wrap_FeedDescription_modes_get_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0) {
+intgo _wrap_FeedDescription_modes_get_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -14658,7 +14766,7 @@ intgo _wrap_FeedDescription_modes_get_mtmanapi_8609ee77fca78eb1(FeedDescription 
 }
 
 
-void _wrap_FeedDescription_description_set_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_FeedDescription_description_set_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -14682,7 +14790,7 @@ void _wrap_FeedDescription_description_set_mtmanapi_8609ee77fca78eb1(FeedDescrip
 }
 
 
-_gostring_ _wrap_FeedDescription_description_get_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0) {
+_gostring_ _wrap_FeedDescription_description_get_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -14695,7 +14803,7 @@ _gostring_ _wrap_FeedDescription_description_get_mtmanapi_8609ee77fca78eb1(FeedD
 }
 
 
-void _wrap_FeedDescription_module_set_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_FeedDescription_module_set_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0, _gostring_ _swig_go_1) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -14719,7 +14827,7 @@ void _wrap_FeedDescription_module_set_mtmanapi_8609ee77fca78eb1(FeedDescription 
 }
 
 
-_gostring_ _wrap_FeedDescription_module_get_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0) {
+_gostring_ _wrap_FeedDescription_module_get_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -14732,7 +14840,7 @@ _gostring_ _wrap_FeedDescription_module_get_mtmanapi_8609ee77fca78eb1(FeedDescri
 }
 
 
-void _wrap_FeedDescription_reserved_set_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_FeedDescription_reserved_set_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0, intgo *_swig_go_1) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -14748,7 +14856,7 @@ void _wrap_FeedDescription_reserved_set_mtmanapi_8609ee77fca78eb1(FeedDescriptio
 }
 
 
-intgo *_wrap_FeedDescription_reserved_get_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0) {
+intgo *_wrap_FeedDescription_reserved_get_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -14761,7 +14869,7 @@ intgo *_wrap_FeedDescription_reserved_get_mtmanapi_8609ee77fca78eb1(FeedDescript
 }
 
 
-FeedDescription *_wrap_new_FeedDescription_mtmanapi_8609ee77fca78eb1() {
+FeedDescription *_wrap_new_FeedDescription_mtmanapi_7bd57f7bcf037842() {
   FeedDescription *result = 0 ;
   FeedDescription *_swig_go_result;
   
@@ -14772,7 +14880,7 @@ FeedDescription *_wrap_new_FeedDescription_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_FeedDescription_mtmanapi_8609ee77fca78eb1(FeedDescription *_swig_go_0) {
+void _wrap_delete_FeedDescription_mtmanapi_7bd57f7bcf037842(FeedDescription *_swig_go_0) {
   FeedDescription *arg1 = (FeedDescription *) 0 ;
   
   arg1 = *(FeedDescription **)&_swig_go_0; 
@@ -14782,7 +14890,7 @@ void _wrap_delete_FeedDescription_mtmanapi_8609ee77fca78eb1(FeedDescription *_sw
 }
 
 
-intgo _wrap_modeOnlyQuotes_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_modeOnlyQuotes_mtmanapi_7bd57f7bcf037842() {
   FeederModes result;
   intgo _swig_go_result;
   
@@ -14794,7 +14902,7 @@ intgo _wrap_modeOnlyQuotes_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_modeOnlyNews_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_modeOnlyNews_mtmanapi_7bd57f7bcf037842() {
   FeederModes result;
   intgo _swig_go_result;
   
@@ -14806,7 +14914,7 @@ intgo _wrap_modeOnlyNews_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_modeQuotesAndNews_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_modeQuotesAndNews_mtmanapi_7bd57f7bcf037842() {
   FeederModes result;
   intgo _swig_go_result;
   
@@ -14818,7 +14926,7 @@ intgo _wrap_modeQuotesAndNews_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_modeQuotesOrNews_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_modeQuotesOrNews_mtmanapi_7bd57f7bcf037842() {
   FeederModes result;
   intgo _swig_go_result;
   
@@ -14830,7 +14938,7 @@ intgo _wrap_modeQuotesOrNews_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_ServerFeed_file_set_mtmanapi_8609ee77fca78eb1(ServerFeed *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ServerFeed_file_set_mtmanapi_7bd57f7bcf037842(ServerFeed *_swig_go_0, _gostring_ _swig_go_1) {
   ServerFeed *arg1 = (ServerFeed *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -14854,7 +14962,7 @@ void _wrap_ServerFeed_file_set_mtmanapi_8609ee77fca78eb1(ServerFeed *_swig_go_0,
 }
 
 
-_gostring_ _wrap_ServerFeed_file_get_mtmanapi_8609ee77fca78eb1(ServerFeed *_swig_go_0) {
+_gostring_ _wrap_ServerFeed_file_get_mtmanapi_7bd57f7bcf037842(ServerFeed *_swig_go_0) {
   ServerFeed *arg1 = (ServerFeed *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -14867,7 +14975,7 @@ _gostring_ _wrap_ServerFeed_file_get_mtmanapi_8609ee77fca78eb1(ServerFeed *_swig
 }
 
 
-void _wrap_ServerFeed_feed_set_mtmanapi_8609ee77fca78eb1(ServerFeed *_swig_go_0, FeedDescription *_swig_go_1) {
+void _wrap_ServerFeed_feed_set_mtmanapi_7bd57f7bcf037842(ServerFeed *_swig_go_0, FeedDescription *_swig_go_1) {
   ServerFeed *arg1 = (ServerFeed *) 0 ;
   FeedDescription *arg2 = (FeedDescription *) 0 ;
   
@@ -14879,7 +14987,7 @@ void _wrap_ServerFeed_feed_set_mtmanapi_8609ee77fca78eb1(ServerFeed *_swig_go_0,
 }
 
 
-FeedDescription *_wrap_ServerFeed_feed_get_mtmanapi_8609ee77fca78eb1(ServerFeed *_swig_go_0) {
+FeedDescription *_wrap_ServerFeed_feed_get_mtmanapi_7bd57f7bcf037842(ServerFeed *_swig_go_0) {
   ServerFeed *arg1 = (ServerFeed *) 0 ;
   FeedDescription *result = 0 ;
   FeedDescription *_swig_go_result;
@@ -14892,7 +15000,7 @@ FeedDescription *_wrap_ServerFeed_feed_get_mtmanapi_8609ee77fca78eb1(ServerFeed 
 }
 
 
-ServerFeed *_wrap_new_ServerFeed_mtmanapi_8609ee77fca78eb1() {
+ServerFeed *_wrap_new_ServerFeed_mtmanapi_7bd57f7bcf037842() {
   ServerFeed *result = 0 ;
   ServerFeed *_swig_go_result;
   
@@ -14903,7 +15011,7 @@ ServerFeed *_wrap_new_ServerFeed_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ServerFeed_mtmanapi_8609ee77fca78eb1(ServerFeed *_swig_go_0) {
+void _wrap_delete_ServerFeed_mtmanapi_7bd57f7bcf037842(ServerFeed *_swig_go_0) {
   ServerFeed *arg1 = (ServerFeed *) 0 ;
   
   arg1 = *(ServerFeed **)&_swig_go_0; 
@@ -14913,7 +15021,7 @@ void _wrap_delete_ServerFeed_mtmanapi_8609ee77fca78eb1(ServerFeed *_swig_go_0) {
 }
 
 
-void _wrap_ChartInfo_symbol_set_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ChartInfo_symbol_set_mtmanapi_7bd57f7bcf037842(ChartInfo *_swig_go_0, _gostring_ _swig_go_1) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -14937,7 +15045,7 @@ void _wrap_ChartInfo_symbol_set_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0,
 }
 
 
-_gostring_ _wrap_ChartInfo_symbol_get_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0) {
+_gostring_ _wrap_ChartInfo_symbol_get_mtmanapi_7bd57f7bcf037842(ChartInfo *_swig_go_0) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -14950,7 +15058,7 @@ _gostring_ _wrap_ChartInfo_symbol_get_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig
 }
 
 
-void _wrap_ChartInfo_period_set_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ChartInfo_period_set_mtmanapi_7bd57f7bcf037842(ChartInfo *_swig_go_0, intgo _swig_go_1) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
   int arg2 ;
   
@@ -14962,7 +15070,7 @@ void _wrap_ChartInfo_period_set_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0,
 }
 
 
-intgo _wrap_ChartInfo_period_get_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0) {
+intgo _wrap_ChartInfo_period_get_mtmanapi_7bd57f7bcf037842(ChartInfo *_swig_go_0) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -14975,82 +15083,103 @@ intgo _wrap_ChartInfo_period_get_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0
 }
 
 
-void _wrap_ChartInfo_start_set_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0, long long _swig_go_1) {
+void _wrap_ChartInfo_start_set_mtmanapi_7bd57f7bcf037842(ChartInfo *_swig_go_0, time_t *_swig_go_1) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ChartInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->start = arg2;
   
 }
 
 
-long long _wrap_ChartInfo_start_get_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0) {
+time_t *_wrap_ChartInfo_start_get_mtmanapi_7bd57f7bcf037842(ChartInfo *_swig_go_0) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ChartInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->start);
-  _swig_go_result = result; 
+  result =  ((arg1)->start);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ChartInfo_end_set_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0, long long _swig_go_1) {
+void _wrap_ChartInfo_end_set_mtmanapi_7bd57f7bcf037842(ChartInfo *_swig_go_0, time_t *_swig_go_1) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ChartInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->end = arg2;
   
 }
 
 
-long long _wrap_ChartInfo_end_get_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0) {
+time_t *_wrap_ChartInfo_end_get_mtmanapi_7bd57f7bcf037842(ChartInfo *_swig_go_0) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ChartInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->end);
-  _swig_go_result = result; 
+  result =  ((arg1)->end);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ChartInfo_timesign_set_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0, long long _swig_go_1) {
+void _wrap_ChartInfo_timesign_set_mtmanapi_7bd57f7bcf037842(ChartInfo *_swig_go_0, time_t *_swig_go_1) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ChartInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->timesign = arg2;
   
 }
 
 
-long long _wrap_ChartInfo_timesign_get_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0) {
+time_t *_wrap_ChartInfo_timesign_get_mtmanapi_7bd57f7bcf037842(ChartInfo *_swig_go_0) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ChartInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->timesign);
-  _swig_go_result = result; 
+  result =  ((arg1)->timesign);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ChartInfo_mode_set_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ChartInfo_mode_set_mtmanapi_7bd57f7bcf037842(ChartInfo *_swig_go_0, intgo _swig_go_1) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
   int arg2 ;
   
@@ -15062,7 +15191,7 @@ void _wrap_ChartInfo_mode_set_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0, i
 }
 
 
-intgo _wrap_ChartInfo_mode_get_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0) {
+intgo _wrap_ChartInfo_mode_get_mtmanapi_7bd57f7bcf037842(ChartInfo *_swig_go_0) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -15075,7 +15204,7 @@ intgo _wrap_ChartInfo_mode_get_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0) 
 }
 
 
-ChartInfo *_wrap_new_ChartInfo_mtmanapi_8609ee77fca78eb1() {
+ChartInfo *_wrap_new_ChartInfo_mtmanapi_7bd57f7bcf037842() {
   ChartInfo *result = 0 ;
   ChartInfo *_swig_go_result;
   
@@ -15086,7 +15215,7 @@ ChartInfo *_wrap_new_ChartInfo_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ChartInfo_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0) {
+void _wrap_delete_ChartInfo_mtmanapi_7bd57f7bcf037842(ChartInfo *_swig_go_0) {
   ChartInfo *arg1 = (ChartInfo *) 0 ;
   
   arg1 = *(ChartInfo **)&_swig_go_0; 
@@ -15096,7 +15225,7 @@ void _wrap_delete_ChartInfo_mtmanapi_8609ee77fca78eb1(ChartInfo *_swig_go_0) {
 }
 
 
-intgo _wrap_PERIOD_M1_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PERIOD_M1_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -15108,7 +15237,7 @@ intgo _wrap_PERIOD_M1_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PERIOD_M5_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PERIOD_M5_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -15120,7 +15249,7 @@ intgo _wrap_PERIOD_M5_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PERIOD_M15_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PERIOD_M15_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -15132,7 +15261,7 @@ intgo _wrap_PERIOD_M15_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PERIOD_M30_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PERIOD_M30_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -15144,7 +15273,7 @@ intgo _wrap_PERIOD_M30_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PERIOD_H1_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PERIOD_H1_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -15156,7 +15285,7 @@ intgo _wrap_PERIOD_H1_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PERIOD_H4_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PERIOD_H4_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -15168,7 +15297,7 @@ intgo _wrap_PERIOD_H4_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PERIOD_D1_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PERIOD_D1_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -15180,7 +15309,7 @@ intgo _wrap_PERIOD_D1_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PERIOD_W1_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PERIOD_W1_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -15192,7 +15321,7 @@ intgo _wrap_PERIOD_W1_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PERIOD_MN1_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PERIOD_MN1_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -15204,7 +15333,7 @@ intgo _wrap_PERIOD_MN1_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CHART_RANGE_IN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CHART_RANGE_IN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -15216,7 +15345,7 @@ intgo _wrap_CHART_RANGE_IN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CHART_RANGE_OUT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CHART_RANGE_OUT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -15228,7 +15357,7 @@ intgo _wrap_CHART_RANGE_OUT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CHART_RANGE_LAST_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CHART_RANGE_LAST_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -15240,32 +15369,39 @@ intgo _wrap_CHART_RANGE_LAST_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_RateInfoOld_ctm_set_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0, long long _swig_go_1) {
+void _wrap_RateInfoOld_ctm_set_mtmanapi_7bd57f7bcf037842(RateInfoOld *_swig_go_0, time_t *_swig_go_1) {
   RateInfoOld *arg1 = (RateInfoOld *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(RateInfoOld **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->ctm = arg2;
   
 }
 
 
-long long _wrap_RateInfoOld_ctm_get_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0) {
+time_t *_wrap_RateInfoOld_ctm_get_mtmanapi_7bd57f7bcf037842(RateInfoOld *_swig_go_0) {
   RateInfoOld *arg1 = (RateInfoOld *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(RateInfoOld **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->ctm);
-  _swig_go_result = result; 
+  result =  ((arg1)->ctm);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_RateInfoOld_open_set_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0, intgo _swig_go_1) {
+void _wrap_RateInfoOld_open_set_mtmanapi_7bd57f7bcf037842(RateInfoOld *_swig_go_0, intgo _swig_go_1) {
   RateInfoOld *arg1 = (RateInfoOld *) 0 ;
   int arg2 ;
   
@@ -15277,7 +15413,7 @@ void _wrap_RateInfoOld_open_set_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_
 }
 
 
-intgo _wrap_RateInfoOld_open_get_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0) {
+intgo _wrap_RateInfoOld_open_get_mtmanapi_7bd57f7bcf037842(RateInfoOld *_swig_go_0) {
   RateInfoOld *arg1 = (RateInfoOld *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -15290,7 +15426,7 @@ intgo _wrap_RateInfoOld_open_get_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go
 }
 
 
-void _wrap_RateInfoOld_high_set_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0, short _swig_go_1) {
+void _wrap_RateInfoOld_high_set_mtmanapi_7bd57f7bcf037842(RateInfoOld *_swig_go_0, short _swig_go_1) {
   RateInfoOld *arg1 = (RateInfoOld *) 0 ;
   short arg2 ;
   
@@ -15302,7 +15438,7 @@ void _wrap_RateInfoOld_high_set_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_
 }
 
 
-short _wrap_RateInfoOld_high_get_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0) {
+short _wrap_RateInfoOld_high_get_mtmanapi_7bd57f7bcf037842(RateInfoOld *_swig_go_0) {
   RateInfoOld *arg1 = (RateInfoOld *) 0 ;
   short result;
   short _swig_go_result;
@@ -15315,7 +15451,7 @@ short _wrap_RateInfoOld_high_get_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go
 }
 
 
-void _wrap_RateInfoOld_low_set_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0, short _swig_go_1) {
+void _wrap_RateInfoOld_low_set_mtmanapi_7bd57f7bcf037842(RateInfoOld *_swig_go_0, short _swig_go_1) {
   RateInfoOld *arg1 = (RateInfoOld *) 0 ;
   short arg2 ;
   
@@ -15327,7 +15463,7 @@ void _wrap_RateInfoOld_low_set_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0
 }
 
 
-short _wrap_RateInfoOld_low_get_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0) {
+short _wrap_RateInfoOld_low_get_mtmanapi_7bd57f7bcf037842(RateInfoOld *_swig_go_0) {
   RateInfoOld *arg1 = (RateInfoOld *) 0 ;
   short result;
   short _swig_go_result;
@@ -15340,7 +15476,7 @@ short _wrap_RateInfoOld_low_get_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_
 }
 
 
-void _wrap_RateInfoOld_close_set_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0, short _swig_go_1) {
+void _wrap_RateInfoOld_close_set_mtmanapi_7bd57f7bcf037842(RateInfoOld *_swig_go_0, short _swig_go_1) {
   RateInfoOld *arg1 = (RateInfoOld *) 0 ;
   short arg2 ;
   
@@ -15352,7 +15488,7 @@ void _wrap_RateInfoOld_close_set_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go
 }
 
 
-short _wrap_RateInfoOld_close_get_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0) {
+short _wrap_RateInfoOld_close_get_mtmanapi_7bd57f7bcf037842(RateInfoOld *_swig_go_0) {
   RateInfoOld *arg1 = (RateInfoOld *) 0 ;
   short result;
   short _swig_go_result;
@@ -15365,7 +15501,7 @@ short _wrap_RateInfoOld_close_get_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_g
 }
 
 
-void _wrap_RateInfoOld_vol_set_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0, double _swig_go_1) {
+void _wrap_RateInfoOld_vol_set_mtmanapi_7bd57f7bcf037842(RateInfoOld *_swig_go_0, double _swig_go_1) {
   RateInfoOld *arg1 = (RateInfoOld *) 0 ;
   double arg2 ;
   
@@ -15377,7 +15513,7 @@ void _wrap_RateInfoOld_vol_set_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0
 }
 
 
-double _wrap_RateInfoOld_vol_get_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0) {
+double _wrap_RateInfoOld_vol_get_mtmanapi_7bd57f7bcf037842(RateInfoOld *_swig_go_0) {
   RateInfoOld *arg1 = (RateInfoOld *) 0 ;
   double result;
   double _swig_go_result;
@@ -15390,7 +15526,7 @@ double _wrap_RateInfoOld_vol_get_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go
 }
 
 
-RateInfoOld *_wrap_new_RateInfoOld_mtmanapi_8609ee77fca78eb1() {
+RateInfoOld *_wrap_new_RateInfoOld_mtmanapi_7bd57f7bcf037842() {
   RateInfoOld *result = 0 ;
   RateInfoOld *_swig_go_result;
   
@@ -15401,7 +15537,7 @@ RateInfoOld *_wrap_new_RateInfoOld_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_RateInfoOld_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0) {
+void _wrap_delete_RateInfoOld_mtmanapi_7bd57f7bcf037842(RateInfoOld *_swig_go_0) {
   RateInfoOld *arg1 = (RateInfoOld *) 0 ;
   
   arg1 = *(RateInfoOld **)&_swig_go_0; 
@@ -15411,32 +15547,39 @@ void _wrap_delete_RateInfoOld_mtmanapi_8609ee77fca78eb1(RateInfoOld *_swig_go_0)
 }
 
 
-void _wrap_RateInfo_ctm_set_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0, long long _swig_go_1) {
+void _wrap_RateInfo_ctm_set_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0, time_t *_swig_go_1) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(RateInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->ctm = arg2;
   
 }
 
 
-long long _wrap_RateInfo_ctm_get_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0) {
+time_t *_wrap_RateInfo_ctm_get_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(RateInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->ctm);
-  _swig_go_result = result; 
+  result =  ((arg1)->ctm);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_RateInfo_open_set_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_RateInfo_open_set_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0, intgo _swig_go_1) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   int arg2 ;
   
@@ -15448,7 +15591,7 @@ void _wrap_RateInfo_open_set_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0, int
 }
 
 
-intgo _wrap_RateInfo_open_get_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0) {
+intgo _wrap_RateInfo_open_get_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -15461,7 +15604,7 @@ intgo _wrap_RateInfo_open_get_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0) {
 }
 
 
-void _wrap_RateInfo_high_set_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_RateInfo_high_set_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0, intgo _swig_go_1) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   int arg2 ;
   
@@ -15473,7 +15616,7 @@ void _wrap_RateInfo_high_set_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0, int
 }
 
 
-intgo _wrap_RateInfo_high_get_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0) {
+intgo _wrap_RateInfo_high_get_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -15486,7 +15629,7 @@ intgo _wrap_RateInfo_high_get_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0) {
 }
 
 
-void _wrap_RateInfo_low_set_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_RateInfo_low_set_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0, intgo _swig_go_1) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   int arg2 ;
   
@@ -15498,7 +15641,7 @@ void _wrap_RateInfo_low_set_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0, intg
 }
 
 
-intgo _wrap_RateInfo_low_get_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0) {
+intgo _wrap_RateInfo_low_get_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -15511,7 +15654,7 @@ intgo _wrap_RateInfo_low_get_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0) {
 }
 
 
-void _wrap_RateInfo_close_set_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_RateInfo_close_set_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0, intgo _swig_go_1) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   int arg2 ;
   
@@ -15523,7 +15666,7 @@ void _wrap_RateInfo_close_set_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0, in
 }
 
 
-intgo _wrap_RateInfo_close_get_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0) {
+intgo _wrap_RateInfo_close_get_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -15536,7 +15679,7 @@ intgo _wrap_RateInfo_close_get_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0) {
 }
 
 
-void _wrap_RateInfo_vol_set_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0, double _swig_go_1) {
+void _wrap_RateInfo_vol_set_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0, double _swig_go_1) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   double arg2 ;
   
@@ -15548,7 +15691,7 @@ void _wrap_RateInfo_vol_set_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0, doub
 }
 
 
-double _wrap_RateInfo_vol_get_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0) {
+double _wrap_RateInfo_vol_get_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   double result;
   double _swig_go_result;
@@ -15561,7 +15704,7 @@ double _wrap_RateInfo_vol_get_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0) {
 }
 
 
-RateInfo *_wrap_new_RateInfo_mtmanapi_8609ee77fca78eb1() {
+RateInfo *_wrap_new_RateInfo_mtmanapi_7bd57f7bcf037842() {
   RateInfo *result = 0 ;
   RateInfo *_swig_go_result;
   
@@ -15572,7 +15715,7 @@ RateInfo *_wrap_new_RateInfo_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_RateInfo_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0) {
+void _wrap_delete_RateInfo_mtmanapi_7bd57f7bcf037842(RateInfo *_swig_go_0) {
   RateInfo *arg1 = (RateInfo *) 0 ;
   
   arg1 = *(RateInfo **)&_swig_go_0; 
@@ -15582,32 +15725,39 @@ void _wrap_delete_RateInfo_mtmanapi_8609ee77fca78eb1(RateInfo *_swig_go_0) {
 }
 
 
-void _wrap_TickRecord_ctm_set_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0, long long _swig_go_1) {
+void _wrap_TickRecord_ctm_set_mtmanapi_7bd57f7bcf037842(TickRecord *_swig_go_0, time_t *_swig_go_1) {
   TickRecord *arg1 = (TickRecord *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(TickRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->ctm = arg2;
   
 }
 
 
-long long _wrap_TickRecord_ctm_get_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0) {
+time_t *_wrap_TickRecord_ctm_get_mtmanapi_7bd57f7bcf037842(TickRecord *_swig_go_0) {
   TickRecord *arg1 = (TickRecord *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(TickRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->ctm);
-  _swig_go_result = result; 
+  result =  ((arg1)->ctm);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_TickRecord_bid_set_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_TickRecord_bid_set_mtmanapi_7bd57f7bcf037842(TickRecord *_swig_go_0, double _swig_go_1) {
   TickRecord *arg1 = (TickRecord *) 0 ;
   double arg2 ;
   
@@ -15619,7 +15769,7 @@ void _wrap_TickRecord_bid_set_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0, 
 }
 
 
-double _wrap_TickRecord_bid_get_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0) {
+double _wrap_TickRecord_bid_get_mtmanapi_7bd57f7bcf037842(TickRecord *_swig_go_0) {
   TickRecord *arg1 = (TickRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -15632,7 +15782,7 @@ double _wrap_TickRecord_bid_get_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0
 }
 
 
-void _wrap_TickRecord_ask_set_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_TickRecord_ask_set_mtmanapi_7bd57f7bcf037842(TickRecord *_swig_go_0, double _swig_go_1) {
   TickRecord *arg1 = (TickRecord *) 0 ;
   double arg2 ;
   
@@ -15644,7 +15794,7 @@ void _wrap_TickRecord_ask_set_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0, 
 }
 
 
-double _wrap_TickRecord_ask_get_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0) {
+double _wrap_TickRecord_ask_get_mtmanapi_7bd57f7bcf037842(TickRecord *_swig_go_0) {
   TickRecord *arg1 = (TickRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -15657,7 +15807,7 @@ double _wrap_TickRecord_ask_get_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0
 }
 
 
-void _wrap_TickRecord_datafeed_set_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TickRecord_datafeed_set_mtmanapi_7bd57f7bcf037842(TickRecord *_swig_go_0, intgo _swig_go_1) {
   TickRecord *arg1 = (TickRecord *) 0 ;
   int arg2 ;
   
@@ -15669,7 +15819,7 @@ void _wrap_TickRecord_datafeed_set_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_g
 }
 
 
-intgo _wrap_TickRecord_datafeed_get_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0) {
+intgo _wrap_TickRecord_datafeed_get_mtmanapi_7bd57f7bcf037842(TickRecord *_swig_go_0) {
   TickRecord *arg1 = (TickRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -15682,7 +15832,7 @@ intgo _wrap_TickRecord_datafeed_get_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_
 }
 
 
-void _wrap_TickRecord_flags_set_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0, char _swig_go_1) {
+void _wrap_TickRecord_flags_set_mtmanapi_7bd57f7bcf037842(TickRecord *_swig_go_0, char _swig_go_1) {
   TickRecord *arg1 = (TickRecord *) 0 ;
   char arg2 ;
   
@@ -15694,7 +15844,7 @@ void _wrap_TickRecord_flags_set_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0
 }
 
 
-char _wrap_TickRecord_flags_get_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0) {
+char _wrap_TickRecord_flags_get_mtmanapi_7bd57f7bcf037842(TickRecord *_swig_go_0) {
   TickRecord *arg1 = (TickRecord *) 0 ;
   char result;
   char _swig_go_result;
@@ -15707,7 +15857,7 @@ char _wrap_TickRecord_flags_get_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0
 }
 
 
-TickRecord *_wrap_new_TickRecord_mtmanapi_8609ee77fca78eb1() {
+TickRecord *_wrap_new_TickRecord_mtmanapi_7bd57f7bcf037842() {
   TickRecord *result = 0 ;
   TickRecord *_swig_go_result;
   
@@ -15718,7 +15868,7 @@ TickRecord *_wrap_new_TickRecord_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_TickRecord_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0) {
+void _wrap_delete_TickRecord_mtmanapi_7bd57f7bcf037842(TickRecord *_swig_go_0) {
   TickRecord *arg1 = (TickRecord *) 0 ;
   
   arg1 = *(TickRecord **)&_swig_go_0; 
@@ -15728,7 +15878,7 @@ void _wrap_delete_TickRecord_mtmanapi_8609ee77fca78eb1(TickRecord *_swig_go_0) {
 }
 
 
-intgo _wrap_TICK_FLAG_RAW_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TICK_FLAG_RAW_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -15740,7 +15890,7 @@ intgo _wrap_TICK_FLAG_RAW_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TICK_FLAG_NORMAL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TICK_FLAG_NORMAL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -15752,7 +15902,7 @@ intgo _wrap_TICK_FLAG_NORMAL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TICK_FLAG_ALL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TICK_FLAG_ALL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -15764,7 +15914,7 @@ intgo _wrap_TICK_FLAG_ALL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_TickRequest_symbol_set_mtmanapi_8609ee77fca78eb1(TickRequest *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_TickRequest_symbol_set_mtmanapi_7bd57f7bcf037842(TickRequest *_swig_go_0, _gostring_ _swig_go_1) {
   TickRequest *arg1 = (TickRequest *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -15788,7 +15938,7 @@ void _wrap_TickRequest_symbol_set_mtmanapi_8609ee77fca78eb1(TickRequest *_swig_g
 }
 
 
-_gostring_ _wrap_TickRequest_symbol_get_mtmanapi_8609ee77fca78eb1(TickRequest *_swig_go_0) {
+_gostring_ _wrap_TickRequest_symbol_get_mtmanapi_7bd57f7bcf037842(TickRequest *_swig_go_0) {
   TickRequest *arg1 = (TickRequest *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -15801,57 +15951,71 @@ _gostring_ _wrap_TickRequest_symbol_get_mtmanapi_8609ee77fca78eb1(TickRequest *_
 }
 
 
-void _wrap_TickRequest_from_set_mtmanapi_8609ee77fca78eb1(TickRequest *_swig_go_0, long long _swig_go_1) {
+void _wrap_TickRequest_from_set_mtmanapi_7bd57f7bcf037842(TickRequest *_swig_go_0, time_t *_swig_go_1) {
   TickRequest *arg1 = (TickRequest *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(TickRequest **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->from = arg2;
   
 }
 
 
-long long _wrap_TickRequest_from_get_mtmanapi_8609ee77fca78eb1(TickRequest *_swig_go_0) {
+time_t *_wrap_TickRequest_from_get_mtmanapi_7bd57f7bcf037842(TickRequest *_swig_go_0) {
   TickRequest *arg1 = (TickRequest *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(TickRequest **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->from);
-  _swig_go_result = result; 
+  result =  ((arg1)->from);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_TickRequest_to_set_mtmanapi_8609ee77fca78eb1(TickRequest *_swig_go_0, long long _swig_go_1) {
+void _wrap_TickRequest_to_set_mtmanapi_7bd57f7bcf037842(TickRequest *_swig_go_0, time_t *_swig_go_1) {
   TickRequest *arg1 = (TickRequest *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(TickRequest **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->to = arg2;
   
 }
 
 
-long long _wrap_TickRequest_to_get_mtmanapi_8609ee77fca78eb1(TickRequest *_swig_go_0) {
+time_t *_wrap_TickRequest_to_get_mtmanapi_7bd57f7bcf037842(TickRequest *_swig_go_0) {
   TickRequest *arg1 = (TickRequest *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(TickRequest **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->to);
-  _swig_go_result = result; 
+  result =  ((arg1)->to);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_TickRequest_flags_set_mtmanapi_8609ee77fca78eb1(TickRequest *_swig_go_0, char _swig_go_1) {
+void _wrap_TickRequest_flags_set_mtmanapi_7bd57f7bcf037842(TickRequest *_swig_go_0, char _swig_go_1) {
   TickRequest *arg1 = (TickRequest *) 0 ;
   char arg2 ;
   
@@ -15863,7 +16027,7 @@ void _wrap_TickRequest_flags_set_mtmanapi_8609ee77fca78eb1(TickRequest *_swig_go
 }
 
 
-char _wrap_TickRequest_flags_get_mtmanapi_8609ee77fca78eb1(TickRequest *_swig_go_0) {
+char _wrap_TickRequest_flags_get_mtmanapi_7bd57f7bcf037842(TickRequest *_swig_go_0) {
   TickRequest *arg1 = (TickRequest *) 0 ;
   char result;
   char _swig_go_result;
@@ -15876,7 +16040,7 @@ char _wrap_TickRequest_flags_get_mtmanapi_8609ee77fca78eb1(TickRequest *_swig_go
 }
 
 
-TickRequest *_wrap_new_TickRequest_mtmanapi_8609ee77fca78eb1() {
+TickRequest *_wrap_new_TickRequest_mtmanapi_7bd57f7bcf037842() {
   TickRequest *result = 0 ;
   TickRequest *_swig_go_result;
   
@@ -15887,7 +16051,7 @@ TickRequest *_wrap_new_TickRequest_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_TickRequest_mtmanapi_8609ee77fca78eb1(TickRequest *_swig_go_0) {
+void _wrap_delete_TickRequest_mtmanapi_7bd57f7bcf037842(TickRequest *_swig_go_0) {
   TickRequest *arg1 = (TickRequest *) 0 ;
   
   arg1 = *(TickRequest **)&_swig_go_0; 
@@ -15897,32 +16061,39 @@ void _wrap_delete_TickRequest_mtmanapi_8609ee77fca78eb1(TickRequest *_swig_go_0)
 }
 
 
-void _wrap_PerformanceInfo_ctm_set_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_swig_go_0, long long _swig_go_1) {
+void _wrap_PerformanceInfo_ctm_set_mtmanapi_7bd57f7bcf037842(PerformanceInfo *_swig_go_0, time_t *_swig_go_1) {
   PerformanceInfo *arg1 = (PerformanceInfo *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(PerformanceInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->ctm = arg2;
   
 }
 
 
-long long _wrap_PerformanceInfo_ctm_get_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_swig_go_0) {
+time_t *_wrap_PerformanceInfo_ctm_get_mtmanapi_7bd57f7bcf037842(PerformanceInfo *_swig_go_0) {
   PerformanceInfo *arg1 = (PerformanceInfo *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(PerformanceInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->ctm);
-  _swig_go_result = result; 
+  result =  ((arg1)->ctm);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_PerformanceInfo_users_set_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_swig_go_0, short _swig_go_1) {
+void _wrap_PerformanceInfo_users_set_mtmanapi_7bd57f7bcf037842(PerformanceInfo *_swig_go_0, short _swig_go_1) {
   PerformanceInfo *arg1 = (PerformanceInfo *) 0 ;
   short arg2 ;
   
@@ -15934,7 +16105,7 @@ void _wrap_PerformanceInfo_users_set_mtmanapi_8609ee77fca78eb1(PerformanceInfo *
 }
 
 
-short _wrap_PerformanceInfo_users_get_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_swig_go_0) {
+short _wrap_PerformanceInfo_users_get_mtmanapi_7bd57f7bcf037842(PerformanceInfo *_swig_go_0) {
   PerformanceInfo *arg1 = (PerformanceInfo *) 0 ;
   short result;
   short _swig_go_result;
@@ -15947,7 +16118,7 @@ short _wrap_PerformanceInfo_users_get_mtmanapi_8609ee77fca78eb1(PerformanceInfo 
 }
 
 
-void _wrap_PerformanceInfo_cpu_set_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_swig_go_0, short _swig_go_1) {
+void _wrap_PerformanceInfo_cpu_set_mtmanapi_7bd57f7bcf037842(PerformanceInfo *_swig_go_0, short _swig_go_1) {
   PerformanceInfo *arg1 = (PerformanceInfo *) 0 ;
   short arg2 ;
   
@@ -15959,7 +16130,7 @@ void _wrap_PerformanceInfo_cpu_set_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_s
 }
 
 
-short _wrap_PerformanceInfo_cpu_get_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_swig_go_0) {
+short _wrap_PerformanceInfo_cpu_get_mtmanapi_7bd57f7bcf037842(PerformanceInfo *_swig_go_0) {
   PerformanceInfo *arg1 = (PerformanceInfo *) 0 ;
   short result;
   short _swig_go_result;
@@ -15972,7 +16143,7 @@ short _wrap_PerformanceInfo_cpu_get_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_
 }
 
 
-void _wrap_PerformanceInfo_freemem_set_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_PerformanceInfo_freemem_set_mtmanapi_7bd57f7bcf037842(PerformanceInfo *_swig_go_0, intgo _swig_go_1) {
   PerformanceInfo *arg1 = (PerformanceInfo *) 0 ;
   int arg2 ;
   
@@ -15984,7 +16155,7 @@ void _wrap_PerformanceInfo_freemem_set_mtmanapi_8609ee77fca78eb1(PerformanceInfo
 }
 
 
-intgo _wrap_PerformanceInfo_freemem_get_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_swig_go_0) {
+intgo _wrap_PerformanceInfo_freemem_get_mtmanapi_7bd57f7bcf037842(PerformanceInfo *_swig_go_0) {
   PerformanceInfo *arg1 = (PerformanceInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -15997,7 +16168,7 @@ intgo _wrap_PerformanceInfo_freemem_get_mtmanapi_8609ee77fca78eb1(PerformanceInf
 }
 
 
-void _wrap_PerformanceInfo_network_set_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_PerformanceInfo_network_set_mtmanapi_7bd57f7bcf037842(PerformanceInfo *_swig_go_0, intgo _swig_go_1) {
   PerformanceInfo *arg1 = (PerformanceInfo *) 0 ;
   int arg2 ;
   
@@ -16009,7 +16180,7 @@ void _wrap_PerformanceInfo_network_set_mtmanapi_8609ee77fca78eb1(PerformanceInfo
 }
 
 
-intgo _wrap_PerformanceInfo_network_get_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_swig_go_0) {
+intgo _wrap_PerformanceInfo_network_get_mtmanapi_7bd57f7bcf037842(PerformanceInfo *_swig_go_0) {
   PerformanceInfo *arg1 = (PerformanceInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -16022,7 +16193,7 @@ intgo _wrap_PerformanceInfo_network_get_mtmanapi_8609ee77fca78eb1(PerformanceInf
 }
 
 
-void _wrap_PerformanceInfo_sockets_set_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_PerformanceInfo_sockets_set_mtmanapi_7bd57f7bcf037842(PerformanceInfo *_swig_go_0, intgo _swig_go_1) {
   PerformanceInfo *arg1 = (PerformanceInfo *) 0 ;
   int arg2 ;
   
@@ -16034,7 +16205,7 @@ void _wrap_PerformanceInfo_sockets_set_mtmanapi_8609ee77fca78eb1(PerformanceInfo
 }
 
 
-intgo _wrap_PerformanceInfo_sockets_get_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_swig_go_0) {
+intgo _wrap_PerformanceInfo_sockets_get_mtmanapi_7bd57f7bcf037842(PerformanceInfo *_swig_go_0) {
   PerformanceInfo *arg1 = (PerformanceInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -16047,7 +16218,7 @@ intgo _wrap_PerformanceInfo_sockets_get_mtmanapi_8609ee77fca78eb1(PerformanceInf
 }
 
 
-PerformanceInfo *_wrap_new_PerformanceInfo_mtmanapi_8609ee77fca78eb1() {
+PerformanceInfo *_wrap_new_PerformanceInfo_mtmanapi_7bd57f7bcf037842() {
   PerformanceInfo *result = 0 ;
   PerformanceInfo *_swig_go_result;
   
@@ -16058,7 +16229,7 @@ PerformanceInfo *_wrap_new_PerformanceInfo_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_PerformanceInfo_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_swig_go_0) {
+void _wrap_delete_PerformanceInfo_mtmanapi_7bd57f7bcf037842(PerformanceInfo *_swig_go_0) {
   PerformanceInfo *arg1 = (PerformanceInfo *) 0 ;
   
   arg1 = *(PerformanceInfo **)&_swig_go_0; 
@@ -16068,7 +16239,7 @@ void _wrap_delete_PerformanceInfo_mtmanapi_8609ee77fca78eb1(PerformanceInfo *_sw
 }
 
 
-void _wrap_BackupInfo_file_set_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_BackupInfo_file_set_mtmanapi_7bd57f7bcf037842(BackupInfo *_swig_go_0, _gostring_ _swig_go_1) {
   BackupInfo *arg1 = (BackupInfo *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -16092,7 +16263,7 @@ void _wrap_BackupInfo_file_set_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig_go_0,
 }
 
 
-_gostring_ _wrap_BackupInfo_file_get_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig_go_0) {
+_gostring_ _wrap_BackupInfo_file_get_mtmanapi_7bd57f7bcf037842(BackupInfo *_swig_go_0) {
   BackupInfo *arg1 = (BackupInfo *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -16105,7 +16276,7 @@ _gostring_ _wrap_BackupInfo_file_get_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig
 }
 
 
-void _wrap_BackupInfo_size_set_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_BackupInfo_size_set_mtmanapi_7bd57f7bcf037842(BackupInfo *_swig_go_0, intgo _swig_go_1) {
   BackupInfo *arg1 = (BackupInfo *) 0 ;
   int arg2 ;
   
@@ -16117,7 +16288,7 @@ void _wrap_BackupInfo_size_set_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig_go_0,
 }
 
 
-intgo _wrap_BackupInfo_size_get_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig_go_0) {
+intgo _wrap_BackupInfo_size_get_mtmanapi_7bd57f7bcf037842(BackupInfo *_swig_go_0) {
   BackupInfo *arg1 = (BackupInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -16130,32 +16301,39 @@ intgo _wrap_BackupInfo_size_get_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig_go_0
 }
 
 
-void _wrap_BackupInfo_time_set_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig_go_0, long long _swig_go_1) {
+void _wrap_BackupInfo_time_set_mtmanapi_7bd57f7bcf037842(BackupInfo *_swig_go_0, time_t *_swig_go_1) {
   BackupInfo *arg1 = (BackupInfo *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(BackupInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->time = arg2;
   
 }
 
 
-long long _wrap_BackupInfo_time_get_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig_go_0) {
+time_t *_wrap_BackupInfo_time_get_mtmanapi_7bd57f7bcf037842(BackupInfo *_swig_go_0) {
   BackupInfo *arg1 = (BackupInfo *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(BackupInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->time);
-  _swig_go_result = result; 
+  result =  ((arg1)->time);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_BackupInfo_reserved_set_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_BackupInfo_reserved_set_mtmanapi_7bd57f7bcf037842(BackupInfo *_swig_go_0, intgo *_swig_go_1) {
   BackupInfo *arg1 = (BackupInfo *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -16171,7 +16349,7 @@ void _wrap_BackupInfo_reserved_set_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig_g
 }
 
 
-intgo *_wrap_BackupInfo_reserved_get_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig_go_0) {
+intgo *_wrap_BackupInfo_reserved_get_mtmanapi_7bd57f7bcf037842(BackupInfo *_swig_go_0) {
   BackupInfo *arg1 = (BackupInfo *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -16184,7 +16362,7 @@ intgo *_wrap_BackupInfo_reserved_get_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig
 }
 
 
-BackupInfo *_wrap_new_BackupInfo_mtmanapi_8609ee77fca78eb1() {
+BackupInfo *_wrap_new_BackupInfo_mtmanapi_7bd57f7bcf037842() {
   BackupInfo *result = 0 ;
   BackupInfo *_swig_go_result;
   
@@ -16195,7 +16373,7 @@ BackupInfo *_wrap_new_BackupInfo_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_BackupInfo_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig_go_0) {
+void _wrap_delete_BackupInfo_mtmanapi_7bd57f7bcf037842(BackupInfo *_swig_go_0) {
   BackupInfo *arg1 = (BackupInfo *) 0 ;
   
   arg1 = *(BackupInfo **)&_swig_go_0; 
@@ -16205,7 +16383,7 @@ void _wrap_delete_BackupInfo_mtmanapi_8609ee77fca78eb1(BackupInfo *_swig_go_0) {
 }
 
 
-intgo _wrap_BACKUPS_ALL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_BACKUPS_ALL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -16217,7 +16395,7 @@ intgo _wrap_BACKUPS_ALL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_BACKUPS_PERIODICAL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_BACKUPS_PERIODICAL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -16229,7 +16407,7 @@ intgo _wrap_BACKUPS_PERIODICAL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_BACKUPS_STARTUP_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_BACKUPS_STARTUP_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -16241,7 +16419,7 @@ intgo _wrap_BACKUPS_STARTUP_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_BACKUPS_DELETE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_BACKUPS_DELETE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -16253,7 +16431,7 @@ intgo _wrap_BACKUPS_DELETE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TRANS_ADD_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TRANS_ADD_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -16265,7 +16443,7 @@ intgo _wrap_TRANS_ADD_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TRANS_DELETE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TRANS_DELETE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -16277,7 +16455,7 @@ intgo _wrap_TRANS_DELETE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TRANS_UPDATE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TRANS_UPDATE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -16289,7 +16467,7 @@ intgo _wrap_TRANS_UPDATE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TRANS_CHANGE_GRP_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TRANS_CHANGE_GRP_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -16301,7 +16479,7 @@ intgo _wrap_TRANS_CHANGE_GRP_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_USER_COLOR_NONE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_USER_COLOR_NONE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -16312,7 +16490,7 @@ intgo _wrap_USER_COLOR_NONE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_UserRecord_login_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_UserRecord_login_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, intgo _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int arg2 ;
   
@@ -16324,7 +16502,7 @@ void _wrap_UserRecord_login_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0
 }
 
 
-intgo _wrap_UserRecord_login_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+intgo _wrap_UserRecord_login_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -16337,7 +16515,7 @@ intgo _wrap_UserRecord_login_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_
 }
 
 
-void _wrap_UserRecord_group_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_group_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -16361,7 +16539,7 @@ void _wrap_UserRecord_group_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0
 }
 
 
-_gostring_ _wrap_UserRecord_group_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_group_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -16374,7 +16552,7 @@ _gostring_ _wrap_UserRecord_group_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swi
 }
 
 
-void _wrap_UserRecord_password_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_password_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -16398,7 +16576,7 @@ void _wrap_UserRecord_password_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_g
 }
 
 
-_gostring_ _wrap_UserRecord_password_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_password_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -16411,7 +16589,7 @@ _gostring_ _wrap_UserRecord_password_get_mtmanapi_8609ee77fca78eb1(UserRecord *_
 }
 
 
-void _wrap_UserRecord_enable_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_UserRecord_enable_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, intgo _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int arg2 ;
   
@@ -16423,7 +16601,7 @@ void _wrap_UserRecord_enable_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_
 }
 
 
-intgo _wrap_UserRecord_enable_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+intgo _wrap_UserRecord_enable_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -16436,7 +16614,7 @@ intgo _wrap_UserRecord_enable_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go
 }
 
 
-void _wrap_UserRecord_enable_change_password_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_UserRecord_enable_change_password_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, intgo _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int arg2 ;
   
@@ -16448,7 +16626,7 @@ void _wrap_UserRecord_enable_change_password_set_mtmanapi_8609ee77fca78eb1(UserR
 }
 
 
-intgo _wrap_UserRecord_enable_change_password_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+intgo _wrap_UserRecord_enable_change_password_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -16461,7 +16639,7 @@ intgo _wrap_UserRecord_enable_change_password_get_mtmanapi_8609ee77fca78eb1(User
 }
 
 
-void _wrap_UserRecord_enable_read_only_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_UserRecord_enable_read_only_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, intgo _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int arg2 ;
   
@@ -16473,7 +16651,7 @@ void _wrap_UserRecord_enable_read_only_set_mtmanapi_8609ee77fca78eb1(UserRecord 
 }
 
 
-intgo _wrap_UserRecord_enable_read_only_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+intgo _wrap_UserRecord_enable_read_only_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -16486,7 +16664,7 @@ intgo _wrap_UserRecord_enable_read_only_get_mtmanapi_8609ee77fca78eb1(UserRecord
 }
 
 
-void _wrap_UserRecord_enable_otp_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_UserRecord_enable_otp_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, intgo _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int arg2 ;
   
@@ -16498,7 +16676,7 @@ void _wrap_UserRecord_enable_otp_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig
 }
 
 
-intgo _wrap_UserRecord_enable_otp_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+intgo _wrap_UserRecord_enable_otp_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -16511,7 +16689,7 @@ intgo _wrap_UserRecord_enable_otp_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swi
 }
 
 
-void _wrap_UserRecord_enable_reserved_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_UserRecord_enable_reserved_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, intgo *_swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -16527,7 +16705,7 @@ void _wrap_UserRecord_enable_reserved_set_mtmanapi_8609ee77fca78eb1(UserRecord *
 }
 
 
-intgo *_wrap_UserRecord_enable_reserved_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+intgo *_wrap_UserRecord_enable_reserved_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -16540,7 +16718,7 @@ intgo *_wrap_UserRecord_enable_reserved_get_mtmanapi_8609ee77fca78eb1(UserRecord
 }
 
 
-void _wrap_UserRecord_password_investor_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_password_investor_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -16564,7 +16742,7 @@ void _wrap_UserRecord_password_investor_set_mtmanapi_8609ee77fca78eb1(UserRecord
 }
 
 
-_gostring_ _wrap_UserRecord_password_investor_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_password_investor_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -16577,7 +16755,7 @@ _gostring_ _wrap_UserRecord_password_investor_get_mtmanapi_8609ee77fca78eb1(User
 }
 
 
-void _wrap_UserRecord_password_phone_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_password_phone_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -16601,7 +16779,7 @@ void _wrap_UserRecord_password_phone_set_mtmanapi_8609ee77fca78eb1(UserRecord *_
 }
 
 
-_gostring_ _wrap_UserRecord_password_phone_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_password_phone_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -16614,7 +16792,7 @@ _gostring_ _wrap_UserRecord_password_phone_get_mtmanapi_8609ee77fca78eb1(UserRec
 }
 
 
-void _wrap_UserRecord_name_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_name_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -16638,7 +16816,7 @@ void _wrap_UserRecord_name_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0,
 }
 
 
-_gostring_ _wrap_UserRecord_name_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_name_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -16651,7 +16829,7 @@ _gostring_ _wrap_UserRecord_name_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig
 }
 
 
-void _wrap_UserRecord_country_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_country_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -16675,7 +16853,7 @@ void _wrap_UserRecord_country_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go
 }
 
 
-_gostring_ _wrap_UserRecord_country_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_country_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -16688,7 +16866,7 @@ _gostring_ _wrap_UserRecord_country_get_mtmanapi_8609ee77fca78eb1(UserRecord *_s
 }
 
 
-void _wrap_UserRecord_city_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_city_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -16712,7 +16890,7 @@ void _wrap_UserRecord_city_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0,
 }
 
 
-_gostring_ _wrap_UserRecord_city_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_city_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -16725,7 +16903,7 @@ _gostring_ _wrap_UserRecord_city_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig
 }
 
 
-void _wrap_UserRecord_state_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_state_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -16749,7 +16927,7 @@ void _wrap_UserRecord_state_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0
 }
 
 
-_gostring_ _wrap_UserRecord_state_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_state_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -16762,7 +16940,7 @@ _gostring_ _wrap_UserRecord_state_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swi
 }
 
 
-void _wrap_UserRecord_zipcode_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_zipcode_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -16786,7 +16964,7 @@ void _wrap_UserRecord_zipcode_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go
 }
 
 
-_gostring_ _wrap_UserRecord_zipcode_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_zipcode_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -16799,7 +16977,7 @@ _gostring_ _wrap_UserRecord_zipcode_get_mtmanapi_8609ee77fca78eb1(UserRecord *_s
 }
 
 
-void _wrap_UserRecord_address_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_address_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -16823,7 +17001,7 @@ void _wrap_UserRecord_address_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go
 }
 
 
-_gostring_ _wrap_UserRecord_address_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_address_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -16836,7 +17014,7 @@ _gostring_ _wrap_UserRecord_address_get_mtmanapi_8609ee77fca78eb1(UserRecord *_s
 }
 
 
-void _wrap_UserRecord_lead_source_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_lead_source_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -16860,7 +17038,7 @@ void _wrap_UserRecord_lead_source_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swi
 }
 
 
-_gostring_ _wrap_UserRecord_lead_source_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_lead_source_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -16873,7 +17051,7 @@ _gostring_ _wrap_UserRecord_lead_source_get_mtmanapi_8609ee77fca78eb1(UserRecord
 }
 
 
-void _wrap_UserRecord_phone_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_phone_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -16897,7 +17075,7 @@ void _wrap_UserRecord_phone_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0
 }
 
 
-_gostring_ _wrap_UserRecord_phone_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_phone_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -16910,7 +17088,7 @@ _gostring_ _wrap_UserRecord_phone_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swi
 }
 
 
-void _wrap_UserRecord_email_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_email_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -16934,7 +17112,7 @@ void _wrap_UserRecord_email_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0
 }
 
 
-_gostring_ _wrap_UserRecord_email_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_email_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -16947,7 +17125,7 @@ _gostring_ _wrap_UserRecord_email_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swi
 }
 
 
-void _wrap_UserRecord_comment_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_comment_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -16971,7 +17149,7 @@ void _wrap_UserRecord_comment_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go
 }
 
 
-_gostring_ _wrap_UserRecord_comment_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_comment_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -16984,7 +17162,7 @@ _gostring_ _wrap_UserRecord_comment_get_mtmanapi_8609ee77fca78eb1(UserRecord *_s
 }
 
 
-void _wrap_UserRecord_id_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_id_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -17008,7 +17186,7 @@ void _wrap_UserRecord_id_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _
 }
 
 
-_gostring_ _wrap_UserRecord_id_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_id_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -17021,7 +17199,7 @@ _gostring_ _wrap_UserRecord_id_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_g
 }
 
 
-void _wrap_UserRecord_status_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_status_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -17045,7 +17223,7 @@ void _wrap_UserRecord_status_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_
 }
 
 
-_gostring_ _wrap_UserRecord_status_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_status_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -17058,57 +17236,71 @@ _gostring_ _wrap_UserRecord_status_get_mtmanapi_8609ee77fca78eb1(UserRecord *_sw
 }
 
 
-void _wrap_UserRecord_regdate_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, long long _swig_go_1) {
+void _wrap_UserRecord_regdate_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, time_t *_swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(UserRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->regdate = arg2;
   
 }
 
 
-long long _wrap_UserRecord_regdate_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+time_t *_wrap_UserRecord_regdate_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(UserRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->regdate);
-  _swig_go_result = result; 
+  result =  ((arg1)->regdate);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_UserRecord_lastdate_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, long long _swig_go_1) {
+void _wrap_UserRecord_lastdate_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, time_t *_swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(UserRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->lastdate = arg2;
   
 }
 
 
-long long _wrap_UserRecord_lastdate_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+time_t *_wrap_UserRecord_lastdate_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(UserRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->lastdate);
-  _swig_go_result = result; 
+  result =  ((arg1)->lastdate);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_UserRecord_leverage_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_UserRecord_leverage_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, intgo _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int arg2 ;
   
@@ -17120,7 +17312,7 @@ void _wrap_UserRecord_leverage_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_g
 }
 
 
-intgo _wrap_UserRecord_leverage_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+intgo _wrap_UserRecord_leverage_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17133,7 +17325,7 @@ intgo _wrap_UserRecord_leverage_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_
 }
 
 
-void _wrap_UserRecord_agent_account_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_UserRecord_agent_account_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, intgo _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int arg2 ;
   
@@ -17145,7 +17337,7 @@ void _wrap_UserRecord_agent_account_set_mtmanapi_8609ee77fca78eb1(UserRecord *_s
 }
 
 
-intgo _wrap_UserRecord_agent_account_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+intgo _wrap_UserRecord_agent_account_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17158,32 +17350,39 @@ intgo _wrap_UserRecord_agent_account_get_mtmanapi_8609ee77fca78eb1(UserRecord *_
 }
 
 
-void _wrap_UserRecord_timestamp_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, long long _swig_go_1) {
+void _wrap_UserRecord_timestamp_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, time_t *_swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(UserRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->timestamp = arg2;
   
 }
 
 
-long long _wrap_UserRecord_timestamp_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+time_t *_wrap_UserRecord_timestamp_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(UserRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->timestamp);
-  _swig_go_result = result; 
+  result =  ((arg1)->timestamp);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_UserRecord_last_ip_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_UserRecord_last_ip_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, intgo _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int arg2 ;
   
@@ -17195,7 +17394,7 @@ void _wrap_UserRecord_last_ip_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go
 }
 
 
-intgo _wrap_UserRecord_last_ip_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+intgo _wrap_UserRecord_last_ip_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17208,7 +17407,7 @@ intgo _wrap_UserRecord_last_ip_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_g
 }
 
 
-void _wrap_UserRecord_balance_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_UserRecord_balance_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, double _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double arg2 ;
   
@@ -17220,7 +17419,7 @@ void _wrap_UserRecord_balance_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go
 }
 
 
-double _wrap_UserRecord_balance_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+double _wrap_UserRecord_balance_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -17233,7 +17432,7 @@ double _wrap_UserRecord_balance_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_
 }
 
 
-void _wrap_UserRecord_prevmonthbalance_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_UserRecord_prevmonthbalance_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, double _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double arg2 ;
   
@@ -17245,7 +17444,7 @@ void _wrap_UserRecord_prevmonthbalance_set_mtmanapi_8609ee77fca78eb1(UserRecord 
 }
 
 
-double _wrap_UserRecord_prevmonthbalance_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+double _wrap_UserRecord_prevmonthbalance_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -17258,7 +17457,7 @@ double _wrap_UserRecord_prevmonthbalance_get_mtmanapi_8609ee77fca78eb1(UserRecor
 }
 
 
-void _wrap_UserRecord_prevbalance_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_UserRecord_prevbalance_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, double _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double arg2 ;
   
@@ -17270,7 +17469,7 @@ void _wrap_UserRecord_prevbalance_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swi
 }
 
 
-double _wrap_UserRecord_prevbalance_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+double _wrap_UserRecord_prevbalance_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -17283,7 +17482,7 @@ double _wrap_UserRecord_prevbalance_get_mtmanapi_8609ee77fca78eb1(UserRecord *_s
 }
 
 
-void _wrap_UserRecord_credit_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_UserRecord_credit_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, double _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double arg2 ;
   
@@ -17295,7 +17494,7 @@ void _wrap_UserRecord_credit_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_
 }
 
 
-double _wrap_UserRecord_credit_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+double _wrap_UserRecord_credit_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -17308,7 +17507,7 @@ double _wrap_UserRecord_credit_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_g
 }
 
 
-void _wrap_UserRecord_interestrate_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_UserRecord_interestrate_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, double _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double arg2 ;
   
@@ -17320,7 +17519,7 @@ void _wrap_UserRecord_interestrate_set_mtmanapi_8609ee77fca78eb1(UserRecord *_sw
 }
 
 
-double _wrap_UserRecord_interestrate_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+double _wrap_UserRecord_interestrate_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -17333,7 +17532,7 @@ double _wrap_UserRecord_interestrate_get_mtmanapi_8609ee77fca78eb1(UserRecord *_
 }
 
 
-void _wrap_UserRecord_taxes_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_UserRecord_taxes_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, double _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double arg2 ;
   
@@ -17345,7 +17544,7 @@ void _wrap_UserRecord_taxes_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0
 }
 
 
-double _wrap_UserRecord_taxes_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+double _wrap_UserRecord_taxes_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -17358,7 +17557,7 @@ double _wrap_UserRecord_taxes_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go
 }
 
 
-void _wrap_UserRecord_prevmonthequity_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_UserRecord_prevmonthequity_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, double _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double arg2 ;
   
@@ -17370,7 +17569,7 @@ void _wrap_UserRecord_prevmonthequity_set_mtmanapi_8609ee77fca78eb1(UserRecord *
 }
 
 
-double _wrap_UserRecord_prevmonthequity_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+double _wrap_UserRecord_prevmonthequity_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -17383,7 +17582,7 @@ double _wrap_UserRecord_prevmonthequity_get_mtmanapi_8609ee77fca78eb1(UserRecord
 }
 
 
-void _wrap_UserRecord_prevequity_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_UserRecord_prevequity_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, double _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double arg2 ;
   
@@ -17395,7 +17594,7 @@ void _wrap_UserRecord_prevequity_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig
 }
 
 
-double _wrap_UserRecord_prevequity_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+double _wrap_UserRecord_prevequity_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -17408,7 +17607,7 @@ double _wrap_UserRecord_prevequity_get_mtmanapi_8609ee77fca78eb1(UserRecord *_sw
 }
 
 
-void _wrap_UserRecord_reserved2_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, double *_swig_go_1) {
+void _wrap_UserRecord_reserved2_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, double *_swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double *arg2 = (double *) (double *)0 ;
   
@@ -17424,7 +17623,7 @@ void _wrap_UserRecord_reserved2_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_
 }
 
 
-double *_wrap_UserRecord_reserved2_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+double *_wrap_UserRecord_reserved2_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   double *result = 0 ;
   double *_swig_go_result;
@@ -17437,7 +17636,7 @@ double *_wrap_UserRecord_reserved2_get_mtmanapi_8609ee77fca78eb1(UserRecord *_sw
 }
 
 
-void _wrap_UserRecord_otp_secret_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_otp_secret_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -17461,7 +17660,7 @@ void _wrap_UserRecord_otp_secret_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig
 }
 
 
-_gostring_ _wrap_UserRecord_otp_secret_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_otp_secret_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -17474,7 +17673,7 @@ _gostring_ _wrap_UserRecord_otp_secret_get_mtmanapi_8609ee77fca78eb1(UserRecord 
 }
 
 
-void _wrap_UserRecord_secure_reserved_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_secure_reserved_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -17498,7 +17697,7 @@ void _wrap_UserRecord_secure_reserved_set_mtmanapi_8609ee77fca78eb1(UserRecord *
 }
 
 
-_gostring_ _wrap_UserRecord_secure_reserved_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_secure_reserved_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -17511,7 +17710,7 @@ _gostring_ _wrap_UserRecord_secure_reserved_get_mtmanapi_8609ee77fca78eb1(UserRe
 }
 
 
-void _wrap_UserRecord_send_reports_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_UserRecord_send_reports_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, intgo _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int arg2 ;
   
@@ -17523,7 +17722,7 @@ void _wrap_UserRecord_send_reports_set_mtmanapi_8609ee77fca78eb1(UserRecord *_sw
 }
 
 
-intgo _wrap_UserRecord_send_reports_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+intgo _wrap_UserRecord_send_reports_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17536,7 +17735,7 @@ intgo _wrap_UserRecord_send_reports_get_mtmanapi_8609ee77fca78eb1(UserRecord *_s
 }
 
 
-void _wrap_UserRecord_mqid_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_UserRecord_mqid_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, intgo _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   unsigned int arg2 ;
   
@@ -17548,7 +17747,7 @@ void _wrap_UserRecord_mqid_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0,
 }
 
 
-intgo _wrap_UserRecord_mqid_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+intgo _wrap_UserRecord_mqid_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -17561,7 +17760,7 @@ intgo _wrap_UserRecord_mqid_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0
 }
 
 
-void _wrap_UserRecord_user_color_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, COLORREF *_swig_go_1) {
+void _wrap_UserRecord_user_color_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, COLORREF *_swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   COLORREF arg2 ;
   COLORREF *argp2 ;
@@ -17580,7 +17779,7 @@ void _wrap_UserRecord_user_color_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig
 }
 
 
-COLORREF *_wrap_UserRecord_user_color_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+COLORREF *_wrap_UserRecord_user_color_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   COLORREF result;
   COLORREF *_swig_go_result;
@@ -17593,7 +17792,7 @@ COLORREF *_wrap_UserRecord_user_color_get_mtmanapi_8609ee77fca78eb1(UserRecord *
 }
 
 
-void _wrap_UserRecord_unused_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_unused_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -17617,7 +17816,7 @@ void _wrap_UserRecord_unused_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_
 }
 
 
-_gostring_ _wrap_UserRecord_unused_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_unused_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -17630,7 +17829,7 @@ _gostring_ _wrap_UserRecord_unused_get_mtmanapi_8609ee77fca78eb1(UserRecord *_sw
 }
 
 
-void _wrap_UserRecord_api_data_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_UserRecord_api_data_set_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0, _gostring_ _swig_go_1) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -17654,7 +17853,7 @@ void _wrap_UserRecord_api_data_set_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_g
 }
 
 
-_gostring_ _wrap_UserRecord_api_data_get_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+_gostring_ _wrap_UserRecord_api_data_get_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -17667,7 +17866,7 @@ _gostring_ _wrap_UserRecord_api_data_get_mtmanapi_8609ee77fca78eb1(UserRecord *_
 }
 
 
-UserRecord *_wrap_new_UserRecord_mtmanapi_8609ee77fca78eb1() {
+UserRecord *_wrap_new_UserRecord_mtmanapi_7bd57f7bcf037842() {
   UserRecord *result = 0 ;
   UserRecord *_swig_go_result;
   
@@ -17678,7 +17877,7 @@ UserRecord *_wrap_new_UserRecord_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_UserRecord_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
+void _wrap_delete_UserRecord_mtmanapi_7bd57f7bcf037842(UserRecord *_swig_go_0) {
   UserRecord *arg1 = (UserRecord *) 0 ;
   
   arg1 = *(UserRecord **)&_swig_go_0; 
@@ -17688,7 +17887,7 @@ void _wrap_delete_UserRecord_mtmanapi_8609ee77fca78eb1(UserRecord *_swig_go_0) {
 }
 
 
-void _wrap_GroupCommandInfo_len_set_mtmanapi_8609ee77fca78eb1(GroupCommandInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_GroupCommandInfo_len_set_mtmanapi_7bd57f7bcf037842(GroupCommandInfo *_swig_go_0, intgo _swig_go_1) {
   GroupCommandInfo *arg1 = (GroupCommandInfo *) 0 ;
   int arg2 ;
   
@@ -17700,7 +17899,7 @@ void _wrap_GroupCommandInfo_len_set_mtmanapi_8609ee77fca78eb1(GroupCommandInfo *
 }
 
 
-intgo _wrap_GroupCommandInfo_len_get_mtmanapi_8609ee77fca78eb1(GroupCommandInfo *_swig_go_0) {
+intgo _wrap_GroupCommandInfo_len_get_mtmanapi_7bd57f7bcf037842(GroupCommandInfo *_swig_go_0) {
   GroupCommandInfo *arg1 = (GroupCommandInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17713,7 +17912,7 @@ intgo _wrap_GroupCommandInfo_len_get_mtmanapi_8609ee77fca78eb1(GroupCommandInfo 
 }
 
 
-void _wrap_GroupCommandInfo_command_set_mtmanapi_8609ee77fca78eb1(GroupCommandInfo *_swig_go_0, char _swig_go_1) {
+void _wrap_GroupCommandInfo_command_set_mtmanapi_7bd57f7bcf037842(GroupCommandInfo *_swig_go_0, char _swig_go_1) {
   GroupCommandInfo *arg1 = (GroupCommandInfo *) 0 ;
   char arg2 ;
   
@@ -17725,7 +17924,7 @@ void _wrap_GroupCommandInfo_command_set_mtmanapi_8609ee77fca78eb1(GroupCommandIn
 }
 
 
-char _wrap_GroupCommandInfo_command_get_mtmanapi_8609ee77fca78eb1(GroupCommandInfo *_swig_go_0) {
+char _wrap_GroupCommandInfo_command_get_mtmanapi_7bd57f7bcf037842(GroupCommandInfo *_swig_go_0) {
   GroupCommandInfo *arg1 = (GroupCommandInfo *) 0 ;
   char result;
   char _swig_go_result;
@@ -17738,7 +17937,7 @@ char _wrap_GroupCommandInfo_command_get_mtmanapi_8609ee77fca78eb1(GroupCommandIn
 }
 
 
-void _wrap_GroupCommandInfo_newgroup_set_mtmanapi_8609ee77fca78eb1(GroupCommandInfo *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_GroupCommandInfo_newgroup_set_mtmanapi_7bd57f7bcf037842(GroupCommandInfo *_swig_go_0, _gostring_ _swig_go_1) {
   GroupCommandInfo *arg1 = (GroupCommandInfo *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -17762,7 +17961,7 @@ void _wrap_GroupCommandInfo_newgroup_set_mtmanapi_8609ee77fca78eb1(GroupCommandI
 }
 
 
-_gostring_ _wrap_GroupCommandInfo_newgroup_get_mtmanapi_8609ee77fca78eb1(GroupCommandInfo *_swig_go_0) {
+_gostring_ _wrap_GroupCommandInfo_newgroup_get_mtmanapi_7bd57f7bcf037842(GroupCommandInfo *_swig_go_0) {
   GroupCommandInfo *arg1 = (GroupCommandInfo *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -17775,7 +17974,7 @@ _gostring_ _wrap_GroupCommandInfo_newgroup_get_mtmanapi_8609ee77fca78eb1(GroupCo
 }
 
 
-void _wrap_GroupCommandInfo_leverage_set_mtmanapi_8609ee77fca78eb1(GroupCommandInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_GroupCommandInfo_leverage_set_mtmanapi_7bd57f7bcf037842(GroupCommandInfo *_swig_go_0, intgo _swig_go_1) {
   GroupCommandInfo *arg1 = (GroupCommandInfo *) 0 ;
   int arg2 ;
   
@@ -17787,7 +17986,7 @@ void _wrap_GroupCommandInfo_leverage_set_mtmanapi_8609ee77fca78eb1(GroupCommandI
 }
 
 
-intgo _wrap_GroupCommandInfo_leverage_get_mtmanapi_8609ee77fca78eb1(GroupCommandInfo *_swig_go_0) {
+intgo _wrap_GroupCommandInfo_leverage_get_mtmanapi_7bd57f7bcf037842(GroupCommandInfo *_swig_go_0) {
   GroupCommandInfo *arg1 = (GroupCommandInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17800,7 +17999,7 @@ intgo _wrap_GroupCommandInfo_leverage_get_mtmanapi_8609ee77fca78eb1(GroupCommand
 }
 
 
-void _wrap_GroupCommandInfo_reserved_set_mtmanapi_8609ee77fca78eb1(GroupCommandInfo *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_GroupCommandInfo_reserved_set_mtmanapi_7bd57f7bcf037842(GroupCommandInfo *_swig_go_0, intgo *_swig_go_1) {
   GroupCommandInfo *arg1 = (GroupCommandInfo *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -17816,7 +18015,7 @@ void _wrap_GroupCommandInfo_reserved_set_mtmanapi_8609ee77fca78eb1(GroupCommandI
 }
 
 
-intgo *_wrap_GroupCommandInfo_reserved_get_mtmanapi_8609ee77fca78eb1(GroupCommandInfo *_swig_go_0) {
+intgo *_wrap_GroupCommandInfo_reserved_get_mtmanapi_7bd57f7bcf037842(GroupCommandInfo *_swig_go_0) {
   GroupCommandInfo *arg1 = (GroupCommandInfo *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -17829,7 +18028,7 @@ intgo *_wrap_GroupCommandInfo_reserved_get_mtmanapi_8609ee77fca78eb1(GroupComman
 }
 
 
-GroupCommandInfo *_wrap_new_GroupCommandInfo_mtmanapi_8609ee77fca78eb1() {
+GroupCommandInfo *_wrap_new_GroupCommandInfo_mtmanapi_7bd57f7bcf037842() {
   GroupCommandInfo *result = 0 ;
   GroupCommandInfo *_swig_go_result;
   
@@ -17840,7 +18039,7 @@ GroupCommandInfo *_wrap_new_GroupCommandInfo_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_GroupCommandInfo_mtmanapi_8609ee77fca78eb1(GroupCommandInfo *_swig_go_0) {
+void _wrap_delete_GroupCommandInfo_mtmanapi_7bd57f7bcf037842(GroupCommandInfo *_swig_go_0) {
   GroupCommandInfo *arg1 = (GroupCommandInfo *) 0 ;
   
   arg1 = *(GroupCommandInfo **)&_swig_go_0; 
@@ -17850,7 +18049,7 @@ void _wrap_delete_GroupCommandInfo_mtmanapi_8609ee77fca78eb1(GroupCommandInfo *_
 }
 
 
-intgo _wrap_GROUP_DELETE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_GROUP_DELETE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -17862,7 +18061,7 @@ intgo _wrap_GROUP_DELETE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_GROUP_ENABLE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_GROUP_ENABLE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -17874,7 +18073,7 @@ intgo _wrap_GROUP_ENABLE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_GROUP_DISABLE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_GROUP_DISABLE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -17886,7 +18085,7 @@ intgo _wrap_GROUP_DISABLE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_GROUP_LEVERAGE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_GROUP_LEVERAGE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -17898,7 +18097,7 @@ intgo _wrap_GROUP_LEVERAGE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_GROUP_SETGROUP_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_GROUP_SETGROUP_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -17910,7 +18109,7 @@ intgo _wrap_GROUP_SETGROUP_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_OnlineRecord_counter_set_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_OnlineRecord_counter_set_mtmanapi_7bd57f7bcf037842(OnlineRecord *_swig_go_0, intgo _swig_go_1) {
   OnlineRecord *arg1 = (OnlineRecord *) 0 ;
   int arg2 ;
   
@@ -17922,7 +18121,7 @@ void _wrap_OnlineRecord_counter_set_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swi
 }
 
 
-intgo _wrap_OnlineRecord_counter_get_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_go_0) {
+intgo _wrap_OnlineRecord_counter_get_mtmanapi_7bd57f7bcf037842(OnlineRecord *_swig_go_0) {
   OnlineRecord *arg1 = (OnlineRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17935,7 +18134,7 @@ intgo _wrap_OnlineRecord_counter_get_mtmanapi_8609ee77fca78eb1(OnlineRecord *_sw
 }
 
 
-void _wrap_OnlineRecord_reserved_set_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_OnlineRecord_reserved_set_mtmanapi_7bd57f7bcf037842(OnlineRecord *_swig_go_0, intgo _swig_go_1) {
   OnlineRecord *arg1 = (OnlineRecord *) 0 ;
   int arg2 ;
   
@@ -17947,7 +18146,7 @@ void _wrap_OnlineRecord_reserved_set_mtmanapi_8609ee77fca78eb1(OnlineRecord *_sw
 }
 
 
-intgo _wrap_OnlineRecord_reserved_get_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_go_0) {
+intgo _wrap_OnlineRecord_reserved_get_mtmanapi_7bd57f7bcf037842(OnlineRecord *_swig_go_0) {
   OnlineRecord *arg1 = (OnlineRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17960,7 +18159,7 @@ intgo _wrap_OnlineRecord_reserved_get_mtmanapi_8609ee77fca78eb1(OnlineRecord *_s
 }
 
 
-void _wrap_OnlineRecord_login_set_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_OnlineRecord_login_set_mtmanapi_7bd57f7bcf037842(OnlineRecord *_swig_go_0, intgo _swig_go_1) {
   OnlineRecord *arg1 = (OnlineRecord *) 0 ;
   int arg2 ;
   
@@ -17972,7 +18171,7 @@ void _wrap_OnlineRecord_login_set_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_
 }
 
 
-intgo _wrap_OnlineRecord_login_get_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_go_0) {
+intgo _wrap_OnlineRecord_login_get_mtmanapi_7bd57f7bcf037842(OnlineRecord *_swig_go_0) {
   OnlineRecord *arg1 = (OnlineRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17985,7 +18184,7 @@ intgo _wrap_OnlineRecord_login_get_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig
 }
 
 
-void _wrap_OnlineRecord_ip_set_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_OnlineRecord_ip_set_mtmanapi_7bd57f7bcf037842(OnlineRecord *_swig_go_0, intgo _swig_go_1) {
   OnlineRecord *arg1 = (OnlineRecord *) 0 ;
   UINT arg2 ;
   
@@ -17997,7 +18196,7 @@ void _wrap_OnlineRecord_ip_set_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_go_
 }
 
 
-intgo _wrap_OnlineRecord_ip_get_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_go_0) {
+intgo _wrap_OnlineRecord_ip_get_mtmanapi_7bd57f7bcf037842(OnlineRecord *_swig_go_0) {
   OnlineRecord *arg1 = (OnlineRecord *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -18010,7 +18209,7 @@ intgo _wrap_OnlineRecord_ip_get_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_go
 }
 
 
-void _wrap_OnlineRecord_group_set_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_OnlineRecord_group_set_mtmanapi_7bd57f7bcf037842(OnlineRecord *_swig_go_0, _gostring_ _swig_go_1) {
   OnlineRecord *arg1 = (OnlineRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -18034,7 +18233,7 @@ void _wrap_OnlineRecord_group_set_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_
 }
 
 
-_gostring_ _wrap_OnlineRecord_group_get_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_go_0) {
+_gostring_ _wrap_OnlineRecord_group_get_mtmanapi_7bd57f7bcf037842(OnlineRecord *_swig_go_0) {
   OnlineRecord *arg1 = (OnlineRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -18047,7 +18246,7 @@ _gostring_ _wrap_OnlineRecord_group_get_mtmanapi_8609ee77fca78eb1(OnlineRecord *
 }
 
 
-OnlineRecord *_wrap_new_OnlineRecord_mtmanapi_8609ee77fca78eb1() {
+OnlineRecord *_wrap_new_OnlineRecord_mtmanapi_7bd57f7bcf037842() {
   OnlineRecord *result = 0 ;
   OnlineRecord *_swig_go_result;
   
@@ -18058,7 +18257,7 @@ OnlineRecord *_wrap_new_OnlineRecord_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_OnlineRecord_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_go_0) {
+void _wrap_delete_OnlineRecord_mtmanapi_7bd57f7bcf037842(OnlineRecord *_swig_go_0) {
   OnlineRecord *arg1 = (OnlineRecord *) 0 ;
   
   arg1 = *(OnlineRecord **)&_swig_go_0; 
@@ -18068,7 +18267,7 @@ void _wrap_delete_OnlineRecord_mtmanapi_8609ee77fca78eb1(OnlineRecord *_swig_go_
 }
 
 
-void _wrap_TradeRecord_order_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeRecord_order_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, intgo _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int arg2 ;
   
@@ -18080,7 +18279,7 @@ void _wrap_TradeRecord_order_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go
 }
 
 
-intgo _wrap_TradeRecord_order_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+intgo _wrap_TradeRecord_order_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18093,7 +18292,7 @@ intgo _wrap_TradeRecord_order_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_g
 }
 
 
-void _wrap_TradeRecord_login_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeRecord_login_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, intgo _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int arg2 ;
   
@@ -18105,7 +18304,7 @@ void _wrap_TradeRecord_login_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go
 }
 
 
-intgo _wrap_TradeRecord_login_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+intgo _wrap_TradeRecord_login_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18118,7 +18317,7 @@ intgo _wrap_TradeRecord_login_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_g
 }
 
 
-void _wrap_TradeRecord_symbol_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_TradeRecord_symbol_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, _gostring_ _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -18142,7 +18341,7 @@ void _wrap_TradeRecord_symbol_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_g
 }
 
 
-_gostring_ _wrap_TradeRecord_symbol_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+_gostring_ _wrap_TradeRecord_symbol_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -18155,7 +18354,7 @@ _gostring_ _wrap_TradeRecord_symbol_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_
 }
 
 
-void _wrap_TradeRecord_digits_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeRecord_digits_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, intgo _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int arg2 ;
   
@@ -18167,7 +18366,7 @@ void _wrap_TradeRecord_digits_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_g
 }
 
 
-intgo _wrap_TradeRecord_digits_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+intgo _wrap_TradeRecord_digits_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18180,7 +18379,7 @@ intgo _wrap_TradeRecord_digits_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_
 }
 
 
-void _wrap_TradeRecord_cmd_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeRecord_cmd_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, intgo _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int arg2 ;
   
@@ -18192,7 +18391,7 @@ void _wrap_TradeRecord_cmd_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0
 }
 
 
-intgo _wrap_TradeRecord_cmd_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+intgo _wrap_TradeRecord_cmd_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18205,7 +18404,7 @@ intgo _wrap_TradeRecord_cmd_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_
 }
 
 
-void _wrap_TradeRecord_volume_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeRecord_volume_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, intgo _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int arg2 ;
   
@@ -18217,7 +18416,7 @@ void _wrap_TradeRecord_volume_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_g
 }
 
 
-intgo _wrap_TradeRecord_volume_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+intgo _wrap_TradeRecord_volume_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18230,32 +18429,39 @@ intgo _wrap_TradeRecord_volume_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_
 }
 
 
-void _wrap_TradeRecord_open_time_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, long long _swig_go_1) {
+void _wrap_TradeRecord_open_time_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, time_t *_swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->open_time = arg2;
   
 }
 
 
-long long _wrap_TradeRecord_open_time_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+time_t *_wrap_TradeRecord_open_time_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->open_time);
-  _swig_go_result = result; 
+  result =  ((arg1)->open_time);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_TradeRecord_state_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeRecord_state_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, intgo _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int arg2 ;
   
@@ -18267,7 +18473,7 @@ void _wrap_TradeRecord_state_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go
 }
 
 
-intgo _wrap_TradeRecord_state_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+intgo _wrap_TradeRecord_state_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18280,7 +18486,7 @@ intgo _wrap_TradeRecord_state_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_g
 }
 
 
-void _wrap_TradeRecord_open_price_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_TradeRecord_open_price_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, double _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double arg2 ;
   
@@ -18292,7 +18498,7 @@ void _wrap_TradeRecord_open_price_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_sw
 }
 
 
-double _wrap_TradeRecord_open_price_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+double _wrap_TradeRecord_open_price_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -18305,7 +18511,7 @@ double _wrap_TradeRecord_open_price_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_
 }
 
 
-void _wrap_TradeRecord_sl_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_TradeRecord_sl_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, double _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double arg2 ;
   
@@ -18317,7 +18523,7 @@ void _wrap_TradeRecord_sl_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0,
 }
 
 
-double _wrap_TradeRecord_sl_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+double _wrap_TradeRecord_sl_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -18330,7 +18536,7 @@ double _wrap_TradeRecord_sl_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_
 }
 
 
-void _wrap_TradeRecord_tp_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_TradeRecord_tp_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, double _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double arg2 ;
   
@@ -18342,7 +18548,7 @@ void _wrap_TradeRecord_tp_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0,
 }
 
 
-double _wrap_TradeRecord_tp_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+double _wrap_TradeRecord_tp_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -18355,32 +18561,39 @@ double _wrap_TradeRecord_tp_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_
 }
 
 
-void _wrap_TradeRecord_close_time_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, long long _swig_go_1) {
+void _wrap_TradeRecord_close_time_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, time_t *_swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->close_time = arg2;
   
 }
 
 
-long long _wrap_TradeRecord_close_time_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+time_t *_wrap_TradeRecord_close_time_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->close_time);
-  _swig_go_result = result; 
+  result =  ((arg1)->close_time);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_TradeRecord_gw_volume_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeRecord_gw_volume_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, intgo _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int arg2 ;
   
@@ -18392,7 +18605,7 @@ void _wrap_TradeRecord_gw_volume_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swi
 }
 
 
-intgo _wrap_TradeRecord_gw_volume_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+intgo _wrap_TradeRecord_gw_volume_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18405,32 +18618,39 @@ intgo _wrap_TradeRecord_gw_volume_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_sw
 }
 
 
-void _wrap_TradeRecord_expiration_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, long long _swig_go_1) {
+void _wrap_TradeRecord_expiration_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, time_t *_swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->expiration = arg2;
   
 }
 
 
-long long _wrap_TradeRecord_expiration_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+time_t *_wrap_TradeRecord_expiration_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->expiration);
-  _swig_go_result = result; 
+  result =  ((arg1)->expiration);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_TradeRecord_reason_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, char _swig_go_1) {
+void _wrap_TradeRecord_reason_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, char _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   char arg2 ;
   
@@ -18442,7 +18662,7 @@ void _wrap_TradeRecord_reason_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_g
 }
 
 
-char _wrap_TradeRecord_reason_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+char _wrap_TradeRecord_reason_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   char result;
   char _swig_go_result;
@@ -18455,7 +18675,7 @@ char _wrap_TradeRecord_reason_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_g
 }
 
 
-void _wrap_TradeRecord_conv_reserv_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_TradeRecord_conv_reserv_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, _gostring_ _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -18479,7 +18699,7 @@ void _wrap_TradeRecord_conv_reserv_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_s
 }
 
 
-_gostring_ _wrap_TradeRecord_conv_reserv_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+_gostring_ _wrap_TradeRecord_conv_reserv_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -18492,7 +18712,7 @@ _gostring_ _wrap_TradeRecord_conv_reserv_get_mtmanapi_8609ee77fca78eb1(TradeReco
 }
 
 
-void _wrap_TradeRecord_conv_rates_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, double *_swig_go_1) {
+void _wrap_TradeRecord_conv_rates_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, double *_swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double *arg2 = (double *) (double *)0 ;
   
@@ -18508,7 +18728,7 @@ void _wrap_TradeRecord_conv_rates_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_sw
 }
 
 
-double *_wrap_TradeRecord_conv_rates_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+double *_wrap_TradeRecord_conv_rates_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double *result = 0 ;
   double *_swig_go_result;
@@ -18521,7 +18741,7 @@ double *_wrap_TradeRecord_conv_rates_get_mtmanapi_8609ee77fca78eb1(TradeRecord *
 }
 
 
-void _wrap_TradeRecord_commission_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_TradeRecord_commission_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, double _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double arg2 ;
   
@@ -18533,7 +18753,7 @@ void _wrap_TradeRecord_commission_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_sw
 }
 
 
-double _wrap_TradeRecord_commission_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+double _wrap_TradeRecord_commission_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -18546,7 +18766,7 @@ double _wrap_TradeRecord_commission_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_
 }
 
 
-void _wrap_TradeRecord_commission_agent_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_TradeRecord_commission_agent_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, double _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double arg2 ;
   
@@ -18558,7 +18778,7 @@ void _wrap_TradeRecord_commission_agent_set_mtmanapi_8609ee77fca78eb1(TradeRecor
 }
 
 
-double _wrap_TradeRecord_commission_agent_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+double _wrap_TradeRecord_commission_agent_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -18571,7 +18791,7 @@ double _wrap_TradeRecord_commission_agent_get_mtmanapi_8609ee77fca78eb1(TradeRec
 }
 
 
-void _wrap_TradeRecord_storage_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_TradeRecord_storage_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, double _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double arg2 ;
   
@@ -18583,7 +18803,7 @@ void _wrap_TradeRecord_storage_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_
 }
 
 
-double _wrap_TradeRecord_storage_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+double _wrap_TradeRecord_storage_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -18596,7 +18816,7 @@ double _wrap_TradeRecord_storage_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swi
 }
 
 
-void _wrap_TradeRecord_close_price_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_TradeRecord_close_price_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, double _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double arg2 ;
   
@@ -18608,7 +18828,7 @@ void _wrap_TradeRecord_close_price_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_s
 }
 
 
-double _wrap_TradeRecord_close_price_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+double _wrap_TradeRecord_close_price_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -18621,7 +18841,7 @@ double _wrap_TradeRecord_close_price_get_mtmanapi_8609ee77fca78eb1(TradeRecord *
 }
 
 
-void _wrap_TradeRecord_profit_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_TradeRecord_profit_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, double _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double arg2 ;
   
@@ -18633,7 +18853,7 @@ void _wrap_TradeRecord_profit_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_g
 }
 
 
-double _wrap_TradeRecord_profit_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+double _wrap_TradeRecord_profit_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -18646,7 +18866,7 @@ double _wrap_TradeRecord_profit_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig
 }
 
 
-void _wrap_TradeRecord_taxes_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_TradeRecord_taxes_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, double _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double arg2 ;
   
@@ -18658,7 +18878,7 @@ void _wrap_TradeRecord_taxes_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go
 }
 
 
-double _wrap_TradeRecord_taxes_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+double _wrap_TradeRecord_taxes_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -18671,7 +18891,7 @@ double _wrap_TradeRecord_taxes_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_
 }
 
 
-void _wrap_TradeRecord_magic_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeRecord_magic_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, intgo _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int arg2 ;
   
@@ -18683,7 +18903,7 @@ void _wrap_TradeRecord_magic_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go
 }
 
 
-intgo _wrap_TradeRecord_magic_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+intgo _wrap_TradeRecord_magic_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18696,7 +18916,7 @@ intgo _wrap_TradeRecord_magic_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_g
 }
 
 
-void _wrap_TradeRecord_comment_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_TradeRecord_comment_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, _gostring_ _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -18720,7 +18940,7 @@ void _wrap_TradeRecord_comment_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_
 }
 
 
-_gostring_ _wrap_TradeRecord_comment_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+_gostring_ _wrap_TradeRecord_comment_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -18733,7 +18953,7 @@ _gostring_ _wrap_TradeRecord_comment_get_mtmanapi_8609ee77fca78eb1(TradeRecord *
 }
 
 
-void _wrap_TradeRecord_gw_order_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeRecord_gw_order_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, intgo _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int arg2 ;
   
@@ -18745,7 +18965,7 @@ void _wrap_TradeRecord_gw_order_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig
 }
 
 
-intgo _wrap_TradeRecord_gw_order_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+intgo _wrap_TradeRecord_gw_order_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18758,7 +18978,7 @@ intgo _wrap_TradeRecord_gw_order_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swi
 }
 
 
-void _wrap_TradeRecord_activation_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeRecord_activation_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, intgo _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int arg2 ;
   
@@ -18770,7 +18990,7 @@ void _wrap_TradeRecord_activation_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_sw
 }
 
 
-intgo _wrap_TradeRecord_activation_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+intgo _wrap_TradeRecord_activation_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18783,7 +19003,7 @@ intgo _wrap_TradeRecord_activation_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_s
 }
 
 
-void _wrap_TradeRecord_gw_open_price_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, short _swig_go_1) {
+void _wrap_TradeRecord_gw_open_price_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, short _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   short arg2 ;
   
@@ -18795,7 +19015,7 @@ void _wrap_TradeRecord_gw_open_price_set_mtmanapi_8609ee77fca78eb1(TradeRecord *
 }
 
 
-short _wrap_TradeRecord_gw_open_price_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+short _wrap_TradeRecord_gw_open_price_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   short result;
   short _swig_go_result;
@@ -18808,7 +19028,7 @@ short _wrap_TradeRecord_gw_open_price_get_mtmanapi_8609ee77fca78eb1(TradeRecord 
 }
 
 
-void _wrap_TradeRecord_gw_close_price_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, short _swig_go_1) {
+void _wrap_TradeRecord_gw_close_price_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, short _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   short arg2 ;
   
@@ -18820,7 +19040,7 @@ void _wrap_TradeRecord_gw_close_price_set_mtmanapi_8609ee77fca78eb1(TradeRecord 
 }
 
 
-short _wrap_TradeRecord_gw_close_price_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+short _wrap_TradeRecord_gw_close_price_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   short result;
   short _swig_go_result;
@@ -18833,7 +19053,7 @@ short _wrap_TradeRecord_gw_close_price_get_mtmanapi_8609ee77fca78eb1(TradeRecord
 }
 
 
-void _wrap_TradeRecord_margin_rate_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, double _swig_go_1) {
+void _wrap_TradeRecord_margin_rate_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, double _swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double arg2 ;
   
@@ -18845,7 +19065,7 @@ void _wrap_TradeRecord_margin_rate_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_s
 }
 
 
-double _wrap_TradeRecord_margin_rate_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+double _wrap_TradeRecord_margin_rate_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   double result;
   double _swig_go_result;
@@ -18858,32 +19078,39 @@ double _wrap_TradeRecord_margin_rate_get_mtmanapi_8609ee77fca78eb1(TradeRecord *
 }
 
 
-void _wrap_TradeRecord_timestamp_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, long long _swig_go_1) {
+void _wrap_TradeRecord_timestamp_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, time_t *_swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->timestamp = arg2;
   
 }
 
 
-long long _wrap_TradeRecord_timestamp_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+time_t *_wrap_TradeRecord_timestamp_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->timestamp);
-  _swig_go_result = result; 
+  result =  ((arg1)->timestamp);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_TradeRecord_api_data_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_TradeRecord_api_data_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, intgo *_swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -18899,7 +19126,7 @@ void _wrap_TradeRecord_api_data_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig
 }
 
 
-intgo *_wrap_TradeRecord_api_data_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+intgo *_wrap_TradeRecord_api_data_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -18912,7 +19139,7 @@ intgo *_wrap_TradeRecord_api_data_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_sw
 }
 
 
-void _wrap_TradeRecord_next_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0, TradeRecord *_swig_go_1) {
+void _wrap_TradeRecord_next_set_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0, TradeRecord *_swig_go_1) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   TradeRecord *arg2 = (TradeRecord *) 0 ;
   
@@ -18924,7 +19151,7 @@ void _wrap_TradeRecord_next_set_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_
 }
 
 
-TradeRecord *_wrap_TradeRecord_next_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+TradeRecord *_wrap_TradeRecord_next_get_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   TradeRecord *result = 0 ;
   TradeRecord *_swig_go_result;
@@ -18937,7 +19164,7 @@ TradeRecord *_wrap_TradeRecord_next_get_mtmanapi_8609ee77fca78eb1(TradeRecord *_
 }
 
 
-TradeRecord *_wrap_new_TradeRecord_mtmanapi_8609ee77fca78eb1() {
+TradeRecord *_wrap_new_TradeRecord_mtmanapi_7bd57f7bcf037842() {
   TradeRecord *result = 0 ;
   TradeRecord *_swig_go_result;
   
@@ -18948,7 +19175,7 @@ TradeRecord *_wrap_new_TradeRecord_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_TradeRecord_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0) {
+void _wrap_delete_TradeRecord_mtmanapi_7bd57f7bcf037842(TradeRecord *_swig_go_0) {
   TradeRecord *arg1 = (TradeRecord *) 0 ;
   
   arg1 = *(TradeRecord **)&_swig_go_0; 
@@ -18958,7 +19185,7 @@ void _wrap_delete_TradeRecord_mtmanapi_8609ee77fca78eb1(TradeRecord *_swig_go_0)
 }
 
 
-intgo _wrap_OP_BUY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_OP_BUY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -18970,7 +19197,7 @@ intgo _wrap_OP_BUY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_OP_SELL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_OP_SELL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -18982,7 +19209,7 @@ intgo _wrap_OP_SELL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_OP_BUY_LIMIT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_OP_BUY_LIMIT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -18994,7 +19221,7 @@ intgo _wrap_OP_BUY_LIMIT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_OP_SELL_LIMIT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_OP_SELL_LIMIT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19006,7 +19233,7 @@ intgo _wrap_OP_SELL_LIMIT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_OP_BUY_STOP_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_OP_BUY_STOP_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19018,7 +19245,7 @@ intgo _wrap_OP_BUY_STOP_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_OP_SELL_STOP_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_OP_SELL_STOP_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19030,7 +19257,7 @@ intgo _wrap_OP_SELL_STOP_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_OP_BALANCE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_OP_BALANCE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19042,7 +19269,7 @@ intgo _wrap_OP_BALANCE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_OP_CREDIT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_OP_CREDIT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19054,7 +19281,7 @@ intgo _wrap_OP_CREDIT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TS_OPEN_NORMAL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TS_OPEN_NORMAL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19066,7 +19293,7 @@ intgo _wrap_TS_OPEN_NORMAL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TS_OPEN_REMAND_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TS_OPEN_REMAND_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19078,7 +19305,7 @@ intgo _wrap_TS_OPEN_REMAND_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TS_OPEN_RESTORED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TS_OPEN_RESTORED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19090,7 +19317,7 @@ intgo _wrap_TS_OPEN_RESTORED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TS_CLOSED_NORMAL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TS_CLOSED_NORMAL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19102,7 +19329,7 @@ intgo _wrap_TS_CLOSED_NORMAL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TS_CLOSED_PART_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TS_CLOSED_PART_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19114,7 +19341,7 @@ intgo _wrap_TS_CLOSED_PART_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TS_CLOSED_BY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TS_CLOSED_BY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19126,7 +19353,7 @@ intgo _wrap_TS_CLOSED_BY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TS_DELETED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TS_DELETED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19138,7 +19365,7 @@ intgo _wrap_TS_DELETED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TR_REASON_CLIENT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TR_REASON_CLIENT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19150,7 +19377,7 @@ intgo _wrap_TR_REASON_CLIENT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TR_REASON_EXPERT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TR_REASON_EXPERT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19162,7 +19389,7 @@ intgo _wrap_TR_REASON_EXPERT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TR_REASON_DEALER_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TR_REASON_DEALER_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19174,7 +19401,7 @@ intgo _wrap_TR_REASON_DEALER_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TR_REASON_SIGNAL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TR_REASON_SIGNAL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19186,7 +19413,7 @@ intgo _wrap_TR_REASON_SIGNAL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TR_REASON_GATEWAY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TR_REASON_GATEWAY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19198,7 +19425,7 @@ intgo _wrap_TR_REASON_GATEWAY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TR_REASON_MOBILE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TR_REASON_MOBILE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19210,7 +19437,7 @@ intgo _wrap_TR_REASON_MOBILE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TR_REASON_WEB_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TR_REASON_WEB_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19222,7 +19449,7 @@ intgo _wrap_TR_REASON_WEB_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TR_REASON_API_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TR_REASON_API_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19234,7 +19461,7 @@ intgo _wrap_TR_REASON_API_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ACTIVATION_NONE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ACTIVATION_NONE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19246,7 +19473,7 @@ intgo _wrap_ACTIVATION_NONE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ACTIVATION_SL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ACTIVATION_SL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19258,7 +19485,7 @@ intgo _wrap_ACTIVATION_SL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ACTIVATION_TP_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ACTIVATION_TP_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19270,7 +19497,7 @@ intgo _wrap_ACTIVATION_TP_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ACTIVATION_PENDING_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ACTIVATION_PENDING_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19282,7 +19509,7 @@ intgo _wrap_ACTIVATION_PENDING_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ACTIVATION_STOPOUT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ACTIVATION_STOPOUT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19294,7 +19521,7 @@ intgo _wrap_ACTIVATION_STOPOUT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ACTIVATION_SL_ROLLBACK_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ACTIVATION_SL_ROLLBACK_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19306,7 +19533,7 @@ intgo _wrap_ACTIVATION_SL_ROLLBACK_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ACTIVATION_TP_ROLLBACK_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ACTIVATION_TP_ROLLBACK_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19318,7 +19545,7 @@ intgo _wrap_ACTIVATION_TP_ROLLBACK_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ACTIVATION_PENDING_ROLLBACK_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ACTIVATION_PENDING_ROLLBACK_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19330,7 +19557,7 @@ intgo _wrap_ACTIVATION_PENDING_ROLLBACK_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_ACTIVATION_STOPOUT_ROLLBACK_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_ACTIVATION_STOPOUT_ROLLBACK_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19342,7 +19569,7 @@ intgo _wrap_ACTIVATION_STOPOUT_ROLLBACK_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_TradeRestoreResult_order_set_mtmanapi_8609ee77fca78eb1(TradeRestoreResult *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeRestoreResult_order_set_mtmanapi_7bd57f7bcf037842(TradeRestoreResult *_swig_go_0, intgo _swig_go_1) {
   TradeRestoreResult *arg1 = (TradeRestoreResult *) 0 ;
   int arg2 ;
   
@@ -19354,7 +19581,7 @@ void _wrap_TradeRestoreResult_order_set_mtmanapi_8609ee77fca78eb1(TradeRestoreRe
 }
 
 
-intgo _wrap_TradeRestoreResult_order_get_mtmanapi_8609ee77fca78eb1(TradeRestoreResult *_swig_go_0) {
+intgo _wrap_TradeRestoreResult_order_get_mtmanapi_7bd57f7bcf037842(TradeRestoreResult *_swig_go_0) {
   TradeRestoreResult *arg1 = (TradeRestoreResult *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19367,7 +19594,7 @@ intgo _wrap_TradeRestoreResult_order_get_mtmanapi_8609ee77fca78eb1(TradeRestoreR
 }
 
 
-void _wrap_TradeRestoreResult_res_set_mtmanapi_8609ee77fca78eb1(TradeRestoreResult *_swig_go_0, char _swig_go_1) {
+void _wrap_TradeRestoreResult_res_set_mtmanapi_7bd57f7bcf037842(TradeRestoreResult *_swig_go_0, char _swig_go_1) {
   TradeRestoreResult *arg1 = (TradeRestoreResult *) 0 ;
   UCHAR arg2 ;
   
@@ -19379,7 +19606,7 @@ void _wrap_TradeRestoreResult_res_set_mtmanapi_8609ee77fca78eb1(TradeRestoreResu
 }
 
 
-char _wrap_TradeRestoreResult_res_get_mtmanapi_8609ee77fca78eb1(TradeRestoreResult *_swig_go_0) {
+char _wrap_TradeRestoreResult_res_get_mtmanapi_7bd57f7bcf037842(TradeRestoreResult *_swig_go_0) {
   TradeRestoreResult *arg1 = (TradeRestoreResult *) 0 ;
   UCHAR result;
   char _swig_go_result;
@@ -19392,7 +19619,7 @@ char _wrap_TradeRestoreResult_res_get_mtmanapi_8609ee77fca78eb1(TradeRestoreResu
 }
 
 
-TradeRestoreResult *_wrap_new_TradeRestoreResult_mtmanapi_8609ee77fca78eb1() {
+TradeRestoreResult *_wrap_new_TradeRestoreResult_mtmanapi_7bd57f7bcf037842() {
   TradeRestoreResult *result = 0 ;
   TradeRestoreResult *_swig_go_result;
   
@@ -19403,7 +19630,7 @@ TradeRestoreResult *_wrap_new_TradeRestoreResult_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_TradeRestoreResult_mtmanapi_8609ee77fca78eb1(TradeRestoreResult *_swig_go_0) {
+void _wrap_delete_TradeRestoreResult_mtmanapi_7bd57f7bcf037842(TradeRestoreResult *_swig_go_0) {
   TradeRestoreResult *arg1 = (TradeRestoreResult *) 0 ;
   
   arg1 = *(TradeRestoreResult **)&_swig_go_0; 
@@ -19413,7 +19640,7 @@ void _wrap_delete_TradeRestoreResult_mtmanapi_8609ee77fca78eb1(TradeRestoreResul
 }
 
 
-void _wrap_TradeTransInfo_Xtype_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0, char _swig_go_1) {
+void _wrap_TradeTransInfo_Xtype_set_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0, char _swig_go_1) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   UCHAR arg2 ;
   
@@ -19425,7 +19652,7 @@ void _wrap_TradeTransInfo_Xtype_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_s
 }
 
 
-char _wrap_TradeTransInfo_Xtype_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0) {
+char _wrap_TradeTransInfo_Xtype_get_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   UCHAR result;
   char _swig_go_result;
@@ -19438,7 +19665,7 @@ char _wrap_TradeTransInfo_Xtype_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_s
 }
 
 
-void _wrap_TradeTransInfo_flags_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0, char _swig_go_1) {
+void _wrap_TradeTransInfo_flags_set_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0, char _swig_go_1) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   char arg2 ;
   
@@ -19450,7 +19677,7 @@ void _wrap_TradeTransInfo_flags_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_s
 }
 
 
-char _wrap_TradeTransInfo_flags_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0) {
+char _wrap_TradeTransInfo_flags_get_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   char result;
   char _swig_go_result;
@@ -19463,7 +19690,7 @@ char _wrap_TradeTransInfo_flags_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_s
 }
 
 
-void _wrap_TradeTransInfo_cmd_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0, short _swig_go_1) {
+void _wrap_TradeTransInfo_cmd_set_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0, short _swig_go_1) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   short arg2 ;
   
@@ -19475,7 +19702,7 @@ void _wrap_TradeTransInfo_cmd_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swi
 }
 
 
-short _wrap_TradeTransInfo_cmd_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0) {
+short _wrap_TradeTransInfo_cmd_get_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   short result;
   short _swig_go_result;
@@ -19488,7 +19715,7 @@ short _wrap_TradeTransInfo_cmd_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_sw
 }
 
 
-void _wrap_TradeTransInfo_order_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeTransInfo_order_set_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0, intgo _swig_go_1) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   int arg2 ;
   
@@ -19500,7 +19727,7 @@ void _wrap_TradeTransInfo_order_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_s
 }
 
 
-intgo _wrap_TradeTransInfo_order_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0) {
+intgo _wrap_TradeTransInfo_order_get_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19513,7 +19740,7 @@ intgo _wrap_TradeTransInfo_order_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_
 }
 
 
-void _wrap_TradeTransInfo_orderby_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeTransInfo_orderby_set_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0, intgo _swig_go_1) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   int arg2 ;
   
@@ -19525,7 +19752,7 @@ void _wrap_TradeTransInfo_orderby_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *
 }
 
 
-intgo _wrap_TradeTransInfo_orderby_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0) {
+intgo _wrap_TradeTransInfo_orderby_get_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19538,7 +19765,7 @@ intgo _wrap_TradeTransInfo_orderby_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo 
 }
 
 
-void _wrap_TradeTransInfo_symbol_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_TradeTransInfo_symbol_set_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0, _gostring_ _swig_go_1) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -19562,7 +19789,7 @@ void _wrap_TradeTransInfo_symbol_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_
 }
 
 
-_gostring_ _wrap_TradeTransInfo_symbol_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0) {
+_gostring_ _wrap_TradeTransInfo_symbol_get_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -19575,7 +19802,7 @@ _gostring_ _wrap_TradeTransInfo_symbol_get_mtmanapi_8609ee77fca78eb1(TradeTransI
 }
 
 
-void _wrap_TradeTransInfo_volume_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeTransInfo_volume_set_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0, intgo _swig_go_1) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   int arg2 ;
   
@@ -19587,7 +19814,7 @@ void _wrap_TradeTransInfo_volume_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_
 }
 
 
-intgo _wrap_TradeTransInfo_volume_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0) {
+intgo _wrap_TradeTransInfo_volume_get_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19600,7 +19827,7 @@ intgo _wrap_TradeTransInfo_volume_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *
 }
 
 
-void _wrap_TradeTransInfo_price_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0, double _swig_go_1) {
+void _wrap_TradeTransInfo_price_set_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0, double _swig_go_1) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   double arg2 ;
   
@@ -19612,7 +19839,7 @@ void _wrap_TradeTransInfo_price_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_s
 }
 
 
-double _wrap_TradeTransInfo_price_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0) {
+double _wrap_TradeTransInfo_price_get_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   double result;
   double _swig_go_result;
@@ -19625,7 +19852,7 @@ double _wrap_TradeTransInfo_price_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *
 }
 
 
-void _wrap_TradeTransInfo_sl_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0, double _swig_go_1) {
+void _wrap_TradeTransInfo_sl_set_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0, double _swig_go_1) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   double arg2 ;
   
@@ -19637,7 +19864,7 @@ void _wrap_TradeTransInfo_sl_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig
 }
 
 
-double _wrap_TradeTransInfo_sl_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0) {
+double _wrap_TradeTransInfo_sl_get_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   double result;
   double _swig_go_result;
@@ -19650,7 +19877,7 @@ double _wrap_TradeTransInfo_sl_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_sw
 }
 
 
-void _wrap_TradeTransInfo_tp_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0, double _swig_go_1) {
+void _wrap_TradeTransInfo_tp_set_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0, double _swig_go_1) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   double arg2 ;
   
@@ -19662,7 +19889,7 @@ void _wrap_TradeTransInfo_tp_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig
 }
 
 
-double _wrap_TradeTransInfo_tp_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0) {
+double _wrap_TradeTransInfo_tp_get_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   double result;
   double _swig_go_result;
@@ -19675,7 +19902,7 @@ double _wrap_TradeTransInfo_tp_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_sw
 }
 
 
-void _wrap_TradeTransInfo_ie_deviation_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeTransInfo_ie_deviation_set_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0, intgo _swig_go_1) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   int arg2 ;
   
@@ -19687,7 +19914,7 @@ void _wrap_TradeTransInfo_ie_deviation_set_mtmanapi_8609ee77fca78eb1(TradeTransI
 }
 
 
-intgo _wrap_TradeTransInfo_ie_deviation_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0) {
+intgo _wrap_TradeTransInfo_ie_deviation_get_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19700,7 +19927,7 @@ intgo _wrap_TradeTransInfo_ie_deviation_get_mtmanapi_8609ee77fca78eb1(TradeTrans
 }
 
 
-void _wrap_TradeTransInfo_comment_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_TradeTransInfo_comment_set_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0, _gostring_ _swig_go_1) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -19724,7 +19951,7 @@ void _wrap_TradeTransInfo_comment_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *
 }
 
 
-_gostring_ _wrap_TradeTransInfo_comment_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0) {
+_gostring_ _wrap_TradeTransInfo_comment_get_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -19737,32 +19964,39 @@ _gostring_ _wrap_TradeTransInfo_comment_get_mtmanapi_8609ee77fca78eb1(TradeTrans
 }
 
 
-void _wrap_TradeTransInfo_expiration_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0, long long _swig_go_1) {
+void _wrap_TradeTransInfo_expiration_set_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0, time_t *_swig_go_1) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(TradeTransInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->expiration = arg2;
   
 }
 
 
-long long _wrap_TradeTransInfo_expiration_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0) {
+time_t *_wrap_TradeTransInfo_expiration_get_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(TradeTransInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->expiration);
-  _swig_go_result = result; 
+  result =  ((arg1)->expiration);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_TradeTransInfo_crc_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_TradeTransInfo_crc_set_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0, intgo _swig_go_1) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   int arg2 ;
   
@@ -19774,7 +20008,7 @@ void _wrap_TradeTransInfo_crc_set_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swi
 }
 
 
-intgo _wrap_TradeTransInfo_crc_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0) {
+intgo _wrap_TradeTransInfo_crc_get_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19787,7 +20021,7 @@ intgo _wrap_TradeTransInfo_crc_get_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_sw
 }
 
 
-TradeTransInfo *_wrap_new_TradeTransInfo_mtmanapi_8609ee77fca78eb1() {
+TradeTransInfo *_wrap_new_TradeTransInfo_mtmanapi_7bd57f7bcf037842() {
   TradeTransInfo *result = 0 ;
   TradeTransInfo *_swig_go_result;
   
@@ -19798,7 +20032,7 @@ TradeTransInfo *_wrap_new_TradeTransInfo_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_TradeTransInfo_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig_go_0) {
+void _wrap_delete_TradeTransInfo_mtmanapi_7bd57f7bcf037842(TradeTransInfo *_swig_go_0) {
   TradeTransInfo *arg1 = (TradeTransInfo *) 0 ;
   
   arg1 = *(TradeTransInfo **)&_swig_go_0; 
@@ -19808,7 +20042,7 @@ void _wrap_delete_TradeTransInfo_mtmanapi_8609ee77fca78eb1(TradeTransInfo *_swig
 }
 
 
-intgo _wrap_TT_PRICES_GET_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_PRICES_GET_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19820,7 +20054,7 @@ intgo _wrap_TT_PRICES_GET_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_PRICES_REQUOTE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_PRICES_REQUOTE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19832,7 +20066,7 @@ intgo _wrap_TT_PRICES_REQUOTE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_ORDER_IE_OPEN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_ORDER_IE_OPEN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19844,7 +20078,7 @@ intgo _wrap_TT_ORDER_IE_OPEN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_ORDER_REQ_OPEN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_ORDER_REQ_OPEN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19856,7 +20090,7 @@ intgo _wrap_TT_ORDER_REQ_OPEN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_ORDER_MK_OPEN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_ORDER_MK_OPEN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19868,7 +20102,7 @@ intgo _wrap_TT_ORDER_MK_OPEN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_ORDER_PENDING_OPEN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_ORDER_PENDING_OPEN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19880,7 +20114,7 @@ intgo _wrap_TT_ORDER_PENDING_OPEN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_ORDER_IE_CLOSE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_ORDER_IE_CLOSE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19892,7 +20126,7 @@ intgo _wrap_TT_ORDER_IE_CLOSE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_ORDER_REQ_CLOSE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_ORDER_REQ_CLOSE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19904,7 +20138,7 @@ intgo _wrap_TT_ORDER_REQ_CLOSE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_ORDER_MK_CLOSE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_ORDER_MK_CLOSE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19916,7 +20150,7 @@ intgo _wrap_TT_ORDER_MK_CLOSE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_ORDER_MODIFY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_ORDER_MODIFY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19928,7 +20162,7 @@ intgo _wrap_TT_ORDER_MODIFY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_ORDER_DELETE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_ORDER_DELETE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19940,7 +20174,7 @@ intgo _wrap_TT_ORDER_DELETE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_ORDER_CLOSE_BY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_ORDER_CLOSE_BY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19952,7 +20186,7 @@ intgo _wrap_TT_ORDER_CLOSE_BY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_ORDER_CLOSE_ALL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_ORDER_CLOSE_ALL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19964,7 +20198,7 @@ intgo _wrap_TT_ORDER_CLOSE_ALL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_BR_ORDER_OPEN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_BR_ORDER_OPEN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19976,7 +20210,7 @@ intgo _wrap_TT_BR_ORDER_OPEN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_BR_ORDER_CLOSE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_BR_ORDER_CLOSE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -19988,7 +20222,7 @@ intgo _wrap_TT_BR_ORDER_CLOSE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_BR_ORDER_DELETE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_BR_ORDER_DELETE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -20000,7 +20234,7 @@ intgo _wrap_TT_BR_ORDER_DELETE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_BR_ORDER_CLOSE_BY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_BR_ORDER_CLOSE_BY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -20012,7 +20246,7 @@ intgo _wrap_TT_BR_ORDER_CLOSE_BY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_BR_ORDER_CLOSE_ALL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_BR_ORDER_CLOSE_ALL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -20024,7 +20258,7 @@ intgo _wrap_TT_BR_ORDER_CLOSE_ALL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_BR_ORDER_MODIFY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_BR_ORDER_MODIFY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -20036,7 +20270,7 @@ intgo _wrap_TT_BR_ORDER_MODIFY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_BR_ORDER_ACTIVATE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_BR_ORDER_ACTIVATE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -20048,7 +20282,7 @@ intgo _wrap_TT_BR_ORDER_ACTIVATE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_BR_ORDER_COMMENT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_BR_ORDER_COMMENT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -20060,7 +20294,7 @@ intgo _wrap_TT_BR_ORDER_COMMENT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_BR_BALANCE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_BR_BALANCE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -20072,7 +20306,7 @@ intgo _wrap_TT_BR_BALANCE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_FLAG_NONE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_FLAG_NONE_mtmanapi_7bd57f7bcf037842() {
   EnReqFlags result;
   intgo _swig_go_result;
   
@@ -20084,7 +20318,7 @@ intgo _wrap_TT_FLAG_NONE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_FLAG_SIGNAL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_FLAG_SIGNAL_mtmanapi_7bd57f7bcf037842() {
   EnReqFlags result;
   intgo _swig_go_result;
   
@@ -20096,7 +20330,7 @@ intgo _wrap_TT_FLAG_SIGNAL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_FLAG_EXPERT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_FLAG_EXPERT_mtmanapi_7bd57f7bcf037842() {
   EnReqFlags result;
   intgo _swig_go_result;
   
@@ -20108,7 +20342,7 @@ intgo _wrap_TT_FLAG_EXPERT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_FLAG_GATEWAY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_FLAG_GATEWAY_mtmanapi_7bd57f7bcf037842() {
   EnReqFlags result;
   intgo _swig_go_result;
   
@@ -20120,7 +20354,7 @@ intgo _wrap_TT_FLAG_GATEWAY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_FLAG_MOBILE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_FLAG_MOBILE_mtmanapi_7bd57f7bcf037842() {
   EnReqFlags result;
   intgo _swig_go_result;
   
@@ -20132,7 +20366,7 @@ intgo _wrap_TT_FLAG_MOBILE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_FLAG_WEB_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_FLAG_WEB_mtmanapi_7bd57f7bcf037842() {
   EnReqFlags result;
   intgo _swig_go_result;
   
@@ -20144,7 +20378,7 @@ intgo _wrap_TT_FLAG_WEB_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_TT_FLAG_API_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_TT_FLAG_API_mtmanapi_7bd57f7bcf037842() {
   EnReqFlags result;
   intgo _swig_go_result;
   
@@ -20156,7 +20390,7 @@ intgo _wrap_TT_FLAG_API_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_MarginLevel_login_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MarginLevel_login_set_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0, intgo _swig_go_1) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   int arg2 ;
   
@@ -20168,7 +20402,7 @@ void _wrap_MarginLevel_login_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go
 }
 
 
-intgo _wrap_MarginLevel_login_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0) {
+intgo _wrap_MarginLevel_login_get_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -20181,7 +20415,7 @@ intgo _wrap_MarginLevel_login_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_g
 }
 
 
-void _wrap_MarginLevel_group_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_MarginLevel_group_set_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0, _gostring_ _swig_go_1) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -20205,7 +20439,7 @@ void _wrap_MarginLevel_group_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go
 }
 
 
-_gostring_ _wrap_MarginLevel_group_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0) {
+_gostring_ _wrap_MarginLevel_group_get_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -20218,7 +20452,7 @@ _gostring_ _wrap_MarginLevel_group_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_s
 }
 
 
-void _wrap_MarginLevel_leverage_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MarginLevel_leverage_set_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0, intgo _swig_go_1) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   int arg2 ;
   
@@ -20230,7 +20464,7 @@ void _wrap_MarginLevel_leverage_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig
 }
 
 
-intgo _wrap_MarginLevel_leverage_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0) {
+intgo _wrap_MarginLevel_leverage_get_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -20243,7 +20477,7 @@ intgo _wrap_MarginLevel_leverage_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swi
 }
 
 
-void _wrap_MarginLevel_updated_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MarginLevel_updated_set_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0, intgo _swig_go_1) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   int arg2 ;
   
@@ -20255,7 +20489,7 @@ void _wrap_MarginLevel_updated_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_
 }
 
 
-intgo _wrap_MarginLevel_updated_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0) {
+intgo _wrap_MarginLevel_updated_get_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -20268,7 +20502,7 @@ intgo _wrap_MarginLevel_updated_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig
 }
 
 
-void _wrap_MarginLevel_balance_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0, double _swig_go_1) {
+void _wrap_MarginLevel_balance_set_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0, double _swig_go_1) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   double arg2 ;
   
@@ -20280,7 +20514,7 @@ void _wrap_MarginLevel_balance_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_
 }
 
 
-double _wrap_MarginLevel_balance_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0) {
+double _wrap_MarginLevel_balance_get_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   double result;
   double _swig_go_result;
@@ -20293,7 +20527,7 @@ double _wrap_MarginLevel_balance_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swi
 }
 
 
-void _wrap_MarginLevel_equity_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0, double _swig_go_1) {
+void _wrap_MarginLevel_equity_set_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0, double _swig_go_1) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   double arg2 ;
   
@@ -20305,7 +20539,7 @@ void _wrap_MarginLevel_equity_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_g
 }
 
 
-double _wrap_MarginLevel_equity_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0) {
+double _wrap_MarginLevel_equity_get_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   double result;
   double _swig_go_result;
@@ -20318,7 +20552,7 @@ double _wrap_MarginLevel_equity_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig
 }
 
 
-void _wrap_MarginLevel_volume_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MarginLevel_volume_set_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0, intgo _swig_go_1) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   int arg2 ;
   
@@ -20330,7 +20564,7 @@ void _wrap_MarginLevel_volume_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_g
 }
 
 
-intgo _wrap_MarginLevel_volume_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0) {
+intgo _wrap_MarginLevel_volume_get_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -20343,7 +20577,7 @@ intgo _wrap_MarginLevel_volume_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_
 }
 
 
-void _wrap_MarginLevel_margin_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0, double _swig_go_1) {
+void _wrap_MarginLevel_margin_set_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0, double _swig_go_1) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   double arg2 ;
   
@@ -20355,7 +20589,7 @@ void _wrap_MarginLevel_margin_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_g
 }
 
 
-double _wrap_MarginLevel_margin_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0) {
+double _wrap_MarginLevel_margin_get_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   double result;
   double _swig_go_result;
@@ -20368,7 +20602,7 @@ double _wrap_MarginLevel_margin_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig
 }
 
 
-void _wrap_MarginLevel_margin_free_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0, double _swig_go_1) {
+void _wrap_MarginLevel_margin_free_set_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0, double _swig_go_1) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   double arg2 ;
   
@@ -20380,7 +20614,7 @@ void _wrap_MarginLevel_margin_free_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_s
 }
 
 
-double _wrap_MarginLevel_margin_free_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0) {
+double _wrap_MarginLevel_margin_free_get_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   double result;
   double _swig_go_result;
@@ -20393,7 +20627,7 @@ double _wrap_MarginLevel_margin_free_get_mtmanapi_8609ee77fca78eb1(MarginLevel *
 }
 
 
-void _wrap_MarginLevel_margin_level_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0, double _swig_go_1) {
+void _wrap_MarginLevel_margin_level_set_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0, double _swig_go_1) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   double arg2 ;
   
@@ -20405,7 +20639,7 @@ void _wrap_MarginLevel_margin_level_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_
 }
 
 
-double _wrap_MarginLevel_margin_level_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0) {
+double _wrap_MarginLevel_margin_level_get_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   double result;
   double _swig_go_result;
@@ -20418,7 +20652,7 @@ double _wrap_MarginLevel_margin_level_get_mtmanapi_8609ee77fca78eb1(MarginLevel 
 }
 
 
-void _wrap_MarginLevel_margin_type_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MarginLevel_margin_type_set_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0, intgo _swig_go_1) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   int arg2 ;
   
@@ -20430,7 +20664,7 @@ void _wrap_MarginLevel_margin_type_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_s
 }
 
 
-intgo _wrap_MarginLevel_margin_type_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0) {
+intgo _wrap_MarginLevel_margin_type_get_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -20443,7 +20677,7 @@ intgo _wrap_MarginLevel_margin_type_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_
 }
 
 
-void _wrap_MarginLevel_level_type_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MarginLevel_level_type_set_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0, intgo _swig_go_1) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   int arg2 ;
   
@@ -20455,7 +20689,7 @@ void _wrap_MarginLevel_level_type_set_mtmanapi_8609ee77fca78eb1(MarginLevel *_sw
 }
 
 
-intgo _wrap_MarginLevel_level_type_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0) {
+intgo _wrap_MarginLevel_level_type_get_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -20468,7 +20702,7 @@ intgo _wrap_MarginLevel_level_type_get_mtmanapi_8609ee77fca78eb1(MarginLevel *_s
 }
 
 
-MarginLevel *_wrap_new_MarginLevel_mtmanapi_8609ee77fca78eb1() {
+MarginLevel *_wrap_new_MarginLevel_mtmanapi_7bd57f7bcf037842() {
   MarginLevel *result = 0 ;
   MarginLevel *_swig_go_result;
   
@@ -20479,7 +20713,7 @@ MarginLevel *_wrap_new_MarginLevel_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_MarginLevel_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0) {
+void _wrap_delete_MarginLevel_mtmanapi_7bd57f7bcf037842(MarginLevel *_swig_go_0) {
   MarginLevel *arg1 = (MarginLevel *) 0 ;
   
   arg1 = *(MarginLevel **)&_swig_go_0; 
@@ -20489,7 +20723,7 @@ void _wrap_delete_MarginLevel_mtmanapi_8609ee77fca78eb1(MarginLevel *_swig_go_0)
 }
 
 
-intgo _wrap_MARGINLEVEL_OK_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MARGINLEVEL_OK_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -20501,7 +20735,7 @@ intgo _wrap_MARGINLEVEL_OK_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MARGINLEVEL_MARGINCALL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MARGINLEVEL_MARGINCALL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -20513,7 +20747,7 @@ intgo _wrap_MARGINLEVEL_MARGINCALL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_MARGINLEVEL_STOPOUT_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MARGINLEVEL_STOPOUT_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -20525,7 +20759,7 @@ intgo _wrap_MARGINLEVEL_STOPOUT_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_RequestInfo_id_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_RequestInfo_id_set_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0, intgo _swig_go_1) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   int arg2 ;
   
@@ -20537,7 +20771,7 @@ void _wrap_RequestInfo_id_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0,
 }
 
 
-intgo _wrap_RequestInfo_id_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+intgo _wrap_RequestInfo_id_get_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -20550,7 +20784,7 @@ intgo _wrap_RequestInfo_id_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0
 }
 
 
-void _wrap_RequestInfo_status_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0, char _swig_go_1) {
+void _wrap_RequestInfo_status_set_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0, char _swig_go_1) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   char arg2 ;
   
@@ -20562,7 +20796,7 @@ void _wrap_RequestInfo_status_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_g
 }
 
 
-char _wrap_RequestInfo_status_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+char _wrap_RequestInfo_status_get_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   char result;
   char _swig_go_result;
@@ -20575,7 +20809,7 @@ char _wrap_RequestInfo_status_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_g
 }
 
 
-void _wrap_RequestInfo_time_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0, long long _swig_go_1) {
+void _wrap_RequestInfo_time_set_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0, long long _swig_go_1) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   DWORD arg2 ;
   
@@ -20587,7 +20821,7 @@ void _wrap_RequestInfo_time_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_
 }
 
 
-long long _wrap_RequestInfo_time_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+long long _wrap_RequestInfo_time_get_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   DWORD result;
   long long _swig_go_result;
@@ -20600,7 +20834,7 @@ long long _wrap_RequestInfo_time_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swi
 }
 
 
-void _wrap_RequestInfo_manager_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_RequestInfo_manager_set_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0, intgo _swig_go_1) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   int arg2 ;
   
@@ -20612,7 +20846,7 @@ void _wrap_RequestInfo_manager_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_
 }
 
 
-intgo _wrap_RequestInfo_manager_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+intgo _wrap_RequestInfo_manager_get_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -20625,7 +20859,7 @@ intgo _wrap_RequestInfo_manager_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig
 }
 
 
-void _wrap_RequestInfo_login_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_RequestInfo_login_set_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0, intgo _swig_go_1) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   int arg2 ;
   
@@ -20637,7 +20871,7 @@ void _wrap_RequestInfo_login_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go
 }
 
 
-intgo _wrap_RequestInfo_login_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+intgo _wrap_RequestInfo_login_get_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -20650,7 +20884,7 @@ intgo _wrap_RequestInfo_login_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_g
 }
 
 
-void _wrap_RequestInfo_group_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_RequestInfo_group_set_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0, _gostring_ _swig_go_1) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -20674,7 +20908,7 @@ void _wrap_RequestInfo_group_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go
 }
 
 
-_gostring_ _wrap_RequestInfo_group_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+_gostring_ _wrap_RequestInfo_group_get_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -20687,7 +20921,7 @@ _gostring_ _wrap_RequestInfo_group_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_s
 }
 
 
-void _wrap_RequestInfo_balance_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0, double _swig_go_1) {
+void _wrap_RequestInfo_balance_set_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0, double _swig_go_1) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   double arg2 ;
   
@@ -20699,7 +20933,7 @@ void _wrap_RequestInfo_balance_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_
 }
 
 
-double _wrap_RequestInfo_balance_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+double _wrap_RequestInfo_balance_get_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   double result;
   double _swig_go_result;
@@ -20712,7 +20946,7 @@ double _wrap_RequestInfo_balance_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swi
 }
 
 
-void _wrap_RequestInfo_credit_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0, double _swig_go_1) {
+void _wrap_RequestInfo_credit_set_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0, double _swig_go_1) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   double arg2 ;
   
@@ -20724,7 +20958,7 @@ void _wrap_RequestInfo_credit_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_g
 }
 
 
-double _wrap_RequestInfo_credit_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+double _wrap_RequestInfo_credit_get_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   double result;
   double _swig_go_result;
@@ -20737,7 +20971,7 @@ double _wrap_RequestInfo_credit_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig
 }
 
 
-void _wrap_RequestInfo_prices_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0, double *_swig_go_1) {
+void _wrap_RequestInfo_prices_set_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0, double *_swig_go_1) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   double *arg2 = (double *) (double *)0 ;
   
@@ -20753,7 +20987,7 @@ void _wrap_RequestInfo_prices_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_g
 }
 
 
-double *_wrap_RequestInfo_prices_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+double *_wrap_RequestInfo_prices_get_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   double *result = 0 ;
   double *_swig_go_result;
@@ -20766,7 +21000,7 @@ double *_wrap_RequestInfo_prices_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swi
 }
 
 
-void _wrap_RequestInfo_trade_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0, TradeTransInfo *_swig_go_1) {
+void _wrap_RequestInfo_trade_set_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0, TradeTransInfo *_swig_go_1) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   TradeTransInfo *arg2 = (TradeTransInfo *) 0 ;
   
@@ -20778,7 +21012,7 @@ void _wrap_RequestInfo_trade_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go
 }
 
 
-TradeTransInfo *_wrap_RequestInfo_trade_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+TradeTransInfo *_wrap_RequestInfo_trade_get_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   TradeTransInfo *result = 0 ;
   TradeTransInfo *_swig_go_result;
@@ -20791,7 +21025,7 @@ TradeTransInfo *_wrap_RequestInfo_trade_get_mtmanapi_8609ee77fca78eb1(RequestInf
 }
 
 
-void _wrap_RequestInfo_gw_volume_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_RequestInfo_gw_volume_set_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0, intgo _swig_go_1) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   int arg2 ;
   
@@ -20803,7 +21037,7 @@ void _wrap_RequestInfo_gw_volume_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swi
 }
 
 
-intgo _wrap_RequestInfo_gw_volume_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+intgo _wrap_RequestInfo_gw_volume_get_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -20816,7 +21050,7 @@ intgo _wrap_RequestInfo_gw_volume_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_sw
 }
 
 
-void _wrap_RequestInfo_gw_order_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_RequestInfo_gw_order_set_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0, intgo _swig_go_1) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   int arg2 ;
   
@@ -20828,7 +21062,7 @@ void _wrap_RequestInfo_gw_order_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig
 }
 
 
-intgo _wrap_RequestInfo_gw_order_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+intgo _wrap_RequestInfo_gw_order_get_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -20841,7 +21075,7 @@ intgo _wrap_RequestInfo_gw_order_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swi
 }
 
 
-void _wrap_RequestInfo_gw_price_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0, short _swig_go_1) {
+void _wrap_RequestInfo_gw_price_set_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0, short _swig_go_1) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   short arg2 ;
   
@@ -20853,7 +21087,7 @@ void _wrap_RequestInfo_gw_price_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig
 }
 
 
-short _wrap_RequestInfo_gw_price_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+short _wrap_RequestInfo_gw_price_get_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   short result;
   short _swig_go_result;
@@ -20866,7 +21100,7 @@ short _wrap_RequestInfo_gw_price_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swi
 }
 
 
-void _wrap_RequestInfo_prev_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0, RequestInfo *_swig_go_1) {
+void _wrap_RequestInfo_prev_set_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0, RequestInfo *_swig_go_1) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   RequestInfo *arg2 = (RequestInfo *) 0 ;
   
@@ -20878,7 +21112,7 @@ void _wrap_RequestInfo_prev_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_
 }
 
 
-RequestInfo *_wrap_RequestInfo_prev_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+RequestInfo *_wrap_RequestInfo_prev_get_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   RequestInfo *result = 0 ;
   RequestInfo *_swig_go_result;
@@ -20891,7 +21125,7 @@ RequestInfo *_wrap_RequestInfo_prev_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_
 }
 
 
-void _wrap_RequestInfo_next_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0, RequestInfo *_swig_go_1) {
+void _wrap_RequestInfo_next_set_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0, RequestInfo *_swig_go_1) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   RequestInfo *arg2 = (RequestInfo *) 0 ;
   
@@ -20903,7 +21137,7 @@ void _wrap_RequestInfo_next_set_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_
 }
 
 
-RequestInfo *_wrap_RequestInfo_next_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+RequestInfo *_wrap_RequestInfo_next_get_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   RequestInfo *result = 0 ;
   RequestInfo *_swig_go_result;
@@ -20916,7 +21150,7 @@ RequestInfo *_wrap_RequestInfo_next_get_mtmanapi_8609ee77fca78eb1(RequestInfo *_
 }
 
 
-RequestInfo *_wrap_new_RequestInfo_mtmanapi_8609ee77fca78eb1() {
+RequestInfo *_wrap_new_RequestInfo_mtmanapi_7bd57f7bcf037842() {
   RequestInfo *result = 0 ;
   RequestInfo *_swig_go_result;
   
@@ -20927,7 +21161,7 @@ RequestInfo *_wrap_new_RequestInfo_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_RequestInfo_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0) {
+void _wrap_delete_RequestInfo_mtmanapi_7bd57f7bcf037842(RequestInfo *_swig_go_0) {
   RequestInfo *arg1 = (RequestInfo *) 0 ;
   
   arg1 = *(RequestInfo **)&_swig_go_0; 
@@ -20937,7 +21171,7 @@ void _wrap_delete_RequestInfo_mtmanapi_8609ee77fca78eb1(RequestInfo *_swig_go_0)
 }
 
 
-intgo _wrap_DC_EMPTY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_DC_EMPTY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -20949,7 +21183,7 @@ intgo _wrap_DC_EMPTY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_DC_REQUEST_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_DC_REQUEST_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -20961,7 +21195,7 @@ intgo _wrap_DC_REQUEST_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_DC_LOCKED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_DC_LOCKED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -20973,7 +21207,7 @@ intgo _wrap_DC_LOCKED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_DC_ANSWERED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_DC_ANSWERED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -20985,7 +21219,7 @@ intgo _wrap_DC_ANSWERED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_DC_RESETED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_DC_RESETED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -20997,7 +21231,7 @@ intgo _wrap_DC_RESETED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_DC_CANCELED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_DC_CANCELED_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -21009,7 +21243,7 @@ intgo _wrap_DC_CANCELED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIRM_MODE_ADD_PRICES_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIRM_MODE_ADD_PRICES_mtmanapi_7bd57f7bcf037842() {
   EnConfirmModes result;
   intgo _swig_go_result;
   
@@ -21021,7 +21255,7 @@ intgo _wrap_CONFIRM_MODE_ADD_PRICES_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CONFIRM_MODE_PACKET_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CONFIRM_MODE_PACKET_mtmanapi_7bd57f7bcf037842() {
   EnConfirmModes result;
   intgo _swig_go_result;
   
@@ -21033,7 +21267,7 @@ intgo _wrap_CONFIRM_MODE_PACKET_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_DailyReport_login_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0, intgo _swig_go_1) {
+void _wrap_DailyReport_login_set_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0, intgo _swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   int arg2 ;
   
@@ -21045,7 +21279,7 @@ void _wrap_DailyReport_login_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go
 }
 
 
-intgo _wrap_DailyReport_login_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+intgo _wrap_DailyReport_login_get_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -21058,32 +21292,39 @@ intgo _wrap_DailyReport_login_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_g
 }
 
 
-void _wrap_DailyReport_ctm_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0, long long _swig_go_1) {
+void _wrap_DailyReport_ctm_set_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0, time_t *_swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(DailyReport **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->ctm = arg2;
   
 }
 
 
-long long _wrap_DailyReport_ctm_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+time_t *_wrap_DailyReport_ctm_get_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(DailyReport **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->ctm);
-  _swig_go_result = result; 
+  result =  ((arg1)->ctm);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_DailyReport_group_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_DailyReport_group_set_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0, _gostring_ _swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -21107,7 +21348,7 @@ void _wrap_DailyReport_group_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go
 }
 
 
-_gostring_ _wrap_DailyReport_group_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+_gostring_ _wrap_DailyReport_group_get_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -21120,7 +21361,7 @@ _gostring_ _wrap_DailyReport_group_get_mtmanapi_8609ee77fca78eb1(DailyReport *_s
 }
 
 
-void _wrap_DailyReport_bank_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_DailyReport_bank_set_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0, _gostring_ _swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -21144,7 +21385,7 @@ void _wrap_DailyReport_bank_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_
 }
 
 
-_gostring_ _wrap_DailyReport_bank_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+_gostring_ _wrap_DailyReport_bank_get_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -21157,7 +21398,7 @@ _gostring_ _wrap_DailyReport_bank_get_mtmanapi_8609ee77fca78eb1(DailyReport *_sw
 }
 
 
-void _wrap_DailyReport_balance_prev_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0, double _swig_go_1) {
+void _wrap_DailyReport_balance_prev_set_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0, double _swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double arg2 ;
   
@@ -21169,7 +21410,7 @@ void _wrap_DailyReport_balance_prev_set_mtmanapi_8609ee77fca78eb1(DailyReport *_
 }
 
 
-double _wrap_DailyReport_balance_prev_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+double _wrap_DailyReport_balance_prev_get_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double result;
   double _swig_go_result;
@@ -21182,7 +21423,7 @@ double _wrap_DailyReport_balance_prev_get_mtmanapi_8609ee77fca78eb1(DailyReport 
 }
 
 
-void _wrap_DailyReport_balance_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0, double _swig_go_1) {
+void _wrap_DailyReport_balance_set_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0, double _swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double arg2 ;
   
@@ -21194,7 +21435,7 @@ void _wrap_DailyReport_balance_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_
 }
 
 
-double _wrap_DailyReport_balance_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+double _wrap_DailyReport_balance_get_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double result;
   double _swig_go_result;
@@ -21207,7 +21448,7 @@ double _wrap_DailyReport_balance_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swi
 }
 
 
-void _wrap_DailyReport_deposit_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0, double _swig_go_1) {
+void _wrap_DailyReport_deposit_set_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0, double _swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double arg2 ;
   
@@ -21219,7 +21460,7 @@ void _wrap_DailyReport_deposit_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_
 }
 
 
-double _wrap_DailyReport_deposit_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+double _wrap_DailyReport_deposit_get_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double result;
   double _swig_go_result;
@@ -21232,7 +21473,7 @@ double _wrap_DailyReport_deposit_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swi
 }
 
 
-void _wrap_DailyReport_credit_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0, double _swig_go_1) {
+void _wrap_DailyReport_credit_set_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0, double _swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double arg2 ;
   
@@ -21244,7 +21485,7 @@ void _wrap_DailyReport_credit_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_g
 }
 
 
-double _wrap_DailyReport_credit_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+double _wrap_DailyReport_credit_get_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double result;
   double _swig_go_result;
@@ -21257,7 +21498,7 @@ double _wrap_DailyReport_credit_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig
 }
 
 
-void _wrap_DailyReport_profit_closed_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0, double _swig_go_1) {
+void _wrap_DailyReport_profit_closed_set_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0, double _swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double arg2 ;
   
@@ -21269,7 +21510,7 @@ void _wrap_DailyReport_profit_closed_set_mtmanapi_8609ee77fca78eb1(DailyReport *
 }
 
 
-double _wrap_DailyReport_profit_closed_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+double _wrap_DailyReport_profit_closed_get_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double result;
   double _swig_go_result;
@@ -21282,7 +21523,7 @@ double _wrap_DailyReport_profit_closed_get_mtmanapi_8609ee77fca78eb1(DailyReport
 }
 
 
-void _wrap_DailyReport_profit_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0, double _swig_go_1) {
+void _wrap_DailyReport_profit_set_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0, double _swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double arg2 ;
   
@@ -21294,7 +21535,7 @@ void _wrap_DailyReport_profit_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_g
 }
 
 
-double _wrap_DailyReport_profit_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+double _wrap_DailyReport_profit_get_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double result;
   double _swig_go_result;
@@ -21307,7 +21548,7 @@ double _wrap_DailyReport_profit_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig
 }
 
 
-void _wrap_DailyReport_equity_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0, double _swig_go_1) {
+void _wrap_DailyReport_equity_set_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0, double _swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double arg2 ;
   
@@ -21319,7 +21560,7 @@ void _wrap_DailyReport_equity_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_g
 }
 
 
-double _wrap_DailyReport_equity_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+double _wrap_DailyReport_equity_get_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double result;
   double _swig_go_result;
@@ -21332,7 +21573,7 @@ double _wrap_DailyReport_equity_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig
 }
 
 
-void _wrap_DailyReport_margin_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0, double _swig_go_1) {
+void _wrap_DailyReport_margin_set_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0, double _swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double arg2 ;
   
@@ -21344,7 +21585,7 @@ void _wrap_DailyReport_margin_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_g
 }
 
 
-double _wrap_DailyReport_margin_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+double _wrap_DailyReport_margin_get_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double result;
   double _swig_go_result;
@@ -21357,7 +21598,7 @@ double _wrap_DailyReport_margin_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig
 }
 
 
-void _wrap_DailyReport_margin_free_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0, double _swig_go_1) {
+void _wrap_DailyReport_margin_free_set_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0, double _swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double arg2 ;
   
@@ -21369,7 +21610,7 @@ void _wrap_DailyReport_margin_free_set_mtmanapi_8609ee77fca78eb1(DailyReport *_s
 }
 
 
-double _wrap_DailyReport_margin_free_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+double _wrap_DailyReport_margin_free_get_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   double result;
   double _swig_go_result;
@@ -21382,7 +21623,7 @@ double _wrap_DailyReport_margin_free_get_mtmanapi_8609ee77fca78eb1(DailyReport *
 }
 
 
-void _wrap_DailyReport_next_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0, intgo _swig_go_1) {
+void _wrap_DailyReport_next_set_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0, intgo _swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   int arg2 ;
   
@@ -21394,7 +21635,7 @@ void _wrap_DailyReport_next_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_
 }
 
 
-intgo _wrap_DailyReport_next_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+intgo _wrap_DailyReport_next_get_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -21407,7 +21648,7 @@ intgo _wrap_DailyReport_next_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go
 }
 
 
-void _wrap_DailyReport_reserved_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_DailyReport_reserved_set_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0, intgo *_swig_go_1) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -21423,7 +21664,7 @@ void _wrap_DailyReport_reserved_set_mtmanapi_8609ee77fca78eb1(DailyReport *_swig
 }
 
 
-intgo *_wrap_DailyReport_reserved_get_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+intgo *_wrap_DailyReport_reserved_get_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -21436,7 +21677,7 @@ intgo *_wrap_DailyReport_reserved_get_mtmanapi_8609ee77fca78eb1(DailyReport *_sw
 }
 
 
-DailyReport *_wrap_new_DailyReport_mtmanapi_8609ee77fca78eb1() {
+DailyReport *_wrap_new_DailyReport_mtmanapi_7bd57f7bcf037842() {
   DailyReport *result = 0 ;
   DailyReport *_swig_go_result;
   
@@ -21447,7 +21688,7 @@ DailyReport *_wrap_new_DailyReport_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_DailyReport_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0) {
+void _wrap_delete_DailyReport_mtmanapi_7bd57f7bcf037842(DailyReport *_swig_go_0) {
   DailyReport *arg1 = (DailyReport *) 0 ;
   
   arg1 = *(DailyReport **)&_swig_go_0; 
@@ -21457,7 +21698,7 @@ void _wrap_delete_DailyReport_mtmanapi_8609ee77fca78eb1(DailyReport *_swig_go_0)
 }
 
 
-void _wrap_ReportGroupRequest_name_set_mtmanapi_8609ee77fca78eb1(ReportGroupRequest *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ReportGroupRequest_name_set_mtmanapi_7bd57f7bcf037842(ReportGroupRequest *_swig_go_0, _gostring_ _swig_go_1) {
   ReportGroupRequest *arg1 = (ReportGroupRequest *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -21481,7 +21722,7 @@ void _wrap_ReportGroupRequest_name_set_mtmanapi_8609ee77fca78eb1(ReportGroupRequ
 }
 
 
-_gostring_ _wrap_ReportGroupRequest_name_get_mtmanapi_8609ee77fca78eb1(ReportGroupRequest *_swig_go_0) {
+_gostring_ _wrap_ReportGroupRequest_name_get_mtmanapi_7bd57f7bcf037842(ReportGroupRequest *_swig_go_0) {
   ReportGroupRequest *arg1 = (ReportGroupRequest *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -21494,57 +21735,71 @@ _gostring_ _wrap_ReportGroupRequest_name_get_mtmanapi_8609ee77fca78eb1(ReportGro
 }
 
 
-void _wrap_ReportGroupRequest_from_set_mtmanapi_8609ee77fca78eb1(ReportGroupRequest *_swig_go_0, long long _swig_go_1) {
+void _wrap_ReportGroupRequest_from_set_mtmanapi_7bd57f7bcf037842(ReportGroupRequest *_swig_go_0, time_t *_swig_go_1) {
   ReportGroupRequest *arg1 = (ReportGroupRequest *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ReportGroupRequest **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->from = arg2;
   
 }
 
 
-long long _wrap_ReportGroupRequest_from_get_mtmanapi_8609ee77fca78eb1(ReportGroupRequest *_swig_go_0) {
+time_t *_wrap_ReportGroupRequest_from_get_mtmanapi_7bd57f7bcf037842(ReportGroupRequest *_swig_go_0) {
   ReportGroupRequest *arg1 = (ReportGroupRequest *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ReportGroupRequest **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->from);
-  _swig_go_result = result; 
+  result =  ((arg1)->from);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ReportGroupRequest_to_set_mtmanapi_8609ee77fca78eb1(ReportGroupRequest *_swig_go_0, long long _swig_go_1) {
+void _wrap_ReportGroupRequest_to_set_mtmanapi_7bd57f7bcf037842(ReportGroupRequest *_swig_go_0, time_t *_swig_go_1) {
   ReportGroupRequest *arg1 = (ReportGroupRequest *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(ReportGroupRequest **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->to = arg2;
   
 }
 
 
-long long _wrap_ReportGroupRequest_to_get_mtmanapi_8609ee77fca78eb1(ReportGroupRequest *_swig_go_0) {
+time_t *_wrap_ReportGroupRequest_to_get_mtmanapi_7bd57f7bcf037842(ReportGroupRequest *_swig_go_0) {
   ReportGroupRequest *arg1 = (ReportGroupRequest *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(ReportGroupRequest **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->to);
-  _swig_go_result = result; 
+  result =  ((arg1)->to);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_ReportGroupRequest_total_set_mtmanapi_8609ee77fca78eb1(ReportGroupRequest *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ReportGroupRequest_total_set_mtmanapi_7bd57f7bcf037842(ReportGroupRequest *_swig_go_0, intgo _swig_go_1) {
   ReportGroupRequest *arg1 = (ReportGroupRequest *) 0 ;
   int arg2 ;
   
@@ -21556,7 +21811,7 @@ void _wrap_ReportGroupRequest_total_set_mtmanapi_8609ee77fca78eb1(ReportGroupReq
 }
 
 
-intgo _wrap_ReportGroupRequest_total_get_mtmanapi_8609ee77fca78eb1(ReportGroupRequest *_swig_go_0) {
+intgo _wrap_ReportGroupRequest_total_get_mtmanapi_7bd57f7bcf037842(ReportGroupRequest *_swig_go_0) {
   ReportGroupRequest *arg1 = (ReportGroupRequest *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -21569,7 +21824,7 @@ intgo _wrap_ReportGroupRequest_total_get_mtmanapi_8609ee77fca78eb1(ReportGroupRe
 }
 
 
-ReportGroupRequest *_wrap_new_ReportGroupRequest_mtmanapi_8609ee77fca78eb1() {
+ReportGroupRequest *_wrap_new_ReportGroupRequest_mtmanapi_7bd57f7bcf037842() {
   ReportGroupRequest *result = 0 ;
   ReportGroupRequest *_swig_go_result;
   
@@ -21580,7 +21835,7 @@ ReportGroupRequest *_wrap_new_ReportGroupRequest_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ReportGroupRequest_mtmanapi_8609ee77fca78eb1(ReportGroupRequest *_swig_go_0) {
+void _wrap_delete_ReportGroupRequest_mtmanapi_7bd57f7bcf037842(ReportGroupRequest *_swig_go_0) {
   ReportGroupRequest *arg1 = (ReportGroupRequest *) 0 ;
   
   arg1 = *(ReportGroupRequest **)&_swig_go_0; 
@@ -21590,7 +21845,7 @@ void _wrap_delete_ReportGroupRequest_mtmanapi_8609ee77fca78eb1(ReportGroupReques
 }
 
 
-void _wrap_DailyGroupRequest_name_set_mtmanapi_8609ee77fca78eb1(DailyGroupRequest *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_DailyGroupRequest_name_set_mtmanapi_7bd57f7bcf037842(DailyGroupRequest *_swig_go_0, _gostring_ _swig_go_1) {
   DailyGroupRequest *arg1 = (DailyGroupRequest *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -21614,7 +21869,7 @@ void _wrap_DailyGroupRequest_name_set_mtmanapi_8609ee77fca78eb1(DailyGroupReques
 }
 
 
-_gostring_ _wrap_DailyGroupRequest_name_get_mtmanapi_8609ee77fca78eb1(DailyGroupRequest *_swig_go_0) {
+_gostring_ _wrap_DailyGroupRequest_name_get_mtmanapi_7bd57f7bcf037842(DailyGroupRequest *_swig_go_0) {
   DailyGroupRequest *arg1 = (DailyGroupRequest *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -21627,57 +21882,71 @@ _gostring_ _wrap_DailyGroupRequest_name_get_mtmanapi_8609ee77fca78eb1(DailyGroup
 }
 
 
-void _wrap_DailyGroupRequest_from_set_mtmanapi_8609ee77fca78eb1(DailyGroupRequest *_swig_go_0, long long _swig_go_1) {
+void _wrap_DailyGroupRequest_from_set_mtmanapi_7bd57f7bcf037842(DailyGroupRequest *_swig_go_0, time_t *_swig_go_1) {
   DailyGroupRequest *arg1 = (DailyGroupRequest *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(DailyGroupRequest **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->from = arg2;
   
 }
 
 
-long long _wrap_DailyGroupRequest_from_get_mtmanapi_8609ee77fca78eb1(DailyGroupRequest *_swig_go_0) {
+time_t *_wrap_DailyGroupRequest_from_get_mtmanapi_7bd57f7bcf037842(DailyGroupRequest *_swig_go_0) {
   DailyGroupRequest *arg1 = (DailyGroupRequest *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(DailyGroupRequest **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->from);
-  _swig_go_result = result; 
+  result =  ((arg1)->from);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_DailyGroupRequest_to_set_mtmanapi_8609ee77fca78eb1(DailyGroupRequest *_swig_go_0, long long _swig_go_1) {
+void _wrap_DailyGroupRequest_to_set_mtmanapi_7bd57f7bcf037842(DailyGroupRequest *_swig_go_0, time_t *_swig_go_1) {
   DailyGroupRequest *arg1 = (DailyGroupRequest *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(DailyGroupRequest **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->to = arg2;
   
 }
 
 
-long long _wrap_DailyGroupRequest_to_get_mtmanapi_8609ee77fca78eb1(DailyGroupRequest *_swig_go_0) {
+time_t *_wrap_DailyGroupRequest_to_get_mtmanapi_7bd57f7bcf037842(DailyGroupRequest *_swig_go_0) {
   DailyGroupRequest *arg1 = (DailyGroupRequest *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(DailyGroupRequest **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->to);
-  _swig_go_result = result; 
+  result =  ((arg1)->to);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_DailyGroupRequest_total_set_mtmanapi_8609ee77fca78eb1(DailyGroupRequest *_swig_go_0, intgo _swig_go_1) {
+void _wrap_DailyGroupRequest_total_set_mtmanapi_7bd57f7bcf037842(DailyGroupRequest *_swig_go_0, intgo _swig_go_1) {
   DailyGroupRequest *arg1 = (DailyGroupRequest *) 0 ;
   int arg2 ;
   
@@ -21689,7 +21958,7 @@ void _wrap_DailyGroupRequest_total_set_mtmanapi_8609ee77fca78eb1(DailyGroupReque
 }
 
 
-intgo _wrap_DailyGroupRequest_total_get_mtmanapi_8609ee77fca78eb1(DailyGroupRequest *_swig_go_0) {
+intgo _wrap_DailyGroupRequest_total_get_mtmanapi_7bd57f7bcf037842(DailyGroupRequest *_swig_go_0) {
   DailyGroupRequest *arg1 = (DailyGroupRequest *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -21702,7 +21971,7 @@ intgo _wrap_DailyGroupRequest_total_get_mtmanapi_8609ee77fca78eb1(DailyGroupRequ
 }
 
 
-void _wrap_DailyGroupRequest_reserved_set_mtmanapi_8609ee77fca78eb1(DailyGroupRequest *_swig_go_0, intgo _swig_go_1) {
+void _wrap_DailyGroupRequest_reserved_set_mtmanapi_7bd57f7bcf037842(DailyGroupRequest *_swig_go_0, intgo _swig_go_1) {
   DailyGroupRequest *arg1 = (DailyGroupRequest *) 0 ;
   int arg2 ;
   
@@ -21714,7 +21983,7 @@ void _wrap_DailyGroupRequest_reserved_set_mtmanapi_8609ee77fca78eb1(DailyGroupRe
 }
 
 
-intgo _wrap_DailyGroupRequest_reserved_get_mtmanapi_8609ee77fca78eb1(DailyGroupRequest *_swig_go_0) {
+intgo _wrap_DailyGroupRequest_reserved_get_mtmanapi_7bd57f7bcf037842(DailyGroupRequest *_swig_go_0) {
   DailyGroupRequest *arg1 = (DailyGroupRequest *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -21727,7 +21996,7 @@ intgo _wrap_DailyGroupRequest_reserved_get_mtmanapi_8609ee77fca78eb1(DailyGroupR
 }
 
 
-DailyGroupRequest *_wrap_new_DailyGroupRequest_mtmanapi_8609ee77fca78eb1() {
+DailyGroupRequest *_wrap_new_DailyGroupRequest_mtmanapi_7bd57f7bcf037842() {
   DailyGroupRequest *result = 0 ;
   DailyGroupRequest *_swig_go_result;
   
@@ -21738,7 +22007,7 @@ DailyGroupRequest *_wrap_new_DailyGroupRequest_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_DailyGroupRequest_mtmanapi_8609ee77fca78eb1(DailyGroupRequest *_swig_go_0) {
+void _wrap_delete_DailyGroupRequest_mtmanapi_7bd57f7bcf037842(DailyGroupRequest *_swig_go_0) {
   DailyGroupRequest *arg1 = (DailyGroupRequest *) 0 ;
   
   arg1 = *(DailyGroupRequest **)&_swig_go_0; 
@@ -21748,7 +22017,7 @@ void _wrap_delete_DailyGroupRequest_mtmanapi_8609ee77fca78eb1(DailyGroupRequest 
 }
 
 
-void _wrap_SymbolInfo_symbol_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_SymbolInfo_symbol_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, _gostring_ _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -21772,7 +22041,7 @@ void _wrap_SymbolInfo_symbol_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_
 }
 
 
-_gostring_ _wrap_SymbolInfo_symbol_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+_gostring_ _wrap_SymbolInfo_symbol_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -21785,7 +22054,7 @@ _gostring_ _wrap_SymbolInfo_symbol_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_sw
 }
 
 
-void _wrap_SymbolInfo_digits_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolInfo_digits_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int arg2 ;
   
@@ -21797,7 +22066,7 @@ void _wrap_SymbolInfo_digits_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_
 }
 
 
-intgo _wrap_SymbolInfo_digits_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+intgo _wrap_SymbolInfo_digits_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -21810,7 +22079,7 @@ intgo _wrap_SymbolInfo_digits_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go
 }
 
 
-void _wrap_SymbolInfo_count_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolInfo_count_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int arg2 ;
   
@@ -21822,7 +22091,7 @@ void _wrap_SymbolInfo_count_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0
 }
 
 
-intgo _wrap_SymbolInfo_count_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+intgo _wrap_SymbolInfo_count_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -21835,7 +22104,7 @@ intgo _wrap_SymbolInfo_count_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_
 }
 
 
-void _wrap_SymbolInfo_visible_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolInfo_visible_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int arg2 ;
   
@@ -21847,7 +22116,7 @@ void _wrap_SymbolInfo_visible_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go
 }
 
 
-intgo _wrap_SymbolInfo_visible_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+intgo _wrap_SymbolInfo_visible_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -21860,7 +22129,7 @@ intgo _wrap_SymbolInfo_visible_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_g
 }
 
 
-void _wrap_SymbolInfo_Xtype_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolInfo_Xtype_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int arg2 ;
   
@@ -21872,7 +22141,7 @@ void _wrap_SymbolInfo_Xtype_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0
 }
 
 
-intgo _wrap_SymbolInfo_Xtype_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+intgo _wrap_SymbolInfo_Xtype_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -21885,7 +22154,7 @@ intgo _wrap_SymbolInfo_Xtype_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_
 }
 
 
-void _wrap_SymbolInfo_point_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, double _swig_go_1) {
+void _wrap_SymbolInfo_point_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, double _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   double arg2 ;
   
@@ -21897,7 +22166,7 @@ void _wrap_SymbolInfo_point_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0
 }
 
 
-double _wrap_SymbolInfo_point_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+double _wrap_SymbolInfo_point_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   double result;
   double _swig_go_result;
@@ -21910,7 +22179,7 @@ double _wrap_SymbolInfo_point_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go
 }
 
 
-void _wrap_SymbolInfo_spread_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolInfo_spread_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int arg2 ;
   
@@ -21922,7 +22191,7 @@ void _wrap_SymbolInfo_spread_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_
 }
 
 
-intgo _wrap_SymbolInfo_spread_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+intgo _wrap_SymbolInfo_spread_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -21935,7 +22204,7 @@ intgo _wrap_SymbolInfo_spread_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go
 }
 
 
-void _wrap_SymbolInfo_spread_balance_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolInfo_spread_balance_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int arg2 ;
   
@@ -21947,7 +22216,7 @@ void _wrap_SymbolInfo_spread_balance_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_
 }
 
 
-intgo _wrap_SymbolInfo_spread_balance_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+intgo _wrap_SymbolInfo_spread_balance_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -21960,7 +22229,7 @@ intgo _wrap_SymbolInfo_spread_balance_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *
 }
 
 
-void _wrap_SymbolInfo_direction_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolInfo_direction_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int arg2 ;
   
@@ -21972,7 +22241,7 @@ void _wrap_SymbolInfo_direction_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_
 }
 
 
-intgo _wrap_SymbolInfo_direction_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+intgo _wrap_SymbolInfo_direction_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -21985,7 +22254,7 @@ intgo _wrap_SymbolInfo_direction_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig
 }
 
 
-void _wrap_SymbolInfo_updateflag_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolInfo_updateflag_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int arg2 ;
   
@@ -21997,7 +22266,7 @@ void _wrap_SymbolInfo_updateflag_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig
 }
 
 
-intgo _wrap_SymbolInfo_updateflag_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+intgo _wrap_SymbolInfo_updateflag_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -22010,32 +22279,39 @@ intgo _wrap_SymbolInfo_updateflag_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swi
 }
 
 
-void _wrap_SymbolInfo_lasttime_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, long long _swig_go_1) {
+void _wrap_SymbolInfo_lasttime_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, time_t *_swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(SymbolInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->lasttime = arg2;
   
 }
 
 
-long long _wrap_SymbolInfo_lasttime_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+time_t *_wrap_SymbolInfo_lasttime_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(SymbolInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->lasttime);
-  _swig_go_result = result; 
+  result =  ((arg1)->lasttime);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_SymbolInfo_bid_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, double _swig_go_1) {
+void _wrap_SymbolInfo_bid_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, double _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   double arg2 ;
   
@@ -22047,7 +22323,7 @@ void _wrap_SymbolInfo_bid_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, 
 }
 
 
-double _wrap_SymbolInfo_bid_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+double _wrap_SymbolInfo_bid_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   double result;
   double _swig_go_result;
@@ -22060,7 +22336,7 @@ double _wrap_SymbolInfo_bid_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0
 }
 
 
-void _wrap_SymbolInfo_ask_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, double _swig_go_1) {
+void _wrap_SymbolInfo_ask_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, double _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   double arg2 ;
   
@@ -22072,7 +22348,7 @@ void _wrap_SymbolInfo_ask_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, 
 }
 
 
-double _wrap_SymbolInfo_ask_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+double _wrap_SymbolInfo_ask_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   double result;
   double _swig_go_result;
@@ -22085,7 +22361,7 @@ double _wrap_SymbolInfo_ask_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0
 }
 
 
-void _wrap_SymbolInfo_high_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, double _swig_go_1) {
+void _wrap_SymbolInfo_high_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, double _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   double arg2 ;
   
@@ -22097,7 +22373,7 @@ void _wrap_SymbolInfo_high_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0,
 }
 
 
-double _wrap_SymbolInfo_high_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+double _wrap_SymbolInfo_high_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   double result;
   double _swig_go_result;
@@ -22110,7 +22386,7 @@ double _wrap_SymbolInfo_high_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_
 }
 
 
-void _wrap_SymbolInfo_low_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, double _swig_go_1) {
+void _wrap_SymbolInfo_low_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, double _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   double arg2 ;
   
@@ -22122,7 +22398,7 @@ void _wrap_SymbolInfo_low_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, 
 }
 
 
-double _wrap_SymbolInfo_low_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+double _wrap_SymbolInfo_low_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   double result;
   double _swig_go_result;
@@ -22135,7 +22411,7 @@ double _wrap_SymbolInfo_low_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0
 }
 
 
-void _wrap_SymbolInfo_commission_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, double _swig_go_1) {
+void _wrap_SymbolInfo_commission_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, double _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   double arg2 ;
   
@@ -22147,7 +22423,7 @@ void _wrap_SymbolInfo_commission_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig
 }
 
 
-double _wrap_SymbolInfo_commission_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+double _wrap_SymbolInfo_commission_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   double result;
   double _swig_go_result;
@@ -22160,7 +22436,7 @@ double _wrap_SymbolInfo_commission_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_sw
 }
 
 
-void _wrap_SymbolInfo_comm_type_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolInfo_comm_type_set_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0, intgo _swig_go_1) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int arg2 ;
   
@@ -22172,7 +22448,7 @@ void _wrap_SymbolInfo_comm_type_set_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_
 }
 
 
-intgo _wrap_SymbolInfo_comm_type_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+intgo _wrap_SymbolInfo_comm_type_get_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -22185,7 +22461,7 @@ intgo _wrap_SymbolInfo_comm_type_get_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig
 }
 
 
-SymbolInfo *_wrap_new_SymbolInfo_mtmanapi_8609ee77fca78eb1() {
+SymbolInfo *_wrap_new_SymbolInfo_mtmanapi_7bd57f7bcf037842() {
   SymbolInfo *result = 0 ;
   SymbolInfo *_swig_go_result;
   
@@ -22196,7 +22472,7 @@ SymbolInfo *_wrap_new_SymbolInfo_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_SymbolInfo_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
+void _wrap_delete_SymbolInfo_mtmanapi_7bd57f7bcf037842(SymbolInfo *_swig_go_0) {
   SymbolInfo *arg1 = (SymbolInfo *) 0 ;
   
   arg1 = *(SymbolInfo **)&_swig_go_0; 
@@ -22206,7 +22482,7 @@ void _wrap_delete_SymbolInfo_mtmanapi_8609ee77fca78eb1(SymbolInfo *_swig_go_0) {
 }
 
 
-intgo _wrap_SDIR_UP_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_SDIR_UP_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -22218,7 +22494,7 @@ intgo _wrap_SDIR_UP_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_SDIR_DOWN_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_SDIR_DOWN_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -22230,7 +22506,7 @@ intgo _wrap_SDIR_DOWN_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_SDIR_NONE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_SDIR_NONE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -22242,7 +22518,7 @@ intgo _wrap_SDIR_NONE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_SymbolSummary_symbol_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_SymbolSummary_symbol_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, _gostring_ _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -22266,7 +22542,7 @@ void _wrap_SymbolSummary_symbol_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_sw
 }
 
 
-_gostring_ _wrap_SymbolSummary_symbol_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+_gostring_ _wrap_SymbolSummary_symbol_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -22279,7 +22555,7 @@ _gostring_ _wrap_SymbolSummary_symbol_get_mtmanapi_8609ee77fca78eb1(SymbolSummar
 }
 
 
-void _wrap_SymbolSummary_count_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolSummary_count_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, intgo _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   int arg2 ;
   
@@ -22291,7 +22567,7 @@ void _wrap_SymbolSummary_count_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swi
 }
 
 
-intgo _wrap_SymbolSummary_count_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+intgo _wrap_SymbolSummary_count_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -22304,7 +22580,7 @@ intgo _wrap_SymbolSummary_count_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_sw
 }
 
 
-void _wrap_SymbolSummary_digits_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolSummary_digits_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, intgo _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   int arg2 ;
   
@@ -22316,7 +22592,7 @@ void _wrap_SymbolSummary_digits_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_sw
 }
 
 
-intgo _wrap_SymbolSummary_digits_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+intgo _wrap_SymbolSummary_digits_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -22329,7 +22605,7 @@ intgo _wrap_SymbolSummary_digits_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_s
 }
 
 
-void _wrap_SymbolSummary_Xtype_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolSummary_Xtype_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, intgo _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   int arg2 ;
   
@@ -22341,7 +22617,7 @@ void _wrap_SymbolSummary_Xtype_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swi
 }
 
 
-intgo _wrap_SymbolSummary_Xtype_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+intgo _wrap_SymbolSummary_Xtype_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -22354,7 +22630,7 @@ intgo _wrap_SymbolSummary_Xtype_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_sw
 }
 
 
-void _wrap_SymbolSummary_orders_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolSummary_orders_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, intgo _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   int arg2 ;
   
@@ -22366,7 +22642,7 @@ void _wrap_SymbolSummary_orders_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_sw
 }
 
 
-intgo _wrap_SymbolSummary_orders_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+intgo _wrap_SymbolSummary_orders_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -22379,7 +22655,7 @@ intgo _wrap_SymbolSummary_orders_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_s
 }
 
 
-void _wrap_SymbolSummary_buylots_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, long long _swig_go_1) {
+void _wrap_SymbolSummary_buylots_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, long long _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   __int64 arg2 ;
   
@@ -22391,7 +22667,7 @@ void _wrap_SymbolSummary_buylots_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_s
 }
 
 
-long long _wrap_SymbolSummary_buylots_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+long long _wrap_SymbolSummary_buylots_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   __int64 result;
   long long _swig_go_result;
@@ -22404,7 +22680,7 @@ long long _wrap_SymbolSummary_buylots_get_mtmanapi_8609ee77fca78eb1(SymbolSummar
 }
 
 
-void _wrap_SymbolSummary_selllots_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, long long _swig_go_1) {
+void _wrap_SymbolSummary_selllots_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, long long _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   __int64 arg2 ;
   
@@ -22416,7 +22692,7 @@ void _wrap_SymbolSummary_selllots_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_
 }
 
 
-long long _wrap_SymbolSummary_selllots_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+long long _wrap_SymbolSummary_selllots_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   __int64 result;
   long long _swig_go_result;
@@ -22429,7 +22705,7 @@ long long _wrap_SymbolSummary_selllots_get_mtmanapi_8609ee77fca78eb1(SymbolSumma
 }
 
 
-void _wrap_SymbolSummary_buyprice_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, double _swig_go_1) {
+void _wrap_SymbolSummary_buyprice_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, double _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   double arg2 ;
   
@@ -22441,7 +22717,7 @@ void _wrap_SymbolSummary_buyprice_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_
 }
 
 
-double _wrap_SymbolSummary_buyprice_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+double _wrap_SymbolSummary_buyprice_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   double result;
   double _swig_go_result;
@@ -22454,7 +22730,7 @@ double _wrap_SymbolSummary_buyprice_get_mtmanapi_8609ee77fca78eb1(SymbolSummary 
 }
 
 
-void _wrap_SymbolSummary_sellprice_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, double _swig_go_1) {
+void _wrap_SymbolSummary_sellprice_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, double _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   double arg2 ;
   
@@ -22466,7 +22742,7 @@ void _wrap_SymbolSummary_sellprice_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *
 }
 
 
-double _wrap_SymbolSummary_sellprice_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+double _wrap_SymbolSummary_sellprice_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   double result;
   double _swig_go_result;
@@ -22479,7 +22755,7 @@ double _wrap_SymbolSummary_sellprice_get_mtmanapi_8609ee77fca78eb1(SymbolSummary
 }
 
 
-void _wrap_SymbolSummary_profit_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, double _swig_go_1) {
+void _wrap_SymbolSummary_profit_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, double _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   double arg2 ;
   
@@ -22491,7 +22767,7 @@ void _wrap_SymbolSummary_profit_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_sw
 }
 
 
-double _wrap_SymbolSummary_profit_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+double _wrap_SymbolSummary_profit_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   double result;
   double _swig_go_result;
@@ -22504,7 +22780,7 @@ double _wrap_SymbolSummary_profit_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_
 }
 
 
-void _wrap_SymbolSummary_covorders_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolSummary_covorders_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, intgo _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   int arg2 ;
   
@@ -22516,7 +22792,7 @@ void _wrap_SymbolSummary_covorders_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *
 }
 
 
-intgo _wrap_SymbolSummary_covorders_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+intgo _wrap_SymbolSummary_covorders_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -22529,7 +22805,7 @@ intgo _wrap_SymbolSummary_covorders_get_mtmanapi_8609ee77fca78eb1(SymbolSummary 
 }
 
 
-void _wrap_SymbolSummary_covbuylots_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, long long _swig_go_1) {
+void _wrap_SymbolSummary_covbuylots_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, long long _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   __int64 arg2 ;
   
@@ -22541,7 +22817,7 @@ void _wrap_SymbolSummary_covbuylots_set_mtmanapi_8609ee77fca78eb1(SymbolSummary 
 }
 
 
-long long _wrap_SymbolSummary_covbuylots_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+long long _wrap_SymbolSummary_covbuylots_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   __int64 result;
   long long _swig_go_result;
@@ -22554,7 +22830,7 @@ long long _wrap_SymbolSummary_covbuylots_get_mtmanapi_8609ee77fca78eb1(SymbolSum
 }
 
 
-void _wrap_SymbolSummary_covselllots_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, long long _swig_go_1) {
+void _wrap_SymbolSummary_covselllots_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, long long _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   __int64 arg2 ;
   
@@ -22566,7 +22842,7 @@ void _wrap_SymbolSummary_covselllots_set_mtmanapi_8609ee77fca78eb1(SymbolSummary
 }
 
 
-long long _wrap_SymbolSummary_covselllots_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+long long _wrap_SymbolSummary_covselllots_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   __int64 result;
   long long _swig_go_result;
@@ -22579,7 +22855,7 @@ long long _wrap_SymbolSummary_covselllots_get_mtmanapi_8609ee77fca78eb1(SymbolSu
 }
 
 
-void _wrap_SymbolSummary_covbuyprice_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, double _swig_go_1) {
+void _wrap_SymbolSummary_covbuyprice_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, double _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   double arg2 ;
   
@@ -22591,7 +22867,7 @@ void _wrap_SymbolSummary_covbuyprice_set_mtmanapi_8609ee77fca78eb1(SymbolSummary
 }
 
 
-double _wrap_SymbolSummary_covbuyprice_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+double _wrap_SymbolSummary_covbuyprice_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   double result;
   double _swig_go_result;
@@ -22604,7 +22880,7 @@ double _wrap_SymbolSummary_covbuyprice_get_mtmanapi_8609ee77fca78eb1(SymbolSumma
 }
 
 
-void _wrap_SymbolSummary_covsellprice_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, double _swig_go_1) {
+void _wrap_SymbolSummary_covsellprice_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, double _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   double arg2 ;
   
@@ -22616,7 +22892,7 @@ void _wrap_SymbolSummary_covsellprice_set_mtmanapi_8609ee77fca78eb1(SymbolSummar
 }
 
 
-double _wrap_SymbolSummary_covsellprice_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+double _wrap_SymbolSummary_covsellprice_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   double result;
   double _swig_go_result;
@@ -22629,7 +22905,7 @@ double _wrap_SymbolSummary_covsellprice_get_mtmanapi_8609ee77fca78eb1(SymbolSumm
 }
 
 
-void _wrap_SymbolSummary_covprofit_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0, double _swig_go_1) {
+void _wrap_SymbolSummary_covprofit_set_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0, double _swig_go_1) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   double arg2 ;
   
@@ -22641,7 +22917,7 @@ void _wrap_SymbolSummary_covprofit_set_mtmanapi_8609ee77fca78eb1(SymbolSummary *
 }
 
 
-double _wrap_SymbolSummary_covprofit_get_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+double _wrap_SymbolSummary_covprofit_get_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   double result;
   double _swig_go_result;
@@ -22654,7 +22930,7 @@ double _wrap_SymbolSummary_covprofit_get_mtmanapi_8609ee77fca78eb1(SymbolSummary
 }
 
 
-SymbolSummary *_wrap_new_SymbolSummary_mtmanapi_8609ee77fca78eb1() {
+SymbolSummary *_wrap_new_SymbolSummary_mtmanapi_7bd57f7bcf037842() {
   SymbolSummary *result = 0 ;
   SymbolSummary *_swig_go_result;
   
@@ -22665,7 +22941,7 @@ SymbolSummary *_wrap_new_SymbolSummary_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_SymbolSummary_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_go_0) {
+void _wrap_delete_SymbolSummary_mtmanapi_7bd57f7bcf037842(SymbolSummary *_swig_go_0) {
   SymbolSummary *arg1 = (SymbolSummary *) 0 ;
   
   arg1 = *(SymbolSummary **)&_swig_go_0; 
@@ -22675,7 +22951,7 @@ void _wrap_delete_SymbolSummary_mtmanapi_8609ee77fca78eb1(SymbolSummary *_swig_g
 }
 
 
-void _wrap_ExposureValue_currency_set_mtmanapi_8609ee77fca78eb1(ExposureValue *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ExposureValue_currency_set_mtmanapi_7bd57f7bcf037842(ExposureValue *_swig_go_0, _gostring_ _swig_go_1) {
   ExposureValue *arg1 = (ExposureValue *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -22699,7 +22975,7 @@ void _wrap_ExposureValue_currency_set_mtmanapi_8609ee77fca78eb1(ExposureValue *_
 }
 
 
-_gostring_ _wrap_ExposureValue_currency_get_mtmanapi_8609ee77fca78eb1(ExposureValue *_swig_go_0) {
+_gostring_ _wrap_ExposureValue_currency_get_mtmanapi_7bd57f7bcf037842(ExposureValue *_swig_go_0) {
   ExposureValue *arg1 = (ExposureValue *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -22712,7 +22988,7 @@ _gostring_ _wrap_ExposureValue_currency_get_mtmanapi_8609ee77fca78eb1(ExposureVa
 }
 
 
-void _wrap_ExposureValue_clients_set_mtmanapi_8609ee77fca78eb1(ExposureValue *_swig_go_0, double _swig_go_1) {
+void _wrap_ExposureValue_clients_set_mtmanapi_7bd57f7bcf037842(ExposureValue *_swig_go_0, double _swig_go_1) {
   ExposureValue *arg1 = (ExposureValue *) 0 ;
   double arg2 ;
   
@@ -22724,7 +23000,7 @@ void _wrap_ExposureValue_clients_set_mtmanapi_8609ee77fca78eb1(ExposureValue *_s
 }
 
 
-double _wrap_ExposureValue_clients_get_mtmanapi_8609ee77fca78eb1(ExposureValue *_swig_go_0) {
+double _wrap_ExposureValue_clients_get_mtmanapi_7bd57f7bcf037842(ExposureValue *_swig_go_0) {
   ExposureValue *arg1 = (ExposureValue *) 0 ;
   double result;
   double _swig_go_result;
@@ -22737,7 +23013,7 @@ double _wrap_ExposureValue_clients_get_mtmanapi_8609ee77fca78eb1(ExposureValue *
 }
 
 
-void _wrap_ExposureValue_coverage_set_mtmanapi_8609ee77fca78eb1(ExposureValue *_swig_go_0, double _swig_go_1) {
+void _wrap_ExposureValue_coverage_set_mtmanapi_7bd57f7bcf037842(ExposureValue *_swig_go_0, double _swig_go_1) {
   ExposureValue *arg1 = (ExposureValue *) 0 ;
   double arg2 ;
   
@@ -22749,7 +23025,7 @@ void _wrap_ExposureValue_coverage_set_mtmanapi_8609ee77fca78eb1(ExposureValue *_
 }
 
 
-double _wrap_ExposureValue_coverage_get_mtmanapi_8609ee77fca78eb1(ExposureValue *_swig_go_0) {
+double _wrap_ExposureValue_coverage_get_mtmanapi_7bd57f7bcf037842(ExposureValue *_swig_go_0) {
   ExposureValue *arg1 = (ExposureValue *) 0 ;
   double result;
   double _swig_go_result;
@@ -22762,7 +23038,7 @@ double _wrap_ExposureValue_coverage_get_mtmanapi_8609ee77fca78eb1(ExposureValue 
 }
 
 
-ExposureValue *_wrap_new_ExposureValue_mtmanapi_8609ee77fca78eb1() {
+ExposureValue *_wrap_new_ExposureValue_mtmanapi_7bd57f7bcf037842() {
   ExposureValue *result = 0 ;
   ExposureValue *_swig_go_result;
   
@@ -22773,7 +23049,7 @@ ExposureValue *_wrap_new_ExposureValue_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ExposureValue_mtmanapi_8609ee77fca78eb1(ExposureValue *_swig_go_0) {
+void _wrap_delete_ExposureValue_mtmanapi_7bd57f7bcf037842(ExposureValue *_swig_go_0) {
   ExposureValue *arg1 = (ExposureValue *) 0 ;
   
   arg1 = *(ExposureValue **)&_swig_go_0; 
@@ -22783,7 +23059,7 @@ void _wrap_delete_ExposureValue_mtmanapi_8609ee77fca78eb1(ExposureValue *_swig_g
 }
 
 
-void _wrap_SymbolPropertiesOld_symbol_set_mtmanapi_8609ee77fca78eb1(SymbolPropertiesOld *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_SymbolPropertiesOld_symbol_set_mtmanapi_7bd57f7bcf037842(SymbolPropertiesOld *_swig_go_0, _gostring_ _swig_go_1) {
   SymbolPropertiesOld *arg1 = (SymbolPropertiesOld *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -22807,7 +23083,7 @@ void _wrap_SymbolPropertiesOld_symbol_set_mtmanapi_8609ee77fca78eb1(SymbolProper
 }
 
 
-_gostring_ _wrap_SymbolPropertiesOld_symbol_get_mtmanapi_8609ee77fca78eb1(SymbolPropertiesOld *_swig_go_0) {
+_gostring_ _wrap_SymbolPropertiesOld_symbol_get_mtmanapi_7bd57f7bcf037842(SymbolPropertiesOld *_swig_go_0) {
   SymbolPropertiesOld *arg1 = (SymbolPropertiesOld *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -22820,7 +23096,7 @@ _gostring_ _wrap_SymbolPropertiesOld_symbol_get_mtmanapi_8609ee77fca78eb1(Symbol
 }
 
 
-void _wrap_SymbolPropertiesOld_color_set_mtmanapi_8609ee77fca78eb1(SymbolPropertiesOld *_swig_go_0, COLORREF *_swig_go_1) {
+void _wrap_SymbolPropertiesOld_color_set_mtmanapi_7bd57f7bcf037842(SymbolPropertiesOld *_swig_go_0, COLORREF *_swig_go_1) {
   SymbolPropertiesOld *arg1 = (SymbolPropertiesOld *) 0 ;
   COLORREF arg2 ;
   COLORREF *argp2 ;
@@ -22839,7 +23115,7 @@ void _wrap_SymbolPropertiesOld_color_set_mtmanapi_8609ee77fca78eb1(SymbolPropert
 }
 
 
-COLORREF *_wrap_SymbolPropertiesOld_color_get_mtmanapi_8609ee77fca78eb1(SymbolPropertiesOld *_swig_go_0) {
+COLORREF *_wrap_SymbolPropertiesOld_color_get_mtmanapi_7bd57f7bcf037842(SymbolPropertiesOld *_swig_go_0) {
   SymbolPropertiesOld *arg1 = (SymbolPropertiesOld *) 0 ;
   COLORREF result;
   COLORREF *_swig_go_result;
@@ -22852,7 +23128,7 @@ COLORREF *_wrap_SymbolPropertiesOld_color_get_mtmanapi_8609ee77fca78eb1(SymbolPr
 }
 
 
-void _wrap_SymbolPropertiesOld_spread_set_mtmanapi_8609ee77fca78eb1(SymbolPropertiesOld *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolPropertiesOld_spread_set_mtmanapi_7bd57f7bcf037842(SymbolPropertiesOld *_swig_go_0, intgo _swig_go_1) {
   SymbolPropertiesOld *arg1 = (SymbolPropertiesOld *) 0 ;
   int arg2 ;
   
@@ -22864,7 +23140,7 @@ void _wrap_SymbolPropertiesOld_spread_set_mtmanapi_8609ee77fca78eb1(SymbolProper
 }
 
 
-intgo _wrap_SymbolPropertiesOld_spread_get_mtmanapi_8609ee77fca78eb1(SymbolPropertiesOld *_swig_go_0) {
+intgo _wrap_SymbolPropertiesOld_spread_get_mtmanapi_7bd57f7bcf037842(SymbolPropertiesOld *_swig_go_0) {
   SymbolPropertiesOld *arg1 = (SymbolPropertiesOld *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -22877,7 +23153,7 @@ intgo _wrap_SymbolPropertiesOld_spread_get_mtmanapi_8609ee77fca78eb1(SymbolPrope
 }
 
 
-void _wrap_SymbolPropertiesOld_spread_balance_set_mtmanapi_8609ee77fca78eb1(SymbolPropertiesOld *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolPropertiesOld_spread_balance_set_mtmanapi_7bd57f7bcf037842(SymbolPropertiesOld *_swig_go_0, intgo _swig_go_1) {
   SymbolPropertiesOld *arg1 = (SymbolPropertiesOld *) 0 ;
   int arg2 ;
   
@@ -22889,7 +23165,7 @@ void _wrap_SymbolPropertiesOld_spread_balance_set_mtmanapi_8609ee77fca78eb1(Symb
 }
 
 
-intgo _wrap_SymbolPropertiesOld_spread_balance_get_mtmanapi_8609ee77fca78eb1(SymbolPropertiesOld *_swig_go_0) {
+intgo _wrap_SymbolPropertiesOld_spread_balance_get_mtmanapi_7bd57f7bcf037842(SymbolPropertiesOld *_swig_go_0) {
   SymbolPropertiesOld *arg1 = (SymbolPropertiesOld *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -22902,7 +23178,7 @@ intgo _wrap_SymbolPropertiesOld_spread_balance_get_mtmanapi_8609ee77fca78eb1(Sym
 }
 
 
-void _wrap_SymbolPropertiesOld_stops_level_set_mtmanapi_8609ee77fca78eb1(SymbolPropertiesOld *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolPropertiesOld_stops_level_set_mtmanapi_7bd57f7bcf037842(SymbolPropertiesOld *_swig_go_0, intgo _swig_go_1) {
   SymbolPropertiesOld *arg1 = (SymbolPropertiesOld *) 0 ;
   int arg2 ;
   
@@ -22914,7 +23190,7 @@ void _wrap_SymbolPropertiesOld_stops_level_set_mtmanapi_8609ee77fca78eb1(SymbolP
 }
 
 
-intgo _wrap_SymbolPropertiesOld_stops_level_get_mtmanapi_8609ee77fca78eb1(SymbolPropertiesOld *_swig_go_0) {
+intgo _wrap_SymbolPropertiesOld_stops_level_get_mtmanapi_7bd57f7bcf037842(SymbolPropertiesOld *_swig_go_0) {
   SymbolPropertiesOld *arg1 = (SymbolPropertiesOld *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -22927,7 +23203,7 @@ intgo _wrap_SymbolPropertiesOld_stops_level_get_mtmanapi_8609ee77fca78eb1(Symbol
 }
 
 
-void _wrap_SymbolPropertiesOld_exemode_set_mtmanapi_8609ee77fca78eb1(SymbolPropertiesOld *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolPropertiesOld_exemode_set_mtmanapi_7bd57f7bcf037842(SymbolPropertiesOld *_swig_go_0, intgo _swig_go_1) {
   SymbolPropertiesOld *arg1 = (SymbolPropertiesOld *) 0 ;
   int arg2 ;
   
@@ -22939,7 +23215,7 @@ void _wrap_SymbolPropertiesOld_exemode_set_mtmanapi_8609ee77fca78eb1(SymbolPrope
 }
 
 
-intgo _wrap_SymbolPropertiesOld_exemode_get_mtmanapi_8609ee77fca78eb1(SymbolPropertiesOld *_swig_go_0) {
+intgo _wrap_SymbolPropertiesOld_exemode_get_mtmanapi_7bd57f7bcf037842(SymbolPropertiesOld *_swig_go_0) {
   SymbolPropertiesOld *arg1 = (SymbolPropertiesOld *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -22952,7 +23228,7 @@ intgo _wrap_SymbolPropertiesOld_exemode_get_mtmanapi_8609ee77fca78eb1(SymbolProp
 }
 
 
-SymbolPropertiesOld *_wrap_new_SymbolPropertiesOld_mtmanapi_8609ee77fca78eb1() {
+SymbolPropertiesOld *_wrap_new_SymbolPropertiesOld_mtmanapi_7bd57f7bcf037842() {
   SymbolPropertiesOld *result = 0 ;
   SymbolPropertiesOld *_swig_go_result;
   
@@ -22963,7 +23239,7 @@ SymbolPropertiesOld *_wrap_new_SymbolPropertiesOld_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_SymbolPropertiesOld_mtmanapi_8609ee77fca78eb1(SymbolPropertiesOld *_swig_go_0) {
+void _wrap_delete_SymbolPropertiesOld_mtmanapi_7bd57f7bcf037842(SymbolPropertiesOld *_swig_go_0) {
   SymbolPropertiesOld *arg1 = (SymbolPropertiesOld *) 0 ;
   
   arg1 = *(SymbolPropertiesOld **)&_swig_go_0; 
@@ -22973,7 +23249,7 @@ void _wrap_delete_SymbolPropertiesOld_mtmanapi_8609ee77fca78eb1(SymbolProperties
 }
 
 
-void _wrap_SymbolProperties_symbol_set_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_SymbolProperties_symbol_set_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0, _gostring_ _swig_go_1) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -22997,7 +23273,7 @@ void _wrap_SymbolProperties_symbol_set_mtmanapi_8609ee77fca78eb1(SymbolPropertie
 }
 
 
-_gostring_ _wrap_SymbolProperties_symbol_get_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0) {
+_gostring_ _wrap_SymbolProperties_symbol_get_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -23010,7 +23286,7 @@ _gostring_ _wrap_SymbolProperties_symbol_get_mtmanapi_8609ee77fca78eb1(SymbolPro
 }
 
 
-void _wrap_SymbolProperties_color_set_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0, COLORREF *_swig_go_1) {
+void _wrap_SymbolProperties_color_set_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0, COLORREF *_swig_go_1) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   COLORREF arg2 ;
   COLORREF *argp2 ;
@@ -23029,7 +23305,7 @@ void _wrap_SymbolProperties_color_set_mtmanapi_8609ee77fca78eb1(SymbolProperties
 }
 
 
-COLORREF *_wrap_SymbolProperties_color_get_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0) {
+COLORREF *_wrap_SymbolProperties_color_get_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   COLORREF result;
   COLORREF *_swig_go_result;
@@ -23042,7 +23318,7 @@ COLORREF *_wrap_SymbolProperties_color_get_mtmanapi_8609ee77fca78eb1(SymbolPrope
 }
 
 
-void _wrap_SymbolProperties_spread_set_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolProperties_spread_set_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0, intgo _swig_go_1) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   int arg2 ;
   
@@ -23054,7 +23330,7 @@ void _wrap_SymbolProperties_spread_set_mtmanapi_8609ee77fca78eb1(SymbolPropertie
 }
 
 
-intgo _wrap_SymbolProperties_spread_get_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0) {
+intgo _wrap_SymbolProperties_spread_get_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -23067,7 +23343,7 @@ intgo _wrap_SymbolProperties_spread_get_mtmanapi_8609ee77fca78eb1(SymbolProperti
 }
 
 
-void _wrap_SymbolProperties_spread_balance_set_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolProperties_spread_balance_set_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0, intgo _swig_go_1) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   int arg2 ;
   
@@ -23079,7 +23355,7 @@ void _wrap_SymbolProperties_spread_balance_set_mtmanapi_8609ee77fca78eb1(SymbolP
 }
 
 
-intgo _wrap_SymbolProperties_spread_balance_get_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0) {
+intgo _wrap_SymbolProperties_spread_balance_get_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -23092,7 +23368,7 @@ intgo _wrap_SymbolProperties_spread_balance_get_mtmanapi_8609ee77fca78eb1(Symbol
 }
 
 
-void _wrap_SymbolProperties_stops_level_set_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolProperties_stops_level_set_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0, intgo _swig_go_1) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   int arg2 ;
   
@@ -23104,7 +23380,7 @@ void _wrap_SymbolProperties_stops_level_set_mtmanapi_8609ee77fca78eb1(SymbolProp
 }
 
 
-intgo _wrap_SymbolProperties_stops_level_get_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0) {
+intgo _wrap_SymbolProperties_stops_level_get_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -23117,7 +23393,7 @@ intgo _wrap_SymbolProperties_stops_level_get_mtmanapi_8609ee77fca78eb1(SymbolPro
 }
 
 
-void _wrap_SymbolProperties_smoothing_set_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolProperties_smoothing_set_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0, intgo _swig_go_1) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   int arg2 ;
   
@@ -23129,7 +23405,7 @@ void _wrap_SymbolProperties_smoothing_set_mtmanapi_8609ee77fca78eb1(SymbolProper
 }
 
 
-intgo _wrap_SymbolProperties_smoothing_get_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0) {
+intgo _wrap_SymbolProperties_smoothing_get_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -23142,7 +23418,7 @@ intgo _wrap_SymbolProperties_smoothing_get_mtmanapi_8609ee77fca78eb1(SymbolPrope
 }
 
 
-void _wrap_SymbolProperties_exemode_set_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0, intgo _swig_go_1) {
+void _wrap_SymbolProperties_exemode_set_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0, intgo _swig_go_1) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   int arg2 ;
   
@@ -23154,7 +23430,7 @@ void _wrap_SymbolProperties_exemode_set_mtmanapi_8609ee77fca78eb1(SymbolProperti
 }
 
 
-intgo _wrap_SymbolProperties_exemode_get_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0) {
+intgo _wrap_SymbolProperties_exemode_get_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -23167,7 +23443,7 @@ intgo _wrap_SymbolProperties_exemode_get_mtmanapi_8609ee77fca78eb1(SymbolPropert
 }
 
 
-void _wrap_SymbolProperties_reserved_set_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_SymbolProperties_reserved_set_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0, intgo *_swig_go_1) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -23183,7 +23459,7 @@ void _wrap_SymbolProperties_reserved_set_mtmanapi_8609ee77fca78eb1(SymbolPropert
 }
 
 
-intgo *_wrap_SymbolProperties_reserved_get_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0) {
+intgo *_wrap_SymbolProperties_reserved_get_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -23196,7 +23472,7 @@ intgo *_wrap_SymbolProperties_reserved_get_mtmanapi_8609ee77fca78eb1(SymbolPrope
 }
 
 
-SymbolProperties *_wrap_new_SymbolProperties_mtmanapi_8609ee77fca78eb1() {
+SymbolProperties *_wrap_new_SymbolProperties_mtmanapi_7bd57f7bcf037842() {
   SymbolProperties *result = 0 ;
   SymbolProperties *_swig_go_result;
   
@@ -23207,7 +23483,7 @@ SymbolProperties *_wrap_new_SymbolProperties_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_SymbolProperties_mtmanapi_8609ee77fca78eb1(SymbolProperties *_swig_go_0) {
+void _wrap_delete_SymbolProperties_mtmanapi_7bd57f7bcf037842(SymbolProperties *_swig_go_0) {
   SymbolProperties *arg1 = (SymbolProperties *) 0 ;
   
   arg1 = *(SymbolProperties **)&_swig_go_0; 
@@ -23217,7 +23493,7 @@ void _wrap_delete_SymbolProperties_mtmanapi_8609ee77fca78eb1(SymbolProperties *_
 }
 
 
-void _wrap_TickInfo_symbol_set_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_TickInfo_symbol_set_mtmanapi_7bd57f7bcf037842(TickInfo *_swig_go_0, _gostring_ _swig_go_1) {
   TickInfo *arg1 = (TickInfo *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -23241,7 +23517,7 @@ void _wrap_TickInfo_symbol_set_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0, _
 }
 
 
-_gostring_ _wrap_TickInfo_symbol_get_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0) {
+_gostring_ _wrap_TickInfo_symbol_get_mtmanapi_7bd57f7bcf037842(TickInfo *_swig_go_0) {
   TickInfo *arg1 = (TickInfo *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -23254,32 +23530,39 @@ _gostring_ _wrap_TickInfo_symbol_get_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_g
 }
 
 
-void _wrap_TickInfo_ctm_set_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0, long long _swig_go_1) {
+void _wrap_TickInfo_ctm_set_mtmanapi_7bd57f7bcf037842(TickInfo *_swig_go_0, time_t *_swig_go_1) {
   TickInfo *arg1 = (TickInfo *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(TickInfo **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->ctm = arg2;
   
 }
 
 
-long long _wrap_TickInfo_ctm_get_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0) {
+time_t *_wrap_TickInfo_ctm_get_mtmanapi_7bd57f7bcf037842(TickInfo *_swig_go_0) {
   TickInfo *arg1 = (TickInfo *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(TickInfo **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->ctm);
-  _swig_go_result = result; 
+  result =  ((arg1)->ctm);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_TickInfo_bid_set_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0, double _swig_go_1) {
+void _wrap_TickInfo_bid_set_mtmanapi_7bd57f7bcf037842(TickInfo *_swig_go_0, double _swig_go_1) {
   TickInfo *arg1 = (TickInfo *) 0 ;
   double arg2 ;
   
@@ -23291,7 +23574,7 @@ void _wrap_TickInfo_bid_set_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0, doub
 }
 
 
-double _wrap_TickInfo_bid_get_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0) {
+double _wrap_TickInfo_bid_get_mtmanapi_7bd57f7bcf037842(TickInfo *_swig_go_0) {
   TickInfo *arg1 = (TickInfo *) 0 ;
   double result;
   double _swig_go_result;
@@ -23304,7 +23587,7 @@ double _wrap_TickInfo_bid_get_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0) {
 }
 
 
-void _wrap_TickInfo_ask_set_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0, double _swig_go_1) {
+void _wrap_TickInfo_ask_set_mtmanapi_7bd57f7bcf037842(TickInfo *_swig_go_0, double _swig_go_1) {
   TickInfo *arg1 = (TickInfo *) 0 ;
   double arg2 ;
   
@@ -23316,7 +23599,7 @@ void _wrap_TickInfo_ask_set_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0, doub
 }
 
 
-double _wrap_TickInfo_ask_get_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0) {
+double _wrap_TickInfo_ask_get_mtmanapi_7bd57f7bcf037842(TickInfo *_swig_go_0) {
   TickInfo *arg1 = (TickInfo *) 0 ;
   double result;
   double _swig_go_result;
@@ -23329,7 +23612,7 @@ double _wrap_TickInfo_ask_get_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0) {
 }
 
 
-TickInfo *_wrap_new_TickInfo_mtmanapi_8609ee77fca78eb1() {
+TickInfo *_wrap_new_TickInfo_mtmanapi_7bd57f7bcf037842() {
   TickInfo *result = 0 ;
   TickInfo *_swig_go_result;
   
@@ -23340,7 +23623,7 @@ TickInfo *_wrap_new_TickInfo_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_TickInfo_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0) {
+void _wrap_delete_TickInfo_mtmanapi_7bd57f7bcf037842(TickInfo *_swig_go_0) {
   TickInfo *arg1 = (TickInfo *) 0 ;
   
   arg1 = *(TickInfo **)&_swig_go_0; 
@@ -23350,32 +23633,39 @@ void _wrap_delete_TickInfo_mtmanapi_8609ee77fca78eb1(TickInfo *_swig_go_0) {
 }
 
 
-void _wrap_MailBox_time_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, long long _swig_go_1) {
+void _wrap_MailBox_time_set_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0, time_t *_swig_go_1) {
   MailBox *arg1 = (MailBox *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(MailBox **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->time = arg2;
   
 }
 
 
-long long _wrap_MailBox_time_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
+time_t *_wrap_MailBox_time_get_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0) {
   MailBox *arg1 = (MailBox *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(MailBox **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->time);
-  _swig_go_result = result; 
+  result =  ((arg1)->time);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_MailBox_sender_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MailBox_sender_set_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0, intgo _swig_go_1) {
   MailBox *arg1 = (MailBox *) 0 ;
   int arg2 ;
   
@@ -23387,7 +23677,7 @@ void _wrap_MailBox_sender_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, int
 }
 
 
-intgo _wrap_MailBox_sender_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
+intgo _wrap_MailBox_sender_get_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0) {
   MailBox *arg1 = (MailBox *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -23400,7 +23690,7 @@ intgo _wrap_MailBox_sender_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
 }
 
 
-void _wrap_MailBox_from_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_MailBox_from_set_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0, _gostring_ _swig_go_1) {
   MailBox *arg1 = (MailBox *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -23424,7 +23714,7 @@ void _wrap_MailBox_from_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, _gost
 }
 
 
-_gostring_ _wrap_MailBox_from_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
+_gostring_ _wrap_MailBox_from_get_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0) {
   MailBox *arg1 = (MailBox *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -23437,7 +23727,7 @@ _gostring_ _wrap_MailBox_from_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0)
 }
 
 
-void _wrap_MailBox_to_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MailBox_to_set_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0, intgo _swig_go_1) {
   MailBox *arg1 = (MailBox *) 0 ;
   int arg2 ;
   
@@ -23449,7 +23739,7 @@ void _wrap_MailBox_to_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, intgo _
 }
 
 
-intgo _wrap_MailBox_to_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
+intgo _wrap_MailBox_to_get_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0) {
   MailBox *arg1 = (MailBox *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -23462,7 +23752,7 @@ intgo _wrap_MailBox_to_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
 }
 
 
-void _wrap_MailBox_subject_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_MailBox_subject_set_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0, _gostring_ _swig_go_1) {
   MailBox *arg1 = (MailBox *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -23486,7 +23776,7 @@ void _wrap_MailBox_subject_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, _g
 }
 
 
-_gostring_ _wrap_MailBox_subject_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
+_gostring_ _wrap_MailBox_subject_get_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0) {
   MailBox *arg1 = (MailBox *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -23499,7 +23789,7 @@ _gostring_ _wrap_MailBox_subject_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go
 }
 
 
-void _wrap_MailBox_readed_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MailBox_readed_set_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0, intgo _swig_go_1) {
   MailBox *arg1 = (MailBox *) 0 ;
   int arg2 ;
   
@@ -23511,7 +23801,7 @@ void _wrap_MailBox_readed_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, int
 }
 
 
-intgo _wrap_MailBox_readed_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
+intgo _wrap_MailBox_readed_get_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0) {
   MailBox *arg1 = (MailBox *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -23524,7 +23814,7 @@ intgo _wrap_MailBox_readed_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
 }
 
 
-void _wrap_MailBox_body_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_MailBox_body_set_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0, _gostring_ _swig_go_1) {
   MailBox *arg1 = (MailBox *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -23549,7 +23839,7 @@ void _wrap_MailBox_body_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, _gost
 }
 
 
-_gostring_ _wrap_MailBox_body_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
+_gostring_ _wrap_MailBox_body_get_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0) {
   MailBox *arg1 = (MailBox *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -23562,7 +23852,7 @@ _gostring_ _wrap_MailBox_body_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0)
 }
 
 
-void _wrap_MailBox_bodylen_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MailBox_bodylen_set_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0, intgo _swig_go_1) {
   MailBox *arg1 = (MailBox *) 0 ;
   int arg2 ;
   
@@ -23574,7 +23864,7 @@ void _wrap_MailBox_bodylen_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, in
 }
 
 
-intgo _wrap_MailBox_bodylen_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
+intgo _wrap_MailBox_bodylen_get_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0) {
   MailBox *arg1 = (MailBox *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -23587,7 +23877,7 @@ intgo _wrap_MailBox_bodylen_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
 }
 
 
-void _wrap_MailBox_build_min_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, short _swig_go_1) {
+void _wrap_MailBox_build_min_set_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0, short _swig_go_1) {
   MailBox *arg1 = (MailBox *) 0 ;
   short arg2 ;
   
@@ -23599,7 +23889,7 @@ void _wrap_MailBox_build_min_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, 
 }
 
 
-short _wrap_MailBox_build_min_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
+short _wrap_MailBox_build_min_get_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0) {
   MailBox *arg1 = (MailBox *) 0 ;
   short result;
   short _swig_go_result;
@@ -23612,7 +23902,7 @@ short _wrap_MailBox_build_min_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0)
 }
 
 
-void _wrap_MailBox_build_max_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, short _swig_go_1) {
+void _wrap_MailBox_build_max_set_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0, short _swig_go_1) {
   MailBox *arg1 = (MailBox *) 0 ;
   short arg2 ;
   
@@ -23624,7 +23914,7 @@ void _wrap_MailBox_build_max_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, 
 }
 
 
-short _wrap_MailBox_build_max_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
+short _wrap_MailBox_build_max_get_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0) {
   MailBox *arg1 = (MailBox *) 0 ;
   short result;
   short _swig_go_result;
@@ -23637,7 +23927,7 @@ short _wrap_MailBox_build_max_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0)
 }
 
 
-void _wrap_MailBox_reserved_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, intgo _swig_go_1) {
+void _wrap_MailBox_reserved_set_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0, intgo _swig_go_1) {
   MailBox *arg1 = (MailBox *) 0 ;
   int arg2 ;
   
@@ -23649,7 +23939,7 @@ void _wrap_MailBox_reserved_set_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0, i
 }
 
 
-intgo _wrap_MailBox_reserved_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
+intgo _wrap_MailBox_reserved_get_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0) {
   MailBox *arg1 = (MailBox *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -23662,7 +23952,7 @@ intgo _wrap_MailBox_reserved_get_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) 
 }
 
 
-MailBox *_wrap_new_MailBox_mtmanapi_8609ee77fca78eb1() {
+MailBox *_wrap_new_MailBox_mtmanapi_7bd57f7bcf037842() {
   MailBox *result = 0 ;
   MailBox *_swig_go_result;
   
@@ -23673,7 +23963,7 @@ MailBox *_wrap_new_MailBox_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_MailBox_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
+void _wrap_delete_MailBox_mtmanapi_7bd57f7bcf037842(MailBox *_swig_go_0) {
   MailBox *arg1 = (MailBox *) 0 ;
   
   arg1 = *(MailBox **)&_swig_go_0; 
@@ -23683,7 +23973,7 @@ void _wrap_delete_MailBox_mtmanapi_8609ee77fca78eb1(MailBox *_swig_go_0) {
 }
 
 
-void _wrap_NewsTopic_key_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, long long _swig_go_1) {
+void _wrap_NewsTopic_key_set_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0, long long _swig_go_1) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   ULONG arg2 ;
   
@@ -23695,7 +23985,7 @@ void _wrap_NewsTopic_key_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, lo
 }
 
 
-long long _wrap_NewsTopic_key_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0) {
+long long _wrap_NewsTopic_key_get_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   ULONG result;
   long long _swig_go_result;
@@ -23708,32 +23998,39 @@ long long _wrap_NewsTopic_key_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_
 }
 
 
-void _wrap_NewsTopic_time_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, long long _swig_go_1) {
+void _wrap_NewsTopic_time_set_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0, time_t *_swig_go_1) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   time_t arg2 ;
+  time_t *argp2 ;
   
   arg1 = *(NewsTopic **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   if (arg1) (arg1)->time = arg2;
   
 }
 
 
-long long _wrap_NewsTopic_time_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0) {
+time_t *_wrap_NewsTopic_time_get_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(NewsTopic **)&_swig_go_0; 
   
-  result = (time_t) ((arg1)->time);
-  _swig_go_result = result; 
+  result =  ((arg1)->time);
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-void _wrap_NewsTopic_ctm_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_NewsTopic_ctm_set_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0, _gostring_ _swig_go_1) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -23757,7 +24054,7 @@ void _wrap_NewsTopic_ctm_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, _g
 }
 
 
-_gostring_ _wrap_NewsTopic_ctm_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0) {
+_gostring_ _wrap_NewsTopic_ctm_get_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -23770,7 +24067,7 @@ _gostring_ _wrap_NewsTopic_ctm_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go
 }
 
 
-void _wrap_NewsTopic_topic_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_NewsTopic_topic_set_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0, _gostring_ _swig_go_1) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -23794,7 +24091,7 @@ void _wrap_NewsTopic_topic_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, 
 }
 
 
-_gostring_ _wrap_NewsTopic_topic_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0) {
+_gostring_ _wrap_NewsTopic_topic_get_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -23807,7 +24104,7 @@ _gostring_ _wrap_NewsTopic_topic_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_
 }
 
 
-void _wrap_NewsTopic_category_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_NewsTopic_category_set_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0, _gostring_ _swig_go_1) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -23831,7 +24128,7 @@ void _wrap_NewsTopic_category_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_
 }
 
 
-_gostring_ _wrap_NewsTopic_category_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0) {
+_gostring_ _wrap_NewsTopic_category_get_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -23844,7 +24141,7 @@ _gostring_ _wrap_NewsTopic_category_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_sw
 }
 
 
-void _wrap_NewsTopic_keywords_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_NewsTopic_keywords_set_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0, _gostring_ _swig_go_1) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -23868,7 +24165,7 @@ void _wrap_NewsTopic_keywords_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_
 }
 
 
-_gostring_ _wrap_NewsTopic_keywords_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0) {
+_gostring_ _wrap_NewsTopic_keywords_get_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -23881,7 +24178,7 @@ _gostring_ _wrap_NewsTopic_keywords_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_sw
 }
 
 
-void _wrap_NewsTopic_body_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_NewsTopic_body_set_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0, _gostring_ _swig_go_1) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -23906,7 +24203,7 @@ void _wrap_NewsTopic_body_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, _
 }
 
 
-_gostring_ _wrap_NewsTopic_body_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0) {
+_gostring_ _wrap_NewsTopic_body_get_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -23919,7 +24216,7 @@ _gostring_ _wrap_NewsTopic_body_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_g
 }
 
 
-void _wrap_NewsTopic_bodylen_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, intgo _swig_go_1) {
+void _wrap_NewsTopic_bodylen_set_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0, intgo _swig_go_1) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   int arg2 ;
   
@@ -23931,7 +24228,7 @@ void _wrap_NewsTopic_bodylen_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0
 }
 
 
-intgo _wrap_NewsTopic_bodylen_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0) {
+intgo _wrap_NewsTopic_bodylen_get_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -23944,7 +24241,7 @@ intgo _wrap_NewsTopic_bodylen_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_
 }
 
 
-void _wrap_NewsTopic_readed_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, intgo _swig_go_1) {
+void _wrap_NewsTopic_readed_set_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0, intgo _swig_go_1) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   int arg2 ;
   
@@ -23956,7 +24253,7 @@ void _wrap_NewsTopic_readed_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0,
 }
 
 
-intgo _wrap_NewsTopic_readed_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0) {
+intgo _wrap_NewsTopic_readed_get_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -23969,7 +24266,7 @@ intgo _wrap_NewsTopic_readed_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0
 }
 
 
-void _wrap_NewsTopic_priority_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, intgo _swig_go_1) {
+void _wrap_NewsTopic_priority_set_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0, intgo _swig_go_1) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   int arg2 ;
   
@@ -23981,7 +24278,7 @@ void _wrap_NewsTopic_priority_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_
 }
 
 
-intgo _wrap_NewsTopic_priority_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0) {
+intgo _wrap_NewsTopic_priority_get_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -23994,7 +24291,7 @@ intgo _wrap_NewsTopic_priority_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go
 }
 
 
-void _wrap_NewsTopic_langid_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, intgo _swig_go_1) {
+void _wrap_NewsTopic_langid_set_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0, intgo _swig_go_1) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   int arg2 ;
   
@@ -24006,7 +24303,7 @@ void _wrap_NewsTopic_langid_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0,
 }
 
 
-intgo _wrap_NewsTopic_langid_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0) {
+intgo _wrap_NewsTopic_langid_get_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -24019,7 +24316,7 @@ intgo _wrap_NewsTopic_langid_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0
 }
 
 
-void _wrap_NewsTopic_reserved_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_NewsTopic_reserved_set_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0, intgo *_swig_go_1) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   int *arg2 = (int *) (int *)0 ;
   
@@ -24035,7 +24332,7 @@ void _wrap_NewsTopic_reserved_set_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_
 }
 
 
-intgo *_wrap_NewsTopic_reserved_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0) {
+intgo *_wrap_NewsTopic_reserved_get_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   int *result = 0 ;
   intgo *_swig_go_result;
@@ -24048,7 +24345,7 @@ intgo *_wrap_NewsTopic_reserved_get_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_g
 }
 
 
-NewsTopic *_wrap_new_NewsTopic_mtmanapi_8609ee77fca78eb1() {
+NewsTopic *_wrap_new_NewsTopic_mtmanapi_7bd57f7bcf037842() {
   NewsTopic *result = 0 ;
   NewsTopic *_swig_go_result;
   
@@ -24059,7 +24356,7 @@ NewsTopic *_wrap_new_NewsTopic_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_NewsTopic_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0) {
+void _wrap_delete_NewsTopic_mtmanapi_7bd57f7bcf037842(NewsTopic *_swig_go_0) {
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   
   arg1 = *(NewsTopic **)&_swig_go_0; 
@@ -24069,7 +24366,7 @@ void _wrap_delete_NewsTopic_mtmanapi_8609ee77fca78eb1(NewsTopic *_swig_go_0) {
 }
 
 
-intgo _wrap_MAX_NEWS_BODY_LEN_NewsTopicNew_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_MAX_NEWS_BODY_LEN_NewsTopicNew_mtmanapi_7bd57f7bcf037842() {
   NewsTopicNew::constants result;
   intgo _swig_go_result;
   
@@ -24081,7 +24378,7 @@ intgo _wrap_MAX_NEWS_BODY_LEN_NewsTopicNew_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_FLAG_PRIORITY_NewsTopicNew_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_FLAG_PRIORITY_NewsTopicNew_mtmanapi_7bd57f7bcf037842() {
   NewsTopicNew::EnNewsFlags result;
   intgo _swig_go_result;
   
@@ -24093,7 +24390,7 @@ intgo _wrap_FLAG_PRIORITY_NewsTopicNew_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_FLAG_CALENDAR_NewsTopicNew_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_FLAG_CALENDAR_NewsTopicNew_mtmanapi_7bd57f7bcf037842() {
   NewsTopicNew::EnNewsFlags result;
   intgo _swig_go_result;
   
@@ -24105,7 +24402,7 @@ intgo _wrap_FLAG_CALENDAR_NewsTopicNew_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_FLAG_MIME_NewsTopicNew_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_FLAG_MIME_NewsTopicNew_mtmanapi_7bd57f7bcf037842() {
   NewsTopicNew::EnNewsFlags result;
   intgo _swig_go_result;
   
@@ -24117,7 +24414,7 @@ intgo _wrap_FLAG_MIME_NewsTopicNew_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_FLAG_ALLOW_DEMO_NewsTopicNew_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_FLAG_ALLOW_DEMO_NewsTopicNew_mtmanapi_7bd57f7bcf037842() {
   NewsTopicNew::EnNewsFlags result;
   intgo _swig_go_result;
   
@@ -24129,7 +24426,7 @@ intgo _wrap_FLAG_ALLOW_DEMO_NewsTopicNew_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_NewsTopicNew_key_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0, long long _swig_go_1) {
+void _wrap_NewsTopicNew_key_set_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0, long long _swig_go_1) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   ULONG arg2 ;
   
@@ -24141,7 +24438,7 @@ void _wrap_NewsTopicNew_key_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go
 }
 
 
-long long _wrap_NewsTopicNew_key_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0) {
+long long _wrap_NewsTopicNew_key_get_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   ULONG result;
   long long _swig_go_result;
@@ -24154,7 +24451,7 @@ long long _wrap_NewsTopicNew_key_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_sw
 }
 
 
-void _wrap_NewsTopicNew_language_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0, intgo _swig_go_1) {
+void _wrap_NewsTopicNew_language_set_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0, intgo _swig_go_1) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   UINT arg2 ;
   
@@ -24166,7 +24463,7 @@ void _wrap_NewsTopicNew_language_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_sw
 }
 
 
-intgo _wrap_NewsTopicNew_language_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0) {
+intgo _wrap_NewsTopicNew_language_get_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -24179,7 +24476,7 @@ intgo _wrap_NewsTopicNew_language_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_s
 }
 
 
-void _wrap_NewsTopicNew_subject_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0, wchar_t (*_swig_go_1)[256]) {
+void _wrap_NewsTopicNew_subject_set_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0, wchar_t (*_swig_go_1)[256]) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   wchar_t *arg2 = (wchar_t *) (wchar_t *)0 ;
   
@@ -24195,7 +24492,7 @@ void _wrap_NewsTopicNew_subject_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swi
 }
 
 
-wchar_t (*_wrap_NewsTopicNew_subject_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0))[256] {
+wchar_t (*_wrap_NewsTopicNew_subject_get_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0))[256] {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   wchar_t *result = 0 ;
   wchar_t (*_swig_go_result)[256];
@@ -24208,7 +24505,7 @@ wchar_t (*_wrap_NewsTopicNew_subject_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew 
 }
 
 
-void _wrap_NewsTopicNew_category_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0, wchar_t (*_swig_go_1)[256]) {
+void _wrap_NewsTopicNew_category_set_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0, wchar_t (*_swig_go_1)[256]) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   wchar_t *arg2 = (wchar_t *) (wchar_t *)0 ;
   
@@ -24224,7 +24521,7 @@ void _wrap_NewsTopicNew_category_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_sw
 }
 
 
-wchar_t (*_wrap_NewsTopicNew_category_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0))[256] {
+wchar_t (*_wrap_NewsTopicNew_category_get_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0))[256] {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   wchar_t *result = 0 ;
   wchar_t (*_swig_go_result)[256];
@@ -24237,7 +24534,7 @@ wchar_t (*_wrap_NewsTopicNew_category_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew
 }
 
 
-void _wrap_NewsTopicNew_flags_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0, intgo _swig_go_1) {
+void _wrap_NewsTopicNew_flags_set_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0, intgo _swig_go_1) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   UINT arg2 ;
   
@@ -24249,7 +24546,7 @@ void _wrap_NewsTopicNew_flags_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_
 }
 
 
-intgo _wrap_NewsTopicNew_flags_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0) {
+intgo _wrap_NewsTopicNew_flags_get_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -24262,7 +24559,7 @@ intgo _wrap_NewsTopicNew_flags_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig
 }
 
 
-void _wrap_NewsTopicNew_body_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0, wchar_t *_swig_go_1) {
+void _wrap_NewsTopicNew_body_set_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0, wchar_t *_swig_go_1) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   wchar_t *arg2 = (wchar_t *) 0 ;
   
@@ -24274,7 +24571,7 @@ void _wrap_NewsTopicNew_body_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_g
 }
 
 
-wchar_t *_wrap_NewsTopicNew_body_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0) {
+wchar_t *_wrap_NewsTopicNew_body_get_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   wchar_t *result = 0 ;
   wchar_t *_swig_go_result;
@@ -24287,7 +24584,7 @@ wchar_t *_wrap_NewsTopicNew_body_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_sw
 }
 
 
-void _wrap_NewsTopicNew_body_len_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0, intgo _swig_go_1) {
+void _wrap_NewsTopicNew_body_len_set_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0, intgo _swig_go_1) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   UINT arg2 ;
   
@@ -24299,7 +24596,7 @@ void _wrap_NewsTopicNew_body_len_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_sw
 }
 
 
-intgo _wrap_NewsTopicNew_body_len_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0) {
+intgo _wrap_NewsTopicNew_body_len_get_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   UINT result;
   intgo _swig_go_result;
@@ -24312,7 +24609,7 @@ intgo _wrap_NewsTopicNew_body_len_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_s
 }
 
 
-void _wrap_NewsTopicNew_languages_list_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_NewsTopicNew_languages_list_set_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0, intgo *_swig_go_1) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   UINT *arg2 = (UINT *) (UINT *)0 ;
   
@@ -24328,7 +24625,7 @@ void _wrap_NewsTopicNew_languages_list_set_mtmanapi_8609ee77fca78eb1(NewsTopicNe
 }
 
 
-intgo *_wrap_NewsTopicNew_languages_list_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0) {
+intgo *_wrap_NewsTopicNew_languages_list_get_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   UINT *result = 0 ;
   intgo *_swig_go_result;
@@ -24341,7 +24638,7 @@ intgo *_wrap_NewsTopicNew_languages_list_get_mtmanapi_8609ee77fca78eb1(NewsTopic
 }
 
 
-void _wrap_NewsTopicNew_datetime_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0, signed __int64 *_swig_go_1) {
+void _wrap_NewsTopicNew_datetime_set_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0, signed __int64 *_swig_go_1) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   INT64 arg2 ;
   INT64 *argp2 ;
@@ -24360,7 +24657,7 @@ void _wrap_NewsTopicNew_datetime_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_sw
 }
 
 
-signed __int64 *_wrap_NewsTopicNew_datetime_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0) {
+signed __int64 *_wrap_NewsTopicNew_datetime_get_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   INT64 result;
   signed __int64 *_swig_go_result;
@@ -24373,7 +24670,7 @@ signed __int64 *_wrap_NewsTopicNew_datetime_get_mtmanapi_8609ee77fca78eb1(NewsTo
 }
 
 
-void _wrap_NewsTopicNew_reserved_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_NewsTopicNew_reserved_set_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0, intgo *_swig_go_1) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   UINT *arg2 = (UINT *) (UINT *)0 ;
   
@@ -24389,7 +24686,7 @@ void _wrap_NewsTopicNew_reserved_set_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_sw
 }
 
 
-intgo *_wrap_NewsTopicNew_reserved_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0) {
+intgo *_wrap_NewsTopicNew_reserved_get_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   UINT *result = 0 ;
   intgo *_swig_go_result;
@@ -24402,7 +24699,7 @@ intgo *_wrap_NewsTopicNew_reserved_get_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_
 }
 
 
-NewsTopicNew *_wrap_new_NewsTopicNew_mtmanapi_8609ee77fca78eb1() {
+NewsTopicNew *_wrap_new_NewsTopicNew_mtmanapi_7bd57f7bcf037842() {
   NewsTopicNew *result = 0 ;
   NewsTopicNew *_swig_go_result;
   
@@ -24413,7 +24710,7 @@ NewsTopicNew *_wrap_new_NewsTopicNew_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_NewsTopicNew_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_0) {
+void _wrap_delete_NewsTopicNew_mtmanapi_7bd57f7bcf037842(NewsTopicNew *_swig_go_0) {
   NewsTopicNew *arg1 = (NewsTopicNew *) 0 ;
   
   arg1 = *(NewsTopicNew **)&_swig_go_0; 
@@ -24423,7 +24720,7 @@ void _wrap_delete_NewsTopicNew_mtmanapi_8609ee77fca78eb1(NewsTopicNew *_swig_go_
 }
 
 
-void _wrap_ServerLog_code_set_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_0, intgo _swig_go_1) {
+void _wrap_ServerLog_code_set_mtmanapi_7bd57f7bcf037842(ServerLog *_swig_go_0, intgo _swig_go_1) {
   ServerLog *arg1 = (ServerLog *) 0 ;
   int arg2 ;
   
@@ -24435,7 +24732,7 @@ void _wrap_ServerLog_code_set_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_0, i
 }
 
 
-intgo _wrap_ServerLog_code_get_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_0) {
+intgo _wrap_ServerLog_code_get_mtmanapi_7bd57f7bcf037842(ServerLog *_swig_go_0) {
   ServerLog *arg1 = (ServerLog *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -24448,7 +24745,7 @@ intgo _wrap_ServerLog_code_get_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_0) 
 }
 
 
-void _wrap_ServerLog_time_set_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ServerLog_time_set_mtmanapi_7bd57f7bcf037842(ServerLog *_swig_go_0, _gostring_ _swig_go_1) {
   ServerLog *arg1 = (ServerLog *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -24472,7 +24769,7 @@ void _wrap_ServerLog_time_set_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_0, _
 }
 
 
-_gostring_ _wrap_ServerLog_time_get_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_0) {
+_gostring_ _wrap_ServerLog_time_get_mtmanapi_7bd57f7bcf037842(ServerLog *_swig_go_0) {
   ServerLog *arg1 = (ServerLog *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -24485,7 +24782,7 @@ _gostring_ _wrap_ServerLog_time_get_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_g
 }
 
 
-void _wrap_ServerLog_ip_set_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ServerLog_ip_set_mtmanapi_7bd57f7bcf037842(ServerLog *_swig_go_0, _gostring_ _swig_go_1) {
   ServerLog *arg1 = (ServerLog *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -24509,7 +24806,7 @@ void _wrap_ServerLog_ip_set_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_0, _go
 }
 
 
-_gostring_ _wrap_ServerLog_ip_get_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_0) {
+_gostring_ _wrap_ServerLog_ip_get_mtmanapi_7bd57f7bcf037842(ServerLog *_swig_go_0) {
   ServerLog *arg1 = (ServerLog *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -24522,7 +24819,7 @@ _gostring_ _wrap_ServerLog_ip_get_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_
 }
 
 
-void _wrap_ServerLog_message_set_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_ServerLog_message_set_mtmanapi_7bd57f7bcf037842(ServerLog *_swig_go_0, _gostring_ _swig_go_1) {
   ServerLog *arg1 = (ServerLog *) 0 ;
   char *arg2 = (char *) (char *)0 ;
   
@@ -24546,7 +24843,7 @@ void _wrap_ServerLog_message_set_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_0
 }
 
 
-_gostring_ _wrap_ServerLog_message_get_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_0) {
+_gostring_ _wrap_ServerLog_message_get_mtmanapi_7bd57f7bcf037842(ServerLog *_swig_go_0) {
   ServerLog *arg1 = (ServerLog *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -24559,7 +24856,7 @@ _gostring_ _wrap_ServerLog_message_get_mtmanapi_8609ee77fca78eb1(ServerLog *_swi
 }
 
 
-ServerLog *_wrap_new_ServerLog_mtmanapi_8609ee77fca78eb1() {
+ServerLog *_wrap_new_ServerLog_mtmanapi_7bd57f7bcf037842() {
   ServerLog *result = 0 ;
   ServerLog *_swig_go_result;
   
@@ -24570,7 +24867,7 @@ ServerLog *_wrap_new_ServerLog_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_ServerLog_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_0) {
+void _wrap_delete_ServerLog_mtmanapi_7bd57f7bcf037842(ServerLog *_swig_go_0) {
   ServerLog *arg1 = (ServerLog *) 0 ;
   
   arg1 = *(ServerLog **)&_swig_go_0; 
@@ -24580,7 +24877,7 @@ void _wrap_delete_ServerLog_mtmanapi_8609ee77fca78eb1(ServerLog *_swig_go_0) {
 }
 
 
-intgo _wrap_CmdOK_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CmdOK_mtmanapi_7bd57f7bcf037842() {
   EnErrLogTypes result;
   intgo _swig_go_result;
   
@@ -24592,7 +24889,7 @@ intgo _wrap_CmdOK_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CmdTrade_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CmdTrade_mtmanapi_7bd57f7bcf037842() {
   EnErrLogTypes result;
   intgo _swig_go_result;
   
@@ -24604,7 +24901,7 @@ intgo _wrap_CmdTrade_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CmdLogin_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CmdLogin_mtmanapi_7bd57f7bcf037842() {
   EnErrLogTypes result;
   intgo _swig_go_result;
   
@@ -24616,7 +24913,7 @@ intgo _wrap_CmdLogin_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CmdWarn_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CmdWarn_mtmanapi_7bd57f7bcf037842() {
   EnErrLogTypes result;
   intgo _swig_go_result;
   
@@ -24628,7 +24925,7 @@ intgo _wrap_CmdWarn_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CmdErr_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CmdErr_mtmanapi_7bd57f7bcf037842() {
   EnErrLogTypes result;
   intgo _swig_go_result;
   
@@ -24640,7 +24937,7 @@ intgo _wrap_CmdErr_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CmdAtt_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_CmdAtt_mtmanapi_7bd57f7bcf037842() {
   EnErrLogTypes result;
   intgo _swig_go_result;
   
@@ -24652,7 +24949,7 @@ intgo _wrap_CmdAtt_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LOG_TYPE_STANDARD_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LOG_TYPE_STANDARD_mtmanapi_7bd57f7bcf037842() {
   EnLogType result;
   intgo _swig_go_result;
   
@@ -24664,7 +24961,7 @@ intgo _wrap_LOG_TYPE_STANDARD_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LOG_TYPE_LOGINS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LOG_TYPE_LOGINS_mtmanapi_7bd57f7bcf037842() {
   EnLogType result;
   intgo _swig_go_result;
   
@@ -24676,7 +24973,7 @@ intgo _wrap_LOG_TYPE_LOGINS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LOG_TYPE_TRADES_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LOG_TYPE_TRADES_mtmanapi_7bd57f7bcf037842() {
   EnLogType result;
   intgo _swig_go_result;
   
@@ -24688,7 +24985,7 @@ intgo _wrap_LOG_TYPE_TRADES_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LOG_TYPE_ERRORS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LOG_TYPE_ERRORS_mtmanapi_7bd57f7bcf037842() {
   EnLogType result;
   intgo _swig_go_result;
   
@@ -24700,7 +24997,7 @@ intgo _wrap_LOG_TYPE_ERRORS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LOG_TYPE_FULL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LOG_TYPE_FULL_mtmanapi_7bd57f7bcf037842() {
   EnLogType result;
   intgo _swig_go_result;
   
@@ -24712,7 +25009,7 @@ intgo _wrap_LOG_TYPE_FULL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LOG_TYPE_UPDATER_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LOG_TYPE_UPDATER_mtmanapi_7bd57f7bcf037842() {
   EnLogType result;
   intgo _swig_go_result;
   
@@ -24724,7 +25021,7 @@ intgo _wrap_LOG_TYPE_UPDATER_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LOG_TYPE_SENDMAIL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LOG_TYPE_SENDMAIL_mtmanapi_7bd57f7bcf037842() {
   EnLogType result;
   intgo _swig_go_result;
   
@@ -24736,7 +25033,7 @@ intgo _wrap_LOG_TYPE_SENDMAIL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LOG_TYPE_FAILOVER_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LOG_TYPE_FAILOVER_mtmanapi_7bd57f7bcf037842() {
   EnLogType result;
   intgo _swig_go_result;
   
@@ -24748,7 +25045,7 @@ intgo _wrap_LOG_TYPE_FAILOVER_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LOG_MODE_ENABLED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LOG_MODE_ENABLED_mtmanapi_7bd57f7bcf037842() {
   EnLogMode result;
   intgo _swig_go_result;
   
@@ -24760,7 +25057,7 @@ intgo _wrap_LOG_MODE_ENABLED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_LOG_MODE_DISABLED_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_LOG_MODE_DISABLED_mtmanapi_7bd57f7bcf037842() {
   EnLogMode result;
   intgo _swig_go_result;
   
@@ -24772,7 +25069,7 @@ intgo _wrap_LOG_MODE_DISABLED_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_BalanceDiff_login_set_mtmanapi_8609ee77fca78eb1(BalanceDiff *_swig_go_0, intgo _swig_go_1) {
+void _wrap_BalanceDiff_login_set_mtmanapi_7bd57f7bcf037842(BalanceDiff *_swig_go_0, intgo _swig_go_1) {
   BalanceDiff *arg1 = (BalanceDiff *) 0 ;
   int arg2 ;
   
@@ -24784,7 +25081,7 @@ void _wrap_BalanceDiff_login_set_mtmanapi_8609ee77fca78eb1(BalanceDiff *_swig_go
 }
 
 
-intgo _wrap_BalanceDiff_login_get_mtmanapi_8609ee77fca78eb1(BalanceDiff *_swig_go_0) {
+intgo _wrap_BalanceDiff_login_get_mtmanapi_7bd57f7bcf037842(BalanceDiff *_swig_go_0) {
   BalanceDiff *arg1 = (BalanceDiff *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -24797,7 +25094,7 @@ intgo _wrap_BalanceDiff_login_get_mtmanapi_8609ee77fca78eb1(BalanceDiff *_swig_g
 }
 
 
-void _wrap_BalanceDiff_diff_set_mtmanapi_8609ee77fca78eb1(BalanceDiff *_swig_go_0, double _swig_go_1) {
+void _wrap_BalanceDiff_diff_set_mtmanapi_7bd57f7bcf037842(BalanceDiff *_swig_go_0, double _swig_go_1) {
   BalanceDiff *arg1 = (BalanceDiff *) 0 ;
   double arg2 ;
   
@@ -24809,7 +25106,7 @@ void _wrap_BalanceDiff_diff_set_mtmanapi_8609ee77fca78eb1(BalanceDiff *_swig_go_
 }
 
 
-double _wrap_BalanceDiff_diff_get_mtmanapi_8609ee77fca78eb1(BalanceDiff *_swig_go_0) {
+double _wrap_BalanceDiff_diff_get_mtmanapi_7bd57f7bcf037842(BalanceDiff *_swig_go_0) {
   BalanceDiff *arg1 = (BalanceDiff *) 0 ;
   double result;
   double _swig_go_result;
@@ -24822,7 +25119,7 @@ double _wrap_BalanceDiff_diff_get_mtmanapi_8609ee77fca78eb1(BalanceDiff *_swig_g
 }
 
 
-BalanceDiff *_wrap_new_BalanceDiff_mtmanapi_8609ee77fca78eb1() {
+BalanceDiff *_wrap_new_BalanceDiff_mtmanapi_7bd57f7bcf037842() {
   BalanceDiff *result = 0 ;
   BalanceDiff *_swig_go_result;
   
@@ -24833,7 +25130,7 @@ BalanceDiff *_wrap_new_BalanceDiff_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_BalanceDiff_mtmanapi_8609ee77fca78eb1(BalanceDiff *_swig_go_0) {
+void _wrap_delete_BalanceDiff_mtmanapi_7bd57f7bcf037842(BalanceDiff *_swig_go_0) {
   BalanceDiff *arg1 = (BalanceDiff *) 0 ;
   
   arg1 = *(BalanceDiff **)&_swig_go_0; 
@@ -24843,7 +25140,7 @@ void _wrap_delete_BalanceDiff_mtmanapi_8609ee77fca78eb1(BalanceDiff *_swig_go_0)
 }
 
 
-intgo _wrap_PUMP_START_PUMPING_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_START_PUMPING_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -24855,7 +25152,7 @@ intgo _wrap_PUMP_START_PUMPING_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_UPDATE_SYMBOLS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_UPDATE_SYMBOLS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -24867,7 +25164,7 @@ intgo _wrap_PUMP_UPDATE_SYMBOLS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_UPDATE_GROUPS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_UPDATE_GROUPS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -24879,7 +25176,7 @@ intgo _wrap_PUMP_UPDATE_GROUPS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_UPDATE_USERS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_UPDATE_USERS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -24891,7 +25188,7 @@ intgo _wrap_PUMP_UPDATE_USERS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_UPDATE_ONLINE_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_UPDATE_ONLINE_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -24903,7 +25200,7 @@ intgo _wrap_PUMP_UPDATE_ONLINE_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_UPDATE_BIDASK_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_UPDATE_BIDASK_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -24915,7 +25212,7 @@ intgo _wrap_PUMP_UPDATE_BIDASK_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_UPDATE_NEWS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_UPDATE_NEWS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -24927,7 +25224,7 @@ intgo _wrap_PUMP_UPDATE_NEWS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_UPDATE_NEWS_BODY_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_UPDATE_NEWS_BODY_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -24939,7 +25236,7 @@ intgo _wrap_PUMP_UPDATE_NEWS_BODY_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_UPDATE_MAIL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_UPDATE_MAIL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -24951,7 +25248,7 @@ intgo _wrap_PUMP_UPDATE_MAIL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_UPDATE_TRADES_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_UPDATE_TRADES_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -24963,7 +25260,7 @@ intgo _wrap_PUMP_UPDATE_TRADES_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_UPDATE_REQUESTS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_UPDATE_REQUESTS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -24975,7 +25272,7 @@ intgo _wrap_PUMP_UPDATE_REQUESTS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_UPDATE_PLUGINS_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_UPDATE_PLUGINS_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -24987,7 +25284,7 @@ intgo _wrap_PUMP_UPDATE_PLUGINS_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_UPDATE_ACTIVATION_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_UPDATE_ACTIVATION_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -24999,7 +25296,7 @@ intgo _wrap_PUMP_UPDATE_ACTIVATION_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_UPDATE_MARGINCALL_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_UPDATE_MARGINCALL_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -25011,7 +25308,7 @@ intgo _wrap_PUMP_UPDATE_MARGINCALL_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_STOP_PUMPING_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_STOP_PUMPING_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -25023,7 +25320,7 @@ intgo _wrap_PUMP_STOP_PUMPING_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_PING_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_PING_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -25035,7 +25332,7 @@ intgo _wrap_PUMP_PING_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_PUMP_UPDATE_NEWS_NEW_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_PUMP_UPDATE_NEWS_NEW_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -25047,7 +25344,7 @@ intgo _wrap_PUMP_UPDATE_NEWS_NEW_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_DEAL_START_DEALING_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_DEAL_START_DEALING_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -25059,7 +25356,7 @@ intgo _wrap_DEAL_START_DEALING_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_DEAL_REQUEST_NEW_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_DEAL_REQUEST_NEW_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -25071,7 +25368,7 @@ intgo _wrap_DEAL_REQUEST_NEW_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_DEAL_STOP_DEALING_mtmanapi_8609ee77fca78eb1() {
+intgo _wrap_DEAL_STOP_DEALING_mtmanapi_7bd57f7bcf037842() {
   int result;
   intgo _swig_go_result;
   
@@ -25083,7 +25380,7 @@ intgo _wrap_DEAL_STOP_DEALING_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-intgo _wrap_CManagerInterface_QueryInterface_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, LPVOID *_swig_go_1, LPVOID *_swig_go_2) {
+intgo _wrap_CManagerInterface_QueryInterface_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, LPVOID *_swig_go_1, LPVOID *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPVOID *arg2 = (LPVOID *) 0 ;
   LPVOID *arg3 = (LPVOID *) 0 ;
@@ -25100,7 +25397,7 @@ intgo _wrap_CManagerInterface_QueryInterface_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-intgo _wrap_CManagerInterface_AddRef_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0) {
+intgo _wrap_CManagerInterface_AddRef_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -25113,7 +25410,7 @@ intgo _wrap_CManagerInterface_AddRef_mtmanapi_8609ee77fca78eb1(CManagerInterface
 }
 
 
-intgo _wrap_CManagerInterface_Release_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0) {
+intgo _wrap_CManagerInterface_Release_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -25126,7 +25423,7 @@ intgo _wrap_CManagerInterface_Release_mtmanapi_8609ee77fca78eb1(CManagerInterfac
 }
 
 
-void _wrap_CManagerInterface_MemFree_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, void *_swig_go_1) {
+void _wrap_CManagerInterface_MemFree_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, void *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -25138,7 +25435,7 @@ void _wrap_CManagerInterface_MemFree_mtmanapi_8609ee77fca78eb1(CManagerInterface
 }
 
 
-_gostring_ _wrap_CManagerInterface_ErrorDescription_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+_gostring_ _wrap_CManagerInterface_ErrorDescription_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   LPCSTR result;
@@ -25153,7 +25450,7 @@ _gostring_ _wrap_CManagerInterface_ErrorDescription_mtmanapi_8609ee77fca78eb1(CM
 }
 
 
-void _wrap_CManagerInterface_WorkingDirectory_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_CManagerInterface_WorkingDirectory_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   
@@ -25170,7 +25467,7 @@ void _wrap_CManagerInterface_WorkingDirectory_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_Connect_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1) {
+intgo _wrap_CManagerInterface_Connect_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int result;
@@ -25190,7 +25487,7 @@ intgo _wrap_CManagerInterface_Connect_mtmanapi_8609ee77fca78eb1(CManagerInterfac
 }
 
 
-intgo _wrap_CManagerInterface_Disconnect_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0) {
+intgo _wrap_CManagerInterface_Disconnect_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -25203,7 +25500,7 @@ intgo _wrap_CManagerInterface_Disconnect_mtmanapi_8609ee77fca78eb1(CManagerInter
 }
 
 
-intgo _wrap_CManagerInterface_IsConnected_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0) {
+intgo _wrap_CManagerInterface_IsConnected_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -25216,7 +25513,7 @@ intgo _wrap_CManagerInterface_IsConnected_mtmanapi_8609ee77fca78eb1(CManagerInte
 }
 
 
-intgo _wrap_CManagerInterface_Login_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
+intgo _wrap_CManagerInterface_Login_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   LPCSTR arg3 = (LPCSTR) 0 ;
@@ -25238,7 +25535,7 @@ intgo _wrap_CManagerInterface_Login_mtmanapi_8609ee77fca78eb1(CManagerInterface 
 }
 
 
-intgo _wrap_CManagerInterface_LoginSecured_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1) {
+intgo _wrap_CManagerInterface_LoginSecured_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int result;
@@ -25258,7 +25555,7 @@ intgo _wrap_CManagerInterface_LoginSecured_mtmanapi_8609ee77fca78eb1(CManagerInt
 }
 
 
-intgo _wrap_CManagerInterface_KeysSend_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1) {
+intgo _wrap_CManagerInterface_KeysSend_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int result;
@@ -25278,7 +25575,7 @@ intgo _wrap_CManagerInterface_KeysSend_mtmanapi_8609ee77fca78eb1(CManagerInterfa
 }
 
 
-intgo _wrap_CManagerInterface_Ping_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0) {
+intgo _wrap_CManagerInterface_Ping_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -25291,7 +25588,7 @@ intgo _wrap_CManagerInterface_Ping_mtmanapi_8609ee77fca78eb1(CManagerInterface *
 }
 
 
-intgo _wrap_CManagerInterface_PasswordChange_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_PasswordChange_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int arg3 ;
@@ -25313,7 +25610,7 @@ intgo _wrap_CManagerInterface_PasswordChange_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-intgo _wrap_CManagerInterface_ManagerRights_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConManager *_swig_go_1) {
+intgo _wrap_CManagerInterface_ManagerRights_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConManager *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConManager *arg2 = (ConManager *) 0 ;
   int result;
@@ -25328,7 +25625,7 @@ intgo _wrap_CManagerInterface_ManagerRights_mtmanapi_8609ee77fca78eb1(CManagerIn
 }
 
 
-intgo _wrap_CManagerInterface_SrvRestart_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0) {
+intgo _wrap_CManagerInterface_SrvRestart_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -25341,7 +25638,7 @@ intgo _wrap_CManagerInterface_SrvRestart_mtmanapi_8609ee77fca78eb1(CManagerInter
 }
 
 
-intgo _wrap_CManagerInterface_SrvChartsSync_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0) {
+intgo _wrap_CManagerInterface_SrvChartsSync_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -25354,7 +25651,7 @@ intgo _wrap_CManagerInterface_SrvChartsSync_mtmanapi_8609ee77fca78eb1(CManagerIn
 }
 
 
-intgo _wrap_CManagerInterface_SrvLiveUpdateStart_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0) {
+intgo _wrap_CManagerInterface_SrvLiveUpdateStart_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -25367,7 +25664,7 @@ intgo _wrap_CManagerInterface_SrvLiveUpdateStart_mtmanapi_8609ee77fca78eb1(CMana
 }
 
 
-intgo _wrap_CManagerInterface_SrvFeedsRestart_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0) {
+intgo _wrap_CManagerInterface_SrvFeedsRestart_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -25380,7 +25677,7 @@ intgo _wrap_CManagerInterface_SrvFeedsRestart_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_CfgRequestCommon_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConCommon *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgRequestCommon_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConCommon *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConCommon *arg2 = (ConCommon *) 0 ;
   int result;
@@ -25395,7 +25692,7 @@ intgo _wrap_CManagerInterface_CfgRequestCommon_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-intgo _wrap_CManagerInterface_CfgRequestTime_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConTime *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgRequestTime_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConTime *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConTime *arg2 = (ConTime *) 0 ;
   int result;
@@ -25410,7 +25707,7 @@ intgo _wrap_CManagerInterface_CfgRequestTime_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-intgo _wrap_CManagerInterface_CfgRequestBackup_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConBackup *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgRequestBackup_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConBackup *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConBackup *arg2 = (ConBackup *) 0 ;
   int result;
@@ -25425,7 +25722,7 @@ intgo _wrap_CManagerInterface_CfgRequestBackup_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-intgo _wrap_CManagerInterface_CfgRequestSymbolGroup_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConSymbolGroup *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgRequestSymbolGroup_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConSymbolGroup *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConSymbolGroup *arg2 = (ConSymbolGroup *) 0 ;
   int result;
@@ -25440,7 +25737,7 @@ intgo _wrap_CManagerInterface_CfgRequestSymbolGroup_mtmanapi_8609ee77fca78eb1(CM
 }
 
 
-ConAccess *_wrap_CManagerInterface_CfgRequestAccess_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConAccess *_wrap_CManagerInterface_CfgRequestAccess_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConAccess *result = 0 ;
@@ -25455,7 +25752,7 @@ ConAccess *_wrap_CManagerInterface_CfgRequestAccess_mtmanapi_8609ee77fca78eb1(CM
 }
 
 
-ConDataServer *_wrap_CManagerInterface_CfgRequestDataServer_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConDataServer *_wrap_CManagerInterface_CfgRequestDataServer_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConDataServer *result = 0 ;
@@ -25470,7 +25767,7 @@ ConDataServer *_wrap_CManagerInterface_CfgRequestDataServer_mtmanapi_8609ee77fca
 }
 
 
-ConHoliday *_wrap_CManagerInterface_CfgRequestHoliday_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConHoliday *_wrap_CManagerInterface_CfgRequestHoliday_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConHoliday *result = 0 ;
@@ -25485,7 +25782,7 @@ ConHoliday *_wrap_CManagerInterface_CfgRequestHoliday_mtmanapi_8609ee77fca78eb1(
 }
 
 
-ConSymbol *_wrap_CManagerInterface_CfgRequestSymbol_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConSymbol *_wrap_CManagerInterface_CfgRequestSymbol_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConSymbol *result = 0 ;
@@ -25500,7 +25797,7 @@ ConSymbol *_wrap_CManagerInterface_CfgRequestSymbol_mtmanapi_8609ee77fca78eb1(CM
 }
 
 
-ConGroup *_wrap_CManagerInterface_CfgRequestGroup_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConGroup *_wrap_CManagerInterface_CfgRequestGroup_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConGroup *result = 0 ;
@@ -25515,7 +25812,7 @@ ConGroup *_wrap_CManagerInterface_CfgRequestGroup_mtmanapi_8609ee77fca78eb1(CMan
 }
 
 
-ConManager *_wrap_CManagerInterface_CfgRequestManager_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConManager *_wrap_CManagerInterface_CfgRequestManager_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConManager *result = 0 ;
@@ -25530,7 +25827,7 @@ ConManager *_wrap_CManagerInterface_CfgRequestManager_mtmanapi_8609ee77fca78eb1(
 }
 
 
-ConFeeder *_wrap_CManagerInterface_CfgRequestFeeder_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConFeeder *_wrap_CManagerInterface_CfgRequestFeeder_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConFeeder *result = 0 ;
@@ -25545,7 +25842,7 @@ ConFeeder *_wrap_CManagerInterface_CfgRequestFeeder_mtmanapi_8609ee77fca78eb1(CM
 }
 
 
-ConLiveUpdate *_wrap_CManagerInterface_CfgRequestLiveUpdate_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConLiveUpdate *_wrap_CManagerInterface_CfgRequestLiveUpdate_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConLiveUpdate *result = 0 ;
@@ -25560,7 +25857,7 @@ ConLiveUpdate *_wrap_CManagerInterface_CfgRequestLiveUpdate_mtmanapi_8609ee77fca
 }
 
 
-ConSync *_wrap_CManagerInterface_CfgRequestSync_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConSync *_wrap_CManagerInterface_CfgRequestSync_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConSync *result = 0 ;
@@ -25575,7 +25872,7 @@ ConSync *_wrap_CManagerInterface_CfgRequestSync_mtmanapi_8609ee77fca78eb1(CManag
 }
 
 
-ConPluginParam *_wrap_CManagerInterface_CfgRequestPlugin_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConPluginParam *_wrap_CManagerInterface_CfgRequestPlugin_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConPluginParam *result = 0 ;
@@ -25590,7 +25887,7 @@ ConPluginParam *_wrap_CManagerInterface_CfgRequestPlugin_mtmanapi_8609ee77fca78e
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateCommon_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConCommon *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgUpdateCommon_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConCommon *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConCommon *arg2 = (ConCommon *) 0 ;
   int result;
@@ -25605,7 +25902,7 @@ intgo _wrap_CManagerInterface_CfgUpdateCommon_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateAccess_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConAccess *_swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgUpdateAccess_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConAccess *_swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConAccess *arg2 = (ConAccess *) 0 ;
   int arg3 ;
@@ -25622,7 +25919,7 @@ intgo _wrap_CManagerInterface_CfgUpdateAccess_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateDataServer_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConDataServer *_swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgUpdateDataServer_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConDataServer *_swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConDataServer *arg2 = (ConDataServer *) 0 ;
   int arg3 ;
@@ -25639,7 +25936,7 @@ intgo _wrap_CManagerInterface_CfgUpdateDataServer_mtmanapi_8609ee77fca78eb1(CMan
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateTime_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConTime *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgUpdateTime_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConTime *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConTime *arg2 = (ConTime *) 0 ;
   int result;
@@ -25654,7 +25951,7 @@ intgo _wrap_CManagerInterface_CfgUpdateTime_mtmanapi_8609ee77fca78eb1(CManagerIn
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateHoliday_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConHoliday *_swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgUpdateHoliday_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConHoliday *_swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConHoliday *arg2 = (ConHoliday *) 0 ;
   int arg3 ;
@@ -25671,7 +25968,7 @@ intgo _wrap_CManagerInterface_CfgUpdateHoliday_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateSymbol_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConSymbol *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgUpdateSymbol_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConSymbol *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConSymbol *arg2 = (ConSymbol *) 0 ;
   int result;
@@ -25686,7 +25983,7 @@ intgo _wrap_CManagerInterface_CfgUpdateSymbol_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateSymbolGroup_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConSymbolGroup *_swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgUpdateSymbolGroup_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConSymbolGroup *_swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConSymbolGroup *arg2 = (ConSymbolGroup *) 0 ;
   int arg3 ;
@@ -25703,7 +26000,7 @@ intgo _wrap_CManagerInterface_CfgUpdateSymbolGroup_mtmanapi_8609ee77fca78eb1(CMa
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateGroup_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConGroup *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgUpdateGroup_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConGroup *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConGroup *arg2 = (ConGroup *) 0 ;
   int result;
@@ -25718,7 +26015,7 @@ intgo _wrap_CManagerInterface_CfgUpdateGroup_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateManager_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConManager *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgUpdateManager_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConManager *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConManager *arg2 = (ConManager *) 0 ;
   int result;
@@ -25733,7 +26030,7 @@ intgo _wrap_CManagerInterface_CfgUpdateManager_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateFeeder_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConFeeder *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgUpdateFeeder_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConFeeder *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConFeeder *arg2 = (ConFeeder *) 0 ;
   int result;
@@ -25748,7 +26045,7 @@ intgo _wrap_CManagerInterface_CfgUpdateFeeder_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateBackup_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConBackup *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgUpdateBackup_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConBackup *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConBackup *arg2 = (ConBackup *) 0 ;
   int result;
@@ -25763,7 +26060,7 @@ intgo _wrap_CManagerInterface_CfgUpdateBackup_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateLiveUpdate_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConLiveUpdate *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgUpdateLiveUpdate_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConLiveUpdate *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConLiveUpdate *arg2 = (ConLiveUpdate *) 0 ;
   int result;
@@ -25778,7 +26075,7 @@ intgo _wrap_CManagerInterface_CfgUpdateLiveUpdate_mtmanapi_8609ee77fca78eb1(CMan
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateSync_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConSync *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgUpdateSync_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConSync *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConSync *arg2 = (ConSync *) 0 ;
   int result;
@@ -25793,7 +26090,7 @@ intgo _wrap_CManagerInterface_CfgUpdateSync_mtmanapi_8609ee77fca78eb1(CManagerIn
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdatePlugin_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConPlugin *_swig_go_1, PluginCfg *_swig_go_2, intgo _swig_go_3) {
+intgo _wrap_CManagerInterface_CfgUpdatePlugin_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConPlugin *_swig_go_1, PluginCfg *_swig_go_2, intgo _swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConPlugin *arg2 = (ConPlugin *) 0 ;
   PluginCfg *arg3 = (PluginCfg *) 0 ;
@@ -25812,7 +26109,7 @@ intgo _wrap_CManagerInterface_CfgUpdatePlugin_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_CfgDeleteAccess_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_CManagerInterface_CfgDeleteAccess_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int result;
@@ -25827,7 +26124,7 @@ intgo _wrap_CManagerInterface_CfgDeleteAccess_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_CfgDeleteDataServer_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_CManagerInterface_CfgDeleteDataServer_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int result;
@@ -25842,7 +26139,7 @@ intgo _wrap_CManagerInterface_CfgDeleteDataServer_mtmanapi_8609ee77fca78eb1(CMan
 }
 
 
-intgo _wrap_CManagerInterface_CfgDeleteHoliday_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_CManagerInterface_CfgDeleteHoliday_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int result;
@@ -25857,7 +26154,7 @@ intgo _wrap_CManagerInterface_CfgDeleteHoliday_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-intgo _wrap_CManagerInterface_CfgDeleteSymbol_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_CManagerInterface_CfgDeleteSymbol_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int result;
@@ -25872,7 +26169,7 @@ intgo _wrap_CManagerInterface_CfgDeleteSymbol_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_CfgDeleteGroup_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_CManagerInterface_CfgDeleteGroup_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int result;
@@ -25887,7 +26184,7 @@ intgo _wrap_CManagerInterface_CfgDeleteGroup_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-intgo _wrap_CManagerInterface_CfgDeleteManager_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_CManagerInterface_CfgDeleteManager_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int result;
@@ -25902,7 +26199,7 @@ intgo _wrap_CManagerInterface_CfgDeleteManager_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-intgo _wrap_CManagerInterface_CfgDeleteFeeder_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_CManagerInterface_CfgDeleteFeeder_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int result;
@@ -25917,7 +26214,7 @@ intgo _wrap_CManagerInterface_CfgDeleteFeeder_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_CfgDeleteLiveUpdate_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_CManagerInterface_CfgDeleteLiveUpdate_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int result;
@@ -25932,7 +26229,7 @@ intgo _wrap_CManagerInterface_CfgDeleteLiveUpdate_mtmanapi_8609ee77fca78eb1(CMan
 }
 
 
-intgo _wrap_CManagerInterface_CfgDeleteSync_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_CManagerInterface_CfgDeleteSync_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int result;
@@ -25947,7 +26244,7 @@ intgo _wrap_CManagerInterface_CfgDeleteSync_mtmanapi_8609ee77fca78eb1(CManagerIn
 }
 
 
-intgo _wrap_CManagerInterface_CfgShiftAccess_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgShiftAccess_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -25964,7 +26261,7 @@ intgo _wrap_CManagerInterface_CfgShiftAccess_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-intgo _wrap_CManagerInterface_CfgShiftDataServer_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgShiftDataServer_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -25981,7 +26278,7 @@ intgo _wrap_CManagerInterface_CfgShiftDataServer_mtmanapi_8609ee77fca78eb1(CMana
 }
 
 
-intgo _wrap_CManagerInterface_CfgShiftHoliday_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgShiftHoliday_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -25998,7 +26295,7 @@ intgo _wrap_CManagerInterface_CfgShiftHoliday_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_CfgShiftSymbol_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgShiftSymbol_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -26015,7 +26312,7 @@ intgo _wrap_CManagerInterface_CfgShiftSymbol_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-intgo _wrap_CManagerInterface_CfgShiftGroup_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgShiftGroup_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -26032,7 +26329,7 @@ intgo _wrap_CManagerInterface_CfgShiftGroup_mtmanapi_8609ee77fca78eb1(CManagerIn
 }
 
 
-intgo _wrap_CManagerInterface_CfgShiftManager_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgShiftManager_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -26049,7 +26346,7 @@ intgo _wrap_CManagerInterface_CfgShiftManager_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_CfgShiftFeeder_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgShiftFeeder_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -26066,7 +26363,7 @@ intgo _wrap_CManagerInterface_CfgShiftFeeder_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-intgo _wrap_CManagerInterface_CfgShiftLiveUpdate_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgShiftLiveUpdate_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -26083,7 +26380,7 @@ intgo _wrap_CManagerInterface_CfgShiftLiveUpdate_mtmanapi_8609ee77fca78eb1(CMana
 }
 
 
-intgo _wrap_CManagerInterface_CfgShiftSync_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgShiftSync_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -26100,7 +26397,7 @@ intgo _wrap_CManagerInterface_CfgShiftSync_mtmanapi_8609ee77fca78eb1(CManagerInt
 }
 
 
-intgo _wrap_CManagerInterface_CfgShiftPlugin_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgShiftPlugin_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -26117,7 +26414,7 @@ intgo _wrap_CManagerInterface_CfgShiftPlugin_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-ServerFeed *_wrap_CManagerInterface_SrvFeeders_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ServerFeed *_wrap_CManagerInterface_SrvFeeders_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ServerFeed *result = 0 ;
@@ -26132,7 +26429,7 @@ ServerFeed *_wrap_CManagerInterface_SrvFeeders_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-_gostring_ _wrap_CManagerInterface_SrvFeederLog_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo *_swig_go_2) {
+_gostring_ _wrap_CManagerInterface_SrvFeederLog_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int *arg3 = (int *) 0 ;
@@ -26154,7 +26451,7 @@ _gostring_ _wrap_CManagerInterface_SrvFeederLog_mtmanapi_8609ee77fca78eb1(CManag
 }
 
 
-RateInfoOld *_wrap_CManagerInterface_ChartRequestObsolete_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ChartInfo *_swig_go_1, long long *_swig_go_2, intgo *_swig_go_3) {
+RateInfoOld *_wrap_CManagerInterface_ChartRequestObsolete_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ChartInfo *_swig_go_1, time_t *_swig_go_2, intgo *_swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ChartInfo *arg2 = (ChartInfo *) 0 ;
   time_t *arg3 = (time_t *) 0 ;
@@ -26173,7 +26470,7 @@ RateInfoOld *_wrap_CManagerInterface_ChartRequestObsolete_mtmanapi_8609ee77fca78
 }
 
 
-intgo _wrap_CManagerInterface_ChartAddObsolete_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, RateInfoOld *_swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_CManagerInterface_ChartAddObsolete_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, RateInfoOld *_swig_go_3, intgo *_swig_go_4) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int arg3 ;
@@ -26199,7 +26496,7 @@ intgo _wrap_CManagerInterface_ChartAddObsolete_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-intgo _wrap_CManagerInterface_ChartUpdateObsolete_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, RateInfoOld *_swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_CManagerInterface_ChartUpdateObsolete_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, RateInfoOld *_swig_go_3, intgo *_swig_go_4) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int arg3 ;
@@ -26225,7 +26522,7 @@ intgo _wrap_CManagerInterface_ChartUpdateObsolete_mtmanapi_8609ee77fca78eb1(CMan
 }
 
 
-intgo _wrap_CManagerInterface_ChartDeleteObsolete_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, RateInfoOld *_swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_CManagerInterface_ChartDeleteObsolete_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, RateInfoOld *_swig_go_3, intgo *_swig_go_4) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int arg3 ;
@@ -26251,15 +26548,22 @@ intgo _wrap_CManagerInterface_ChartDeleteObsolete_mtmanapi_8609ee77fca78eb1(CMan
 }
 
 
-PerformanceInfo *_wrap_CManagerInterface_PerformanceRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, long long _swig_go_1, intgo *_swig_go_2) {
+PerformanceInfo *_wrap_CManagerInterface_PerformanceRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, time_t *_swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   time_t arg2 ;
   int *arg3 = (int *) 0 ;
+  time_t *argp2 ;
   PerformanceInfo *result = 0 ;
   PerformanceInfo *_swig_go_result;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t");
+  }
+  arg2 = (time_t)*argp2;
+  
   arg3 = *(int **)&_swig_go_2; 
   
   result = (PerformanceInfo *)(arg1)->PerformanceRequest(arg2,arg3);
@@ -26268,7 +26572,7 @@ PerformanceInfo *_wrap_CManagerInterface_PerformanceRequest_mtmanapi_8609ee77fca
 }
 
 
-BackupInfo *_wrap_CManagerInterface_BackupInfoUsers_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo *_swig_go_2) {
+BackupInfo *_wrap_CManagerInterface_BackupInfoUsers_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int *arg3 = (int *) 0 ;
@@ -26285,7 +26589,7 @@ BackupInfo *_wrap_CManagerInterface_BackupInfoUsers_mtmanapi_8609ee77fca78eb1(CM
 }
 
 
-BackupInfo *_wrap_CManagerInterface_BackupInfoOrders_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo *_swig_go_2) {
+BackupInfo *_wrap_CManagerInterface_BackupInfoOrders_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int *arg3 = (int *) 0 ;
@@ -26302,7 +26606,7 @@ BackupInfo *_wrap_CManagerInterface_BackupInfoOrders_mtmanapi_8609ee77fca78eb1(C
 }
 
 
-UserRecord *_wrap_CManagerInterface_BackupRequestUsers_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, intgo *_swig_go_3) {
+UserRecord *_wrap_CManagerInterface_BackupRequestUsers_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, intgo *_swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   LPCSTR arg3 = (LPCSTR) 0 ;
@@ -26331,7 +26635,7 @@ UserRecord *_wrap_CManagerInterface_BackupRequestUsers_mtmanapi_8609ee77fca78eb1
 }
 
 
-TradeRecord *_wrap_CManagerInterface_BackupRequestOrders_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, intgo *_swig_go_3) {
+TradeRecord *_wrap_CManagerInterface_BackupRequestOrders_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2, intgo *_swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   LPCSTR arg3 = (LPCSTR) 0 ;
@@ -26360,7 +26664,7 @@ TradeRecord *_wrap_CManagerInterface_BackupRequestOrders_mtmanapi_8609ee77fca78e
 }
 
 
-intgo _wrap_CManagerInterface_BackupRestoreUsers_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, UserRecord *_swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_BackupRestoreUsers_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, UserRecord *_swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   UserRecord *arg2 = (UserRecord *) 0 ;
   int arg3 ;
@@ -26377,7 +26681,7 @@ intgo _wrap_CManagerInterface_BackupRestoreUsers_mtmanapi_8609ee77fca78eb1(CMana
 }
 
 
-TradeRestoreResult *_wrap_CManagerInterface_BackupRestoreOrders_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, TradeRecord *_swig_go_1, intgo *_swig_go_2) {
+TradeRestoreResult *_wrap_CManagerInterface_BackupRestoreOrders_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, TradeRecord *_swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   TradeRecord *arg2 = (TradeRecord *) 0 ;
   int *arg3 = (int *) 0 ;
@@ -26394,7 +26698,7 @@ TradeRestoreResult *_wrap_CManagerInterface_BackupRestoreOrders_mtmanapi_8609ee7
 }
 
 
-UserRecord *_wrap_CManagerInterface_AdmUsersRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo *_swig_go_2) {
+UserRecord *_wrap_CManagerInterface_AdmUsersRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int *arg3 = (int *) 0 ;
@@ -26416,7 +26720,7 @@ UserRecord *_wrap_CManagerInterface_AdmUsersRequest_mtmanapi_8609ee77fca78eb1(CM
 }
 
 
-TradeRecord *_wrap_CManagerInterface_AdmTradesRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
+TradeRecord *_wrap_CManagerInterface_AdmTradesRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, intgo *_swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int arg3 ;
@@ -26440,7 +26744,7 @@ TradeRecord *_wrap_CManagerInterface_AdmTradesRequest_mtmanapi_8609ee77fca78eb1(
 }
 
 
-intgo _wrap_CManagerInterface_AdmBalanceCheckObsolete_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_CManagerInterface_AdmBalanceCheckObsolete_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   int *arg3 = (int *) 0 ;
@@ -26457,7 +26761,7 @@ intgo _wrap_CManagerInterface_AdmBalanceCheckObsolete_mtmanapi_8609ee77fca78eb1(
 }
 
 
-intgo _wrap_CManagerInterface_AdmBalanceFix_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_AdmBalanceFix_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   int arg3 ;
@@ -26474,7 +26778,7 @@ intgo _wrap_CManagerInterface_AdmBalanceFix_mtmanapi_8609ee77fca78eb1(CManagerIn
 }
 
 
-intgo _wrap_CManagerInterface_AdmTradesDelete_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_AdmTradesDelete_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   int arg3 ;
@@ -26491,7 +26795,7 @@ intgo _wrap_CManagerInterface_AdmTradesDelete_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_AdmTradeRecordModify_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, TradeRecord *_swig_go_1) {
+intgo _wrap_CManagerInterface_AdmTradeRecordModify_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, TradeRecord *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   TradeRecord *arg2 = (TradeRecord *) 0 ;
   int result;
@@ -26506,7 +26810,7 @@ intgo _wrap_CManagerInterface_AdmTradeRecordModify_mtmanapi_8609ee77fca78eb1(CMa
 }
 
 
-intgo _wrap_CManagerInterface_SymbolsRefresh_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0) {
+intgo _wrap_CManagerInterface_SymbolsRefresh_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -26519,7 +26823,7 @@ intgo _wrap_CManagerInterface_SymbolsRefresh_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-ConSymbol *_wrap_CManagerInterface_SymbolsGetAll_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConSymbol *_wrap_CManagerInterface_SymbolsGetAll_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConSymbol *result = 0 ;
@@ -26534,7 +26838,7 @@ ConSymbol *_wrap_CManagerInterface_SymbolsGetAll_mtmanapi_8609ee77fca78eb1(CMana
 }
 
 
-intgo _wrap_CManagerInterface_SymbolGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, ConSymbol *_swig_go_2) {
+intgo _wrap_CManagerInterface_SymbolGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, ConSymbol *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   ConSymbol *arg3 = (ConSymbol *) 0 ;
@@ -26556,7 +26860,7 @@ intgo _wrap_CManagerInterface_SymbolGet_mtmanapi_8609ee77fca78eb1(CManagerInterf
 }
 
 
-intgo _wrap_CManagerInterface_SymbolInfoGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, SymbolInfo *_swig_go_2) {
+intgo _wrap_CManagerInterface_SymbolInfoGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, SymbolInfo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   SymbolInfo *arg3 = (SymbolInfo *) 0 ;
@@ -26578,7 +26882,7 @@ intgo _wrap_CManagerInterface_SymbolInfoGet_mtmanapi_8609ee77fca78eb1(CManagerIn
 }
 
 
-intgo _wrap_CManagerInterface_SymbolAdd_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1) {
+intgo _wrap_CManagerInterface_SymbolAdd_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int result;
@@ -26598,7 +26902,7 @@ intgo _wrap_CManagerInterface_SymbolAdd_mtmanapi_8609ee77fca78eb1(CManagerInterf
 }
 
 
-intgo _wrap_CManagerInterface_SymbolHide_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1) {
+intgo _wrap_CManagerInterface_SymbolHide_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int result;
@@ -26618,7 +26922,7 @@ intgo _wrap_CManagerInterface_SymbolHide_mtmanapi_8609ee77fca78eb1(CManagerInter
 }
 
 
-intgo _wrap_CManagerInterface_SymbolChangeObsolete_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, SymbolPropertiesOld *_swig_go_1) {
+intgo _wrap_CManagerInterface_SymbolChangeObsolete_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, SymbolPropertiesOld *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   SymbolPropertiesOld *arg2 = (SymbolPropertiesOld *) 0 ;
   int result;
@@ -26633,7 +26937,7 @@ intgo _wrap_CManagerInterface_SymbolChangeObsolete_mtmanapi_8609ee77fca78eb1(CMa
 }
 
 
-intgo _wrap_CManagerInterface_SymbolSendTick_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, double _swig_go_2, double _swig_go_3) {
+intgo _wrap_CManagerInterface_SymbolSendTick_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, double _swig_go_2, double _swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   double arg3 ;
@@ -26657,7 +26961,7 @@ intgo _wrap_CManagerInterface_SymbolSendTick_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-ConGroup *_wrap_CManagerInterface_GroupsRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConGroup *_wrap_CManagerInterface_GroupsRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConGroup *result = 0 ;
@@ -26672,7 +26976,7 @@ ConGroup *_wrap_CManagerInterface_GroupsRequest_mtmanapi_8609ee77fca78eb1(CManag
 }
 
 
-intgo _wrap_CManagerInterface_MailSend_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, MailBox *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_CManagerInterface_MailSend_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, MailBox *_swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   MailBox *arg2 = (MailBox *) 0 ;
   int *arg3 = (int *) 0 ;
@@ -26689,7 +26993,7 @@ intgo _wrap_CManagerInterface_MailSend_mtmanapi_8609ee77fca78eb1(CManagerInterfa
 }
 
 
-intgo _wrap_CManagerInterface_NewsSend_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, NewsTopic *_swig_go_1) {
+intgo _wrap_CManagerInterface_NewsSend_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, NewsTopic *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   NewsTopic *arg2 = (NewsTopic *) 0 ;
   int result;
@@ -26704,20 +27008,34 @@ intgo _wrap_CManagerInterface_NewsSend_mtmanapi_8609ee77fca78eb1(CManagerInterfa
 }
 
 
-ServerLog *_wrap_CManagerInterface_JournalRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, long long _swig_go_2, long long _swig_go_3, _gostring_ _swig_go_4, intgo *_swig_go_5) {
+ServerLog *_wrap_CManagerInterface_JournalRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, time_t *_swig_go_2, time_t *_swig_go_3, _gostring_ _swig_go_4, intgo *_swig_go_5) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   time_t arg3 ;
   time_t arg4 ;
   LPCSTR arg5 = (LPCSTR) 0 ;
   int *arg6 = (int *) 0 ;
+  time_t const *argp3 ;
+  time_t const *argp4 ;
   ServerLog *result = 0 ;
   ServerLog *_swig_go_result;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
-  arg3 = (time_t)_swig_go_2; 
-  arg4 = (time_t)_swig_go_3; 
+  
+  argp3 = (time_t *)_swig_go_2;
+  if (argp3 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t const");
+  }
+  arg3 = (time_t)*argp3;
+  
+  
+  argp4 = (time_t *)_swig_go_3;
+  if (argp4 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t const");
+  }
+  arg4 = (time_t)*argp4;
+  
   
   arg5 = (LPCSTR)malloc(_swig_go_4.n + 1);
   memcpy(arg5, _swig_go_4.p, _swig_go_4.n);
@@ -26732,7 +27050,7 @@ ServerLog *_wrap_CManagerInterface_JournalRequest_mtmanapi_8609ee77fca78eb1(CMan
 }
 
 
-UserRecord *_wrap_CManagerInterface_UsersRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+UserRecord *_wrap_CManagerInterface_UsersRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   UserRecord *result = 0 ;
@@ -26747,7 +27065,7 @@ UserRecord *_wrap_CManagerInterface_UsersRequest_mtmanapi_8609ee77fca78eb1(CMana
 }
 
 
-UserRecord *_wrap_CManagerInterface_UserRecordsRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1, intgo *_swig_go_2) {
+UserRecord *_wrap_CManagerInterface_UserRecordsRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   int *arg3 = (int *) 0 ;
@@ -26764,7 +27082,7 @@ UserRecord *_wrap_CManagerInterface_UserRecordsRequest_mtmanapi_8609ee77fca78eb1
 }
 
 
-intgo _wrap_CManagerInterface_UserRecordNew_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, UserRecord *_swig_go_1) {
+intgo _wrap_CManagerInterface_UserRecordNew_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, UserRecord *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   UserRecord *arg2 = (UserRecord *) 0 ;
   int result;
@@ -26779,7 +27097,7 @@ intgo _wrap_CManagerInterface_UserRecordNew_mtmanapi_8609ee77fca78eb1(CManagerIn
 }
 
 
-intgo _wrap_CManagerInterface_UserRecordUpdate_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, UserRecord *_swig_go_1) {
+intgo _wrap_CManagerInterface_UserRecordUpdate_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, UserRecord *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   UserRecord *arg2 = (UserRecord *) 0 ;
   int result;
@@ -26794,7 +27112,7 @@ intgo _wrap_CManagerInterface_UserRecordUpdate_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-intgo _wrap_CManagerInterface_UsersGroupOp_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, GroupCommandInfo *_swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_CManagerInterface_UsersGroupOp_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, GroupCommandInfo *_swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   GroupCommandInfo *arg2 = (GroupCommandInfo *) 0 ;
   int *arg3 = (int *) 0 ;
@@ -26811,7 +27129,7 @@ intgo _wrap_CManagerInterface_UsersGroupOp_mtmanapi_8609ee77fca78eb1(CManagerInt
 }
 
 
-intgo _wrap_CManagerInterface_UserPasswordCheck_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
+intgo _wrap_CManagerInterface_UserPasswordCheck_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   LPCSTR arg3 = (LPCSTR) 0 ;
@@ -26833,7 +27151,7 @@ intgo _wrap_CManagerInterface_UserPasswordCheck_mtmanapi_8609ee77fca78eb1(CManag
 }
 
 
-intgo _wrap_CManagerInterface_UserPasswordSet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
+intgo _wrap_CManagerInterface_UserPasswordSet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   LPCSTR arg3 = (LPCSTR) 0 ;
@@ -26859,7 +27177,7 @@ intgo _wrap_CManagerInterface_UserPasswordSet_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-OnlineRecord *_wrap_CManagerInterface_OnlineRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+OnlineRecord *_wrap_CManagerInterface_OnlineRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   OnlineRecord *result = 0 ;
@@ -26874,7 +27192,7 @@ OnlineRecord *_wrap_CManagerInterface_OnlineRequest_mtmanapi_8609ee77fca78eb1(CM
 }
 
 
-intgo _wrap_CManagerInterface_TradeTransaction_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, TradeTransInfo *_swig_go_1) {
+intgo _wrap_CManagerInterface_TradeTransaction_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, TradeTransInfo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   TradeTransInfo *arg2 = (TradeTransInfo *) 0 ;
   int result;
@@ -26889,7 +27207,7 @@ intgo _wrap_CManagerInterface_TradeTransaction_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-TradeRecord *_wrap_CManagerInterface_TradesRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+TradeRecord *_wrap_CManagerInterface_TradesRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   TradeRecord *result = 0 ;
@@ -26904,7 +27222,7 @@ TradeRecord *_wrap_CManagerInterface_TradesRequest_mtmanapi_8609ee77fca78eb1(CMa
 }
 
 
-TradeRecord *_wrap_CManagerInterface_TradeRecordsRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1, intgo *_swig_go_2) {
+TradeRecord *_wrap_CManagerInterface_TradeRecordsRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   int *arg3 = (int *) 0 ;
@@ -26921,19 +27239,33 @@ TradeRecord *_wrap_CManagerInterface_TradeRecordsRequest_mtmanapi_8609ee77fca78e
 }
 
 
-TradeRecord *_wrap_CManagerInterface_TradesUserHistory_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, long long _swig_go_2, long long _swig_go_3, intgo *_swig_go_4) {
+TradeRecord *_wrap_CManagerInterface_TradesUserHistory_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, time_t *_swig_go_2, time_t *_swig_go_3, intgo *_swig_go_4) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   time_t arg3 ;
   time_t arg4 ;
   int *arg5 = (int *) 0 ;
+  time_t const *argp3 ;
+  time_t const *argp4 ;
   TradeRecord *result = 0 ;
   TradeRecord *_swig_go_result;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
   arg2 = (int)_swig_go_1; 
-  arg3 = (time_t)_swig_go_2; 
-  arg4 = (time_t)_swig_go_3; 
+  
+  argp3 = (time_t *)_swig_go_2;
+  if (argp3 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t const");
+  }
+  arg3 = (time_t)*argp3;
+  
+  
+  argp4 = (time_t *)_swig_go_3;
+  if (argp4 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t const");
+  }
+  arg4 = (time_t)*argp4;
+  
   arg5 = *(int **)&_swig_go_4; 
   
   result = (TradeRecord *)(arg1)->TradesUserHistory(arg2,arg3,arg4,arg5);
@@ -26942,7 +27274,7 @@ TradeRecord *_wrap_CManagerInterface_TradesUserHistory_mtmanapi_8609ee77fca78eb1
 }
 
 
-intgo _wrap_CManagerInterface_TradeCheckStops_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, TradeTransInfo *_swig_go_1, double _swig_go_2) {
+intgo _wrap_CManagerInterface_TradeCheckStops_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, TradeTransInfo *_swig_go_1, double _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   TradeTransInfo *arg2 = (TradeTransInfo *) 0 ;
   double arg3 ;
@@ -26959,7 +27291,7 @@ intgo _wrap_CManagerInterface_TradeCheckStops_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-TradeRecord *_wrap_CManagerInterface_ReportsRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ReportGroupRequest *_swig_go_1, intgo *_swig_go_2, intgo *_swig_go_3) {
+TradeRecord *_wrap_CManagerInterface_ReportsRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ReportGroupRequest *_swig_go_1, intgo *_swig_go_2, intgo *_swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ReportGroupRequest *arg2 = (ReportGroupRequest *) 0 ;
   int *arg3 = (int *) 0 ;
@@ -26978,7 +27310,7 @@ TradeRecord *_wrap_CManagerInterface_ReportsRequest_mtmanapi_8609ee77fca78eb1(CM
 }
 
 
-DailyReport *_wrap_CManagerInterface_DailyReportsRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, DailyGroupRequest *_swig_go_1, intgo *_swig_go_2, intgo *_swig_go_3) {
+DailyReport *_wrap_CManagerInterface_DailyReportsRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, DailyGroupRequest *_swig_go_1, intgo *_swig_go_2, intgo *_swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   DailyGroupRequest *arg2 = (DailyGroupRequest *) 0 ;
   int *arg3 = (int *) 0 ;
@@ -26997,7 +27329,7 @@ DailyReport *_wrap_CManagerInterface_DailyReportsRequest_mtmanapi_8609ee77fca78e
 }
 
 
-intgo _wrap_CManagerInterface_ExternalCommand_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, _gostring_* _swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_CManagerInterface_ExternalCommand_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, _gostring_* _swig_go_3, intgo *_swig_go_4) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int arg3 ;
@@ -27023,7 +27355,7 @@ intgo _wrap_CManagerInterface_ExternalCommand_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_PluginUpdate_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConPluginParam *_swig_go_1) {
+intgo _wrap_CManagerInterface_PluginUpdate_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConPluginParam *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConPluginParam *arg2 = (ConPluginParam *) 0 ;
   int result;
@@ -27038,7 +27370,7 @@ intgo _wrap_CManagerInterface_PluginUpdate_mtmanapi_8609ee77fca78eb1(CManagerInt
 }
 
 
-intgo _wrap_CManagerInterface_PumpingSwitch_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, void* _swig_go_1, HWND *_swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
+intgo _wrap_CManagerInterface_PumpingSwitch_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, void* _swig_go_1, HWND *_swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   MTAPI_NOTIFY_FUNC arg2 = (MTAPI_NOTIFY_FUNC) 0 ;
   HWND arg3 ;
@@ -27066,7 +27398,7 @@ intgo _wrap_CManagerInterface_PumpingSwitch_mtmanapi_8609ee77fca78eb1(CManagerIn
 }
 
 
-ConGroup *_wrap_CManagerInterface_GroupsGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConGroup *_wrap_CManagerInterface_GroupsGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConGroup *result = 0 ;
@@ -27081,7 +27413,7 @@ ConGroup *_wrap_CManagerInterface_GroupsGet_mtmanapi_8609ee77fca78eb1(CManagerIn
 }
 
 
-intgo _wrap_CManagerInterface_GroupRecordGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, ConGroup *_swig_go_2) {
+intgo _wrap_CManagerInterface_GroupRecordGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, ConGroup *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   ConGroup *arg3 = (ConGroup *) 0 ;
@@ -27103,7 +27435,7 @@ intgo _wrap_CManagerInterface_GroupRecordGet_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-intgo _wrap_CManagerInterface_SymbolInfoUpdated_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, SymbolInfo *_swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_SymbolInfoUpdated_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, SymbolInfo *_swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   SymbolInfo *arg2 = (SymbolInfo *) 0 ;
   int arg3 ;
@@ -27120,7 +27452,7 @@ intgo _wrap_CManagerInterface_SymbolInfoUpdated_mtmanapi_8609ee77fca78eb1(CManag
 }
 
 
-UserRecord *_wrap_CManagerInterface_UsersGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+UserRecord *_wrap_CManagerInterface_UsersGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   UserRecord *result = 0 ;
@@ -27135,7 +27467,7 @@ UserRecord *_wrap_CManagerInterface_UsersGet_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-intgo _wrap_CManagerInterface_UserRecordGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, UserRecord *_swig_go_2) {
+intgo _wrap_CManagerInterface_UserRecordGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, UserRecord *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   UserRecord *arg3 = (UserRecord *) 0 ;
@@ -27152,7 +27484,7 @@ intgo _wrap_CManagerInterface_UserRecordGet_mtmanapi_8609ee77fca78eb1(CManagerIn
 }
 
 
-OnlineRecord *_wrap_CManagerInterface_OnlineGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+OnlineRecord *_wrap_CManagerInterface_OnlineGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   OnlineRecord *result = 0 ;
@@ -27167,7 +27499,7 @@ OnlineRecord *_wrap_CManagerInterface_OnlineGet_mtmanapi_8609ee77fca78eb1(CManag
 }
 
 
-intgo _wrap_CManagerInterface_OnlineRecordGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, OnlineRecord *_swig_go_2) {
+intgo _wrap_CManagerInterface_OnlineRecordGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, OnlineRecord *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   OnlineRecord *arg3 = (OnlineRecord *) 0 ;
@@ -27184,7 +27516,7 @@ intgo _wrap_CManagerInterface_OnlineRecordGet_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-TradeRecord *_wrap_CManagerInterface_TradesGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+TradeRecord *_wrap_CManagerInterface_TradesGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   TradeRecord *result = 0 ;
@@ -27199,7 +27531,7 @@ TradeRecord *_wrap_CManagerInterface_TradesGet_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-TradeRecord *_wrap_CManagerInterface_TradesGetBySymbol_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo *_swig_go_2) {
+TradeRecord *_wrap_CManagerInterface_TradesGetBySymbol_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int *arg3 = (int *) 0 ;
@@ -27221,7 +27553,7 @@ TradeRecord *_wrap_CManagerInterface_TradesGetBySymbol_mtmanapi_8609ee77fca78eb1
 }
 
 
-TradeRecord *_wrap_CManagerInterface_TradesGetByLogin_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, intgo *_swig_go_3) {
+TradeRecord *_wrap_CManagerInterface_TradesGetByLogin_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, intgo *_swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   LPCSTR arg3 = (LPCSTR) 0 ;
@@ -27245,7 +27577,7 @@ TradeRecord *_wrap_CManagerInterface_TradesGetByLogin_mtmanapi_8609ee77fca78eb1(
 }
 
 
-TradeRecord *_wrap_CManagerInterface_TradesGetByMarket_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+TradeRecord *_wrap_CManagerInterface_TradesGetByMarket_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   TradeRecord *result = 0 ;
@@ -27260,7 +27592,7 @@ TradeRecord *_wrap_CManagerInterface_TradesGetByMarket_mtmanapi_8609ee77fca78eb1
 }
 
 
-intgo _wrap_CManagerInterface_TradeRecordGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, TradeRecord *_swig_go_2) {
+intgo _wrap_CManagerInterface_TradeRecordGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, TradeRecord *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   TradeRecord *arg3 = (TradeRecord *) 0 ;
@@ -27277,7 +27609,7 @@ intgo _wrap_CManagerInterface_TradeRecordGet_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-intgo _wrap_CManagerInterface_TradeClearRollback_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_CManagerInterface_TradeClearRollback_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int result;
@@ -27292,7 +27624,7 @@ intgo _wrap_CManagerInterface_TradeClearRollback_mtmanapi_8609ee77fca78eb1(CMana
 }
 
 
-MarginLevel *_wrap_CManagerInterface_MarginsGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+MarginLevel *_wrap_CManagerInterface_MarginsGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   MarginLevel *result = 0 ;
@@ -27307,7 +27639,7 @@ MarginLevel *_wrap_CManagerInterface_MarginsGet_mtmanapi_8609ee77fca78eb1(CManag
 }
 
 
-intgo _wrap_CManagerInterface_MarginLevelGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, MarginLevel *_swig_go_3) {
+intgo _wrap_CManagerInterface_MarginLevelGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, MarginLevel *_swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   LPCSTR arg3 = (LPCSTR) 0 ;
@@ -27331,7 +27663,7 @@ intgo _wrap_CManagerInterface_MarginLevelGet_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-RequestInfo *_wrap_CManagerInterface_RequestsGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+RequestInfo *_wrap_CManagerInterface_RequestsGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   RequestInfo *result = 0 ;
@@ -27346,7 +27678,7 @@ RequestInfo *_wrap_CManagerInterface_RequestsGet_mtmanapi_8609ee77fca78eb1(CMana
 }
 
 
-intgo _wrap_CManagerInterface_RequestInfoGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, RequestInfo *_swig_go_2) {
+intgo _wrap_CManagerInterface_RequestInfoGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, RequestInfo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   RequestInfo *arg3 = (RequestInfo *) 0 ;
@@ -27363,7 +27695,7 @@ intgo _wrap_CManagerInterface_RequestInfoGet_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-ConPlugin *_wrap_CManagerInterface_PluginsGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConPlugin *_wrap_CManagerInterface_PluginsGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConPlugin *result = 0 ;
@@ -27378,7 +27710,7 @@ ConPlugin *_wrap_CManagerInterface_PluginsGet_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_PluginParamGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, ConPluginParam *_swig_go_2) {
+intgo _wrap_CManagerInterface_PluginParamGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, ConPluginParam *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   ConPluginParam *arg3 = (ConPluginParam *) 0 ;
@@ -27395,7 +27727,7 @@ intgo _wrap_CManagerInterface_PluginParamGet_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-intgo _wrap_CManagerInterface_MailLast_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_CManagerInterface_MailLast_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPSTR arg2 = (LPSTR) 0 ;
   int *arg3 = (int *) 0 ;
@@ -27417,7 +27749,7 @@ intgo _wrap_CManagerInterface_MailLast_mtmanapi_8609ee77fca78eb1(CManagerInterfa
 }
 
 
-NewsTopic *_wrap_CManagerInterface_NewsGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+NewsTopic *_wrap_CManagerInterface_NewsGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   NewsTopic *result = 0 ;
@@ -27432,7 +27764,7 @@ NewsTopic *_wrap_CManagerInterface_NewsGet_mtmanapi_8609ee77fca78eb1(CManagerInt
 }
 
 
-intgo _wrap_CManagerInterface_NewsTotal_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0) {
+intgo _wrap_CManagerInterface_NewsTotal_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -27445,7 +27777,7 @@ intgo _wrap_CManagerInterface_NewsTotal_mtmanapi_8609ee77fca78eb1(CManagerInterf
 }
 
 
-intgo _wrap_CManagerInterface_NewsTopicGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, NewsTopic *_swig_go_2) {
+intgo _wrap_CManagerInterface_NewsTopicGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, NewsTopic *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   NewsTopic *arg3 = (NewsTopic *) 0 ;
@@ -27462,7 +27794,7 @@ intgo _wrap_CManagerInterface_NewsTopicGet_mtmanapi_8609ee77fca78eb1(CManagerInt
 }
 
 
-void _wrap_CManagerInterface_NewsBodyRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+void _wrap_CManagerInterface_NewsBodyRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   
@@ -27474,7 +27806,7 @@ void _wrap_CManagerInterface_NewsBodyRequest_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-_gostring_ _wrap_CManagerInterface_NewsBodyGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+_gostring_ _wrap_CManagerInterface_NewsBodyGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   LPSTR result;
@@ -27489,7 +27821,7 @@ _gostring_ _wrap_CManagerInterface_NewsBodyGet_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-intgo _wrap_CManagerInterface_DealerSwitch_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, void* _swig_go_1, HWND *_swig_go_2, intgo _swig_go_3) {
+intgo _wrap_CManagerInterface_DealerSwitch_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, void* _swig_go_1, HWND *_swig_go_2, intgo _swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   MTAPI_NOTIFY_FUNC arg2 = (MTAPI_NOTIFY_FUNC) 0 ;
   HWND arg3 ;
@@ -27515,7 +27847,7 @@ intgo _wrap_CManagerInterface_DealerSwitch_mtmanapi_8609ee77fca78eb1(CManagerInt
 }
 
 
-intgo _wrap_CManagerInterface_DealerRequestGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, RequestInfo *_swig_go_1) {
+intgo _wrap_CManagerInterface_DealerRequestGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, RequestInfo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   RequestInfo *arg2 = (RequestInfo *) 0 ;
   int result;
@@ -27530,7 +27862,7 @@ intgo _wrap_CManagerInterface_DealerRequestGet_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-intgo _wrap_CManagerInterface_DealerSend_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, RequestInfo *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+intgo _wrap_CManagerInterface_DealerSend_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, RequestInfo *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   RequestInfo *arg2 = (RequestInfo *) 0 ;
   int arg3 ;
@@ -27549,7 +27881,7 @@ intgo _wrap_CManagerInterface_DealerSend_mtmanapi_8609ee77fca78eb1(CManagerInter
 }
 
 
-intgo _wrap_CManagerInterface_DealerReject_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_CManagerInterface_DealerReject_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int result;
@@ -27564,7 +27896,7 @@ intgo _wrap_CManagerInterface_DealerReject_mtmanapi_8609ee77fca78eb1(CManagerInt
 }
 
 
-intgo _wrap_CManagerInterface_DealerReset_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_CManagerInterface_DealerReset_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int result;
@@ -27579,7 +27911,7 @@ intgo _wrap_CManagerInterface_DealerReset_mtmanapi_8609ee77fca78eb1(CManagerInte
 }
 
 
-TickInfo *_wrap_CManagerInterface_TickInfoLast_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo *_swig_go_2) {
+TickInfo *_wrap_CManagerInterface_TickInfoLast_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int *arg3 = (int *) 0 ;
@@ -27601,7 +27933,7 @@ TickInfo *_wrap_CManagerInterface_TickInfoLast_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-intgo _wrap_CManagerInterface_SymbolsGroupsGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConSymbolGroup *_swig_go_1) {
+intgo _wrap_CManagerInterface_SymbolsGroupsGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConSymbolGroup *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConSymbolGroup *arg2 = (ConSymbolGroup *) 0 ;
   int result;
@@ -27616,20 +27948,20 @@ intgo _wrap_CManagerInterface_SymbolsGroupsGet_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-long long _wrap_CManagerInterface_ServerTime_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0) {
+time_t *_wrap_CManagerInterface_ServerTime_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   time_t result;
-  long long _swig_go_result;
+  time_t *_swig_go_result;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
   
-  result = (time_t)(arg1)->ServerTime();
-  _swig_go_result = result; 
+  result = (arg1)->ServerTime();
+  *(time_t **)&_swig_go_result = new time_t(result); 
   return _swig_go_result;
 }
 
 
-MailBox *_wrap_CManagerInterface_MailsRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+MailBox *_wrap_CManagerInterface_MailsRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   MailBox *result = 0 ;
@@ -27644,7 +27976,7 @@ MailBox *_wrap_CManagerInterface_MailsRequest_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-SymbolSummary *_wrap_CManagerInterface_SummaryGetAll_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+SymbolSummary *_wrap_CManagerInterface_SummaryGetAll_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   SymbolSummary *result = 0 ;
@@ -27659,7 +27991,7 @@ SymbolSummary *_wrap_CManagerInterface_SummaryGetAll_mtmanapi_8609ee77fca78eb1(C
 }
 
 
-intgo _wrap_CManagerInterface_SummaryGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, SymbolSummary *_swig_go_2) {
+intgo _wrap_CManagerInterface_SummaryGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, SymbolSummary *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   SymbolSummary *arg3 = (SymbolSummary *) 0 ;
@@ -27681,7 +28013,7 @@ intgo _wrap_CManagerInterface_SummaryGet_mtmanapi_8609ee77fca78eb1(CManagerInter
 }
 
 
-intgo _wrap_CManagerInterface_SummaryGetByCount_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, SymbolSummary *_swig_go_2) {
+intgo _wrap_CManagerInterface_SummaryGetByCount_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, SymbolSummary *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   SymbolSummary *arg3 = (SymbolSummary *) 0 ;
@@ -27698,7 +28030,7 @@ intgo _wrap_CManagerInterface_SummaryGetByCount_mtmanapi_8609ee77fca78eb1(CManag
 }
 
 
-intgo _wrap_CManagerInterface_SummaryGetByType_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, SymbolSummary *_swig_go_2) {
+intgo _wrap_CManagerInterface_SummaryGetByType_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, SymbolSummary *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   SymbolSummary *arg3 = (SymbolSummary *) 0 ;
@@ -27715,7 +28047,7 @@ intgo _wrap_CManagerInterface_SummaryGetByType_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-intgo _wrap_CManagerInterface_SummaryCurrency_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_SummaryCurrency_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPSTR arg2 = (LPSTR) 0 ;
   int arg3 ;
@@ -27737,7 +28069,7 @@ intgo _wrap_CManagerInterface_SummaryCurrency_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-ExposureValue *_wrap_CManagerInterface_ExposureGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ExposureValue *_wrap_CManagerInterface_ExposureGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ExposureValue *result = 0 ;
@@ -27752,7 +28084,7 @@ ExposureValue *_wrap_CManagerInterface_ExposureGet_mtmanapi_8609ee77fca78eb1(CMa
 }
 
 
-intgo _wrap_CManagerInterface_ExposureValueGet_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, ExposureValue *_swig_go_2) {
+intgo _wrap_CManagerInterface_ExposureValueGet_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, ExposureValue *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   ExposureValue *arg3 = (ExposureValue *) 0 ;
@@ -27774,7 +28106,7 @@ intgo _wrap_CManagerInterface_ExposureValueGet_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-intgo _wrap_CManagerInterface_MarginLevelRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, MarginLevel *_swig_go_2) {
+intgo _wrap_CManagerInterface_MarginLevelRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, MarginLevel *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   MarginLevel *arg3 = (MarginLevel *) 0 ;
@@ -27791,7 +28123,7 @@ intgo _wrap_CManagerInterface_MarginLevelRequest_mtmanapi_8609ee77fca78eb1(CMana
 }
 
 
-intgo _wrap_CManagerInterface_HistoryCorrect_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo *_swig_go_2) {
+intgo _wrap_CManagerInterface_HistoryCorrect_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int *arg3 = (int *) 0 ;
@@ -27813,7 +28145,7 @@ intgo _wrap_CManagerInterface_HistoryCorrect_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-RateInfo *_wrap_CManagerInterface_ChartRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ChartInfo *_swig_go_1, long long *_swig_go_2, intgo *_swig_go_3) {
+RateInfo *_wrap_CManagerInterface_ChartRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ChartInfo *_swig_go_1, time_t *_swig_go_2, intgo *_swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ChartInfo *arg2 = (ChartInfo *) 0 ;
   time_t *arg3 = (time_t *) 0 ;
@@ -27832,7 +28164,7 @@ RateInfo *_wrap_CManagerInterface_ChartRequest_mtmanapi_8609ee77fca78eb1(CManage
 }
 
 
-intgo _wrap_CManagerInterface_ChartAdd_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, RateInfo *_swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_CManagerInterface_ChartAdd_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, RateInfo *_swig_go_3, intgo *_swig_go_4) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int arg3 ;
@@ -27858,7 +28190,7 @@ intgo _wrap_CManagerInterface_ChartAdd_mtmanapi_8609ee77fca78eb1(CManagerInterfa
 }
 
 
-intgo _wrap_CManagerInterface_ChartUpdate_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, RateInfo *_swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_CManagerInterface_ChartUpdate_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, RateInfo *_swig_go_3, intgo *_swig_go_4) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int arg3 ;
@@ -27884,7 +28216,7 @@ intgo _wrap_CManagerInterface_ChartUpdate_mtmanapi_8609ee77fca78eb1(CManagerInte
 }
 
 
-intgo _wrap_CManagerInterface_ChartDelete_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, RateInfo *_swig_go_3, intgo *_swig_go_4) {
+intgo _wrap_CManagerInterface_ChartDelete_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, RateInfo *_swig_go_3, intgo *_swig_go_4) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int arg3 ;
@@ -27910,7 +28242,7 @@ intgo _wrap_CManagerInterface_ChartDelete_mtmanapi_8609ee77fca78eb1(CManagerInte
 }
 
 
-TickRecord *_wrap_CManagerInterface_TicksRequest_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, TickRequest *_swig_go_1, intgo *_swig_go_2) {
+TickRecord *_wrap_CManagerInterface_TicksRequest_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, TickRequest *_swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   TickRequest *arg2 = (TickRequest *) 0 ;
   int *arg3 = (int *) 0 ;
@@ -27927,7 +28259,7 @@ TickRecord *_wrap_CManagerInterface_TicksRequest_mtmanapi_8609ee77fca78eb1(CMana
 }
 
 
-intgo _wrap_CManagerInterface_PumpingSwitchEx_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, void* _swig_go_1, intgo _swig_go_2, void *_swig_go_3) {
+intgo _wrap_CManagerInterface_PumpingSwitchEx_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, void* _swig_go_1, intgo _swig_go_2, void *_swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   MTAPI_NOTIFY_FUNC_EX arg2 = (MTAPI_NOTIFY_FUNC_EX) 0 ;
   int arg3 ;
@@ -27946,14 +28278,21 @@ intgo _wrap_CManagerInterface_PumpingSwitchEx_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_UsersSyncStart_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_CManagerInterface_UsersSyncStart_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, time_t *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   time_t arg2 ;
+  time_t const *argp2 ;
   int result;
   intgo _swig_go_result;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t const");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   result = (int)(arg1)->UsersSyncStart(arg2);
   _swig_go_result = result; 
@@ -27961,7 +28300,7 @@ intgo _wrap_CManagerInterface_UsersSyncStart_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-UserRecord *_wrap_CManagerInterface_UsersSyncRead_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+UserRecord *_wrap_CManagerInterface_UsersSyncRead_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   UserRecord *result = 0 ;
@@ -27976,7 +28315,7 @@ UserRecord *_wrap_CManagerInterface_UsersSyncRead_mtmanapi_8609ee77fca78eb1(CMan
 }
 
 
-intgo *_wrap_CManagerInterface_UsersSnapshot_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+intgo *_wrap_CManagerInterface_UsersSnapshot_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   int *result = 0 ;
@@ -27991,14 +28330,21 @@ intgo *_wrap_CManagerInterface_UsersSnapshot_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-intgo _wrap_CManagerInterface_TradesSyncStart_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_CManagerInterface_TradesSyncStart_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, time_t *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   time_t arg2 ;
+  time_t const *argp2 ;
   int result;
   intgo _swig_go_result;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t const");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   result = (int)(arg1)->TradesSyncStart(arg2);
   _swig_go_result = result; 
@@ -28006,7 +28352,7 @@ intgo _wrap_CManagerInterface_TradesSyncStart_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-TradeRecord *_wrap_CManagerInterface_TradesSyncRead_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+TradeRecord *_wrap_CManagerInterface_TradesSyncRead_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   TradeRecord *result = 0 ;
@@ -28021,7 +28367,7 @@ TradeRecord *_wrap_CManagerInterface_TradesSyncRead_mtmanapi_8609ee77fca78eb1(CM
 }
 
 
-intgo *_wrap_CManagerInterface_TradesSnapshot_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+intgo *_wrap_CManagerInterface_TradesSnapshot_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   int *result = 0 ;
@@ -28036,14 +28382,21 @@ intgo *_wrap_CManagerInterface_TradesSnapshot_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_DailySyncStart_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, long long _swig_go_1) {
+intgo _wrap_CManagerInterface_DailySyncStart_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, time_t *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   time_t arg2 ;
+  time_t const *argp2 ;
   int result;
   intgo _swig_go_result;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
-  arg2 = (time_t)_swig_go_1; 
+  
+  argp2 = (time_t *)_swig_go_1;
+  if (argp2 == NULL) {
+    _swig_gopanic("Attempt to dereference null time_t const");
+  }
+  arg2 = (time_t)*argp2;
+  
   
   result = (int)(arg1)->DailySyncStart(arg2);
   _swig_go_result = result; 
@@ -28051,7 +28404,7 @@ intgo _wrap_CManagerInterface_DailySyncStart_mtmanapi_8609ee77fca78eb1(CManagerI
 }
 
 
-DailyReport *_wrap_CManagerInterface_DailySyncRead_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+DailyReport *_wrap_CManagerInterface_DailySyncRead_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   DailyReport *result = 0 ;
@@ -28066,7 +28419,7 @@ DailyReport *_wrap_CManagerInterface_DailySyncRead_mtmanapi_8609ee77fca78eb1(CMa
 }
 
 
-intgo _wrap_CManagerInterface_TradeCalcProfit_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, TradeRecord *_swig_go_1) {
+intgo _wrap_CManagerInterface_TradeCalcProfit_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, TradeRecord *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   TradeRecord *arg2 = (TradeRecord *) 0 ;
   int result;
@@ -28081,7 +28434,7 @@ intgo _wrap_CManagerInterface_TradeCalcProfit_mtmanapi_8609ee77fca78eb1(CManager
 }
 
 
-intgo _wrap_CManagerInterface_SymbolChange_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, SymbolProperties *_swig_go_1) {
+intgo _wrap_CManagerInterface_SymbolChange_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, SymbolProperties *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   SymbolProperties *arg2 = (SymbolProperties *) 0 ;
   int result;
@@ -28096,7 +28449,7 @@ intgo _wrap_CManagerInterface_SymbolChange_mtmanapi_8609ee77fca78eb1(CManagerInt
 }
 
 
-intgo _wrap_CManagerInterface_BytesSent_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0) {
+intgo _wrap_CManagerInterface_BytesSent_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -28109,7 +28462,7 @@ intgo _wrap_CManagerInterface_BytesSent_mtmanapi_8609ee77fca78eb1(CManagerInterf
 }
 
 
-intgo _wrap_CManagerInterface_BytesReceived_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0) {
+intgo _wrap_CManagerInterface_BytesReceived_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -28122,7 +28475,7 @@ intgo _wrap_CManagerInterface_BytesReceived_mtmanapi_8609ee77fca78eb1(CManagerIn
 }
 
 
-intgo _wrap_CManagerInterface_ManagerCommon_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConCommon *_swig_go_1) {
+intgo _wrap_CManagerInterface_ManagerCommon_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConCommon *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConCommon *arg2 = (ConCommon *) 0 ;
   int result;
@@ -28137,7 +28490,7 @@ intgo _wrap_CManagerInterface_ManagerCommon_mtmanapi_8609ee77fca78eb1(CManagerIn
 }
 
 
-void _wrap_CManagerInterface_LogsOut_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3) {
+void _wrap_CManagerInterface_LogsOut_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, _gostring_ _swig_go_2, _gostring_ _swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   LPCSTR arg3 = (LPCSTR) 0 ;
@@ -28163,7 +28516,7 @@ void _wrap_CManagerInterface_LogsOut_mtmanapi_8609ee77fca78eb1(CManagerInterface
 }
 
 
-void _wrap_CManagerInterface_LogsMode_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+void _wrap_CManagerInterface_LogsMode_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   
@@ -28175,7 +28528,7 @@ void _wrap_CManagerInterface_LogsMode_mtmanapi_8609ee77fca78eb1(CManagerInterfac
 }
 
 
-intgo _wrap_CManagerInterface_LicenseCheck_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1) {
+intgo _wrap_CManagerInterface_LicenseCheck_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, _gostring_ _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   int result;
@@ -28195,7 +28548,7 @@ intgo _wrap_CManagerInterface_LicenseCheck_mtmanapi_8609ee77fca78eb1(CManagerInt
 }
 
 
-ConGatewayAccount *_wrap_CManagerInterface_CfgRequestGatewayAccount_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConGatewayAccount *_wrap_CManagerInterface_CfgRequestGatewayAccount_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConGatewayAccount *result = 0 ;
@@ -28210,7 +28563,7 @@ ConGatewayAccount *_wrap_CManagerInterface_CfgRequestGatewayAccount_mtmanapi_860
 }
 
 
-ConGatewayMarkup *_wrap_CManagerInterface_CfgRequestGatewayMarkup_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConGatewayMarkup *_wrap_CManagerInterface_CfgRequestGatewayMarkup_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConGatewayMarkup *result = 0 ;
@@ -28225,7 +28578,7 @@ ConGatewayMarkup *_wrap_CManagerInterface_CfgRequestGatewayMarkup_mtmanapi_8609e
 }
 
 
-ConGatewayRule *_wrap_CManagerInterface_CfgRequestGatewayRule_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
+ConGatewayRule *_wrap_CManagerInterface_CfgRequestGatewayRule_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   ConGatewayRule *result = 0 ;
@@ -28240,7 +28593,7 @@ ConGatewayRule *_wrap_CManagerInterface_CfgRequestGatewayRule_mtmanapi_8609ee77f
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateGatewayAccount_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConGatewayAccount *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgUpdateGatewayAccount_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConGatewayAccount *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConGatewayAccount *arg2 = (ConGatewayAccount *) 0 ;
   int result;
@@ -28255,7 +28608,7 @@ intgo _wrap_CManagerInterface_CfgUpdateGatewayAccount_mtmanapi_8609ee77fca78eb1(
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateGatewayMarkup_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConGatewayMarkup *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgUpdateGatewayMarkup_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConGatewayMarkup *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConGatewayMarkup *arg2 = (ConGatewayMarkup *) 0 ;
   int result;
@@ -28270,7 +28623,7 @@ intgo _wrap_CManagerInterface_CfgUpdateGatewayMarkup_mtmanapi_8609ee77fca78eb1(C
 }
 
 
-intgo _wrap_CManagerInterface_CfgUpdateGatewayRule_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, ConGatewayRule *_swig_go_1) {
+intgo _wrap_CManagerInterface_CfgUpdateGatewayRule_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, ConGatewayRule *_swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   ConGatewayRule *arg2 = (ConGatewayRule *) 0 ;
   int result;
@@ -28285,7 +28638,7 @@ intgo _wrap_CManagerInterface_CfgUpdateGatewayRule_mtmanapi_8609ee77fca78eb1(CMa
 }
 
 
-intgo _wrap_CManagerInterface_CfgDeleteGatewayAccount_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_CManagerInterface_CfgDeleteGatewayAccount_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int result;
@@ -28300,7 +28653,7 @@ intgo _wrap_CManagerInterface_CfgDeleteGatewayAccount_mtmanapi_8609ee77fca78eb1(
 }
 
 
-intgo _wrap_CManagerInterface_CfgDeleteGatewayMarkup_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_CManagerInterface_CfgDeleteGatewayMarkup_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int result;
@@ -28315,7 +28668,7 @@ intgo _wrap_CManagerInterface_CfgDeleteGatewayMarkup_mtmanapi_8609ee77fca78eb1(C
 }
 
 
-intgo _wrap_CManagerInterface_CfgDeleteGatewayRule_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_CManagerInterface_CfgDeleteGatewayRule_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int result;
@@ -28330,7 +28683,7 @@ intgo _wrap_CManagerInterface_CfgDeleteGatewayRule_mtmanapi_8609ee77fca78eb1(CMa
 }
 
 
-intgo _wrap_CManagerInterface_CfgShiftGatewayAccount_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgShiftGatewayAccount_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -28347,7 +28700,7 @@ intgo _wrap_CManagerInterface_CfgShiftGatewayAccount_mtmanapi_8609ee77fca78eb1(C
 }
 
 
-intgo _wrap_CManagerInterface_CfgShiftGatewayMarkup_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgShiftGatewayMarkup_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -28364,7 +28717,7 @@ intgo _wrap_CManagerInterface_CfgShiftGatewayMarkup_mtmanapi_8609ee77fca78eb1(CM
 }
 
 
-intgo _wrap_CManagerInterface_CfgShiftGatewayRule_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_CManagerInterface_CfgShiftGatewayRule_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -28381,7 +28734,7 @@ intgo _wrap_CManagerInterface_CfgShiftGatewayRule_mtmanapi_8609ee77fca78eb1(CMan
 }
 
 
-BalanceDiff *_wrap_CManagerInterface_AdmBalanceCheck_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1, intgo *_swig_go_2) {
+BalanceDiff *_wrap_CManagerInterface_AdmBalanceCheck_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1, intgo *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   int *arg3 = (int *) 0 ;
@@ -28398,7 +28751,7 @@ BalanceDiff *_wrap_CManagerInterface_AdmBalanceCheck_mtmanapi_8609ee77fca78eb1(C
 }
 
 
-intgo _wrap_CManagerInterface_NotificationsSend__SWIG_0_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, LPWSTR *_swig_go_1, LPCWSTR *_swig_go_2) {
+intgo _wrap_CManagerInterface_NotificationsSend__SWIG_0_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, LPWSTR *_swig_go_1, LPCWSTR *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   LPWSTR arg2 ;
   LPCWSTR arg3 ;
@@ -28429,7 +28782,7 @@ intgo _wrap_CManagerInterface_NotificationsSend__SWIG_0_mtmanapi_8609ee77fca78eb
 }
 
 
-intgo _wrap_CManagerInterface_NotificationsSend__SWIG_1_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3) {
+intgo _wrap_CManagerInterface_NotificationsSend__SWIG_1_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo *_swig_go_1, intgo _swig_go_2, LPCWSTR *_swig_go_3) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int *arg2 = (int *) 0 ;
   UINT arg3 ;
@@ -28455,7 +28808,7 @@ intgo _wrap_CManagerInterface_NotificationsSend__SWIG_1_mtmanapi_8609ee77fca78eb
 }
 
 
-void _wrap_delete_CManagerInterface_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0) {
+void _wrap_delete_CManagerInterface_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   
   arg1 = *(CManagerInterface **)&_swig_go_0; 
@@ -28465,7 +28818,7 @@ void _wrap_delete_CManagerInterface_mtmanapi_8609ee77fca78eb1(CManagerInterface 
 }
 
 
-CManagerFactory *_wrap_new_CManagerFactory__SWIG_0_mtmanapi_8609ee77fca78eb1(_gostring_ _swig_go_0) {
+CManagerFactory *_wrap_new_CManagerFactory__SWIG_0_mtmanapi_7bd57f7bcf037842(_gostring_ _swig_go_0) {
   LPCSTR arg1 = (LPCSTR) 0 ;
   CManagerFactory *result = 0 ;
   CManagerFactory *_swig_go_result;
@@ -28483,7 +28836,7 @@ CManagerFactory *_wrap_new_CManagerFactory__SWIG_0_mtmanapi_8609ee77fca78eb1(_go
 }
 
 
-CManagerFactory *_wrap_new_CManagerFactory__SWIG_1_mtmanapi_8609ee77fca78eb1() {
+CManagerFactory *_wrap_new_CManagerFactory__SWIG_1_mtmanapi_7bd57f7bcf037842() {
   CManagerFactory *result = 0 ;
   CManagerFactory *_swig_go_result;
   
@@ -28494,7 +28847,7 @@ CManagerFactory *_wrap_new_CManagerFactory__SWIG_1_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_delete_CManagerFactory_mtmanapi_8609ee77fca78eb1(CManagerFactory *_swig_go_0) {
+void _wrap_delete_CManagerFactory_mtmanapi_7bd57f7bcf037842(CManagerFactory *_swig_go_0) {
   CManagerFactory *arg1 = (CManagerFactory *) 0 ;
   
   arg1 = *(CManagerFactory **)&_swig_go_0; 
@@ -28504,7 +28857,7 @@ void _wrap_delete_CManagerFactory_mtmanapi_8609ee77fca78eb1(CManagerFactory *_sw
 }
 
 
-void _wrap_CManagerFactory_Init__SWIG_0_mtmanapi_8609ee77fca78eb1(CManagerFactory *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_CManagerFactory_Init__SWIG_0_mtmanapi_7bd57f7bcf037842(CManagerFactory *_swig_go_0, _gostring_ _swig_go_1) {
   CManagerFactory *arg1 = (CManagerFactory *) 0 ;
   LPCSTR arg2 = (LPCSTR) 0 ;
   
@@ -28521,7 +28874,7 @@ void _wrap_CManagerFactory_Init__SWIG_0_mtmanapi_8609ee77fca78eb1(CManagerFactor
 }
 
 
-void _wrap_CManagerFactory_Init__SWIG_1_mtmanapi_8609ee77fca78eb1(CManagerFactory *_swig_go_0) {
+void _wrap_CManagerFactory_Init__SWIG_1_mtmanapi_7bd57f7bcf037842(CManagerFactory *_swig_go_0) {
   CManagerFactory *arg1 = (CManagerFactory *) 0 ;
   
   arg1 = *(CManagerFactory **)&_swig_go_0; 
@@ -28531,7 +28884,7 @@ void _wrap_CManagerFactory_Init__SWIG_1_mtmanapi_8609ee77fca78eb1(CManagerFactor
 }
 
 
-intgo _wrap_CManagerFactory_WinsockStartup_mtmanapi_8609ee77fca78eb1(CManagerFactory *_swig_go_0) {
+intgo _wrap_CManagerFactory_WinsockStartup_mtmanapi_7bd57f7bcf037842(CManagerFactory *_swig_go_0) {
   CManagerFactory *arg1 = (CManagerFactory *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -28544,7 +28897,7 @@ intgo _wrap_CManagerFactory_WinsockStartup_mtmanapi_8609ee77fca78eb1(CManagerFac
 }
 
 
-void _wrap_CManagerFactory_WinsockCleanup_mtmanapi_8609ee77fca78eb1(CManagerFactory *_swig_go_0) {
+void _wrap_CManagerFactory_WinsockCleanup_mtmanapi_7bd57f7bcf037842(CManagerFactory *_swig_go_0) {
   CManagerFactory *arg1 = (CManagerFactory *) 0 ;
   
   arg1 = *(CManagerFactory **)&_swig_go_0; 
@@ -28554,7 +28907,7 @@ void _wrap_CManagerFactory_WinsockCleanup_mtmanapi_8609ee77fca78eb1(CManagerFact
 }
 
 
-intgo _wrap_CManagerFactory_IsValid_mtmanapi_8609ee77fca78eb1(CManagerFactory *_swig_go_0) {
+intgo _wrap_CManagerFactory_IsValid_mtmanapi_7bd57f7bcf037842(CManagerFactory *_swig_go_0) {
   CManagerFactory *arg1 = (CManagerFactory *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -28567,7 +28920,7 @@ intgo _wrap_CManagerFactory_IsValid_mtmanapi_8609ee77fca78eb1(CManagerFactory *_
 }
 
 
-intgo _wrap_CManagerFactory_Version_mtmanapi_8609ee77fca78eb1(CManagerFactory *_swig_go_0) {
+intgo _wrap_CManagerFactory_Version_mtmanapi_7bd57f7bcf037842(CManagerFactory *_swig_go_0) {
   CManagerFactory *arg1 = (CManagerFactory *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -28580,7 +28933,7 @@ intgo _wrap_CManagerFactory_Version_mtmanapi_8609ee77fca78eb1(CManagerFactory *_
 }
 
 
-CManagerInterface *_wrap_CManagerFactory_Create_mtmanapi_8609ee77fca78eb1(CManagerFactory *_swig_go_0, intgo _swig_go_1) {
+CManagerInterface *_wrap_CManagerFactory_Create_mtmanapi_7bd57f7bcf037842(CManagerFactory *_swig_go_0, intgo _swig_go_1) {
   CManagerFactory *arg1 = (CManagerFactory *) 0 ;
   int arg2 ;
   CManagerInterface *result = 0 ;
@@ -28595,7 +28948,7 @@ CManagerInterface *_wrap_CManagerFactory_Create_mtmanapi_8609ee77fca78eb1(CManag
 }
 
 
-PumpReceiver *_wrap__swig_NewDirectorPumpReceiverPumpReceiver_mtmanapi_8609ee77fca78eb1(intgo _swig_go_0) {
+PumpReceiver *_wrap__swig_NewDirectorPumpReceiverPumpReceiver_mtmanapi_7bd57f7bcf037842(intgo _swig_go_0) {
   int arg1 ;
   PumpReceiver *result = 0 ;
   PumpReceiver *_swig_go_result;
@@ -28608,7 +28961,7 @@ PumpReceiver *_wrap__swig_NewDirectorPumpReceiverPumpReceiver_mtmanapi_8609ee77f
 }
 
 
-void _wrap_DeleteDirectorPumpReceiver_mtmanapi_8609ee77fca78eb1(PumpReceiver *_swig_go_0) {
+void _wrap_DeleteDirectorPumpReceiver_mtmanapi_7bd57f7bcf037842(PumpReceiver *_swig_go_0) {
   PumpReceiver *arg1 = (PumpReceiver *) 0 ;
   
   arg1 = *(PumpReceiver **)&_swig_go_0; 
@@ -28618,7 +28971,7 @@ void _wrap_DeleteDirectorPumpReceiver_mtmanapi_8609ee77fca78eb1(PumpReceiver *_s
 }
 
 
-void _wrap_delete_PumpReceiver_mtmanapi_8609ee77fca78eb1(PumpReceiver *_swig_go_0) {
+void _wrap_delete_PumpReceiver_mtmanapi_7bd57f7bcf037842(PumpReceiver *_swig_go_0) {
   PumpReceiver *arg1 = (PumpReceiver *) 0 ;
   
   arg1 = *(PumpReceiver **)&_swig_go_0; 
@@ -28628,7 +28981,7 @@ void _wrap_delete_PumpReceiver_mtmanapi_8609ee77fca78eb1(PumpReceiver *_swig_go_
 }
 
 
-void _wrap_PumpReceiver_OnPump_mtmanapi_8609ee77fca78eb1(PumpReceiver *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, void *_swig_go_3, void *_swig_go_4) {
+void _wrap_PumpReceiver_OnPump_mtmanapi_7bd57f7bcf037842(PumpReceiver *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, void *_swig_go_3, void *_swig_go_4) {
   PumpReceiver *arg1 = (PumpReceiver *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -28646,7 +28999,7 @@ void _wrap_PumpReceiver_OnPump_mtmanapi_8609ee77fca78eb1(PumpReceiver *_swig_go_
 }
 
 
-PumpReceiver *_wrap_new_PumpReceiver_mtmanapi_8609ee77fca78eb1() {
+PumpReceiver *_wrap_new_PumpReceiver_mtmanapi_7bd57f7bcf037842() {
   PumpReceiver *result = 0 ;
   PumpReceiver *_swig_go_result;
   
@@ -28657,7 +29010,7 @@ PumpReceiver *_wrap_new_PumpReceiver_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_globalPumper_set_mtmanapi_8609ee77fca78eb1(PumpReceiver *_swig_go_0) {
+void _wrap_globalPumper_set_mtmanapi_7bd57f7bcf037842(PumpReceiver *_swig_go_0) {
   PumpReceiver *arg1 = (PumpReceiver *) 0 ;
   
   arg1 = *(PumpReceiver **)&_swig_go_0; 
@@ -28667,7 +29020,7 @@ void _wrap_globalPumper_set_mtmanapi_8609ee77fca78eb1(PumpReceiver *_swig_go_0) 
 }
 
 
-PumpReceiver *_wrap_globalPumper_get_mtmanapi_8609ee77fca78eb1() {
+PumpReceiver *_wrap_globalPumper_get_mtmanapi_7bd57f7bcf037842() {
   PumpReceiver *result = 0 ;
   PumpReceiver *_swig_go_result;
   
@@ -28678,7 +29031,7 @@ PumpReceiver *_wrap_globalPumper_get_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_pumpingCallback_mtmanapi_8609ee77fca78eb1(intgo _swig_go_0, intgo _swig_go_1, void *_swig_go_2, void *_swig_go_3) {
+void _wrap_pumpingCallback_mtmanapi_7bd57f7bcf037842(intgo _swig_go_0, intgo _swig_go_1, void *_swig_go_2, void *_swig_go_3) {
   int arg1 ;
   int arg2 ;
   void *arg3 = (void *) 0 ;
@@ -28694,7 +29047,7 @@ void _wrap_pumpingCallback_mtmanapi_8609ee77fca78eb1(intgo _swig_go_0, intgo _sw
 }
 
 
-void _wrap_pumpingSwitchEx_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, intgo _swig_go_1, void *_swig_go_2) {
+void _wrap_pumpingSwitchEx_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, intgo _swig_go_1, void *_swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   int arg2 ;
   void *arg3 = (void *) 0 ;
@@ -28708,7 +29061,7 @@ void _wrap_pumpingSwitchEx_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go
 }
 
 
-void _wrap_delete_DealReceiver_mtmanapi_8609ee77fca78eb1(DealReceiver *_swig_go_0) {
+void _wrap_delete_DealReceiver_mtmanapi_7bd57f7bcf037842(DealReceiver *_swig_go_0) {
   DealReceiver *arg1 = (DealReceiver *) 0 ;
   
   arg1 = *(DealReceiver **)&_swig_go_0; 
@@ -28718,7 +29071,7 @@ void _wrap_delete_DealReceiver_mtmanapi_8609ee77fca78eb1(DealReceiver *_swig_go_
 }
 
 
-void _wrap_DealReceiver_OnDeal_mtmanapi_8609ee77fca78eb1(DealReceiver *_swig_go_0, intgo _swig_go_1) {
+void _wrap_DealReceiver_OnDeal_mtmanapi_7bd57f7bcf037842(DealReceiver *_swig_go_0, intgo _swig_go_1) {
   DealReceiver *arg1 = (DealReceiver *) 0 ;
   int arg2 ;
   
@@ -28730,7 +29083,7 @@ void _wrap_DealReceiver_OnDeal_mtmanapi_8609ee77fca78eb1(DealReceiver *_swig_go_
 }
 
 
-void _wrap_globalDealer_set_mtmanapi_8609ee77fca78eb1(DealReceiver *_swig_go_0) {
+void _wrap_globalDealer_set_mtmanapi_7bd57f7bcf037842(DealReceiver *_swig_go_0) {
   DealReceiver *arg1 = (DealReceiver *) 0 ;
   
   arg1 = *(DealReceiver **)&_swig_go_0; 
@@ -28740,7 +29093,7 @@ void _wrap_globalDealer_set_mtmanapi_8609ee77fca78eb1(DealReceiver *_swig_go_0) 
 }
 
 
-DealReceiver *_wrap_globalDealer_get_mtmanapi_8609ee77fca78eb1() {
+DealReceiver *_wrap_globalDealer_get_mtmanapi_7bd57f7bcf037842() {
   DealReceiver *result = 0 ;
   DealReceiver *_swig_go_result;
   
@@ -28751,7 +29104,7 @@ DealReceiver *_wrap_globalDealer_get_mtmanapi_8609ee77fca78eb1() {
 }
 
 
-void _wrap_dealingCallback_mtmanapi_8609ee77fca78eb1(intgo _swig_go_0) {
+void _wrap_dealingCallback_mtmanapi_7bd57f7bcf037842(intgo _swig_go_0) {
   int arg1 ;
   
   arg1 = (int)_swig_go_0; 
@@ -28761,7 +29114,7 @@ void _wrap_dealingCallback_mtmanapi_8609ee77fca78eb1(intgo _swig_go_0) {
 }
 
 
-void _wrap_dealerSwitch_mtmanapi_8609ee77fca78eb1(CManagerInterface *_swig_go_0, HWND *_swig_go_1, intgo _swig_go_2) {
+void _wrap_dealerSwitch_mtmanapi_7bd57f7bcf037842(CManagerInterface *_swig_go_0, HWND *_swig_go_1, intgo _swig_go_2) {
   CManagerInterface *arg1 = (CManagerInterface *) 0 ;
   HWND arg2 ;
   UINT arg3 ;
