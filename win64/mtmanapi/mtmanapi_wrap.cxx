@@ -23524,6 +23524,7 @@ intgo _wrap_MailBox_readed_get_mtmanapi_7d05d4f4b877ef10(MailBox *_swig_go_0) {
 
 
 void _wrap_MailBox_body_set_mtmanapi_7d05d4f4b877ef10(MailBox *_swig_go_0, _gostring_ _swig_go_1) {
+/*
   MailBox *arg1 = (MailBox *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -23544,7 +23545,8 @@ void _wrap_MailBox_body_set_mtmanapi_7d05d4f4b877ef10(MailBox *_swig_go_0, _gost
     }
   }
   
-  free(arg2); 
+  free(arg2);
+ */
 }
 
 
@@ -23881,6 +23883,7 @@ _gostring_ _wrap_NewsTopic_keywords_get_mtmanapi_7d05d4f4b877ef10(NewsTopic *_sw
 
 
 void _wrap_NewsTopic_body_set_mtmanapi_7d05d4f4b877ef10(NewsTopic *_swig_go_0, _gostring_ _swig_go_1) {
+/*
   NewsTopic *arg1 = (NewsTopic *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -23901,7 +23904,8 @@ void _wrap_NewsTopic_body_set_mtmanapi_7d05d4f4b877ef10(NewsTopic *_swig_go_0, _
     }
   }
   
-  free(arg2); 
+  free(arg2);
+ */
 }
 
 
